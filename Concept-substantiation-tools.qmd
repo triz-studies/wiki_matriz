@@ -1,0 +1,6 @@
+
+# Concept substantiation tools
+
+At this stage of the project, all solutions proposed during the problem-solving phase are evaluated for practical feasibility based on technical and business requirements.
+
+The evaluation criteria often include technical and production constraints, time-to-market requirements, as well as investment and cost limitations, among others. The highest-scoring solutions are selected and recommended for further development – or for additional assessment if deemed necessary. This process efficiently filters out the best solutions, optimizing resources and time.

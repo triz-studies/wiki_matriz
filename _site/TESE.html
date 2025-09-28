@@ -1,0 +1,1667 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.43">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>matriz_wiki – tese</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">matriz_wiki</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Problem-identification-tools.html"> 
+<span class="menu-text">Problem-identification</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Problem-solving-tools.html"> 
+<span class="menu-text">Problem-solving</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Concept-substantiation-tools.html"> 
+<span class="menu-text">Concept-substantiation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./TESE.html" aria-current="page"> 
+<span class="menu-text">TESE</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#trends-of-engineering-systems-evolution-tese" id="toc-trends-of-engineering-systems-evolution-tese" class="nav-link active" data-scroll-target="#trends-of-engineering-systems-evolution-tese">Trends of engineering systems evolution (TESE)</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#hierarchical-structure-of-tese" id="toc-hierarchical-structure-of-tese" class="nav-link" data-scroll-target="#hierarchical-structure-of-tese">Hierarchical structure of TESE</a>
+  <ul class="collapse">
+  <li><a href="#trend-of-decreasing-human-involvement" id="toc-trend-of-decreasing-human-involvement" class="nav-link" data-scroll-target="#trend-of-decreasing-human-involvement">Trend of decreasing human involvement</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#trend-of-decreasing-human-involvement-1" id="toc-trend-of-decreasing-human-involvement-1" class="nav-link" data-scroll-target="#trend-of-decreasing-human-involvement-1">Trend of decreasing human involvement</a>
+  <ul class="collapse">
+  <li><a href="#overview-1" id="toc-overview-1" class="nav-link" data-scroll-target="#overview-1">Overview</a>
+  <ul class="collapse">
+  <li><a href="#trend-of-flow-enhancement" id="toc-trend-of-flow-enhancement" class="nav-link" data-scroll-target="#trend-of-flow-enhancement">Trend of flow enhancement</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#trend-of-flow-enhancement-1" id="toc-trend-of-flow-enhancement-1" class="nav-link" data-scroll-target="#trend-of-flow-enhancement-1">Trend of flow enhancement</a>
+  <ul class="collapse">
+  <li><a href="#overview-2" id="toc-overview-2" class="nav-link" data-scroll-target="#overview-2">Overview</a></li>
+  <li><a href="#subtrends-of-the-trend-of-flow-enhancement" id="toc-subtrends-of-the-trend-of-flow-enhancement" class="nav-link" data-scroll-target="#subtrends-of-the-trend-of-flow-enhancement">Subtrends of the trend of flow enhancement</a>
+  <ul class="collapse">
+  <li><a href="#improving-useful-flows" id="toc-improving-useful-flows" class="nav-link" data-scroll-target="#improving-useful-flows">Improving useful flows</a></li>
+  <li><a href="#reducing-the-negative-impact-of-harmfulaccidental-flows" id="toc-reducing-the-negative-impact-of-harmfulaccidental-flows" class="nav-link" data-scroll-target="#reducing-the-negative-impact-of-harmfulaccidental-flows">Reducing the negative impact of harmful/accidental flows</a></li>
+  <li><a href="#trend-of-increasing-completeness-of-system-components" id="toc-trend-of-increasing-completeness-of-system-components" class="nav-link" data-scroll-target="#trend-of-increasing-completeness-of-system-components">Trend of increasing completeness of system components</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#trend-of-increasing-completeness-of-system-components-1" id="toc-trend-of-increasing-completeness-of-system-components-1" class="nav-link" data-scroll-target="#trend-of-increasing-completeness-of-system-components-1">Trend of increasing completeness of system components</a>
+  <ul class="collapse">
+  <li><a href="#overview-3" id="toc-overview-3" class="nav-link" data-scroll-target="#overview-3">Overview</a>
+  <ul class="collapse">
+  <li><a href="#trend-of-increasing-controllability" id="toc-trend-of-increasing-controllability" class="nav-link" data-scroll-target="#trend-of-increasing-controllability">Trend of increasing controllability</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#trend-of-increasing-controllability-1" id="toc-trend-of-increasing-controllability-1" class="nav-link" data-scroll-target="#trend-of-increasing-controllability-1">Trend of increasing controllability</a>
+  <ul class="collapse">
+  <li><a href="#overview-4" id="toc-overview-4" class="nav-link" data-scroll-target="#overview-4">Overview</a></li>
+  <li><a href="#mechanisms-of-the-trend-of-of-increasing-controllability" id="toc-mechanisms-of-the-trend-of-of-increasing-controllability" class="nav-link" data-scroll-target="#mechanisms-of-the-trend-of-of-increasing-controllability">Mechanisms of the trend of of increasing controllability</a>
+  <ul class="collapse">
+  <li><a href="#the-level-of-control-within-the-engineering-system-increases" id="toc-the-level-of-control-within-the-engineering-system-increases" class="nav-link" data-scroll-target="#the-level-of-control-within-the-engineering-system-increases">The level of control within the engineering system increases</a></li>
+  <li><a href="#the-number-of-controllable-states-increases" id="toc-the-number-of-controllable-states-increases" class="nav-link" data-scroll-target="#the-number-of-controllable-states-increases">The number of controllable states increases</a></li>
+  <li><a href="#trend-of-increasing-coordination" id="toc-trend-of-increasing-coordination" class="nav-link" data-scroll-target="#trend-of-increasing-coordination">Trend of increasing coordination</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#trend-of-increasing-coordination-1" id="toc-trend-of-increasing-coordination-1" class="nav-link" data-scroll-target="#trend-of-increasing-coordination-1">Trend of increasing coordination</a>
+  <ul class="collapse">
+  <li><a href="#overview-5" id="toc-overview-5" class="nav-link" data-scroll-target="#overview-5">Overview</a></li>
+  <li><a href="#mechanisms-of-the-trend-of-increasing-coordination" id="toc-mechanisms-of-the-trend-of-increasing-coordination" class="nav-link" data-scroll-target="#mechanisms-of-the-trend-of-increasing-coordination">Mechanisms of the trend of increasing coordination</a>
+  <ul class="collapse">
+  <li><a href="#coordination-of-shape" id="toc-coordination-of-shape" class="nav-link" data-scroll-target="#coordination-of-shape">Coordination of shape</a></li>
+  <li><a href="#coordination-of-rhythms" id="toc-coordination-of-rhythms" class="nav-link" data-scroll-target="#coordination-of-rhythms">Coordination of rhythms</a></li>
+  <li><a href="#coordination-of-materials" id="toc-coordination-of-materials" class="nav-link" data-scroll-target="#coordination-of-materials">Coordination of materials</a></li>
+  <li><a href="#coordination-of-actions" id="toc-coordination-of-actions" class="nav-link" data-scroll-target="#coordination-of-actions">Coordination of actions</a></li>
+  <li><a href="#trend-of-increasing-degree-of-trimming" id="toc-trend-of-increasing-degree-of-trimming" class="nav-link" data-scroll-target="#trend-of-increasing-degree-of-trimming">Trend of increasing degree of trimming</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#trend-of-increasing-degree-of-trimming-1" id="toc-trend-of-increasing-degree-of-trimming-1" class="nav-link" data-scroll-target="#trend-of-increasing-degree-of-trimming-1">Trend of increasing degree of trimming</a>
+  <ul class="collapse">
+  <li><a href="#overview-6" id="toc-overview-6" class="nav-link" data-scroll-target="#overview-6">Overview</a></li>
+  <li><a href="#trimming-function-blocks" id="toc-trimming-function-blocks" class="nav-link" data-scroll-target="#trimming-function-blocks">Trimming function blocks</a></li>
+  <li><a href="#trimming-operations" id="toc-trimming-operations" class="nav-link" data-scroll-target="#trimming-operations">Trimming operations</a></li>
+  <li><a href="#trimming-components-with-the-lowest-value" id="toc-trimming-components-with-the-lowest-value" class="nav-link" data-scroll-target="#trimming-components-with-the-lowest-value">Trimming components with the lowest value</a>
+  <ul class="collapse">
+  <li><a href="#trend-of-increasing-dynamization" id="toc-trend-of-increasing-dynamization" class="nav-link" data-scroll-target="#trend-of-increasing-dynamization">Trend of increasing dynamization</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#trend-of-increasing-dynamization-1" id="toc-trend-of-increasing-dynamization-1" class="nav-link" data-scroll-target="#trend-of-increasing-dynamization-1">Trend of increasing dynamization</a>
+  <ul class="collapse">
+  <li><a href="#overview-7" id="toc-overview-7" class="nav-link" data-scroll-target="#overview-7">Overview</a></li>
+  <li><a href="#dynamization-of-design" id="toc-dynamization-of-design" class="nav-link" data-scroll-target="#dynamization-of-design">Dynamization of design</a>
+  <ul class="collapse">
+  <li><a href="#the-line-of-substance-dynamization" id="toc-the-line-of-substance-dynamization" class="nav-link" data-scroll-target="#the-line-of-substance-dynamization">The line of substance dynamization</a></li>
+  <li><a href="#the-line-of-field-dynamization" id="toc-the-line-of-field-dynamization" class="nav-link" data-scroll-target="#the-line-of-field-dynamization">The line of field dynamization</a></li>
+  </ul></li>
+  <li><a href="#dynamization-of-composition" id="toc-dynamization-of-composition" class="nav-link" data-scroll-target="#dynamization-of-composition">Dynamization of composition</a></li>
+  <li><a href="#dynamization-of-functions" id="toc-dynamization-of-functions" class="nav-link" data-scroll-target="#dynamization-of-functions">Dynamization of functions</a>
+  <ul class="collapse">
+  <li><a href="#trend-of-increasing-value" id="toc-trend-of-increasing-value" class="nav-link" data-scroll-target="#trend-of-increasing-value">Trend of increasing value</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#trend-of-increasing-value-1" id="toc-trend-of-increasing-value-1" class="nav-link" data-scroll-target="#trend-of-increasing-value-1">Trend of increasing value</a>
+  <ul class="collapse">
+  <li><a href="#overview-8" id="toc-overview-8" class="nav-link" data-scroll-target="#overview-8">Overview</a></li>
+  <li><a href="#internal-mechanisms-of-the-trend-of-increasing-value" id="toc-internal-mechanisms-of-the-trend-of-increasing-value" class="nav-link" data-scroll-target="#internal-mechanisms-of-the-trend-of-increasing-value">Internal mechanisms of the trend of increasing value</a>
+  <ul class="collapse">
+  <li><a href="#trend-of-s-curve-evolution" id="toc-trend-of-s-curve-evolution" class="nav-link" data-scroll-target="#trend-of-s-curve-evolution">Trend of S-curve evolution</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#trend-of-s-curve-evolution-1" id="toc-trend-of-s-curve-evolution-1" class="nav-link" data-scroll-target="#trend-of-s-curve-evolution-1">Trend of S-curve evolution</a>
+  <ul class="collapse">
+  <li><a href="#overview-9" id="toc-overview-9" class="nav-link" data-scroll-target="#overview-9">Overview</a></li>
+  </ul></li>
+  <li><a href="#main-parameter-of-value-1" id="toc-main-parameter-of-value-1" class="nav-link" data-scroll-target="#main-parameter-of-value-1">Main parameter of value</a>
+  <ul class="collapse">
+  <li><a href="#overview-10" id="toc-overview-10" class="nav-link" data-scroll-target="#overview-10">Overview</a></li>
+  </ul></li>
+  <li><a href="#s-curve-1" id="toc-s-curve-1" class="nav-link" data-scroll-target="#s-curve-1">S-curve</a>
+  <ul class="collapse">
+  <li><a href="#overview-11" id="toc-overview-11" class="nav-link" data-scroll-target="#overview-11">Overview</a></li>
+  <li><a href="#stages-of-the-s-curve" id="toc-stages-of-the-s-curve" class="nav-link" data-scroll-target="#stages-of-the-s-curve">Stages of the S-curve</a></li>
+  <li><a href="#the-altshullers-indicators-of-the-s-curve-stages" id="toc-the-altshullers-indicators-of-the-s-curve-stages" class="nav-link" data-scroll-target="#the-altshullers-indicators-of-the-s-curve-stages">The Altshuller’s indicators of the S-curve stages</a>
+  <ul class="collapse">
+  <li><a href="#mpv-value" id="toc-mpv-value" class="nav-link" data-scroll-target="#mpv-value">MPV value</a></li>
+  <li><a href="#number-of-patents" id="toc-number-of-patents" class="nav-link" data-scroll-target="#number-of-patents">Number of patents</a></li>
+  <li><a href="#level-of-invention" id="toc-level-of-invention" class="nav-link" data-scroll-target="#level-of-invention">Level of invention</a></li>
+  <li><a href="#profitability" id="toc-profitability" class="nav-link" data-scroll-target="#profitability">Profitability</a></li>
+  <li><a href="#trend-of-transition-to-the-supersystem" id="toc-trend-of-transition-to-the-supersystem" class="nav-link" data-scroll-target="#trend-of-transition-to-the-supersystem">Trend of transition to the supersystem</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#trend-of-transition-to-the-supersystem-1" id="toc-trend-of-transition-to-the-supersystem-1" class="nav-link" data-scroll-target="#trend-of-transition-to-the-supersystem-1">Trend of transition to the supersystem</a>
+  <ul class="collapse">
+  <li><a href="#overview-12" id="toc-overview-12" class="nav-link" data-scroll-target="#overview-12">Overview</a></li>
+  <li><a href="#sub-trends-mechanisms-of-the-trend" id="toc-sub-trends-mechanisms-of-the-trend" class="nav-link" data-scroll-target="#sub-trends-mechanisms-of-the-trend">Sub-trends (mechanisms) of the trend</a>
+  <ul class="collapse">
+  <li><a href="#increasing-differentiation-of-parameters" id="toc-increasing-differentiation-of-parameters" class="nav-link" data-scroll-target="#increasing-differentiation-of-parameters">Increasing differentiation of parameters</a></li>
+  <li><a href="#increasing-differentiation-between-main-functions" id="toc-increasing-differentiation-between-main-functions" class="nav-link" data-scroll-target="#increasing-differentiation-between-main-functions">Increasing differentiation between main functions</a></li>
+  <li><a href="#deeper-integration" id="toc-deeper-integration" class="nav-link" data-scroll-target="#deeper-integration">Deeper integration</a></li>
+  <li><a href="#increased-number-of-integrated-systems" id="toc-increased-number-of-integrated-systems" class="nav-link" data-scroll-target="#increased-number-of-integrated-systems">Increased number of integrated systems</a></li>
+  <li><a href="#trend-of-uneven-development-of-system-components" id="toc-trend-of-uneven-development-of-system-components" class="nav-link" data-scroll-target="#trend-of-uneven-development-of-system-components">Trend of uneven development of system components</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#trend-of-uneven-development-of-system-components-1" id="toc-trend-of-uneven-development-of-system-components-1" class="nav-link" data-scroll-target="#trend-of-uneven-development-of-system-components-1">Trend of uneven development of system components</a>
+  <ul class="collapse">
+  <li><a href="#overview-13" id="toc-overview-13" class="nav-link" data-scroll-target="#overview-13">Overview</a></li>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary">GLOSSARY</a></li>
+  </ul></li>
+  <li><a href="#glossary-1" id="toc-glossary-1" class="nav-link" data-scroll-target="#glossary-1">GLOSSARY</a>
+  <ul class="collapse">
+  <li><a href="#a" id="toc-a" class="nav-link" data-scroll-target="#a">A</a></li>
+  <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">B</a></li>
+  <li><a href="#c" id="toc-c" class="nav-link" data-scroll-target="#c">C</a></li>
+  <li><a href="#d" id="toc-d" class="nav-link" data-scroll-target="#d">D</a></li>
+  <li><a href="#e" id="toc-e" class="nav-link" data-scroll-target="#e">E</a></li>
+  <li><a href="#f" id="toc-f" class="nav-link" data-scroll-target="#f">F</a></li>
+  <li><a href="#h" id="toc-h" class="nav-link" data-scroll-target="#h">H</a></li>
+  <li><a href="#i" id="toc-i" class="nav-link" data-scroll-target="#i">I</a></li>
+  <li><a href="#k" id="toc-k" class="nav-link" data-scroll-target="#k">K</a></li>
+  <li><a href="#m" id="toc-m" class="nav-link" data-scroll-target="#m">M</a></li>
+  <li><a href="#n" id="toc-n" class="nav-link" data-scroll-target="#n">N</a></li>
+  <li><a href="#o" id="toc-o" class="nav-link" data-scroll-target="#o">O</a></li>
+  <li><a href="#p" id="toc-p" class="nav-link" data-scroll-target="#p">P</a></li>
+  <li><a href="#s" id="toc-s" class="nav-link" data-scroll-target="#s">S</a></li>
+  <li><a href="#t" id="toc-t" class="nav-link" data-scroll-target="#t">T</a></li>
+  <li><a href="#u" id="toc-u" class="nav-link" data-scroll-target="#u">U</a></li>
+  <li><a href="#v" id="toc-v" class="nav-link" data-scroll-target="#v">V</a></li>
+  <li><a href="#w" id="toc-w" class="nav-link" data-scroll-target="#w">W</a></li>
+  <li><a href="#x" id="toc-x" class="nav-link" data-scroll-target="#x">X</a></li>
+  <li><a href="#resources-in-triz" id="toc-resources-in-triz" class="nav-link" data-scroll-target="#resources-in-triz">Resources in TRIZ</a></li>
+  </ul></li>
+  <li><a href="#resources-in-triz-1" id="toc-resources-in-triz-1" class="nav-link" data-scroll-target="#resources-in-triz-1">Resources in TRIZ</a>
+  <ul class="collapse">
+  <li><a href="#overview-14" id="toc-overview-14" class="nav-link" data-scroll-target="#overview-14">Overview</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="trends-of-engineering-systems-evolution-tese" class="level1">
+<h1>Trends of engineering systems evolution (TESE)</h1>
+<p><em><strong>Trends of engineering systems evolution</strong> (TESE) are statistically proven or empirically derived directions of engineering system development that describe the natural transition of engineering systems from one state to another.</em></p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The identification and understanding of trends of engineering systems evolution (TESE) is arguably TRIZ’s most significant contribution to the science of innovation. They also form the basis for many TRIZ tools.</p>
+<p>TESE emerged from an in-depth analysis of product and technology evolution across various industries. Studying their history – based on the examination of thousands of patents – revealed that all products and technologies follow similar conceptual patterns. TESE define the stages that nearly all products and technologies are likely to go through during their development. This does not mean that designing a product that deviates from TESE is technically impossible, but rather that sooner or later, it is likely to fail.</p>
+<p>At the core of TESE lies the assumption that technologies evolve along their own trajectory, independent of human influence. For this reason, they are often referred to as the <strong>voice of the product</strong>. However, it is important to note that to be fully effective, TESE should be integrated with market needs – the voice of the customer.</p>
+</section>
+<section id="hierarchical-structure-of-tese" class="level2">
+<h2 class="anchored" data-anchor-id="hierarchical-structure-of-tese">Hierarchical structure of TESE</h2>
+<p>TESE are organized in a hierarchical structure that reflects the relationships between them. In this structure, a lower-level trend functions as a sub-trend (mechanism) of a higher-level trend. However, each trend also has its own internal mechanisms that drive system evolution.&nbsp;In other words, for a system to evolve according to a higher-level trend, both its internal mechanisms and the mechanisms of its sub-trends must be implemented.</p>
+<p><img src="media/wp-content/uploads/2024/08/tese-1024x501.png" class="img-fluid"></p>
+<p>It is important to note that both TESE and their structure have evolved over decades, which is why different versions can be found in TRIZ literature.&nbsp;The officially approved definitions of the trends and their hierarchy, as recognized by MATRIZ, were developed by the St.&nbsp;Petersburg TRIZ Scientific School, which is considered the most pragmatic TRIZ school.</p>
+<ul>
+<li><strong>Trend of S-curve evolution</strong>: as an engineering system evolves, the evolution of each main parameter of value (MPV) describes an S-shaped curve in time.</li>
+<li><strong>Trend of increasing value:</strong> an engineering system evolves so that its value always increases.</li>
+<li><strong>Trend of transition to the supersystem</strong>: as an engineering system evolves, it is integrated with supersystem components.</li>
+<li><strong>Trend of increasing completeness of system components</strong>: as an engineering system evolves, it acquires the following typical functions: operating agent, transmission, energy source, and control system.</li>
+<li><strong>Trend of decreasing human involvement</strong>: as an engineering system evolves, the number of engineering system functions performed by humans decreases.</li>
+<li><strong>Trend of increasing degree of trimming</strong>: as an engineering system evolves, system elements (components or operations) are eliminated without impairing the functionality of the system, and possibly improving it.</li>
+<li><strong>Trend of flow enhancement</strong>: as an engineering system evolves, flow rates of substances, energy, or information increase, and/or the flows are better utilized.</li>
+<li><strong>Trend of increasing coordination</strong>: as an engineering system evolves, characteristics of the components of the engineering system become more coordinated with each other and with the supersystem.</li>
+<li><strong>Trend of uneven development of system components</strong>: as an engineering system evolves, development is concentrated on the operating agent first, and on the rest of the system later.</li>
+<li><strong>Trend of increasing controllability</strong>: as engineering systems evolve, they develop more ways in which they can be controlled.</li>
+<li><strong>Trend of increasing dynamization</strong>: as an engineering system evolves, it and its components become more “dynamic”.</li>
+</ul>
+<section id="articles" class="level4">
+<h4 class="anchored" data-anchor-id="articles">Articles</h4>
+<ul>
+<li>Trend of S-curve evolution
+<ul>
+<li>Main parameter of value</li>
+<li>S-curve</li>
+</ul></li>
+<li>Trend of increasing value</li>
+<li>Trend of transition to the supersystem</li>
+<li>Trend of increasing completeness of system components</li>
+<li>Trend of decreasing human involvement</li>
+<li>Trend of increasing degree of trimming</li>
+<li>Trend of flow enhancement</li>
+<li>Trend of increasing coordination</li>
+<li>Trend of uneven development of system components</li>
+<li>Trend of increasing controllability</li>
+<li>Trend of increasing dynamization</li>
+</ul>
+</section>
+<section id="trend-of-decreasing-human-involvement" class="level3">
+<h3 class="anchored" data-anchor-id="trend-of-decreasing-human-involvement">Trend of decreasing human involvement</h3>
+</section>
+</section>
+</section>
+<section id="trend-of-decreasing-human-involvement-1" class="level1">
+<h1>Trend of decreasing human involvement</h1>
+<p><em><strong>Trend of decreasing human involvement</strong>: trend of engineering system evolution according to which as an engineering system evolves, the number of engineering system functions performed by humans decreases.</em></p>
+<section id="overview-1" class="level2">
+<h2 class="anchored" data-anchor-id="overview-1">Overview</h2>
+<p>The trend of decreasing human involvement is a sub-trend (mechanism) of the trend of increasing completeness of system components.</p>
+<p>Before an engineering system is designed, a human performs all functions at every level themself – otherwise, those functions would not exist. The emergence of the system and its further development allow it to gradually take over these functions (increasing its completeness), thereby reducing human involvement. This process typically unfolds in the following order:</p>
+<ol type="1">
+<li>transmission,</li>
+<li>energy source,</li>
+<li>control system, and</li>
+<li>decision-making.</li>
+</ol>
+<section id="trend-of-flow-enhancement" class="level3">
+<h3 class="anchored" data-anchor-id="trend-of-flow-enhancement">Trend of flow enhancement</h3>
+</section>
+</section>
+</section>
+<section id="trend-of-flow-enhancement-1" class="level1">
+<h1>Trend of flow enhancement</h1>
+<p><em><strong>Trend of flow enhancement</strong> is a <a href="http://TESE">trend of engineering system evolution</a> according to which as an engineering system evolves, flow rates of substances, energy, or information increase, and/or the flows are better utilized.</em></p>
+<section id="overview-2" class="level2">
+<h2 class="anchored" data-anchor-id="overview-2">Overview</h2>
+<p>Trend of flow enhancement is one of the four mechanisms directly supporting the trend of increasing value&nbsp;in the&nbsp;hierarchy of TESE&nbsp;(along with&nbsp;the trend of transition to the supersystem,&nbsp;the trend of increasing degree of trimming, and&nbsp;the trend increasing completeness of system components).</p>
+</section>
+<section id="subtrends-of-the-trend-of-flow-enhancement" class="level2">
+<h2 class="anchored" data-anchor-id="subtrends-of-the-trend-of-flow-enhancement">Subtrends of the trend of flow enhancement</h2>
+<p>The trend has two main sub-trends, each further divided into specific mechanisms:</p>
+<ol type="1">
+<li><p>improving useful flows, and</p></li>
+<li><p>reducing the negative impact of harmful/accidental flows.</p></li>
+</ol>
+<section id="improving-useful-flows" class="level3">
+<h3 class="anchored" data-anchor-id="improving-useful-flows">Improving useful flows</h3>
+<p>Useful flows can be improved by two mechanisms:</p>
+<p>A. increasing the conductivity of the flow, or</p>
+<p>B. making better use of the flow.</p>
+<section id="increasing-the-conductivity-of-the-flow" class="level4">
+<h4 class="anchored" data-anchor-id="increasing-the-conductivity-of-the-flow">Increasing the conductivity of the flow</h4>
+<p>To increase the conductivity of the useful flow, the following techniques can be applied:</p>
+<ul>
+<li>reducing the number of the flow transformations,</li>
+<li>transition to a more efficient flow type,</li>
+<li>reducing the length of the flow,</li>
+<li>eliminating “gray zones”,</li>
+<li>eliminating “bottlenecks”,</li>
+<li>creating a bypass,</li>
+<li>increasing the conductivity of the separate parts of the flow channel,</li>
+<li>increasing the density of the flow,</li>
+<li>applying the useful action of one flow to another,</li>
+<li>applying the useful action of one flow to the channel of another flow,</li>
+<li>rearranging one flow so that it carries another flow,</li>
+<li>assigning multiple flows to one channel,</li>
+<li>modifying the flow to increase conductivity, or</li>
+<li>directing the flow through a supersystem channel.</li>
+</ul>
+</section>
+<section id="making-better-use-of-the-flow" class="level4">
+<h4 class="anchored" data-anchor-id="making-better-use-of-the-flow">Making better use of the flow</h4>
+<p>Techniques applied to make better use of the flow can be as follows:</p>
+<ul>
+<li>eliminating a stagnant zone,</li>
+<li>utilizing impulse action,</li>
+<li>utilizing resonance,</li>
+<li>modulating the flow,</li>
+<li>redistributing the flow,</li>
+<li>combining homogeneous flows,</li>
+<li>utilizing recirculation,</li>
+<li>combining two different flows to obtain synergy, or</li>
+<li>presetting the necessary substance, energy, or information.</li>
+</ul>
+</section>
+</section>
+<section id="reducing-the-negative-impact-of-harmfulaccidental-flows" class="level3">
+<h3 class="anchored" data-anchor-id="reducing-the-negative-impact-of-harmfulaccidental-flows">Reducing the negative impact of harmful/accidental flows</h3>
+<p>The negative impact of harmful/accidental flows can be reduced by:</p>
+<p>A. decreasing the conductivity of harmful or accidental flows, or</p>
+<p>B. reducing the impact of harmful flows.</p>
+<section id="decreasing-the-conductivity-of-harmful-or-accidental-flows" class="level4">
+<h4 class="anchored" data-anchor-id="decreasing-the-conductivity-of-harmful-or-accidental-flows">Decreasing the conductivity of harmful or accidental flows</h4>
+<p>To decrease the conductivity of harmful or accidental flows, the following techniques can be used:</p>
+<ul>
+<li>increasing the number of flow transformations,</li>
+<li>transition to a low-conductivity flow,</li>
+<li>increasing the length of the flow,</li>
+<li>introducing bottlenecks,</li>
+<li>introducing stagnant zones,</li>
+<li>reducing the conductivity of part of the flow channel, or</li>
+<li>utilizing recirculation.</li>
+</ul>
+</section>
+<section id="reducing-the-impact-of-harmful-flows" class="level4">
+<h4 class="anchored" data-anchor-id="reducing-the-impact-of-harmful-flows">Reducing the impact of harmful flows</h4>
+<p>The following techniques are used to reduce the impact of harmful flows:</p>
+<ul>
+<li>introducing gray zones,</li>
+<li>reducing the density of the flow,</li>
+<li>eliminating resonance,</li>
+<li>redistributing the flow,</li>
+<li>combining a flow and an anti-flow,</li>
+<li>modifying the flow,</li>
+<li>modifying the damaged object,</li>
+<li>presetting the substance, energy, or data that will be required to neutralize the flow,</li>
+<li>bypassing,</li>
+<li>transferring the flow to the supersystem, or</li>
+<li>recycling or recovering the incidental flows.</li>
+</ul>
+</section>
+</section>
+<section id="trend-of-increasing-completeness-of-system-components" class="level3">
+<h3 class="anchored" data-anchor-id="trend-of-increasing-completeness-of-system-components">Trend of increasing completeness of system components</h3>
+</section>
+</section>
+</section>
+<section id="trend-of-increasing-completeness-of-system-components-1" class="level1">
+<h1>Trend of increasing completeness of system components</h1>
+<p><em><strong>Trend of increasing completeness of system components</strong>: a trend of engineering system evolution according to which as an engineering system evolves, it acquires the following typical function blocks: operating agent, transmission, energy source, and control system.</em></p>
+<section id="overview-3" class="level2">
+<h2 class="anchored" data-anchor-id="overview-3">Overview</h2>
+<p>Trend of increasing completeness of system components is one of the four mechanisms directly supporting the trend of increasing value in the hierarchy of TESE (along with the trend of transition to the supersystem, the trend of increasing degree of trimming, and the trend of flow enhancement).</p>
+<p>An engineering system must utilize four essential blocks in order to operate:</p>
+<ol type="1">
+<li><strong>operating agent</strong> that performs a function identical to the main function of the system (basic function),</li>
+<li><strong>source of energy</strong> needed to operate the system,</li>
+<li><strong>transmission block</strong>, through which the energy is transferred from the source of energy to the operating agent, and</li>
+<li><strong>control block</strong> that controls the system operation.</li>
+</ol>
+<p>An emerging, young system often consists solely of the operating agent, which remains its integral part throughout the lifecycle. Sometimes, it may additionlally be equipped with a primitive form of transmission.</p>
+<p>The other function blocks are parts of the supersystem. As the engineering system is developing it acquires these function blocks of its own in the following order:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_complet-1024x306.png" class="img-fluid"></p>
+<p>The development of a system through the integration of different blocks is not always a simple four-step sequence. The integration of some functional blocks may take place over several steps.</p>
+<p>For example, a system does not receive a full motor right away – it may first be equipped with an energy storage device such as a spring or a bowstring. Similarly, the control block of a heating system gradually acquires different functions, such as a thermostat, a timer switch, and so on.</p>
+<section id="trend-of-increasing-controllability" class="level3">
+<h3 class="anchored" data-anchor-id="trend-of-increasing-controllability">Trend of increasing controllability</h3>
+</section>
+</section>
+</section>
+<section id="trend-of-increasing-controllability-1" class="level1">
+<h1>Trend of increasing controllability</h1>
+<p><em><strong>Trend of increasing controllability</strong> is a trend of engineering system evolution according to which as engineering system evolves, it develops more ways in which it can be controlled.</em></p>
+<section id="overview-4" class="level2">
+<h2 class="anchored" data-anchor-id="overview-4">Overview</h2>
+<p>Alongside the trend of uneven development of system components, the trend of increasing controllability serves as a mechanism of the trend of increasing coordination.</p>
+<p>The term <em>control</em> refers to actions aimed at adjusting the values of system parameters to align them with the changing parameters of the supersystem and the surrounding environment.</p>
+</section>
+<section id="mechanisms-of-the-trend-of-of-increasing-controllability" class="level2">
+<h2 class="anchored" data-anchor-id="mechanisms-of-the-trend-of-of-increasing-controllability">Mechanisms of the trend of of increasing controllability</h2>
+<p>A sub-trend of the trend of increasing controllability is the trend of increasing dynamization. Additionally, the trend has two mechanisms of its own&nbsp;which state that as a system evolves:</p>
+<ol type="1">
+<li>the level of control within the engineering system increases, and</li>
+<li>the number of controllable states increases.</li>
+</ol>
+<section id="the-level-of-control-within-the-engineering-system-increases" class="level3">
+<h3 class="anchored" data-anchor-id="the-level-of-control-within-the-engineering-system-increases">The level of control within the engineering system increases</h3>
+<p>According to this mechanism, systems follow the path outlined below as they develop:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_control-level-1024x192.png" class="img-fluid"></p>
+<p>At first, the system is <strong>uncontrolled</strong>, meaning it lacks its own control block (e.g., office lighting that is manually switched on and off by staff).&nbsp;Once a control block is introduced, the system begins to control itself – initially through a <strong>fixed program</strong> (e.g., a lighting system with a built-in timer that turns lights on and off at set times).&nbsp;A more advanced system allows i<strong>ntervention to the fixed program</strong> (e.g., switching to a weekend mode or adjusting on/off times based on day length).&nbsp;The next stage is <strong>externally controlled system</strong> (e.g., a building manager monitoring room occupancy and manually switching lights based on presence).</p>
+<p>Eventually, the system reaches full <strong>self-control</strong> – for instance, motion or presence sensors detect whether people are in the office, and the system automatically adjusts lighting accordingly. Here, it is possible to distinguish between <strong>macro-level control</strong> and <strong>micro-level control</strong>.</p>
+<p>An example of macro-level control is a system equipped with special sensors that detect environmental parameters and adjust lighting accordingly (e.g., turning lights on or off based on the human presence or daylight levels).</p>
+<p>In micro-level control, there are no separate components for detecting external conditions. Instead, the system uses specific materials or physical phenomena to respond directly to changes, without the need for prior detection. A good example is a check valve, which operates purely based on the force of the flowing medium acting on a movable part inside the valve. The valve opens and closes automatically, without the use of sensors, electronics, or external signals – just as long as there is appropriate flow and pressure of the working fluid.</p>
+</section>
+<section id="the-number-of-controllable-states-increases" class="level3">
+<h3 class="anchored" data-anchor-id="the-number-of-controllable-states-increases">The number of controllable states increases</h3>
+<p>This sub-trend states that as a system evolves, the number of controllable states increases in the following way:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_control-states-1024x157.png" class="img-fluid"></p>
+<p>An example is sound parameter control in systems designed for audio playback.&nbsp;Early phonographs had only one fixed volume level (<strong>single state</strong>), as there was no way to adjust it during playback. Over time,step switches were introduced that allowed users to choose from a <strong>few discrete</strong> volume levels. The next stage brought smooth volume adjustment, offering a wide range of <strong>infinitely variable states</strong>.&nbsp;Modern devices now feature digital potentiometers, enabling precise control not only of volume but also of tone, channel balance, and equalization – significantly increasing the number of controllable states (<strong>multiple ranges</strong>).</p>
+</section>
+<section id="trend-of-increasing-coordination" class="level3">
+<h3 class="anchored" data-anchor-id="trend-of-increasing-coordination">Trend of increasing coordination</h3>
+</section>
+</section>
+</section>
+<section id="trend-of-increasing-coordination-1" class="level1">
+<h1>Trend of increasing coordination</h1>
+<p><em><strong>Trend of increasing coordination</strong> is a trend of engineering system evolution according to which as an engineering system evolves, characteristics of its components become more coordinated with each other and with the <a href="http://supersystem">supersystem</a>.</em></p>
+<section id="overview-5" class="level2">
+<h2 class="anchored" data-anchor-id="overview-5">Overview</h2>
+<p>In general, the trend of increasing coordination states that as an engineering system evolves, it becomes more coordinated – both internally and with the surrounding it supersystem. Components of the system work together more effectively, and interaction with the supersystem becomes increasingly seamless.</p>
+<p>The trend of increasing coordination is one of the TESE still actively evolving. New project-based mechanisms are being discussed at conferences and in publications, and some of them may eventually become part of the methodology.</p>
+</section>
+<section id="mechanisms-of-the-trend-of-increasing-coordination" class="level2">
+<h2 class="anchored" data-anchor-id="mechanisms-of-the-trend-of-increasing-coordination">Mechanisms of the trend of increasing coordination</h2>
+<p>This trend includes two types of mechanisms:</p>
+<ol type="1">
+<li>Sub-trends, which are:</li>
+</ol>
+<ul>
+<li>the trend of increasing controllability, and</li>
+<li>the trend of uneven development of system components.</li>
+</ul>
+<ol start="2" type="1">
+<li><p>Internal mechanisms, which are:</p></li>
+<li><p>coordination of shape,</p></li>
+<li><p>coordination of rhythms,</p></li>
+<li><p>coordination of materials, and</p></li>
+<li><p>coordination of actions.</p></li>
+</ol>
+<p>Unlike the sub-trends of other trends, the internal mechanisms of the trend of increasing coordination do not define a step-by-step sequence of development. Instead, they function more like checklists, where the identified states can occur in any order – or even simultaneously.</p>
+<p>The only exception is the mechanism of coordination of action, where the states follow a specific sequence.</p>
+<section id="coordination-of-shape" class="level3">
+<h3 class="anchored" data-anchor-id="coordination-of-shape">Coordination of shape</h3>
+<p>Shape coordination can occur in four ways. Shapes may be:</p>
+<p><strong>IDENTICAL</strong> – when elements fit together perfectly, for example:</p>
+<ul>
+<li>a screw and a nut, where the thread dimensions must be identical for proper fit and function,</li>
+<li>screwdriver tip and the slot of a screw,</li>
+<li>an egg and an egg carton,</li>
+<li>a key and a lock.</li>
+</ul>
+<p><strong>SELF-COMPATIBLE</strong> – when the shape of elements allows multiple objects to be tightly stacked or nested, for example:</p>
+<ul>
+<li>disposable cutlery,</li>
+<li>shipping containers,</li>
+<li>stackable garden chairs.</li>
+</ul>
+<p><strong>COMPATIBLE</strong> – when components are coordinated with certain parameters of the supersystem, for example:</p>
+<ul>
+<li>ergonomically shaped objects like door handles, furniture, or computer mice that match the shape of the human body,</li>
+<li>a strainer designed to work well with powdered substances.</li>
+</ul>
+<p><strong>SPECIAL</strong> – shapes that don’t fall into any of the above categories, designed to serve a unique purpose, for example:</p>
+<ul>
+<li>the bow of an icebreaker designed to crack ice,</li>
+<li>the shape of a shovel that allows it to scoop and move sand.</li>
+</ul>
+</section>
+<section id="coordination-of-rhythms" class="level3">
+<h3 class="anchored" data-anchor-id="coordination-of-rhythms">Coordination of rhythms</h3>
+<p>Rhytm coordination can occur in three ways. These can be the following:</p>
+<p><strong>IDENTICAL</strong>, for example:</p>
+<ul>
+<li>the movement of valves in an internal combustion engine are perfectly synchronized with the motion of the piston to ensure that the air-fuel mixture is drawn in and the exhaust gases are released at the right moment,</li>
+<li>audio and video streams in AV systems play in sync to keep lips and voice aligned (a phenomenon known as lip sync),</li>
+<li>3D glasses, in which the right and left lenses are synchronized with the images delivered to the right and left eyes.</li>
+</ul>
+<p><strong>COMPLEMENTARY</strong> – components of a system do not operate simultaneously but instead take turns or work in a way that fills in each other’s idle time, for example:</p>
+<ul>
+<li>the SETI@home program runs only when the computer is not in use (as a screensaver), making use of otherwise idle processing time,</li>
+<li>collaborative robots (cobots) on an assembly line, where the robot’s rhythm is synchronized with a human worker’s pauses – the robot performs its task (e.g., tightening a screw), then stops to allow the human to complete their step (e.g., placing the next component).</li>
+</ul>
+<p><strong>SPECIAL</strong> – all other types of rhythm coordination that don’t fit into the previous two categories, for example:</p>
+<ul>
+<li>ultrasound therapy massagers, where the vibration frequency is tuned to the resonance of muscles and subcutaneous tissues,</li>
+<li>precision agriculture irrigation systems, where the watering rhythm is aligned with the growth phases of plants and their circadian rhythm (such as transpiration cycles).</li>
+</ul>
+</section>
+<section id="coordination-of-materials" class="level3">
+<h3 class="anchored" data-anchor-id="coordination-of-materials">Coordination of materials</h3>
+<p>A checklist to support the search for materials suitable for coordination includes the following categories:</p>
+<p><strong>IDENTICAL MATERIALS</strong>, for example:</p>
+<ul>
+<li>transplanting a cloned organ,</li>
+<li>repairing a damaged road surface using a mixture identical to the original material.</li>
+</ul>
+<p><strong>SIMILAR MATERIALS</strong>, for example:</p>
+<ul>
+<li>transplanting an organ from a donor,</li>
+<li>filling a gap in a wooden piece of furniture with a matching piece of wood.</li>
+</ul>
+<p><strong>INERT MATERIALS</strong>, for example:</p>
+<ul>
+<li>transplanting an artificial organ,</li>
+<li>patching a wooden surface with filler compound.</li>
+</ul>
+<p><strong>MATERIALS WITH SHIFTED PARAMETERS</strong> – materials whose coordination leads to an effect based on the difference in their properties, for example:</p>
+<ul>
+<li>a thermocouple, made from two different metals – the temperature difference at their junction generates a voltage known as the thermoelectric effect.</li>
+</ul>
+<p><strong>MATERIALS WITH OPPOSITE PARAMETERS</strong>, for example:</p>
+<ul>
+<li>a cable consisting of a conductor and an insulator.</li>
+</ul>
+</section>
+<section id="coordination-of-actions" class="level3">
+<h3 class="anchored" data-anchor-id="coordination-of-actions">Coordination of actions</h3>
+<p>The interaction between a tool and a product can take various forms. Contact between them may occur at a point (0D), along a line (1D), on a surface (2D), or throughout a volume (3D). Coordination of actions involves transitioning between these forms of contact, and this can happen in two directions:</p>
+<ul>
+<li>forward along the progression: 0D → 1D → 2D → 3D, or</li>
+<li>backward along the progression: 3D → 2D → 1D → 0D.</li>
+</ul>
+<p><img src="media/wp-content/uploads/2025/03/0D-1D-2D-3D-1024x339.png" class="img-fluid"></p>
+<p>A forward along the progression means that if one object interacts with another at just a single point, improving the interaction can be achieved by expanding it to a line, then to a surface, and eventually to a full three-dimensional volume. For example, the earliest “washing machine” was simply a stone used to beat clothes – this was a point-based interaction (<strong>0D</strong>) with very low effectiveness. The process improved when people began using a stick, shifting to a line-based interaction (<strong>1D</strong>). Further development came with the use of a washboard, introducing surface-based interaction (<strong>2D</strong>). Eventually, the system evolved into the modern washing machine, where the interaction occurs in all three dimensions (<strong>3D</strong>).</p>
+<p>An example of improving a system through a backward along the progression can be a pizza box. When the bottom of the box contacts the pizza across the entire surface (<strong>2D</strong>), moisture accumulates, causing the crust to become soggy. Introducing a ribbed or corrugated bottom shifts the interaction to line contact (<strong>1D</strong>), which improves air circulation and reduces moisture. Further enhancement can be achieved by designing the box with point-based support (<strong>0D</strong>) – providing minimal contact and allowing even better airflow, resulting in a crisper crust.</p>
+<p>The direction of transition depends on two factors:</p>
+<ol type="1">
+<li>whether the function is useful or harmful, and</li>
+<li>the availability of resources.</li>
+</ol>
+<p>The following table illustrates how these factors influence the choice of transition direction:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_action-coord-1024x360.png" class="img-fluid"></p>
+</section>
+<section id="trend-of-increasing-degree-of-trimming" class="level3">
+<h3 class="anchored" data-anchor-id="trend-of-increasing-degree-of-trimming">Trend of increasing degree of trimming</h3>
+</section>
+</section>
+</section>
+<section id="trend-of-increasing-degree-of-trimming-1" class="level1">
+<h1>Trend of increasing degree of trimming</h1>
+<p><em><strong>Trend of increasing degree of trimming</strong>: trend of engineering system evolution according to which as an engineering system evolves, system elements (components or operations) are eliminated without impairing the functionality of the system, and possibly improving it.</em></p>
+<section id="overview-6" class="level2">
+<h2 class="anchored" data-anchor-id="overview-6">Overview</h2>
+<p>The trend of of increasing degree of trimmingis one of the four mechanisms directly supporting the trend of increasing value&nbsp;in the&nbsp;hierarchy of TESE&nbsp;(along with&nbsp;the trend of transition to the supersystem, the trend of increasing completeness of system components, and the trend of flow enhancement).</p>
+<p>According to this trend, as an engineering system evolves, more and more of its components are trimmed. This applies to components of both devices and processes (operations).</p>
+<p>The trend of increasing degree of trimming is fairly universal and can, in principle, be applied at any stage of system development. However, systems typically tend to expand in the early stages of the S-curve, while trimming becomes more relevant in the later stages, especially in stages 3 and 4.</p>
+<p>Trimming rules explain <strong><em>how</em></strong> to carry out trimming, while the trend provides guidance on <strong><em>what</em></strong> to trim and <strong><em>in what order</em></strong>.&nbsp;The trend has 3 mechanisms:</p>
+<ol type="1">
+<li>trimming function blocks,</li>
+<li>trimming operations, and</li>
+<li><a href="http://Trimming%20components%20with%20the%20lowest%20value">trimming components with the lowest value</a>.</li>
+</ol>
+</section>
+<section id="trimming-function-blocks" class="level2">
+<h2 class="anchored" data-anchor-id="trimming-function-blocks">Trimming function blocks</h2>
+<p>This mechanism focuses on the function blocks of a system.</p>
+<p>The trend of increasing completeness of the system components shows the order in which the system, as it evolves, acquires the following function blocks: operating agent, transmission, energy source, and control block.</p>
+<p>Now – to keep value growing – the system eliminates these blocks. This typically occurs in the following order:</p>
+<ol type="1">
+<li>transmission,</li>
+<li>energy source,</li>
+<li>control system, and</li>
+<li>operating agent.</li>
+</ol>
+<p>In the long run, the system evolves into a self-controlling (intelligent) operating agent that is capable of generating its own energy.</p>
+</section>
+<section id="trimming-operations" class="level2">
+<h2 class="anchored" data-anchor-id="trimming-operations">Trimming operations</h2>
+<p>This sub-trend applies specifically to processes.</p>
+<p>According to it, operations should be trimmed in the following order:<br>
+1. operations with corrective functions,<br>
+2. operations with providing functions, and<br>
+3. operations with productive functions.</p>
+<p>The guidelines for handling the functions of operations subjected to trimming are determined by the trimming rules for each type of function.</p>
+</section>
+<section id="trimming-components-with-the-lowest-value" class="level2">
+<h2 class="anchored" data-anchor-id="trimming-components-with-the-lowest-value">Trimming components with the lowest value</h2>
+<p>This sub-trend applies to both devices and processes. According to it, components with the lowest value are the first to be removed from the system.</p>
+<section id="trend-of-increasing-dynamization" class="level3">
+<h3 class="anchored" data-anchor-id="trend-of-increasing-dynamization">Trend of increasing dynamization</h3>
+</section>
+</section>
+</section>
+<section id="trend-of-increasing-dynamization-1" class="level1">
+<h1>Trend of increasing dynamization</h1>
+<p><em><strong>Trend of increasing dynamization</strong> is a trend of engineering system evolution according to which the engineering system and its components evolve towards becoming more flexible, dynamic, and adaptable – having more degrees of freedom.</em></p>
+<section id="overview-7" class="level2">
+<h2 class="anchored" data-anchor-id="overview-7">Overview</h2>
+<p>By dynamization, we should understand the possibility of changing parameters values. It may refer to:</p>
+<ul>
+<li>dynamization of components,</li>
+<li>segmentation of components, and</li>
+<li>dynamization of function.</li>
+</ul>
+<p>In the hierarchy of trends, the trend of increasing dynamization is a mechanism of the trend of increasing controllability. A system must first become more dynamic before it can be effectively controlled.</p>
+<p>Keep in mind that – just like with other trends – a system does not have to pass through every stage in its evolution. Some stages may be skipped, and the system can leap to a higher level than what the trend line would suggest.</p>
+</section>
+<section id="dynamization-of-design" class="level2">
+<h2 class="anchored" data-anchor-id="dynamization-of-design">Dynamization of design</h2>
+<p>This sub-trend of the trend is also called <strong>dynamization of components</strong>.</p>
+<p>A component of an engineering system can be a substance, a field, or a combination of both. That’s why we distinguish between two separate lines of increasing dynamization:</p>
+<ul>
+<li>dynamization of substances, and</li>
+<li>dynamization of fields.</li>
+</ul>
+<section id="the-line-of-substance-dynamization" class="level3">
+<h3 class="anchored" data-anchor-id="the-line-of-substance-dynamization">The line of substance dynamization</h3>
+<p>In the line of substance dynamization, the system goes through the following stages during its development:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_dynam-subst-1024x215.png" class="img-fluid"></p>
+<p>A new system typically begins as a <strong>monolith structure</strong>, which is why this stage is considered the starting point of the evolution. Such a system is the simplest, but also the least adaptable – none of its properties can change during use. As the system evolves, its level of dynamization gradually increases. The monolith first becomes divided into spatial zones with <strong>different properties</strong>. Next, it evolves into a <strong>one-joint system</strong>, and then into a <strong>multi-joint system</strong>, where a joint represents a degree of freedom. Eventually, the number of hinges increases to the point where the entire system – or its parts – becomes fully <strong>flexible or elastic</strong>. The system may then evolve into forms such as <strong>powder</strong>, <strong>liquid</strong>, and finally <strong>gas</strong>. Ultimately, it transforms into a <strong>field-based system</strong>, which is more controllable and adaptable than substances, making it even more dynamic.</p>
+</section>
+<section id="the-line-of-field-dynamization" class="level3">
+<h3 class="anchored" data-anchor-id="the-line-of-field-dynamization">The line of field dynamization</h3>
+<p>In the line of field dynamization, the system goes through the following stages:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_dynam-field-1024x232.png" class="img-fluid"></p>
+<p>A newly created system is usually based on a <strong>constant field</strong>. The next step in its evolution is transition to a system with a <strong>gradient field</strong>, and then the <strong>variable fields</strong>. The difference between them is that for a gradient field the parameter value changes in space; for a variable field it changes over time.&nbsp;<br>
+The following step in the evolution is transition to a system with <strong>an impulse field</strong>. Using <strong>resonance field</strong> is supposed to be the next according to the trend.&nbsp;<br>
+Application of <strong>more complex fields</strong> is typical for the end of this line of development. The system uses wave interference, both standing and moving.</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_dynam-field_stages-1024x152.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="dynamization-of-composition" class="level2">
+<h2 class="anchored" data-anchor-id="dynamization-of-composition">Dynamization of composition</h2>
+<p>This sub-trend is also called <strong>segmentation of components</strong>. According to it, the system goes through the following stages in its development:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_dynam_composition-1024x234.png" class="img-fluid"></p>
+<p>In historical materials, one can find an additional mechanism identified by Altshuller, often referred to as <strong>the trend of increasing porosity</strong>. This trend includes stages ranging from a solid monolith, to a single opening, to multiple pores, and eventually to micropores at the molecular level.</p>
+<p>This trend does not appear in the current hierarchy, as it has not yet been fully studied.</p>
+</section>
+<section id="dynamization-of-functions" class="level2">
+<h2 class="anchored" data-anchor-id="dynamization-of-functions">Dynamization of functions</h2>
+<p>This sub-trend essentially states that system evolves from single-function to multi-function systems. There are no intermediate states that the system passes through.</p>
+<section id="trend-of-increasing-value" class="level3">
+<h3 class="anchored" data-anchor-id="trend-of-increasing-value">Trend of increasing value</h3>
+</section>
+</section>
+</section>
+<section id="trend-of-increasing-value-1" class="level1">
+<h1>Trend of increasing value</h1>
+<p><em><strong>Trend of increasing value</strong> is a trend of engineering system evolution according to which as an engineering system evolves its value always increases.</em></p>
+<section id="overview-8" class="level2">
+<h2 class="anchored" data-anchor-id="overview-8">Overview</h2>
+<p>The trend of increasing value, also referred to as <strong>the trend of increasing ideality</strong>, is the primary mechanism behind the trend of S-curve evolution. All other trends serve as its supporting mechanisms.</p>
+<p>According to this trend, for a system to remain competitive and attractive in the market, its value must continuously increase. This can be achieved through two types of mechanisms:</p>
+<ul>
+<li>by applying any of the trends positioned below it in the trends’ hierarchy, or</li>
+<li>by using the internal mechanisms of the trend itself, which can be expressed as models representing value growth as the ratio of total functionality to total cost of the system.</li>
+</ul>
+</section>
+<section id="internal-mechanisms-of-the-trend-of-increasing-value" class="level2">
+<h2 class="anchored" data-anchor-id="internal-mechanisms-of-the-trend-of-increasing-value">Internal mechanisms of the trend of increasing value</h2>
+<p>Increasing a system’s value for the market is always considered <strong>in the context of a specific MPV</strong>.</p>
+<p>According to the definition, a system’s value is directly proportional to the sum of its functionalities and inversely proportional to the sum of its costs. Regardless of where the system is on the S-curve, its functionality must outweigh its costs in order to remain viable.</p>
+<p>This advantage can be maintained in various ways. Identifying the current stage of the S-curve for the given MPV is extremely helpful in determining the right strategy. The diagram below outlines recommended strategies for each stage of development:</p>
+<p><img src="media/wp-content/uploads/2025/03/trend_Value_mechanisms-1024x609.png" class="img-fluid"></p>
+<p>The recommended strategies for each stage of system development are as follows:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><strong>strategy</strong></td>
+<td><strong>explanation</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Stage 1</strong></td>
+<td><strong>ΣF↑ / ΣC↓</strong> focus on simultaneously improving functionality and reducing costs</td>
+<td>Stage 1 offers many opportunities for major changes and improvements, as the system is still in its early phase and is highly adaptable to modifications.</td>
+</tr>
+<tr class="odd">
+<td><strong>Stage 2</strong></td>
+<td><strong>ΣF↑↑ / ΣC↑</strong> <strong>ΣF↑ / ΣCconst</strong> ensure that functionality grows faster than costs</td>
+<td>As the product evolves into Stage 2, its MPV increases rapidly, which typically drives up costs. Since costs are rising, functionality must grow at an even faster rate. If the growth in functionality slows down, costs should remain stable or increase only slightly.</td>
+</tr>
+<tr class="even">
+<td><strong>Stage 3</strong></td>
+<td><strong>ΣFconst / ΣC↓</strong> shift focus to cost reduction</td>
+<td>In the maturity stage, there are fewer opportunities for dramatic functional improvements. The priority should be on optimization and cutting costs wherever possible.</td>
+</tr>
+<tr class="odd">
+<td><strong>Stage 4</strong></td>
+<td><strong>ΣF↓ / ΣC↓↓</strong> intentionally reduce functionality (by designing lower-functionality products) to allow for significant cost reductions</td>
+<td>At this point, the system is approaching obsolescence and is being pushed out of the market. Opportunities to improve functionality or lower costs are limited. However, it is still possible to increase value. A good example of this strategy is the development of disposable products (such as cameras, phones, paper towels, etc.), where functionality is lowered deliberately to reduce costs and boost market appeal.</td>
+</tr>
+</tbody>
+</table>
+<section id="trend-of-s-curve-evolution" class="level3">
+<h3 class="anchored" data-anchor-id="trend-of-s-curve-evolution">Trend of S-curve evolution</h3>
+</section>
+</section>
+</section>
+<section id="trend-of-s-curve-evolution-1" class="level1">
+<h1>Trend of S-curve evolution</h1>
+<p><em><strong>Trend of S-curve evolution</strong>: trend of engineering system evolution located at the top position in the trends hierarchy. According to it, as an engineering system evolves, the evolution of each main parameter of value (MPV) describes an S-shaped curve in time.</em></p>
+<section id="overview-9" class="level2">
+<h2 class="anchored" data-anchor-id="overview-9">Overview</h2>
+<p>In the context of each MPV, of a technical system evolves along an S-curve, passing through the following stages:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Stage 1:</strong></td>
+<td>a “newborn” system has not yet entered the market and may exist only as an idea, sketch, or prototype.</td>
+</tr>
+<tr class="even">
+<td><strong>Stage 2:</strong></td>
+<td>a stage of intensive growth and expansion – the system moves into mass production.</td>
+</tr>
+<tr class="odd">
+<td><strong>Stage 3:</strong></td>
+<td>the mature system is still in mass production, but it reaches one or several development limits.</td>
+</tr>
+<tr class="even">
+<td><strong>Stage 4:</strong></td>
+<td>the system becomes non-utilitarian, or it continues to function only in highly specialized fields or within a supersystem. It is the phase of decline.</td>
+</tr>
+</tbody>
+</table>
+<p>If the system survives stage 1, it enters the transitional phase, considered in TRIZ as a separate stage (in fact it is the very end of stage 1). This phase is crucial in the system’s lifetime, as it transitions from lab development to market entry. The risk of market rejection is high, and the newly developed system often faces its strongest competition, contending with both other emerging systems and established, mature ones.</p>
+<p><img src="media/wp-content/uploads/2025/03/Scurve-1024x592.png" class="img-fluid"></p>
+<p>The trend of the S-curve evolution is considered the overarching law, placing it at the very top of the hierarchy of trends of engineering systems evolution (TESE).</p>
+<p>For a system to evolve along the S-curve, its value – within the context of a given MPV – must continuously increase. That’s why the trend of increasing value directly drives the S-curve trend. All other trends stem from it, making them its sub-trends.</p>
+<p>In other words, when a system evolves according to any given trend, it directly leads to an increase in system value, thereby moving the system forward along its S-curve.</p>
+<section id="articles-1" class="level4">
+<h4 class="anchored" data-anchor-id="articles-1">Articles</h4>
+<ul>
+<li>Main parameter of value</li>
+<li>S-curve</li>
+</ul>
+</section>
+<section id="main-parameter-of-value" class="level4">
+<h4 class="anchored" data-anchor-id="main-parameter-of-value">Main parameter of value</h4>
+</section>
+</section>
+</section>
+<section id="main-parameter-of-value-1" class="level1">
+<h1>Main parameter of value</h1>
+<p><em><strong>Main parameter of value</strong> (MPV) is a key attribute, parameter, or feature of a product that is important for the purchasing decision.</em></p>
+<section id="overview-10" class="level2">
+<h2 class="anchored" data-anchor-id="overview-10">Overview</h2>
+<p>The main parameter of value (MPV) refers to a critical attribute, parameter, or feature of a system that significantly influences customer decisions and, therefore, determines the success of a technical system in the market. In other words, MPV represents the key factor that customers consider when assessing a product’s attractiveness.</p>
+<p>For example, different MPVs for a kitchen robot may include:</p>
+<ul>
+<li>motor power, which affects the device’s performance and efficiency,</li>
+<li>number of accessories, which influences functionality,</li>
+<li>material of components, which impacts durability and lifespan,</li>
+<li>body shape, which determines ergonomic usability.</li>
+</ul>
+<p>Each of these parameters indicates a direction for development. By analyzing them, manufacturers can make informed decisions about where to focus their innovation efforts and which parameters to improve.</p>
+<section id="s-curve" class="level4">
+<h4 class="anchored" data-anchor-id="s-curve">S-curve</h4>
+</section>
+</section>
+</section>
+<section id="s-curve-1" class="level1">
+<h1>S-curve</h1>
+<p><em><strong>S-curve</strong> is an S-shaped curve that represents the typical dependence of a main parameter of value (MPV) of an evolving engineering system on time.</em></p>
+<section id="overview-11" class="level2">
+<h2 class="anchored" data-anchor-id="overview-11">Overview</h2>
+<p>The S-curve is a graphical representation illustrating the life cycle of a system’s main parameter of value (MPV) over time. It shows how a parameter evolves from its initial development through maturity to its eventual decline. The horizontal axis of the S-curve represents time, while the vertical axis represents the value or performance of a specific MPV.</p>
+<p>The concept of the S-curve was originally adapted from biology into other fields of knowledge. In early 20th-century research, scientists discovered that bacterial colony growth followed a distinct pattern: a slow start, a phase of rapid growth, stabilization, and eventual decline due to resource limitations. This pattern resembled the shape of the letter S.</p>
+<p>During his research, Altshuller examined and confirmed that various MPVs in engineering systems also evolve along their own specific S-curves over time.</p>
+<p>To analyze and understand the evolutionary stage of an engineering system, Altshuller recommended using specific indicators. These indicators are a fundamental part of classical TRIZ and undoubtedly contribute significantly to the methodology. However, over time, it became clear that their practical application has serious limitations, and the results of analyses based on them were not always reliable. The&nbsp;Altshuller’s classical approach was further developed and served as the foundation for the creation of a pragmatic S-curve analysis.</p>
+</section>
+<section id="stages-of-the-s-curve" class="level2">
+<h2 class="anchored" data-anchor-id="stages-of-the-s-curve">Stages of the S-curve</h2>
+<p>Every system goes through 4 main stages during its life cycle:</p>
+<p><img src="media/wp-content/uploads/2025/03/Scurve-1024x592.png" class="img-fluid"></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>STAGE 1:</strong></td>
+<td>A “newborn” system has <strong>not yet entered the market</strong>. It may even exist in the form of an idea, a sketch, or a prototype. <strong>MPV is almost flat</strong>.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>If the system survives stage 1, it enters the <strong>TRANSITIONAL STAGE</strong>. Due to specific characteristics, the transitional stage is sometimes considered a separate Stage in TRIZ, in fact it is the very end the stage 1. The system is still very young and vulnerable to external factors, but it is nearly <strong>ready to go to market</strong> or <strong>occupies small, strictly limited market niches</strong>. <strong>MPV starts growing</strong> noticeably.</td>
+</tr>
+<tr class="odd">
+<td><strong>STAGE 2:</strong></td>
+<td>A stage of intensive growth and expansion – the system moves into <strong>mass production</strong>, it is adapted for use in different applications, its variations and applications become more widely differentiated, the supersystem begins to adapt to the system, etc. <strong>MPV grows fast</strong>.</td>
+</tr>
+<tr class="even">
+<td><strong>STAGE 3:</strong></td>
+<td>The mature system reaches <strong>some development limits</strong>. It is still in <strong>mass production</strong>, successfully infiltrates new applications and market niches, consumes highly specialized resources. Its incremental improvement requires disproportionate resources. The supersystem components intensively adapt to the system. <strong>MPV stabilizes and grows slowly</strong>.</td>
+</tr>
+<tr class="odd">
+<td><strong>STAGE 4:</strong></td>
+<td>The phase of <strong>decline</strong>. The system loses its utilitarian purpose, so it becomes an entertainment artifact, a decoration, a toy, sports equipment, etc., or it continues to function only in <strong>highly specialized fields</strong> or within a supersystem. <strong>MPV goes down</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p><img src="media/wp-content/uploads/2025/03/S-curve_stag-1024x162.png" class="img-fluid"></p>
+</section>
+<section id="the-altshullers-indicators-of-the-s-curve-stages" class="level2">
+<h2 class="anchored" data-anchor-id="the-altshullers-indicators-of-the-s-curve-stages">The Altshuller’s indicators of the S-curve stages</h2>
+<p>The indicators advised by Altshuller are the following:</p>
+<ol type="1">
+<li><strong>Main parameter of value behavior</strong> is usually the easiest to be measured.</li>
+<li><strong>Number of inventions</strong> usually expressed as the number of patents. It is an indicator for which data can be easily obtained; they can be provided by patent databases (now, available online).</li>
+<li><strong>Level of invention</strong> is an indicator that has some subjectivity.</li>
+<li><strong>Profitability</strong> is probably the most difficult of the four measures. For a subsystem of a larger system, analysis can sometimes be even impossible.</li>
+</ol>
+<p>The following chart illustrates a comparison of how individual indicators change as the system evolves:</p>
+<p><img src="media/wp-content/uploads/2025/03/S-curve_indicators-1024x592.png" class="img-fluid"></p>
+<section id="mpv-value" class="level3">
+<h3 class="anchored" data-anchor-id="mpv-value">MPV value</h3>
+<p>During the early stages, MPV value tends to be low as the system is refined and improved. During the rapid growth, it increases significantly due to the optimization for mass production and market demands. During the mature stage, it may plateau or increase more slowly, and it can decline in the final stage as the system becomes obsolete or less competitive.</p>
+<p><img src="media/wp-content/uploads/2025/03/S-curve_MPV-1024x611.png" class="img-fluid"></p>
+</section>
+<section id="number-of-patents" class="level3">
+<h3 class="anchored" data-anchor-id="number-of-patents">Number of patents</h3>
+<p>The number of patents is an indicator for which data can be relatively easily obtained from patent databases available online.<br>
+It usually experiences two significant spikes:</p>
+<ol type="1">
+<li>during the introduction of the system into mass production, and</li>
+<li>during efforts to extend the system’s lifecycle.</li>
+</ol>
+<p><img src="media/wp-content/uploads/2025/03/S-curve_numbofpat-1024x610.png" class="img-fluid"></p>
+<p>In the first stage of the system’s development in the context of a specific MPV, the number of patents is relatively low due to a lack of practical applications. As the system enters Stage 2, demand increases for technologies that enable mass production and widespread adoption. Companies and inventors race to secure intellectual property rights, leading to a rapid rise in patent filings.</p>
+<p>In the third stage, patent activity continues to grow but for different reasons. The system is now mature, and engineers focus on extending its lifespan and improving profitability. Innovations mainly target optimization, performance enhancement, and new applications. In this phase, the motivation for patents is often to maintain market relevance and profitability.</p>
+<p>In the fourth stage, a noticeable decline in patent activity occurs. The technology has reached its peak, and opportunities for further innovation are limited. The drop in patent filings reflects the phase in which the system is either being phased out or replaced by newer technologies, and the drive for new patents significantly weakens compared to the active pursuit seen in the previous two stages.</p>
+</section>
+<section id="level-of-invention" class="level3">
+<h3 class="anchored" data-anchor-id="level-of-invention">Level of invention</h3>
+<p>The level of invention is more difficult to obtain. The indicator depends on the individual assessment of patents, making it a subjective measure. Additionally, analyzing the history of a given system in the context of the given parameter is usually a very time-consuming process.</p>
+<p>Young systems are characterized by a very high level of invention, which decreases over time. A temporary increase occurs during the period of mass application, only to revert to a downward trend.</p>
+<p><img src="media/wp-content/uploads/2025/03/S-curve_levelofinv-1024x612.png" class="img-fluid"></p>
+<p>In his research, Altshuller observed that not all inventions possess the same inventive level. By using the criteria of how contradictions are resolved and the scope of introduced inventions, he identified five levels:</p>
+<p><strong>Level 1</strong> involves simple optimizations that do not resolve any contradictions and typically include minor improvements, usually of a structural nature, introduced through experimentation. These solutions often refine existing systems without introducing new principles. Developing these requires knowledge and resources (devices, methods, materials) related to the specific system.</p>
+<p><strong>Level 2</strong> encompasses inventions that resolve contradictions, but these contradictions are simple and relatively easy to solve. The solutions typically involve still minor, but more significant changes than those at Level 1. These changes remain within the same engineering field, although they may require knowledge and resources from other areas of industry.</p>
+<p><strong>Level 3</strong> is characterized by advanced and non-obvious solutions; however, both the problem and the solution still originate from the same field. These inventions are more sophisticated and already involve the use of knowledge from other branches of industry.</p>
+<p><strong>Level 4</strong> includes more groundbreaking solutions that synthesize new systems by applying knowledge from one field of science to solve problems in another (e.g., solving a mechanical problem using principles from biology). By integrating different fields, this level reflects a significant leap in innovation.</p>
+<p><strong>Level 5</strong> is the highest. It involves breakthrough solutions often resulting from fundamental scientific research. These introduce new principles that can revolutionize entire industries, such as the invention of the laser or radio. These inventions typically go beyond the scope of conventional problem-solving methods, such as TRIZ.</p>
+</section>
+<section id="profitability" class="level3">
+<h3 class="anchored" data-anchor-id="profitability">Profitability</h3>
+<p>Profitability is probably the most difficult to obtain. For a subsystem of a larger system, analysis can sometimes be almost impossible.</p>
+<p>Young systems, despite their very high level of invention, do not generate income – they often exist only on paper or in single prototypes. They have many flaws and inconveniences. Income begins to appear once they transition to mass application. During this period, even small improvements can yield significant profits.</p>
+<p><img src="media/wp-content/uploads/2025/03/S-curve_profitability-1024x613.png" class="img-fluid"></p>
+</section>
+<section id="trend-of-transition-to-the-supersystem" class="level3">
+<h3 class="anchored" data-anchor-id="trend-of-transition-to-the-supersystem">Trend of transition to the supersystem</h3>
+</section>
+</section>
+</section>
+<section id="trend-of-transition-to-the-supersystem-1" class="level1">
+<h1>Trend of transition to the supersystem</h1>
+<p><em><strong>Trend of transition to supersystem</strong>&nbsp;is a trend of engineering system evolution which states that as an engineering system evolves, it is integrated with supersystem components.</em></p>
+<section id="overview-12" class="level2">
+<h2 class="anchored" data-anchor-id="overview-12">Overview</h2>
+<p>In general terms, the transition to a supersystem refers to hybridizing (integration) of the system with components of its supersystem.</p>
+<p>The trend of transition to the supersystem is one of the most effective tools for increasing value of the system. On one hand, integration provides the system with access to additional resources, which can be used for further improvements and enhanced functionality. On the other hand, after integration, some components may become redundant, and their removal can lead to cost reduction.</p>
+</section>
+<section id="sub-trends-mechanisms-of-the-trend" class="level2">
+<h2 class="anchored" data-anchor-id="sub-trends-mechanisms-of-the-trend">Sub-trends (mechanisms) of the trend</h2>
+<p>The trend is one of the most well-developed TESE. It has four sub-trends helping to define what kind of engineering systems should merge, how deep they should be integrated, how many systems should get combined, etc.</p>
+<p>These sub-trends are the following:</p>
+<p>Sub-trend 1: <strong>Parameters</strong> of the integrated systems that perform the same main function become increasingly different.</p>
+<p>Sub-trend 2: The <strong>main functions</strong> of integrated systems become increasingly different.</p>
+<p>Sub-trend 3: The <strong>level of integration</strong> of engineering systems becomes deeper.</p>
+<p>Sub-trend 4: The <strong>number of systems</strong> that get integrated together increases.</p>
+<section id="increasing-differentiation-of-parameters" class="level3">
+<h3 class="anchored" data-anchor-id="increasing-differentiation-of-parameters">Increasing differentiation of parameters</h3>
+<p>This sub-trend determines what systems merge and how they do it if they perform the same main function. The sequential steps are the following:</p>
+<ul>
+<li><strong>homogeneous</strong> systems, i.e.&nbsp;systems with the same parameters,</li>
+<li>systems that <strong>differ by the value of</strong> <strong>at least one parameter</strong>,</li>
+<li>different systems performing the same or similar main function (so called <strong>competing systems</strong>).</li>
+</ul>
+<p>The detailed step-by-step algorithm for merging competing systems is feature transfer.</p>
+</section>
+<section id="increasing-differentiation-between-main-functions" class="level3">
+<h3 class="anchored" data-anchor-id="increasing-differentiation-between-main-functions">Increasing differentiation between main functions</h3>
+<p>This sub-trend explains how systems merge if they perform different main functions. This sub-trend could also be considered as the continuation of the previous mechanism because it starts where the sub-trend of increasing differentiation of parameters ends.</p>
+<p>The steps of the sub-trend are the following:</p>
+<ul>
+<li><strong>allied systems</strong>, i.e.&nbsp;performing different main functions, but having common characteristics, e.g.,:
+<ul>
+<li>the object of the main function is the same for both systems,</li>
+<li>the systems are involved in the same process, or</li>
+<li>the systems are used in the same situation or under the same conditions,</li>
+</ul></li>
+<li><strong>heterogeneous</strong> <strong>systems</strong>, i.e.&nbsp;performing different main functions, with no common characteristics,</li>
+<li><strong>inverse systems</strong>, i.e.&nbsp;systems performing opposite main functions.</li>
+</ul>
+</section>
+<section id="deeper-integration" class="level3">
+<h3 class="anchored" data-anchor-id="deeper-integration">Deeper integration</h3>
+<p>This mechanism determines how deep should the systems be integrated. This sequence should be the recommendation for the level of integration of merging systems.</p>
+<p>Levels of the systems integration are the following:</p>
+<ul>
+<li><strong>unlinked systems</strong>, i.e.&nbsp;put together without any continuous link,</li>
+<li><strong>partially trimmed system</strong>, when some components become redundant and get trimmed,</li>
+<li><strong>completely trimmed system</strong>, i.e.&nbsp;integration is so deep that it is not possible to determine which of the merged systems is represented by the final solution; usually one of the systems get totally trimmed.</li>
+</ul>
+</section>
+<section id="increased-number-of-integrated-systems" class="level3">
+<h3 class="anchored" data-anchor-id="increased-number-of-integrated-systems">Increased number of integrated systems</h3>
+<p>The last sub-trend determines how many systems merge. It explains that systems typically evolve in the following sequence:</p>
+<ul>
+<li><strong>mono-system</strong>, i.e.&nbsp;single system,</li>
+<li><strong>bi-system</strong>, formed as the result of combining two systems,</li>
+<li><strong>poly-system</strong>, formed as the result of combining several systems.</li>
+</ul>
+<p>Mono-system should be considered as a starting point of the evolution line. As the system develops, the number of integrated systems grows more and more.</p>
+</section>
+<section id="trend-of-uneven-development-of-system-components" class="level3">
+<h3 class="anchored" data-anchor-id="trend-of-uneven-development-of-system-components">Trend of uneven development of system components</h3>
+</section>
+</section>
+</section>
+<section id="trend-of-uneven-development-of-system-components-1" class="level1">
+<h1>Trend of uneven development of system components</h1>
+<p><em><strong>Trend of uneven development of system components</strong> is a trend of engineering system evolution according to which as an engineering system evolves, development is concentrated on the operating agent first, and on the rest of the system later.</em></p>
+<section id="overview-13" class="level2">
+<h2 class="anchored" data-anchor-id="overview-13">Overview</h2>
+<p>Alongside the trend of increasing controllability, the trend of uneven development of system components serves as a mechanism of the trend of increasing coordination.</p>
+<p>This trend in a way bridges technology and philosophy. The evolution of a system is driven by resolving contradictions, while contradictions themselves arise from the uneven development of the system’s components.&nbsp;So, when one part of the system evolves faster than the others, a mismatch occurs between the components – this discrepancy triggers further developments, and the cycle continues.</p>
+<p>This trend is directly tied to the S-curve of development:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_uneven-1024x517.png" class="img-fluid"></p>
+<p>A good example illustrating the trend is the evolution of the automobile.</p>
+<p>In early cars, the engine was the most advanced component. Over time, gaps began to emerge between the development of the engine and other sub-systems of the vehicle. These discrepancies drove the advancement of systems such as the drivetrain, transmission, body design, air conditioning, and more – all in response to the uneven pace of the development.</p>
+</section>
+<section id="glossary" class="level2">
+<h2 class="anchored" data-anchor-id="glossary">GLOSSARY</h2>
+</section>
+</section>
+<section id="glossary-1" class="level1">
+<h1>GLOSSARY</h1>
+<p><em>This following glossary provides key definitions aligned with the MATRIZ methodology.</em></p>
+<p><em>Each term includes a link to an article with more detailed information on the topic.</em></p>
+<section id="a" class="level2">
+<h2 class="anchored" data-anchor-id="a">A</h2>
+<p><strong>Additional function</strong>: a useful function that acts on a component of the supersystem that is not a target component.</p>
+<p><strong>Algorithm for resolving physical contradictions</strong>: a problem-solving tool that provides a systematic access to the inventive principles for solving physical contradictions.</p>
+<p><strong>Alternative system</strong>: a competing system that has a complementary, to the base system, pair of advantages and disadvantages.</p>
+<p><strong>Altshuller matrix:</strong> <em>go to</em> contradiction matrix.</p>
+<p><strong>ARIZ</strong>: a problem-solving tool that transforms a complex key problem into a well-defined model of the problem, which can be solved effectively using a wide spectrum of TRIZ tools.</p>
+<p><strong>Auxiliary function</strong>: a useful function that acts on a component of the analyzed engineering system.</p>
+</section>
+<section id="b" class="level2">
+<h2 class="anchored" data-anchor-id="b">B</h2>
+<p><strong>Base system:</strong> a system to which features from the alternative system is transferred. The base system is the alternative system selected for improvement.</p>
+<p><strong>Basic function</strong>: a useful function directed toward a target component of the analyzed engineering system.</p>
+</section>
+<section id="c" class="level2">
+<h2 class="anchored" data-anchor-id="c">C</h2>
+<p><strong>Cause – effect chain analysis (CECA):</strong> an analytical tool that identifies the key disadvantages of the engineering system. This is accomplished by building cause-effect chains of disadvantages that link the initial disadvantage with its fundamental causes.</p>
+<p><strong>Chain Su-Field</strong>: a combination of two or more Su-Fields where one substance participates in two Su-Fields.</p>
+<p><strong>Clone problems application</strong>: a problem- solving tool that generalizes the approach to solving one problem and applies the approach to solving another problem.</p>
+<p><strong>Competing system</strong>: an engineering system that performs the same or similar main function as the analyzed system.</p>
+<p><strong>Complex Su-Field</strong>: a complete Su-Field with an extra substance (often in the form of an additive) that readily responds to the existing field.</p>
+<p><strong>Component</strong>: a material object that constitutes a part of an engineering system or its supersystem.</p>
+<p><strong>Component analysis</strong>: a stage in Function Analysis that identifies components of the engineering system and its supersystem.</p>
+<p><strong>Component model</strong>: a set of components belonging to the analyzed engineering system and its supersystem.</p>
+<p><strong>Conflicting pair</strong>: (in ARIZ) a pair of components, the tool(s) and the product(s), interaction between which causes a conflict that prevents reaching the required result.</p>
+<p><strong>Contradiction matrix</strong> (Altshuller matrix)<strong>:</strong> a matrix that provides a systematic access to the inventive principles for solving engineering contradictions.</p>
+<p><strong>Corrective function</strong>: a useful function that eliminates a defect.</p>
+<p><strong>Cost analysis</strong>: a step in function-cost analysis that identifies the absolute and relative costs of components that constitute a engineering system being analyzed.</p>
+</section>
+<section id="d" class="level2">
+<h2 class="anchored" data-anchor-id="d">D</h2>
+<p><strong>Database of scientific effects</strong>: a problem-solving tool used to solve key problems, modeled as functions. It is a collection of effects and scientific phenomena from various fields (physics, chemistry, biology, etc.), organized in accordance with a function-oriented and resource-oriented taxonomy (rather than topics).</p>
+<p><strong>Defect</strong>: a material object (a substance or a field) that impairs performance of a useful function or performs some harmful function.</p>
+<p><strong>Double Su-Field</strong>: a Su-Field where two different fields provide interactions between the substances (one substance acts on the second substance with two fields).</p>
+</section>
+<section id="e" class="level2">
+<h2 class="anchored" data-anchor-id="e">E</h2>
+<p><strong>Engineering contradiction</strong> (EC), also called <strong>technical contradictions</strong> (TC): a parametric model of the problem in which an attempt to improve one parameter of the engineering system leads to worsening of another parameter.</p>
+<p><strong>Engineering system</strong> (technical system): a system that has been developed to perform a function.</p>
+</section>
+<section id="f" class="level2">
+<h2 class="anchored" data-anchor-id="f">F</h2>
+<p><strong>Feature transfer</strong>: an analytical tool for improvement of an engineering system given (base system) by transferring certain features from the alternative system with the aim to combine the useful features in a single system.</p>
+<p><strong>Feature transfer problem</strong>: a key problem that must be resolved to realize feature transfer.</p>
+<p><strong>Field</strong>: an object without a rest mass that transfers interaction between substances.</p>
+<p><strong>Flow:</strong> a movement of substance, energy (field), and information within an engineering system.</p>
+<p><strong>Flow analysis</strong>: an analytical tool that identifies disadvantages in flows of energy, substances, and information in an engineering system.</p>
+<p><strong>Flow disadvantage</strong>: a disadvantage of the analyzed engineering system identified during flow analysis.</p>
+<p><strong>Function</strong>: an action performed by one material object (function carrier) to change or maintain a parameter of another material object (object of the function).</p>
+<p><strong>Function analysis</strong> (<em>see also</em>: <strong>function-cost analysis</strong>): an analytical tool that identifies functions, their characteristics, and the cost of the system and its supersystem components.</p>
+<p><strong>Function–cost diagram</strong>: the graph that presents function point score (<em>F</em>) of the system components against their cost (<em>C</em>).</p>
+<p><strong>Function disadvantage</strong>: a disadvantage of an engineering system identified during the function modeling.</p>
+<p><strong>Function model</strong>: a model of an engineering system that identifies and describes functions performed by the components of the system and its supersystem, their usefulness and performance level, and costs.</p>
+<p><strong>Function modeling</strong>: the stage in function analysis, during which a function model of the analyzed engineering system is built.</p>
+<p><strong>Function-oriented search</strong> (FOS): a problem-solving tool based upon identifying existing technologies worldwide, using function criteria.</p>
+<p><strong>Function rank</strong>: a dimensionless measure that determines the importance of the useful function.</p>
+<p><strong>Functionality</strong>: <em>go to</em> functionality index.</p>
+<p><strong>Functionality index</strong> (functionality): a dimensionless measure of the overall functional contribution of the component to the overall performance of the engineering system.</p>
+</section>
+<section id="h" class="level2">
+<h2 class="anchored" data-anchor-id="h">H</h2>
+<p><strong>Harmful flow</strong>: a flow whose object (substance, energy, or information) performs a harmful function.</p>
+<p><strong>Harmful function</strong>: a function performed by a function carrier that results in an inacceptable change or inacceptable preservation of a parameter of an object of the function.</p>
+<p><strong>Harmful Su-Field</strong>: a Su-Field which represents a model of a problem, in which at least one interaction is harmful or excessive (excessive = normal + harmful excess).</p>
+</section>
+<section id="i" class="level2">
+<h2 class="anchored" data-anchor-id="i">I</h2>
+<p><strong>Ideal final result (IFR)</strong>: a model of the best solution to an inventive problem, whereby the problem is fully eliminated with minimal changes to the system and without any deterioration of system parameters.</p>
+<p><strong>Ideal system</strong>: a system with infinite value. It may have no components or associated costs, but still deliver the intended functionality; in other words – it may not exist, but its main function is still being performed.</p>
+<p><strong>Ideality</strong>: the ratio of the total benefits provided by the system to the sum of all payment factors associated with it. Payment factors include not only direct costs but also required space, environmental damage, maintenance, etc.</p>
+<p><strong>Incomplete Su-Field:</strong> a Su-Field representing a model of a problem of lacking one substance, or a field, or substance and a field.</p>
+<p><strong>Inert system</strong>: <em>go to</em> neutral system.</p>
+<p><strong>Initial disadvantage</strong>: a disadvantage in the analyzed engineering system, the elimination of which is the goal of a project. The initial disadvantage is formulated as an inverted project goal.</p>
+<p><strong>Innovative benchmarking</strong>: an analytical tool that identifies the best engineering system for improvement and engineering system candidates for feature transfer.</p>
+<p><strong>Insufficient Su-Field:</strong> a Su-Field representing a problem model, which is complete but does not work.</p>
+<p><strong>Interaction</strong>: a physical touch between components of the engineeging system and/or components of its supersystem.</p>
+<p><strong>Interaction analysis</strong>: a stage of function analysis of devices that identifies interactions between the components included into the component model.</p>
+<p><strong>Interaction matrix</strong>: a table showing interactions among components of the analyzed engineering system and its supersystem. It is result of the interaction analysis.</p>
+<p><strong>Inventive principle</strong>: an abstract model of a solution that provides generalized recommendations for modifying the system to solve the problem formulated as the contradiction.</p>
+</section>
+<section id="k" class="level2">
+<h2 class="anchored" data-anchor-id="k">K</h2>
+<p><strong>Key disadvantage</strong>: a disadvantage selected to be eliminated to achieve the goal of the project. Usually, key disadvantages appear at the root of cause-effect chains.</p>
+<p><strong>Key problem:</strong> a problem that has been selected for solving to achieve the goal of the project.</p>
+</section>
+<section id="m" class="level2">
+<h2 class="anchored" data-anchor-id="m">M</h2>
+<p><strong>Main function</strong>: the function for which the engineering system was designed.</p>
+<p><strong>Main parameter of value (MPV)</strong>: a key attribute, parameter, or feature of a product that is important for the purchasing decision.</p>
+<p><strong>MATChEM</strong>: an acronym representing six types of fields used in TRIZ – mechanical, acoustic, thermal, chemical, electrical, and magnetic. The last two letters (EM) also stand for electromagnetic.</p>
+<p><strong>Measurement function</strong>: a useful function that reveals information about components.</p>
+<p><strong>Measurement Su-Field</strong>: a special type of a Su-Field which is used to present models of inventive problems where measurement or detection is required in terms of substance-field analysis. Its uniqueness lies in the fact that it is the only model with 2 fields and 1 substance (input field &gt; substance &gt; output field).</p>
+<p><strong>Mini-problem</strong>: a problem whose solution is limited by constraints against significant changes to the analyzed engineering system.</p>
+</section>
+<section id="n" class="level2">
+<h2 class="anchored" data-anchor-id="n">N</h2>
+<p><strong>Neutral flow</strong>: a flow that has an irrelevant or insignificant influence on the engineering system.</p>
+<p><strong>Neutral system (inert system)</strong>: a system that does not have the disadvantage of the base system (it is its advantage), but it also does not perform the desired main function (does not work) that is considered to be its disadvantage.</p>
+</section>
+<section id="o" class="level2">
+<h2 class="anchored" data-anchor-id="o">O</h2>
+<p><strong>Operating time</strong>: (in ARIZ) a time interval, when one of the contradiction requirements must be met.</p>
+<p><strong>Operating zone</strong>: (in ARIZ) a physical space, where one of the contradiction requirements must be met.</p>
+<p><strong>Operation</strong>: a set of functions within a technological process grouped because of certain considerations.</p>
+</section>
+<section id="p" class="level2">
+<h2 class="anchored" data-anchor-id="p">P</h2>
+<p><strong>Partial trimming</strong>: redistributing some useful functions of a system component to other components, while leaving the component in the system for performing remaining functions.</p>
+<p><strong>Physical contradiction</strong>: a parametric model of the problem that emerges when two justified contradictory demands are placed upon a single parameter of an object to provide the required result.</p>
+<p><strong>Product</strong>: (in ARIZ) the element that needs to be processed (manufactured, moved, changed, improved, protected from a harmful influence, revealed, measured etc.) according to the problem conditions</p>
+<p><strong>Productive function</strong>: a useful function that irreversibly (permanently) changes a parameter of its object.</p>
+<p><strong>Providing function</strong>: a useful function that is necessary for the performance of another useful function.</p>
+</section>
+<section id="s" class="level2">
+<h2 class="anchored" data-anchor-id="s">S</h2>
+<p><strong>S-curve</strong>: an S-shaped curve that represents the typical dependence of a main parameter of value of an evolving engineering system on time</p>
+<p><strong>S-curve analysis</strong>: an analytical tool based on the trend of S-curve evolution that determines where an engineering system is in its development and what steps should be taken to improve it.</p>
+<p><strong>Standard inventive solutions (SIS)</strong>: a set of 76 typical solution models, to typical problem models that are expressed in the form of substance-field (Su-Field) models.</p>
+<p><strong>Substance</strong>: an object with a rest mass.</p>
+<p><strong>Substance-field analysis</strong>: a part of standard inventive solutions application that models a problem in the form of a substance-fields model.</p>
+<p><strong>Substance-field model (Su-Field model, Su-Field)</strong>: an abstract model of a problem and potential solutions (when possible) formulated in terms of interactions between substances and fields.</p>
+<p><strong>Supersystem</strong>: a system that contains the analyzed engineering system as a component.</p>
+<p><strong>Supporting function</strong>: a useful function that temporarily changes a parameter of the product.</p>
+</section>
+<section id="t" class="level2">
+<h2 class="anchored" data-anchor-id="t">T</h2>
+<p><strong>Target component</strong>: an object of the main function of the engineering system.</p>
+<p><strong>Technical contradiction</strong>: <em>go to</em> <a href="#d">engineering contradiction</a>.</p>
+<p><strong>Technical system</strong>: <em>go to</em> <a href="#d">engineering system</a>.</p>
+<p><strong>Technological process</strong>: a process that uses material objects, such as raw material, labour, energy, and machinery, to create finished products.</p>
+<p><strong>Theory of inventive problems solving, TRIZ</strong> (ru: <em>теория решения изобретательских задач</em>): a discipline of applied sciences that deals with directions of development and methods for improvement of engineering systems.</p>
+<p><strong>Tool</strong>: (in ARIZ) an object directly interacting (conflicting) with the product in contradictions identified in part 1 of ARIZ.</p>
+<p><strong>Transport function</strong>: a useful function that changes a position of its object in space.</p>
+<p><strong>Trend of decreasing human involvement</strong>: trend of engineering system evolution according to which as an engineering system evolves, the number of engineering system functions performed by humans decreases.</p>
+<p><strong>Trend of flow enhancement</strong>: trend of engineering system evolution according to which as an engineering system evolves, flow rates of substances, energy, or information increase, and/or the flows are better utilized.</p>
+<p><strong>Trend of increasing completeness of system components</strong>: a trend of engineering system evolution according to which as an engineering system evolves, it acquires the following typical function blocks: operating agent, transmission, energy source, and control system.</p>
+<p><strong>Trend of increasing controllability</strong>: trend of engineering system evolution according to which as engineering systems evolve, they develop more ways in which they can be controlled.</p>
+<p><strong>Trend of increasing coordination</strong>: trend of engineering system evolution according to which as an engineering system evolves, characteristics of the components of the engineering system become more coordinated with each other and with the supersystem.</p>
+<p><strong>Trend of increasing degree of trimming</strong>: trend of engineering system evolution according to which as an engineering system evolves, system elements (components or operations) are eliminated without impairing the functionality of the system, and possibly improving it.</p>
+<p><strong>Trend of increasing dynamization</strong>: a trend of engineering system evolution according to which the engineering system and its components evolve towards becoming more flexible, dynamic, and adaptable – having more degrees of freedom.</p>
+<p><strong>Trend of increasing value</strong>: a trend of engineering system evolution according to which as an engineering system evolves its value always increases.</p>
+<p><strong>Trend of S-curve evolution</strong>: a trend of engineering system evolution located at the top position in the trends hierarchy. According to it, as an engineering system evolves, the evolution of each main parameter of value (MPV) describes an S-shaped curve in time.</p>
+<p><strong>Trend of transition to supersystem</strong>: a trend of engineering system evolution which states that as an engineering system evolves, it is integrated with supersystem components.</p>
+<p><strong>Trend of uneven development of system components</strong>: trend of engineering system evolution according to which as an engineering system evolves, development is concentrated on the operating agent first, and on the rest of the system later.</p>
+<p><strong>Trends of engineering system evolution</strong> (TESE): statistically proven or empirically derived directions of engineering system development that describe the natural transition of engineering systems from one state to another.</p>
+<p><strong>Trimming</strong>: an analytical tool for improving an engineering system by removing (trimming) certain components and redistributing their useful functions among the remaining system or its supersystem components, while preserving quality and performance of the system.</p>
+<p><strong>Trimming model</strong>: a function model of an improved engineering system developed through trimming.</p>
+<p><strong>Trimming problem</strong>: a problem that must be resolved to realize the trimming model.</p>
+<p><strong>Trimming rule</strong>: an option for eliminating a component of an engineering system by either eliminating its useful functions or redistributing them to other system or supersystem components.</p>
+<p><strong>Typical parameters</strong>: a limited set of the pre-defined generalized parameters that typically need improvement in the engineering system, used in the contradiction (Altshuller) matrix.</p>
+</section>
+<section id="u" class="level2">
+<h2 class="anchored" data-anchor-id="u">U</h2>
+<p><strong>Useful flow</strong>: a flow whose object (substance, energy, or information) performs a useful function or is an object of a useful function.</p>
+<p><strong>Useful function</strong>: a function performed by a function carrier that results in a positive (required) change or preservation a parameter of an object of the function.</p>
+</section>
+<section id="v" class="level2">
+<h2 class="anchored" data-anchor-id="v">V</h2>
+<p><strong>Value</strong>: the ratio of a normalized sum of component/system function points over the sum of its costs.</p>
+<p><strong>Value analysis</strong>: an analytical tool that compares relative functionality and relative cost of the system components.</p>
+<p><strong>Vicious circle</strong>: a situation in CECA when a disadvantage causes new disadvantages that lead to the original disadvantage to occur again.</p>
+</section>
+<section id="w" class="level2">
+<h2 class="anchored" data-anchor-id="w">W</h2>
+<p><strong>Wasted flow</strong>: a flow that is characterized by losses of substance, energy, or information.</p>
+</section>
+<section id="x" class="level2">
+<h2 class="anchored" data-anchor-id="x">X</h2>
+<p><strong>X-factor</strong>: (in ARIZ) any change in the engineering system (e.g., change in its components, parameters, etc.) that should be incorporated into the system in order to solve a problem.</p>
+</section>
+<section id="resources-in-triz" class="level2">
+<h2 class="anchored" data-anchor-id="resources-in-triz">Resources in TRIZ</h2>
+</section>
+</section>
+<section id="resources-in-triz-1" class="level1">
+<h1>Resources in TRIZ</h1>
+<section id="overview-14" class="level2">
+<h2 class="anchored" data-anchor-id="overview-14">Overview</h2>
+<p>The concept of resources in TRIZ goes beyond the conventional understanding of natural, financial, or human resources. Here, they are expanded into inventive and evolutionary resources that can be harnessed to enhance the engineering system performance and achieve its&nbsp;ideality&nbsp;by providing additional useful features, as well as reducing cost-related factors.</p>
+<p>Resource in TRIZ can be the following:</p>
+<ul>
+<li>any substance or anything made of a substance (including waste) that is available in the system or its supersystem,</li>
+<li>an energy reserve, free time, unoccupied space, information, etc., and</li>
+<li>the functional and technological ability to perform additional functions, including properties of substances as well as physical, chemical, geometric, and other effects.</li>
+</ul>
+<p>Resources can be grouped in the following categories:</p>
+<p>A. Based on accessibility:</p>
+<ul>
+<li>internal (limited to the main elements of the system),</li>
+<li>external, including resources from the general environment and those which are specific for the given system, and</li>
+<li>resources from the super-system or other accessible, inexpensive resources (including waste).</li>
+</ul>
+<p>B. Based on readiness for utilization:</p>
+<ul>
+<li>readily-available resources, and</li>
+<li>derived (modified readily-available resources).</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

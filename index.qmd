@@ -1,0 +1,37 @@
+# TRIZ knowledge base
+
+***TRIZ** (Theory of Inventive Problem Solving) is a discipline of applied sciences that deals with directions of development and methods for improvement of engineering systems.*
+
+One of the main features of TRIZ is its structured approach to problem-solving. Unlike traditional methods, TRIZ guides users through a logical process, ensuring that innovation is not left to chance but is the result of deliberate and strategic planning. To achieve this, TRIZ employs its unique set of tools and principles, which have been described in this knowledge base.  
+The base reflects the current TRIZ methodology adopted by MATRIZ and, like the methodology itself, continuously evolves and improves.
+
+Our goal is to present a comprehensive body of knowledge, which is why we have intentionally avoided segmentation based on MATRIZ certification levels. The structure of this knowledge base – like the methodology as a whole – is built on the premise that TRIZ projects consist of three key stages: problem identification, solving the problem, and concept justification.
+
+To simplify navigation, we have designed the knowledge base in a user-friendly wiki format. In addition to articles dedicated to specific concepts, you will also find a Glossary that includes definitions of all official MATRIZ terms.
+
+Furthermore, we have included an interactive contradiction matrix to streamline the resolution of technical contradictions.
+
+It is important to note that this knowledge base does not replace formal training but provides tools to support both TRIZ students and trainers in deepening their understanding of the theory.
+
+The following literature serves as the primary sources for the wiki:
+
+1. *State-of-the-Art TRIZ, Theory of Inventive Problem-Solving, A guide for Level 1 certification by the International TRIZ Association (MATRIZ).* Edition II revised, Dr. Sergey Ikovenko, et al. Warsaw, Crido R&D, 2021. ISBN 9788395985119.
+2. *Trends of Engineering System Evolution (TESE): TRIZ paths to innovation.* Alex Lyubomirskiy, Dr. Simon Litvin, Dr. Sergei Ikovenko, Prof. Dr.-Ing. Christian M. Thurnes, Dr. Robert Adunka. Sulzbach-Rosenberg: TRIZ Consulting Group, 2018. ISBN 978-3000598463. Buy at: .
+3. *TRIZ certification tests preparation.* Edition I. Dr. Sergey Ikovenko, Magdalena Krupinska, Dr. Sergey Yatsunenko. Warsaw, Crido R&D, 2023. ISBN 9788395985188.
+4. Official MATRIZ training materials.
+
+In cases where additional literature was used to create articles, the sources are listed individually within each article.
+
+## Problem-identification tools
+
+## Problem-solving tools
+
+## Concept substantiation tools
+
+## Trends of engineering systems evolution (TESE)
+
+## GLOSSARY
+
+## Resources in TRIZ
+
+
