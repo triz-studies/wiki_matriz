@@ -1,0 +1,5 @@
+# Công cụ thẩm định khái niệm
+
+Ở giai đoạn này của dự án, toàn bộ giải pháp được đề xuất trong pha giải quyết vấn đề sẽ được đánh giá về tính khả thi trong thực tế dựa trên các yêu cầu kỹ thuật và kinh doanh.
+
+Các tiêu chí đánh giá thường bao gồm những ràng buộc kỹ thuật và sản xuất, yêu cầu về thời gian ra thị trường, cũng như hạn chế về đầu tư và chi phí. Các giải pháp đạt điểm cao nhất sẽ được chọn và đề xuất để phát triển tiếp – hoặc được yêu cầu đánh giá bổ sung nếu cần. Quy trình này giúp sàng lọc hiệu quả các phương án tối ưu, tối ưu hóa nguồn lực và thời gian.

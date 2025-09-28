@@ -9,12 +9,20 @@ website:
         text: Home
       - href: Problem-identification-tools.qmd
         text: Problem-identification
+      - href: Problem-identification-tools_vn.qmd
+        text: Problem-identification-VN
       - href: Problem-solving-tools.qmd
         text: Problem-solving
+      - href: Problem-solving-tools_vn.qmd
+        text: Problem-solving_VN
       - href: Concept-substantiation-tools.qmd
         text: Concept-substantiation
+      - href: Concept-substantiation-tools_vn.qmd
+        text: Concept-substantiation_VN        
       - href: TESE.qmd
         text: TESE
+      - href: TESE_vn.qmd
+        text: TESE_VN        
 
 format:
   html:

@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.43">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>matriz_wiki – tese_vn</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">matriz_wiki</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Problem-identification-tools.html"> 
+<span class="menu-text">Problem-identification</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Problem-identification-tools_vn.html"> 
+<span class="menu-text">Problem-identification-VN</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Problem-solving-tools.html"> 
+<span class="menu-text">Problem-solving</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Problem-solving-tools_vn.html"> 
+<span class="menu-text">Problem-solving_VN</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Concept-substantiation-tools.html"> 
+<span class="menu-text">Concept-substantiation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Concept-substantiation-tools_vn.html"> 
+<span class="menu-text">Concept-substantiation_VN</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./TESE.html"> 
+<span class="menu-text">TESE</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./TESE_vn.html" aria-current="page"> 
+<span class="menu-text">TESE_VN</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#xu-hướng-tiến-hóa-hệ-thống-kỹ-thuật-tese" id="toc-xu-hướng-tiến-hóa-hệ-thống-kỹ-thuật-tese" class="nav-link active" data-scroll-target="#xu-hướng-tiến-hóa-hệ-thống-kỹ-thuật-tese">Xu hướng tiến hóa hệ thống kỹ thuật (TESE)</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan" id="toc-tổng-quan" class="nav-link" data-scroll-target="#tổng-quan">Tổng quan</a></li>
+  <li><a href="#cấu-trúc-phân-cấp-của-tese" id="toc-cấu-trúc-phân-cấp-của-tese" class="nav-link" data-scroll-target="#cấu-trúc-phân-cấp-của-tese">Cấu trúc phân cấp của TESE</a>
+  <ul class="collapse">
+  <li><a href="#xu-hướng-giảm-sự-tham-gia-của-con-người" id="toc-xu-hướng-giảm-sự-tham-gia-của-con-người" class="nav-link" data-scroll-target="#xu-hướng-giảm-sự-tham-gia-của-con-người">Xu hướng giảm sự tham gia của con người</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#xu-hướng-giảm-sự-tham-gia-của-con-người-1" id="toc-xu-hướng-giảm-sự-tham-gia-của-con-người-1" class="nav-link" data-scroll-target="#xu-hướng-giảm-sự-tham-gia-của-con-người-1">Xu hướng giảm sự tham gia của con người</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-1" id="toc-tổng-quan-1" class="nav-link" data-scroll-target="#tổng-quan-1">Tổng quan</a>
+  <ul class="collapse">
+  <li><a href="#xu-hướng-tăng-cường-dòng-chảy" id="toc-xu-hướng-tăng-cường-dòng-chảy" class="nav-link" data-scroll-target="#xu-hướng-tăng-cường-dòng-chảy">Xu hướng tăng cường dòng chảy</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#xu-hướng-tăng-cường-dòng-chảy-1" id="toc-xu-hướng-tăng-cường-dòng-chảy-1" class="nav-link" data-scroll-target="#xu-hướng-tăng-cường-dòng-chảy-1">Xu hướng tăng cường dòng chảy</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-2" id="toc-tổng-quan-2" class="nav-link" data-scroll-target="#tổng-quan-2">Tổng quan</a></li>
+  <li><a href="#các-xu-hướng-con-của-xu-hướng-tăng-cường-dòng-chảy" id="toc-các-xu-hướng-con-của-xu-hướng-tăng-cường-dòng-chảy" class="nav-link" data-scroll-target="#các-xu-hướng-con-của-xu-hướng-tăng-cường-dòng-chảy">Các xu hướng con của xu hướng tăng cường dòng chảy</a>
+  <ul class="collapse">
+  <li><a href="#cải-thiện-dòng-hữu-ích" id="toc-cải-thiện-dòng-hữu-ích" class="nav-link" data-scroll-target="#cải-thiện-dòng-hữu-ích">Cải thiện dòng hữu ích</a></li>
+  <li><a href="#giảm-tác-động-tiêu-cực-của-dòng-có-hạingẫu-nhiên" id="toc-giảm-tác-động-tiêu-cực-của-dòng-có-hạingẫu-nhiên" class="nav-link" data-scroll-target="#giảm-tác-động-tiêu-cực-của-dòng-có-hạingẫu-nhiên">Giảm tác động tiêu cực của dòng có hại/ngẫu nhiên</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#xu-hướng-gia-tăng-mức-độ-đầy-đủ-của-các-khối-chức-năng" id="toc-xu-hướng-gia-tăng-mức-độ-đầy-đủ-của-các-khối-chức-năng" class="nav-link" data-scroll-target="#xu-hướng-gia-tăng-mức-độ-đầy-đủ-của-các-khối-chức-năng">Xu hướng gia tăng mức độ đầy đủ của các khối chức năng</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-3" id="toc-tổng-quan-3" class="nav-link" data-scroll-target="#tổng-quan-3">Tổng quan</a>
+  <ul class="collapse">
+  <li><a href="#xu-hướng-gia-tăng-khả-năng-điều-khiển" id="toc-xu-hướng-gia-tăng-khả-năng-điều-khiển" class="nav-link" data-scroll-target="#xu-hướng-gia-tăng-khả-năng-điều-khiển">Xu hướng gia tăng khả năng điều khiển</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#xu-hướng-gia-tăng-khả-năng-điều-khiển-1" id="toc-xu-hướng-gia-tăng-khả-năng-điều-khiển-1" class="nav-link" data-scroll-target="#xu-hướng-gia-tăng-khả-năng-điều-khiển-1">Xu hướng gia tăng khả năng điều khiển</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-4" id="toc-tổng-quan-4" class="nav-link" data-scroll-target="#tổng-quan-4">Tổng quan</a></li>
+  <li><a href="#cơ-chế-của-xu-hướng-gia-tăng-khả-năng-điều-khiển" id="toc-cơ-chế-của-xu-hướng-gia-tăng-khả-năng-điều-khiển" class="nav-link" data-scroll-target="#cơ-chế-của-xu-hướng-gia-tăng-khả-năng-điều-khiển">Cơ chế của xu hướng gia tăng khả năng điều khiển</a>
+  <ul class="collapse">
+  <li><a href="#mức-độ-điều-khiển-bên-trong-hệ-tăng-lên" id="toc-mức-độ-điều-khiển-bên-trong-hệ-tăng-lên" class="nav-link" data-scroll-target="#mức-độ-điều-khiển-bên-trong-hệ-tăng-lên">Mức độ điều khiển bên trong hệ tăng lên</a></li>
+  <li><a href="#số-trạng-thái-có-thể-điều-khiển-tăng-lên" id="toc-số-trạng-thái-có-thể-điều-khiển-tăng-lên" class="nav-link" data-scroll-target="#số-trạng-thái-có-thể-điều-khiển-tăng-lên">Số trạng thái có thể điều khiển tăng lên</a></li>
+  <li><a href="#xu-hướng-gia-tăng-mức-độ-cắt-gọn" id="toc-xu-hướng-gia-tăng-mức-độ-cắt-gọn" class="nav-link" data-scroll-target="#xu-hướng-gia-tăng-mức-độ-cắt-gọn">Xu hướng gia tăng mức độ cắt gọn</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#xu-hướng-gia-tăng-mức-độ-cắt-gọn-1" id="toc-xu-hướng-gia-tăng-mức-độ-cắt-gọn-1" class="nav-link" data-scroll-target="#xu-hướng-gia-tăng-mức-độ-cắt-gọn-1">Xu hướng gia tăng mức độ cắt gọn</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-5" id="toc-tổng-quan-5" class="nav-link" data-scroll-target="#tổng-quan-5">Tổng quan</a></li>
+  <li><a href="#cắt-gọn-các-khối-chức-năng" id="toc-cắt-gọn-các-khối-chức-năng" class="nav-link" data-scroll-target="#cắt-gọn-các-khối-chức-năng">Cắt gọn các khối chức năng</a></li>
+  <li><a href="#cắt-gọn-thao-tác" id="toc-cắt-gọn-thao-tác" class="nav-link" data-scroll-target="#cắt-gọn-thao-tác">Cắt gọn thao tác</a></li>
+  </ul></li>
+  <li><a href="#xu-hướng-gia-tăng-động-hóa" id="toc-xu-hướng-gia-tăng-động-hóa" class="nav-link" data-scroll-target="#xu-hướng-gia-tăng-động-hóa">Xu hướng gia tăng động hóa</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-6" id="toc-tổng-quan-6" class="nav-link" data-scroll-target="#tổng-quan-6">Tổng quan</a></li>
+  <li><a href="#động-hóa-cấu-trúc" id="toc-động-hóa-cấu-trúc" class="nav-link" data-scroll-target="#động-hóa-cấu-trúc">Động hóa cấu trúc</a></li>
+  <li><a href="#động-hóa-trường" id="toc-động-hóa-trường" class="nav-link" data-scroll-target="#động-hóa-trường">Động hóa trường</a></li>
+  <li><a href="#động-hóa-thành-phần" id="toc-động-hóa-thành-phần" class="nav-link" data-scroll-target="#động-hóa-thành-phần">Động hóa thành phần</a></li>
+  <li><a href="#động-hóa-chức-năng" id="toc-động-hóa-chức-năng" class="nav-link" data-scroll-target="#động-hóa-chức-năng">Động hóa chức năng</a>
+  <ul class="collapse">
+  <li><a href="#xu-hướng-gia-tăng-giá-trị" id="toc-xu-hướng-gia-tăng-giá-trị" class="nav-link" data-scroll-target="#xu-hướng-gia-tăng-giá-trị">Xu hướng gia tăng giá trị</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#xu-hướng-gia-tăng-giá-trị-1" id="toc-xu-hướng-gia-tăng-giá-trị-1" class="nav-link" data-scroll-target="#xu-hướng-gia-tăng-giá-trị-1">Xu hướng gia tăng giá trị</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-7" id="toc-tổng-quan-7" class="nav-link" data-scroll-target="#tổng-quan-7">Tổng quan</a></li>
+  <li><a href="#cơ-chế-nội-tại-của-xu-hướng-gia-tăng-giá-trị" id="toc-cơ-chế-nội-tại-của-xu-hướng-gia-tăng-giá-trị" class="nav-link" data-scroll-target="#cơ-chế-nội-tại-của-xu-hướng-gia-tăng-giá-trị">Cơ chế nội tại của xu hướng gia tăng giá trị</a>
+  <ul class="collapse">
+  <li><a href="#xu-hướng-tiến-hóa-đường-cong-chữ-s" id="toc-xu-hướng-tiến-hóa-đường-cong-chữ-s" class="nav-link" data-scroll-target="#xu-hướng-tiến-hóa-đường-cong-chữ-s">Xu hướng tiến hóa đường cong chữ S</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#xu-hướng-tiến-hóa-đường-cong-chữ-s-1" id="toc-xu-hướng-tiến-hóa-đường-cong-chữ-s-1" class="nav-link" data-scroll-target="#xu-hướng-tiến-hóa-đường-cong-chữ-s-1">Xu hướng tiến hóa đường cong chữ S</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-8" id="toc-tổng-quan-8" class="nav-link" data-scroll-target="#tổng-quan-8">Tổng quan</a>
+  <ul class="collapse">
+  <li><a href="#tham-số-giá-trị-chính" id="toc-tham-số-giá-trị-chính" class="nav-link" data-scroll-target="#tham-số-giá-trị-chính">Tham số giá trị chính</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#tham-số-giá-trị-chính-1" id="toc-tham-số-giá-trị-chính-1" class="nav-link" data-scroll-target="#tham-số-giá-trị-chính-1">Tham số giá trị chính</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-9" id="toc-tổng-quan-9" class="nav-link" data-scroll-target="#tổng-quan-9">Tổng quan</a></li>
+  </ul></li>
+  <li><a href="#đường-cong-chữ-s-1" id="toc-đường-cong-chữ-s-1" class="nav-link" data-scroll-target="#đường-cong-chữ-s-1">Đường cong chữ S</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-10" id="toc-tổng-quan-10" class="nav-link" data-scroll-target="#tổng-quan-10">Tổng quan</a></li>
+  <li><a href="#các-giai-đoạn-của-đường-cong-chữ-s" id="toc-các-giai-đoạn-của-đường-cong-chữ-s" class="nav-link" data-scroll-target="#các-giai-đoạn-của-đường-cong-chữ-s">Các giai đoạn của đường cong chữ S</a></li>
+  <li><a href="#các-chỉ-báo-theo-altshuller" id="toc-các-chỉ-báo-theo-altshuller" class="nav-link" data-scroll-target="#các-chỉ-báo-theo-altshuller">Các chỉ báo theo Altshuller</a>
+  <ul class="collapse">
+  <li><a href="#giá-trị-mpv" id="toc-giá-trị-mpv" class="nav-link" data-scroll-target="#giá-trị-mpv">Giá trị MPV</a></li>
+  <li><a href="#số-lượng-bằng-sáng-chế" id="toc-số-lượng-bằng-sáng-chế" class="nav-link" data-scroll-target="#số-lượng-bằng-sáng-chế">Số lượng bằng sáng chế</a></li>
+  <li><a href="#mức-độ-sáng-chế" id="toc-mức-độ-sáng-chế" class="nav-link" data-scroll-target="#mức-độ-sáng-chế">Mức độ sáng chế</a></li>
+  <li><a href="#lợi-nhuận" id="toc-lợi-nhuận" class="nav-link" data-scroll-target="#lợi-nhuận">Lợi nhuận</a></li>
+  <li><a href="#xu-hướng-chuyển-sang-siêu-hệ" id="toc-xu-hướng-chuyển-sang-siêu-hệ" class="nav-link" data-scroll-target="#xu-hướng-chuyển-sang-siêu-hệ">Xu hướng chuyển sang siêu hệ</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#xu-hướng-chuyển-sang-siêu-hệ-1" id="toc-xu-hướng-chuyển-sang-siêu-hệ-1" class="nav-link" data-scroll-target="#xu-hướng-chuyển-sang-siêu-hệ-1">Xu hướng chuyển sang siêu hệ</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-11" id="toc-tổng-quan-11" class="nav-link" data-scroll-target="#tổng-quan-11">Tổng quan</a></li>
+  <li><a href="#các-cơ-chế-của-xu-hướng" id="toc-các-cơ-chế-của-xu-hướng" class="nav-link" data-scroll-target="#các-cơ-chế-của-xu-hướng">Các cơ chế của xu hướng</a>
+  <ul class="collapse">
+  <li><a href="#gia-tăng-khác-biệt-về-tham-số" id="toc-gia-tăng-khác-biệt-về-tham-số" class="nav-link" data-scroll-target="#gia-tăng-khác-biệt-về-tham-số">Gia tăng khác biệt về tham số</a></li>
+  <li><a href="#gia-tăng-khác-biệt-về-chức-năng-chính" id="toc-gia-tăng-khác-biệt-về-chức-năng-chính" class="nav-link" data-scroll-target="#gia-tăng-khác-biệt-về-chức-năng-chính">Gia tăng khác biệt về chức năng chính</a></li>
+  <li><a href="#tăng-độ-sâu-tích-hợp" id="toc-tăng-độ-sâu-tích-hợp" class="nav-link" data-scroll-target="#tăng-độ-sâu-tích-hợp">Tăng độ sâu tích hợp</a></li>
+  <li><a href="#tăng-số-lượng-hệ-được-tích-hợp" id="toc-tăng-số-lượng-hệ-được-tích-hợp" class="nav-link" data-scroll-target="#tăng-số-lượng-hệ-được-tích-hợp">Tăng số lượng hệ được tích hợp</a></li>
+  <li><a href="#xu-hướng-phát-triển-không-đồng-đều-của-các-thành-phần" id="toc-xu-hướng-phát-triển-không-đồng-đều-của-các-thành-phần" class="nav-link" data-scroll-target="#xu-hướng-phát-triển-không-đồng-đều-của-các-thành-phần">Xu hướng phát triển không đồng đều của các thành phần</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#xu-hướng-phát-triển-không-đồng-đều-của-các-thành-phần-1" id="toc-xu-hướng-phát-triển-không-đồng-đều-của-các-thành-phần-1" class="nav-link" data-scroll-target="#xu-hướng-phát-triển-không-đồng-đều-của-các-thành-phần-1">Xu hướng phát triển không đồng đều của các thành phần</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-12" id="toc-tổng-quan-12" class="nav-link" data-scroll-target="#tổng-quan-12">Tổng quan</a></li>
+  <li><a href="#thuật-ngữ" id="toc-thuật-ngữ" class="nav-link" data-scroll-target="#thuật-ngữ">THUẬT NGỮ</a></li>
+  <li><a href="#a" id="toc-a" class="nav-link" data-scroll-target="#a">A</a></li>
+  <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">B</a></li>
+  <li><a href="#c" id="toc-c" class="nav-link" data-scroll-target="#c">C</a></li>
+  <li><a href="#d" id="toc-d" class="nav-link" data-scroll-target="#d">D</a></li>
+  <li><a href="#e" id="toc-e" class="nav-link" data-scroll-target="#e">E</a></li>
+  <li><a href="#f" id="toc-f" class="nav-link" data-scroll-target="#f">F</a></li>
+  <li><a href="#h" id="toc-h" class="nav-link" data-scroll-target="#h">H</a></li>
+  <li><a href="#i" id="toc-i" class="nav-link" data-scroll-target="#i">I</a></li>
+  <li><a href="#k" id="toc-k" class="nav-link" data-scroll-target="#k">K</a></li>
+  <li><a href="#l" id="toc-l" class="nav-link" data-scroll-target="#l">L</a></li>
+  <li><a href="#m" id="toc-m" class="nav-link" data-scroll-target="#m">M</a></li>
+  <li><a href="#p" id="toc-p" class="nav-link" data-scroll-target="#p">P</a></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a></li>
+  <li><a href="#s" id="toc-s" class="nav-link" data-scroll-target="#s">S</a></li>
+  <li><a href="#t" id="toc-t" class="nav-link" data-scroll-target="#t">T</a></li>
+  <li><a href="#u" id="toc-u" class="nav-link" data-scroll-target="#u">U</a></li>
+  <li><a href="#v" id="toc-v" class="nav-link" data-scroll-target="#v">V</a></li>
+  <li><a href="#w" id="toc-w" class="nav-link" data-scroll-target="#w">W</a></li>
+  <li><a href="#x" id="toc-x" class="nav-link" data-scroll-target="#x">X</a></li>
+  <li><a href="#nguồn-lực-trong-triz" id="toc-nguồn-lực-trong-triz" class="nav-link" data-scroll-target="#nguồn-lực-trong-triz">Nguồn lực trong TRIZ</a></li>
+  </ul></li>
+  <li><a href="#nguồn-lực-trong-triz-1" id="toc-nguồn-lực-trong-triz-1" class="nav-link" data-scroll-target="#nguồn-lực-trong-triz-1">Nguồn lực trong TRIZ</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-13" id="toc-tổng-quan-13" class="nav-link" data-scroll-target="#tổng-quan-13">Tổng quan</a>
+  <ul class="collapse">
+  <li><a href="#a.-theo-mức-độ-sẵn-có" id="toc-a.-theo-mức-độ-sẵn-có" class="nav-link" data-scroll-target="#a.-theo-mức-độ-sẵn-có">A. Theo mức độ sẵn có</a></li>
+  <li><a href="#b.-theo-mức-độ-sẵn-sàng-sử-dụng" id="toc-b.-theo-mức-độ-sẵn-sàng-sử-dụng" class="nav-link" data-scroll-target="#b.-theo-mức-độ-sẵn-sàng-sử-dụng">B. Theo mức độ sẵn sàng sử dụng</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="xu-hướng-tiến-hóa-hệ-thống-kỹ-thuật-tese" class="level1">
+<h1>Xu hướng tiến hóa hệ thống kỹ thuật (TESE)</h1>
+<p><em><strong>Xu hướng tiến hóa hệ thống kỹ thuật</strong> (Trends of Engineering Systems Evolution – TESE) là những hướng phát triển của hệ thống kỹ thuật đã được chứng minh bằng thống kê hoặc thực nghiệm, mô tả sự chuyển dịch tự nhiên của hệ thống kỹ thuật từ trạng thái này sang trạng thái khác.</em></p>
+<section id="tổng-quan" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan">Tổng quan</h2>
+<p>Việc nhận diện và thấu hiểu các xu hướng tiến hóa hệ thống kỹ thuật (TESE) có thể xem là đóng góp quan trọng nhất của TRIZ đối với khoa học đổi mới sáng tạo. Chúng cũng là nền tảng cho nhiều công cụ TRIZ khác.</p>
+<p>TESE được hình thành từ quá trình phân tích sâu lịch sử phát triển của sản phẩm và công nghệ ở nhiều ngành. Khi nghiên cứu lịch sử – dựa trên hàng nghìn bằng sáng chế – người ta nhận thấy mọi sản phẩm và công nghệ đều tuân theo những mô thức khái niệm tương tự. TESE định nghĩa các giai đoạn mà gần như mọi sản phẩm và công nghệ sẽ trải qua trong quá trình phát triển. Điều này không có nghĩa là không thể thiết kế một sản phẩm lệch khỏi TESE, nhưng về lâu dài sản phẩm đó rất dễ thất bại.</p>
+<p>Trọng tâm của TESE nằm ở giả định rằng công nghệ tiến hóa theo quỹ đạo riêng, độc lập với ý chí con người. Vì vậy, chúng thường được gọi là <strong>tiếng nói của sản phẩm</strong>. Tuy nhiên, để có hiệu quả tối đa, TESE cần được tích hợp với nhu cầu thị trường – tiếng nói của khách hàng.</p>
+</section>
+<section id="cấu-trúc-phân-cấp-của-tese" class="level2">
+<h2 class="anchored" data-anchor-id="cấu-trúc-phân-cấp-của-tese">Cấu trúc phân cấp của TESE</h2>
+<p>TESE được tổ chức theo cấu trúc phân cấp phản ánh mối quan hệ giữa các xu hướng. Trong cấu trúc này, một xu hướng cấp thấp đóng vai trò là xu hướng con (cơ chế) của xu hướng cấp cao hơn. Đồng thời mỗi xu hướng cũng có cơ chế nội tại điều khiển sự tiến hóa của hệ thống. Nói cách khác, để hệ thống tiến hóa theo một xu hướng cấp cao, cả cơ chế nội tại của xu hướng đó lẫn cơ chế của các xu hướng con đều phải được triển khai.</p>
+<p><img src="media/wp-content/uploads/2024/08/tese-1024x501.png" class="img-fluid"></p>
+<p>Cần lưu ý rằng TESE và cấu trúc của chúng đã phát triển qua nhiều thập kỷ, vì vậy trong tài liệu TRIZ có thể gặp các phiên bản khác nhau. Các định nghĩa và thứ bậc chính thức được MATRIZ công nhận do Trường phái khoa học TRIZ St.&nbsp;Petersburg – được xem là trường phái TRIZ thực dụng nhất – xây dựng.</p>
+<ul>
+<li><strong>Xu hướng tiến hóa đường cong chữ S</strong>: khi hệ thống kỹ thuật tiến hóa, diễn biến của từng tham số giá trị chính (MPV) theo thời gian tạo thành đường cong chữ S.</li>
+<li><strong>Xu hướng gia tăng giá trị</strong>: hệ thống kỹ thuật tiến hóa sao cho giá trị của nó luôn tăng.</li>
+<li><strong>Xu hướng chuyển sang siêu hệ</strong>: khi hệ thống kỹ thuật tiến hóa, nó được tích hợp với các thành phần của siêu hệ.</li>
+<li><strong>Xu hướng gia tăng mức độ đầy đủ của các khối chức năng</strong>: khi hệ thống kỹ thuật tiến hóa, nó lần lượt sở hữu các khối chức năng điển hình: tác nhân vận hành, truyền dẫn, nguồn năng lượng và hệ điều khiển.</li>
+<li><strong>Xu hướng giảm sự tham gia của con người</strong>: khi hệ thống kỹ thuật tiến hóa, số chức năng do con người thực hiện thay cho hệ thống giảm dần.</li>
+<li><strong>Xu hướng gia tăng mức độ cắt gọn</strong>: khi hệ thống kỹ thuật tiến hóa, các phần tử (thành phần hoặc thao tác) bị loại bỏ mà không làm suy giảm – thậm chí còn cải thiện – chức năng của hệ thống.</li>
+<li><strong>Xu hướng tăng cường dòng chảy</strong>: khi hệ thống kỹ thuật tiến hóa, lưu lượng chất, năng lượng hoặc thông tin tăng lên và/hoặc được khai thác hiệu quả hơn.</li>
+<li><strong>Xu hướng gia tăng mức độ phối hợp</strong>: khi hệ thống kỹ thuật tiến hóa, các đặc tính của các thành phần trong hệ và siêu hệ ngày càng được phối hợp tốt hơn với nhau.</li>
+<li><strong>Xu hướng phát triển không đồng đều của các thành phần</strong>: khi hệ thống kỹ thuật tiến hóa, sự phát triển tập trung trước tiên vào tác nhân vận hành, sau đó mới đến các phần còn lại.</li>
+<li><strong>Xu hướng gia tăng khả năng điều khiển</strong>: khi hệ thống kỹ thuật tiến hóa, nó phát triển thêm các cách thức để điều khiển.</li>
+<li><strong>Xu hướng gia tăng động hóa</strong>: khi hệ thống kỹ thuật tiến hóa, bản thân hệ và các thành phần trở nên “động” hơn.</li>
+</ul>
+<section id="bài-viết" class="level4">
+<h4 class="anchored" data-anchor-id="bài-viết">Bài viết</h4>
+<ul>
+<li>Xu hướng tiến hóa đường cong chữ S
+<ul>
+<li>Tham số giá trị chính</li>
+<li>Đường cong chữ S</li>
+</ul></li>
+<li>Xu hướng gia tăng giá trị</li>
+<li>Xu hướng chuyển sang siêu hệ</li>
+<li>Xu hướng gia tăng mức độ đầy đủ của các khối chức năng</li>
+<li>Xu hướng giảm sự tham gia của con người</li>
+<li>Xu hướng gia tăng mức độ cắt gọn</li>
+<li>Xu hướng tăng cường dòng chảy</li>
+<li>Xu hướng gia tăng mức độ phối hợp</li>
+<li>Xu hướng phát triển không đồng đều của các thành phần</li>
+<li>Xu hướng gia tăng khả năng điều khiển</li>
+<li>Xu hướng gia tăng động hóa</li>
+</ul>
+</section>
+<section id="xu-hướng-giảm-sự-tham-gia-của-con-người" class="level3">
+<h3 class="anchored" data-anchor-id="xu-hướng-giảm-sự-tham-gia-của-con-người">Xu hướng giảm sự tham gia của con người</h3>
+</section>
+</section>
+</section>
+<section id="xu-hướng-giảm-sự-tham-gia-của-con-người-1" class="level1">
+<h1>Xu hướng giảm sự tham gia của con người</h1>
+<p><em><strong>Xu hướng giảm sự tham gia của con người</strong>: khi hệ thống kỹ thuật tiến hóa, số chức năng do con người đảm nhiệm thay cho hệ thống giảm dần.</em></p>
+<section id="tổng-quan-1" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-1">Tổng quan</h2>
+<p>Xu hướng giảm sự tham gia của con người là xu hướng con (cơ chế) của xu hướng gia tăng mức độ đầy đủ của các khối chức năng.</p>
+<p>Trước khi một hệ thống kỹ thuật ra đời, con người phải tự thực hiện mọi chức năng ở mọi cấp độ – nếu không các chức năng đó không tồn tại. Sự xuất hiện của hệ thống và quá trình phát triển tiếp theo giúp hệ từng bước tiếp quản các chức năng (tăng mức độ đầy đủ), qua đó giảm sự tham gia của con người. Quá trình này thường diễn ra theo thứ tự:</p>
+<ol type="1">
+<li>truyền dẫn,</li>
+<li>nguồn năng lượng,</li>
+<li>hệ điều khiển, và</li>
+<li>ra quyết định.</li>
+</ol>
+<section id="xu-hướng-tăng-cường-dòng-chảy" class="level3">
+<h3 class="anchored" data-anchor-id="xu-hướng-tăng-cường-dòng-chảy">Xu hướng tăng cường dòng chảy</h3>
+</section>
+</section>
+</section>
+<section id="xu-hướng-tăng-cường-dòng-chảy-1" class="level1">
+<h1>Xu hướng tăng cường dòng chảy</h1>
+<p><em><strong>Xu hướng tăng cường dòng chảy</strong> là <a href="http://TESE">xu hướng tiến hóa hệ thống kỹ thuật</a> theo đó khi hệ thống tiến hóa, lưu lượng chất, năng lượng hoặc thông tin tăng lên và/hoặc được khai thác hiệu quả hơn.</em></p>
+<section id="tổng-quan-2" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-2">Tổng quan</h2>
+<p>Xu hướng tăng cường dòng chảy là một trong bốn cơ chế trực tiếp hỗ trợ xu hướng gia tăng giá trị trong hệ phân cấp TESE (cùng với xu hướng chuyển sang siêu hệ, xu hướng gia tăng mức độ cắt gọn và xu hướng gia tăng mức độ đầy đủ của các khối chức năng).</p>
+</section>
+<section id="các-xu-hướng-con-của-xu-hướng-tăng-cường-dòng-chảy" class="level2">
+<h2 class="anchored" data-anchor-id="các-xu-hướng-con-của-xu-hướng-tăng-cường-dòng-chảy">Các xu hướng con của xu hướng tăng cường dòng chảy</h2>
+<p>Xu hướng này có hai xu hướng con chính, mỗi xu hướng lại chia thành các cơ chế cụ thể:</p>
+<ol type="1">
+<li>cải thiện dòng hữu ích, và</li>
+<li>giảm tác động tiêu cực của dòng có hại/ngẫu nhiên.</li>
+</ol>
+<section id="cải-thiện-dòng-hữu-ích" class="level3">
+<h3 class="anchored" data-anchor-id="cải-thiện-dòng-hữu-ích">Cải thiện dòng hữu ích</h3>
+<p>Dòng hữu ích có thể được cải thiện bằng hai cơ chế:</p>
+<p>A. tăng tính dẫn của dòng, hoặc</p>
+<p>B. khai thác dòng tốt hơn.</p>
+<section id="tăng-tính-dẫn-của-dòng" class="level4">
+<h4 class="anchored" data-anchor-id="tăng-tính-dẫn-của-dòng">Tăng tính dẫn của dòng</h4>
+<p>Để tăng tính dẫn của dòng hữu ích, có thể áp dụng các kỹ thuật:</p>
+<ul>
+<li>giảm số lần biến đổi của dòng,</li>
+<li>chuyển sang dạng dòng hiệu quả hơn,</li>
+<li>rút ngắn đường đi của dòng,</li>
+<li>loại bỏ “vùng xám”,</li>
+<li>loại bỏ “nút thắt cổ chai”,</li>
+<li>tạo đường vòng (bypass),</li>
+<li>tăng tính dẫn của từng phần trong kênh dòng,</li>
+<li>tăng mật độ dòng,</li>
+<li>tận dụng tác động hữu ích của một dòng lên dòng khác,</li>
+<li>tận dụng tác động hữu ích của một dòng lên kênh của dòng khác,</li>
+<li>bố trí lại để một dòng mang theo dòng khác,</li>
+<li>gom nhiều dòng vào một kênh,</li>
+<li>biến đổi dòng để tăng tính dẫn, hoặc</li>
+<li>dẫn dòng qua kênh của siêu hệ.</li>
+</ul>
+</section>
+<section id="khai-thác-dòng-tốt-hơn" class="level4">
+<h4 class="anchored" data-anchor-id="khai-thác-dòng-tốt-hơn">Khai thác dòng tốt hơn</h4>
+<p>Các kỹ thuật khai thác dòng hiệu quả hơn gồm:</p>
+<ul>
+<li>loại bỏ vùng đọng (stagnant zone),</li>
+<li>sử dụng tác động xung (impulse),</li>
+<li>sử dụng cộng hưởng,</li>
+<li>điều biến dòng,</li>
+<li>phân phối lại dòng,</li>
+<li>kết hợp các dòng đồng nhất,</li>
+<li>sử dụng tuần hoàn (recirculation),</li>
+<li>kết hợp hai dòng khác nhau để tạo hiệu ứng cộng hưởng, hoặc</li>
+<li>chuẩn bị trước chất, năng lượng hoặc thông tin cần thiết.</li>
+</ul>
+</section>
+</section>
+<section id="giảm-tác-động-tiêu-cực-của-dòng-có-hạingẫu-nhiên" class="level3">
+<h3 class="anchored" data-anchor-id="giảm-tác-động-tiêu-cực-của-dòng-có-hạingẫu-nhiên">Giảm tác động tiêu cực của dòng có hại/ngẫu nhiên</h3>
+<p>Có thể giảm tác động tiêu cực của dòng có hại/ngẫu nhiên bằng hai cách:</p>
+<p>A. giảm tính dẫn của các dòng có hại/ngẫu nhiên, hoặc</p>
+<p>B. giảm tác động của dòng có hại.</p>
+<section id="giảm-tính-dẫn-của-dòng-có-hạingẫu-nhiên" class="level4">
+<h4 class="anchored" data-anchor-id="giảm-tính-dẫn-của-dòng-có-hạingẫu-nhiên">Giảm tính dẫn của dòng có hại/ngẫu nhiên</h4>
+<p>Các kỹ thuật bao gồm:</p>
+<ul>
+<li>tăng số lần biến đổi của dòng,</li>
+<li>chuyển sang dạng dòng có tính dẫn thấp,</li>
+<li>kéo dài đường đi của dòng,</li>
+<li>chèn thêm nút thắt cổ chai,</li>
+<li>chèn vùng đọng,</li>
+<li>giảm tính dẫn của một phần kênh dòng, hoặc</li>
+<li>sử dụng tuần hoàn.</li>
+</ul>
+</section>
+<section id="giảm-tác-động-của-dòng-có-hại" class="level4">
+<h4 class="anchored" data-anchor-id="giảm-tác-động-của-dòng-có-hại">Giảm tác động của dòng có hại</h4>
+<p>Có thể áp dụng các kỹ thuật:</p>
+<ul>
+<li>tạo vùng xám,</li>
+<li>giảm mật độ dòng,</li>
+<li>loại bỏ hiện tượng cộng hưởng,</li>
+<li>phân phối lại dòng,</li>
+<li>kết hợp dòng và phản dòng,</li>
+<li>biến đổi dòng,</li>
+<li>biến đổi đối tượng bị ảnh hưởng,</li>
+<li>chuẩn bị trước chất, năng lượng hoặc dữ liệu để trung hòa dòng,</li>
+<li>tạo đường vòng,</li>
+<li>chuyển dòng lên siêu hệ, hoặc</li>
+<li>tái chế/thu hồi các dòng ngẫu nhiên. ### Xu hướng gia tăng mức độ đầy đủ của các khối chức năng</li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+<section id="xu-hướng-gia-tăng-mức-độ-đầy-đủ-của-các-khối-chức-năng" class="level1">
+<h1>Xu hướng gia tăng mức độ đầy đủ của các khối chức năng</h1>
+<p><em><strong>Xu hướng gia tăng mức độ đầy đủ của các khối chức năng</strong>: khi hệ thống kỹ thuật tiến hóa, nó lần lượt sở hữu các khối chức năng điển hình: tác nhân vận hành, truyền dẫn, nguồn năng lượng và hệ điều khiển.</em></p>
+<section id="tổng-quan-3" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-3">Tổng quan</h2>
+<p>Xu hướng này là một trong bốn cơ chế trực tiếp hỗ trợ xu hướng gia tăng giá trị (cùng với xu hướng chuyển sang siêu hệ, xu hướng gia tăng mức độ cắt gọn và xu hướng tăng cường dòng chảy).</p>
+<p>Một hệ thống kỹ thuật muốn hoạt động cần có bốn khối cơ bản:</p>
+<ol type="1">
+<li><strong>tác nhân vận hành</strong> thực hiện chức năng trùng với chức năng chính của hệ,</li>
+<li><strong>nguồn năng lượng</strong> cung cấp năng lượng vận hành,</li>
+<li><strong>khối truyền dẫn</strong> chuyển năng lượng từ nguồn tới tác nhân vận hành, và</li>
+<li><strong>khối điều khiển</strong> giám sát/điều chỉnh hoạt động của hệ.</li>
+</ol>
+<p>Một hệ thống mới thường chỉ có tác nhân vận hành – thành phần đi cùng suốt vòng đời. Đôi khi nó được bổ sung dạng truyền dẫn sơ khai.</p>
+<p>Các khối chức năng còn lại ban đầu thuộc về siêu hệ. Khi hệ phát triển, nó tự sở hữu các khối này theo trình tự:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_complet-1024x306.png" class="img-fluid"></p>
+<p>Quá trình tích hợp không nhất thiết là chuỗi bốn bước đơn giản. Việc tích hợp từng khối có thể diễn ra qua nhiều bước nhỏ. Ví dụ hệ không có ngay động cơ hoàn chỉnh – trước đó có thể chỉ là lò xo hoặc dây cung tích năng. Khối điều khiển của hệ sưởi có thể phát triển dần thông qua thermostat, hẹn giờ, v.v.</p>
+<section id="xu-hướng-gia-tăng-khả-năng-điều-khiển" class="level3">
+<h3 class="anchored" data-anchor-id="xu-hướng-gia-tăng-khả-năng-điều-khiển">Xu hướng gia tăng khả năng điều khiển</h3>
+</section>
+</section>
+</section>
+<section id="xu-hướng-gia-tăng-khả-năng-điều-khiển-1" class="level1">
+<h1>Xu hướng gia tăng khả năng điều khiển</h1>
+<p><em><strong>Xu hướng gia tăng khả năng điều khiển</strong>: khi hệ thống kỹ thuật tiến hóa, nó phát triển thêm nhiều cách thức điều khiển.</em></p>
+<section id="tổng-quan-4" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-4">Tổng quan</h2>
+<p>Cùng với xu hướng phát triển không đồng đều của các thành phần, xu hướng gia tăng khả năng điều khiển là cơ chế của xu hướng gia tăng mức độ phối hợp.</p>
+<p>“Điều khiển” ở đây là các hành động nhằm điều chỉnh giá trị tham số của hệ để phù hợp với những biến thiên của siêu hệ và môi trường xung quanh.</p>
+</section>
+<section id="cơ-chế-của-xu-hướng-gia-tăng-khả-năng-điều-khiển" class="level2">
+<h2 class="anchored" data-anchor-id="cơ-chế-của-xu-hướng-gia-tăng-khả-năng-điều-khiển">Cơ chế của xu hướng gia tăng khả năng điều khiển</h2>
+<p>Xu hướng gia tăng động hóa là xu hướng con của xu hướng này. Ngoài ra, bản thân xu hướng còn có hai cơ chế riêng, cho rằng khi hệ tiến hóa:</p>
+<ol type="1">
+<li>mức độ điều khiển bên trong hệ tăng lên, và</li>
+<li>số trạng thái có thể điều khiển tăng lên.</li>
+</ol>
+<section id="mức-độ-điều-khiển-bên-trong-hệ-tăng-lên" class="level3">
+<h3 class="anchored" data-anchor-id="mức-độ-điều-khiển-bên-trong-hệ-tăng-lên">Mức độ điều khiển bên trong hệ tăng lên</h3>
+<p>Theo cơ chế này, hệ phát triển theo lộ trình:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_control-level-1024x192.png" class="img-fluid"></p>
+<p>Ban đầu hệ <strong>không được điều khiển</strong>, không có khối điều khiển riêng (ví dụ hệ chiếu sáng văn phòng bật/tắt thủ công). Khi có khối điều khiển, hệ bắt đầu tự điều khiển – trước hết theo <strong>chương trình cố định</strong> (ví dụ bật/tắt theo bộ hẹn giờ). Giai đoạn tiếp theo cho phép <strong>can thiệp vào chương trình cố định</strong> (chuyển chế độ cuối tuần, điều chỉnh thời gian bật/tắt theo độ dài ngày). Sau đó là hệ <strong>được điều khiển từ bên ngoài</strong> (ví dụ quản lý tòa nhà theo dõi phòng sử dụng và bật/tắt đèn thủ công).</p>
+<p>Cuối cùng hệ đạt mức <strong>tự điều khiển hoàn toàn</strong> – ví dụ cảm biến hiện diện phát hiện người trong phòng và tự điều chỉnh đèn. Có thể phân biệt <strong>điều khiển vĩ mô</strong> và <strong>vi mô</strong>.</p>
+<p>Ví dụ điều khiển vĩ mô: hệ có cảm biến phát hiện điều kiện môi trường và điều chỉnh ánh sáng (bật/tắt theo hiện diện, ánh sáng tự nhiên…).</p>
+<p>Trong điều khiển vi mô, không có thành phần cảm biến riêng biệt; hệ sử dụng vật liệu hoặc hiện tượng vật lý đặc thù để phản ứng trực tiếp với biến đổi mà không cần phát hiện trước. Ví dụ điển hình là van một chiều hoạt động nhờ lực của chất lỏng chảy qua; van tự mở/đóng mà không cần cảm biến hay tín hiệu bên ngoài.</p>
+</section>
+<section id="số-trạng-thái-có-thể-điều-khiển-tăng-lên" class="level3">
+<h3 class="anchored" data-anchor-id="số-trạng-thái-có-thể-điều-khiển-tăng-lên">Số trạng thái có thể điều khiển tăng lên</h3>
+<p>Xu hướng con này cho rằng khi hệ tiến hóa, số trạng thái có thể điều khiển tăng dần theo trình tự:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_control-states-1024x157.png" class="img-fluid"></p>
+<p>Ví dụ: điều chỉnh thông số âm thanh trong các hệ phát nhạc. Máy hát đĩa đời đầu chỉ có một mức âm lượng cố định (<strong>một trạng thái</strong>) vì không thể chỉnh trong khi phát. Sau đó xuất hiện các công tắc bậc, cho phép chọn <strong>vài mức rời rạc</strong>. Tiếp theo là núm vặn liên tục, cung cấp dải <strong>vô số trạng thái liên tục</strong>. Thiết bị hiện đại sử dụng chiết áp số (digital potentiometer) điều khiển chính xác không chỉ âm lượng mà còn âm sắc, cân bằng kênh, equalizer… – tức có <strong>nhiều dải điều khiển</strong> khác nhau.</p>
+<section id="phối-hợp-hình-dạng" class="level4">
+<h4 class="anchored" data-anchor-id="phối-hợp-hình-dạng">Phối hợp hình dạng</h4>
+<p>Phối hợp hình dạng có thể xuất hiện theo bốn cách:</p>
+<p><strong>ĐỒNG NHẤT</strong> – các phần tử khớp với nhau hoàn hảo, ví dụ:</p>
+<ul>
+<li>bu-lông và đai ốc, nơi bước ren phải trùng khớp mới vặn được,</li>
+<li>đầu tua-vít và rãnh vít,</li>
+<li>quả trứng và khay đựng trứng,</li>
+<li>chìa khóa và ổ khóa.</li>
+</ul>
+<p><strong>TỰ TƯƠNG THÍCH</strong> – hình dạng cho phép xếp chồng hoặc lồng ghép gọn gàng, ví dụ:</p>
+<ul>
+<li>dao nĩa dùng một lần,</li>
+<li>container vận tải,</li>
+<li>ghế xếp sân vườn.</li>
+</ul>
+<p><strong>TƯƠNG THÍCH</strong> – hình dạng được tối ưu hóa theo một tham số của siêu hệ, ví dụ:</p>
+<ul>
+<li>tay nắm cửa, nội thất hoặc chuột máy tính được thiết kế công thái học để vừa vặn bàn tay người,</li>
+<li>rây bột có hình dạng phù hợp để làm việc hiệu quả với nguyên liệu dạng bột.</li>
+</ul>
+<p><strong>ĐẶC BIỆT</strong> – các hình dạng không thuộc ba nhóm trên nhưng được tạo ra để thực hiện mục đích đặc thù, ví dụ:</p>
+<ul>
+<li>mũi tàu phá băng có hình dạng đặc biệt để phá vỡ lớp băng,</li>
+<li>lưỡi xẻng được thiết kế giúp hót và di chuyển cát/dất dễ dàng hơn.</li>
+</ul>
+</section>
+<section id="phối-hợp-nhịp-điệu" class="level4">
+<h4 class="anchored" data-anchor-id="phối-hợp-nhịp-điệu">Phối hợp nhịp điệu</h4>
+<p>Sự phối hợp nhịp điệu có thể diễn ra theo ba cách:</p>
+<p><strong>ĐỒNG NHẤT</strong>, ví dụ:</p>
+<ul>
+<li>chuyển động van trong động cơ đốt trong được đồng bộ hoàn hảo với hành trình piston để nạp/nén – xả đúng thời điểm,</li>
+<li>âm thanh và hình ảnh trong hệ AV phát đồng bộ để tránh “lệch tiếng” (lip sync),</li>
+<li>kính 3D đồng bộ hình ảnh cung cấp cho mắt trái/phải.</li>
+</ul>
+<p><strong>BỔ TRỢ</strong> – các thành phần không hoạt động đồng thời mà lần lượt thay phiên, tận dụng thời gian rỗi của nhau, ví dụ:</p>
+<ul>
+<li>chương trình SETI@home chỉ chạy khi máy tính nhàn rỗi (chế độ screensaver),</li>
+<li>robot cộng tác (cobot) trên dây chuyền: robot bắt vít khi công nhân tạm dừng, rồi dừng lại để công nhân đặt chi tiết tiếp theo.</li>
+</ul>
+<p><strong>ĐẶC BIỆT</strong> – các dạng phối hợp khác, ví dụ:</p>
+<ul>
+<li>máy mát xa trị liệu siêu âm điều chỉnh tần số rung khớp với cộng hưởng của cơ và mô dưới da,</li>
+<li>hệ tưới tiêu nông nghiệp chính xác, điều chỉnh nhịp tưới theo pha sinh trưởng và nhịp sinh học của cây (chu kỳ thoát hơi nước).</li>
+</ul>
+</section>
+<section id="phối-hợp-vật-liệu" class="level4">
+<h4 class="anchored" data-anchor-id="phối-hợp-vật-liệu">Phối hợp vật liệu</h4>
+<p>Danh mục gợi ý khi tìm vật liệu phù hợp cho phối hợp gồm:</p>
+<p><strong>VẬT LIỆU ĐỒNG NHẤT</strong>, ví dụ:</p>
+<ul>
+<li>cấy ghép nội tạng đã nhân bản,</li>
+<li>sửa mặt đường bằng hỗn hợp vật liệu giống hệt ban đầu.</li>
+</ul>
+<p><strong>VẬT LIỆU TƯƠNG ĐỒNG</strong>, ví dụ:</p>
+<ul>
+<li>cấy ghép nội tạng từ người hiến,</li>
+<li>chèn miếng gỗ cùng loại vào đồ gỗ.</li>
+</ul>
+<p><strong>VẬT LIỆU TRƠ</strong>, ví dụ:</p>
+<ul>
+<li>cấy ghép nội tạng nhân tạo,</li>
+<li>trám bề mặt gỗ bằng bột trét.</li>
+</ul>
+<p><strong>VẬT LIỆU CÓ THAM SỐ LỆCH</strong>, tức phối hợp tạo hiệu ứng dựa trên chênh lệch đặc tính, ví dụ:</p>
+<ul>
+<li>cặp nhiệt điện (thermocouple) gồm hai kim loại khác nhau; chênh lệch nhiệt độ tại mối ghép sinh ra điện áp (hiệu ứng nhiệt điện).</li>
+</ul>
+<p><strong>VẬT LIỆU CÓ THAM SỐ ĐỐI NGHỊCH</strong>, ví dụ:</p>
+<ul>
+<li>dây cáp gồm lõi dẫn điện và lớp cách điện.</li>
+</ul>
+</section>
+<section id="phối-hợp-hành-động" class="level4">
+<h4 class="anchored" data-anchor-id="phối-hợp-hành-động">Phối hợp hành động</h4>
+<p>Sự tương tác giữa công cụ và sản phẩm có thể diễn ra tại điểm (0D), dọc theo đường (1D), trên bề mặt (2D) hoặc trong thể tích (3D). Phối hợp hành động liên quan tới việc chuyển đổi giữa các dạng tiếp xúc này, theo hai hướng:</p>
+<ul>
+<li>tiến dọc chuỗi: 0D → 1D → 2D → 3D, hoặc</li>
+<li>lùi dọc chuỗi: 3D → 2D → 1D → 0D.</li>
+</ul>
+<p><img src="media/wp-content/uploads/2025/03/0D-1D-2D-3D-1024x339.png" class="img-fluid"></p>
+<p>Ví dụ tiến dọc chuỗi: chiếc “máy giặt” nguyên thủy chỉ là hòn đá đập quần áo – tiếp xúc điểm (<strong>0D</strong>). Sau đó dùng gậy (<strong>1D</strong>), tiếp nữa là bàn giặt gợn sóng (<strong>2D</strong>) và cuối cùng là máy giặt hiện đại (<strong>3D</strong>).</p>
+<p>Ví dụ lùi dọc chuỗi: đáy hộp pizza phẳng (<strong>2D</strong>) khiến hơi ẩm tích tụ làm mềm vỏ. Thiết kế đáy gân (<strong>1D</strong>) cải thiện thông khí; thêm các điểm đỡ (<strong>0D</strong>) giúp vỏ giòn hơn.</p>
+<p>Hướng chuyển đổi phụ thuộc vào:</p>
+<ol type="1">
+<li>chức năng là hữu ích hay có hại, và</li>
+<li>nguồn lực sẵn có.</li>
+</ol>
+<p>Bảng sau minh họa cách lựa chọn hướng chuyển đổi:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_action-coord-1024x360.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="xu-hướng-gia-tăng-mức-độ-cắt-gọn" class="level3">
+<h3 class="anchored" data-anchor-id="xu-hướng-gia-tăng-mức-độ-cắt-gọn">Xu hướng gia tăng mức độ cắt gọn</h3>
+</section>
+</section>
+</section>
+<section id="xu-hướng-gia-tăng-mức-độ-cắt-gọn-1" class="level1">
+<h1>Xu hướng gia tăng mức độ cắt gọn</h1>
+<p><em><strong>Xu hướng gia tăng mức độ cắt gọn</strong>: khi hệ thống kỹ thuật tiến hóa, các phần tử (thành phần hoặc thao tác) được loại bỏ mà không làm suy giảm – thậm chí cải thiện – chức năng của hệ.</em></p>
+<section id="tổng-quan-5" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-5">Tổng quan</h2>
+<p>Xu hướng này là một trong bốn cơ chế trực tiếp hỗ trợ xu hướng gia tăng giá trị (cùng với xu hướng chuyển sang siêu hệ, xu hướng gia tăng mức độ đầy đủ của các khối chức năng và xu hướng tăng cường dòng chảy).</p>
+<p>Theo xu hướng, càng về sau hệ càng cắt gọn nhiều thành phần – cả trong thiết bị lẫn quy trình (thao tác).</p>
+<p>Xu hướng này khá phổ quát, có thể áp dụng ở bất kỳ giai đoạn nào. Tuy nhiên trong thực tế, hệ thường phình to ở giai đoạn đầu đường cong chữ S; việc cắt gọn trở nên quan trọng hơn ở giai đoạn 3 và 4.</p>
+<p>Các quy tắc cắt gọn giải thích <strong><em>cách</em></strong> thực hiện cắt gọn, trong khi xu hướng cho biết <strong><em>nên cắt gì</em></strong> và <strong><em>theo thứ tự nào</em></strong>. Xu hướng gồm ba cơ chế:</p>
+<ol type="1">
+<li>cắt gọn các khối chức năng,</li>
+<li>cắt gọn các thao tác, và</li>
+<li><a href="http://Trimming%20components%20with%20the%20lowest%20value">cắt gọn các thành phần có giá trị thấp nhất</a>.</li>
+</ol>
+</section>
+<section id="cắt-gọn-các-khối-chức-năng" class="level2">
+<h2 class="anchored" data-anchor-id="cắt-gọn-các-khối-chức-năng">Cắt gọn các khối chức năng</h2>
+<p>Cơ chế này tập trung vào các khối chức năng của hệ.</p>
+<p>Xu hướng gia tăng mức độ đầy đủ cho thấy hệ lần lượt sở hữu: tác nhân vận hành, truyền dẫn, nguồn năng lượng, điều khiển. Giờ đây – để tiếp tục tăng giá trị – hệ loại bỏ các khối này theo thứ tự ngược lại:</p>
+<ol type="1">
+<li>truyền dẫn,</li>
+<li>nguồn năng lượng,</li>
+<li>hệ điều khiển,</li>
+<li>tác nhân vận hành.</li>
+</ol>
+<p>Về lâu dài, hệ tiến hóa thành tác nhân vận hành tự điều khiển (thông minh) tự tạo năng lượng.</p>
+</section>
+<section id="cắt-gọn-thao-tác" class="level2">
+<h2 class="anchored" data-anchor-id="cắt-gọn-thao-tác">Cắt gọn thao tác</h2>
+<p>Xu hướng con này áp dụng cho quy trình.</p>
+<p>Theo đó, thao tác nên được cắt theo thứ tự: 1) thao tác có chức năng hiệu chỉnh, 2) thao tác có chức năng cung cấp… ### Xu hướng gia tăng động hóa</p>
+</section>
+</section>
+<section id="xu-hướng-gia-tăng-động-hóa" class="level1">
+<h1>Xu hướng gia tăng động hóa</h1>
+<p><em><strong>Xu hướng gia tăng động hóa</strong>: khi hệ thống kỹ thuật tiến hóa, bản thân hệ và các thành phần trở nên “động” hơn.</em></p>
+<section id="tổng-quan-6" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-6">Tổng quan</h2>
+<p>Xu hướng gia tăng động hóa là xu hướng con của xu hướng gia tăng khả năng điều khiển. Nó gồm ba xu hướng con chính:</p>
+<ol type="1">
+<li>động hóa cấu trúc,</li>
+<li>động hóa trường, và</li>
+<li>động hóa thành phần.</li>
+</ol>
+</section>
+<section id="động-hóa-cấu-trúc" class="level2">
+<h2 class="anchored" data-anchor-id="động-hóa-cấu-trúc">Động hóa cấu trúc</h2>
+<p>Hệ phát triển từ cấu trúc cứng nhắc sang cấu trúc linh hoạt:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_dynam_structure-1024x233.png" class="img-fluid"></p>
+</section>
+<section id="động-hóa-trường" class="level2">
+<h2 class="anchored" data-anchor-id="động-hóa-trường">Động hóa trường</h2>
+<p>Hệ tiến từ trường hằng sang trường phức tạp:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_dynam-field_stages-1024x152.png" class="img-fluid"></p>
+<p>Hệ mới ra đời thường sử dụng <strong>trường hằng</strong>. Bước tiếp theo là chuyển sang <strong>trường gradient</strong>, rồi <strong>trường biến thiên</strong> (tham số thay đổi theo thời gian). Tiếp đến là trường <strong>xung</strong> và <strong>cộng hưởng</strong>. Giai đoạn cuối dùng các <strong>trường phức tạp</strong>, khai thác giao thoa sóng đứng và sóng chạy.</p>
+</section>
+<section id="động-hóa-thành-phần" class="level2">
+<h2 class="anchored" data-anchor-id="động-hóa-thành-phần">Động hóa thành phần</h2>
+<p>Còn gọi là <strong>phân đoạn thành phần</strong>. Hệ phát triển theo chuỗi:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_dynam_composition-1024x234.png" class="img-fluid"></p>
+<p>Trong tài liệu lịch sử, Altshuller đề cập thêm xu hướng tăng độ rỗng (từ khối đặc → một lỗ → nhiều lỗ → vi lỗ), nhưng xu hướng này chưa được nghiên cứu đầy đủ nên chưa nằm trong hệ thống TESE chính thức.</p>
+</section>
+<section id="động-hóa-chức-năng" class="level2">
+<h2 class="anchored" data-anchor-id="động-hóa-chức-năng">Động hóa chức năng</h2>
+<p>Xu hướng con này cho rằng hệ tiến hóa từ đơn chức năng sang đa chức năng, không có trạng thái trung gian.</p>
+<section id="xu-hướng-gia-tăng-giá-trị" class="level3">
+<h3 class="anchored" data-anchor-id="xu-hướng-gia-tăng-giá-trị">Xu hướng gia tăng giá trị</h3>
+</section>
+</section>
+</section>
+<section id="xu-hướng-gia-tăng-giá-trị-1" class="level1">
+<h1>Xu hướng gia tăng giá trị</h1>
+<p><em><strong>Xu hướng gia tăng giá trị</strong>: khi hệ thống kỹ thuật tiến hóa, giá trị của nó luôn tăng.</em></p>
+<section id="tổng-quan-7" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-7">Tổng quan</h2>
+<p>Xu hướng gia tăng giá trị, còn gọi là <strong>xu hướng tăng tính lý tưởng</strong>, là cơ chế chính của xu hướng tiến hóa đường cong chữ S. Mọi xu hướng khác đều đóng vai trò hỗ trợ.</p>
+<p>Theo xu hướng, để hệ duy trì tính cạnh tranh và hấp dẫn thị trường, giá trị của nó phải liên tục tăng. Có hai cách đạt được điều này:</p>
+<ul>
+<li>áp dụng các xu hướng nằm phía dưới trong hệ phân cấp, hoặc</li>
+<li>sử dụng các cơ chế nội tại của xu hướng – mô hình hóa giá trị như tỷ số giữa tổng chức năng và tổng chi phí của hệ.</li>
+</ul>
+</section>
+<section id="cơ-chế-nội-tại-của-xu-hướng-gia-tăng-giá-trị" class="level2">
+<h2 class="anchored" data-anchor-id="cơ-chế-nội-tại-của-xu-hướng-gia-tăng-giá-trị">Cơ chế nội tại của xu hướng gia tăng giá trị</h2>
+<p>Việc tăng giá trị luôn được xét trong <strong>bối cảnh một MPV cụ thể</strong>.</p>
+<p>Theo định nghĩa, giá trị tỉ lệ thuận với tổng chức năng và tỉ lệ nghịch với tổng chi phí. Dù ở giai đoạn nào của đường cong chữ S, chức năng phải trội hơn chi phí để hệ tồn tại.</p>
+<p>Lợi thế này có thể duy trì bằng nhiều chiến lược. Việc xác định hệ đang ở giai đoạn nào của đường cong chữ S (theo MPV đang xét) giúp lựa chọn chiến lược phù hợp. Biểu đồ dưới gợi ý chiến lược cho từng giai đoạn:</p>
+<p><img src="media/wp-content/uploads/2025/03/trend_Value_mechanisms-1024x609.png" class="img-fluid"></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Chiến lược</strong></th>
+<th><strong>Giải thích</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Giai đoạn 1</strong></td>
+<td><strong>ΣF↑ / ΣC↓</strong> tập trung cải thiện chức năng đồng thời giảm chi phí</td>
+<td>Giai đoạn đầu cho phép thực hiện thay đổi lớn vì hệ còn linh hoạt.</td>
+</tr>
+<tr class="even">
+<td><strong>Giai đoạn 2</strong></td>
+<td><strong>ΣF↑↑ / ΣC↑</strong> hoặc <strong>ΣF↑ / ΣCconst</strong> đảm bảo chức năng tăng nhanh hơn chi phí</td>
+<td>Khi MPV tăng nhanh, chi phí thường tăng theo; chức năng phải tăng nhanh hơn. Nếu chức năng tăng chậm, chi phí phải giữ ổn định.</td>
+</tr>
+<tr class="odd">
+<td><strong>Giai đoạn 3</strong></td>
+<td><strong>ΣFconst / ΣC↓</strong> ưu tiên giảm chi phí</td>
+<td>Giai đoạn chín muồi khó cải thiện chức năng, nên tập trung tối ưu hóa, cắt giảm chi phí.</td>
+</tr>
+<tr class="even">
+<td><strong>Giai đoạn 4</strong></td>
+<td><strong>ΣF↓ / ΣC↓↓</strong> chủ động giảm chức năng để giảm mạnh chi phí</td>
+<td>Hệ tiến gần giai đoạn suy thoái. Giảm chức năng có chủ đích (ví dụ sản phẩm dùng một lần) giúp giảm chi phí và tăng sức hấp dẫn.</td>
+</tr>
+</tbody>
+</table>
+<section id="xu-hướng-tiến-hóa-đường-cong-chữ-s" class="level3">
+<h3 class="anchored" data-anchor-id="xu-hướng-tiến-hóa-đường-cong-chữ-s">Xu hướng tiến hóa đường cong chữ S</h3>
+</section>
+</section>
+</section>
+<section id="xu-hướng-tiến-hóa-đường-cong-chữ-s-1" class="level1">
+<h1>Xu hướng tiến hóa đường cong chữ S</h1>
+<p><em><strong>Xu hướng tiến hóa đường cong chữ S</strong>: xu hướng đứng đầu hệ phân cấp TESE. Theo đó, khi hệ thống kỹ thuật tiến hóa, diễn biến của từng tham số giá trị chính (MPV) theo thời gian tạo thành đường cong chữ S.</em></p>
+<section id="tổng-quan-8" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-8">Tổng quan</h2>
+<p>Với mỗi MPV, hệ kỹ thuật phát triển theo đường cong chữ S, đi qua các giai đoạn:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Giai đoạn 1:</strong></td>
+<td>hệ “sơ sinh” chưa vào thị trường, có thể mới chỉ là ý tưởng, phác thảo, nguyên mẫu.</td>
+</tr>
+<tr class="even">
+<td><strong>Giai đoạn 2:</strong></td>
+<td>giai đoạn tăng trưởng mạnh – hệ được sản xuất đại trà.</td>
+</tr>
+<tr class="odd">
+<td><strong>Giai đoạn 3:</strong></td>
+<td>hệ chín muồi, vẫn sản xuất hàng loạt nhưng chạm các giới hạn phát triển.</td>
+</tr>
+<tr class="even">
+<td><strong>Giai đoạn 4:</strong></td>
+<td>hệ mất tính thực dụng hoặc chỉ tồn tại trong các lĩnh vực đặc thù/siêu hệ – giai đoạn suy thoái.</td>
+</tr>
+</tbody>
+</table>
+<p>Nếu vượt qua giai đoạn 1, hệ đi vào giai đoạn chuyển tiếp – phần cuối giai đoạn 1 theo TRIZ – khi hệ rời phòng thí nghiệm để bước vào thị trường. Đây là thời điểm rủi ro cao nhất vì hệ phải cạnh tranh với cả hệ mới và hệ trưởng thành.</p>
+<p><img src="media/wp-content/uploads/2025/03/Scurve-1024x592.png" class="img-fluid"></p>
+<p>Xu hướng đường cong chữ S được coi là luật tổng quát, đứng đầu hệ phân cấp. Để hệ tiến dọc đường cong chữ S, giá trị của nó (trong bối cảnh MPV đang xét) phải liên tục tăng. Do đó xu hướng gia tăng giá trị là động lực trực tiếp; các xu hướng khác đều là xu hướng con. Khi hệ tiến hóa theo bất kỳ xu hướng nào, điều đó trực tiếp làm tăng giá trị và đẩy hệ tiến lên trên đường cong chữ S.</p>
+<section id="bài-viết-1" class="level4">
+<h4 class="anchored" data-anchor-id="bài-viết-1">Bài viết</h4>
+<ul>
+<li>Tham số giá trị chính</li>
+<li>Đường cong chữ S</li>
+</ul>
+</section>
+<section id="tham-số-giá-trị-chính" class="level3">
+<h3 class="anchored" data-anchor-id="tham-số-giá-trị-chính">Tham số giá trị chính</h3>
+</section>
+</section>
+</section>
+<section id="tham-số-giá-trị-chính-1" class="level1">
+<h1>Tham số giá trị chính</h1>
+<p><em><strong>Tham số giá trị chính</strong> (Main Parameter of Value – MPV) là thuộc tính, tham số hoặc đặc tính quan trọng quyết định lựa chọn mua hàng của khách hàng.</em></p>
+<section id="tổng-quan-9" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-9">Tổng quan</h2>
+<p>MPV là thuộc tính có ảnh hưởng lớn tới quyết định của khách hàng, qua đó quyết định sự thành công của hệ thống kỹ thuật trên thị trường. Nói cách khác, MPV chính là yếu tố then chốt mà khách hàng cân nhắc khi đánh giá mức độ hấp dẫn của sản phẩm.</p>
+<p>Ví dụ với robot nhà bếp, các MPV có thể bao gồm:</p>
+<ul>
+<li>công suất động cơ – quyết định khả năng xử lý và hiệu suất,</li>
+<li>số lượng phụ kiện – mở rộng phạm vi chức năng,</li>
+<li>vật liệu cấu thành – ảnh hưởng tới độ bền và tuổi thọ,</li>
+<li>hình dáng thân máy – quyết định tính công thái học khi sử dụng.</li>
+</ul>
+<p>Mỗi tham số định hướng cho lộ trình phát triển. Khi phân tích MPV, nhà sản xuất có thể chọn đúng trọng tâm đổi mới và ưu tiên cải thiện tham số nào.</p>
+<section id="đường-cong-chữ-s" class="level4">
+<h4 class="anchored" data-anchor-id="đường-cong-chữ-s">Đường cong chữ S</h4>
+</section>
+</section>
+</section>
+<section id="đường-cong-chữ-s-1" class="level1">
+<h1>Đường cong chữ S</h1>
+<p><em><strong>Đường cong chữ S</strong> là đường cong hình chữ S thể hiện sự phụ thuộc điển hình của tham số giá trị chính (MPV) theo thời gian trong quá trình tiến hóa của hệ thống kỹ thuật.</em></p>
+<section id="tổng-quan-10" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-10">Tổng quan</h2>
+<p>Đường cong chữ S mô tả vòng đời của một MPV theo thời gian: khởi đầu, tăng trưởng, chín muồi và suy thoái. Trục hoành biểu thị thời gian, trục tung biểu thị giá trị hoặc hiệu năng của MPV được xét.</p>
+<p>Khái niệm đường cong chữ S vốn xuất xứ từ sinh học. Đầu thế kỷ XX, các nhà khoa học nhận thấy sự tăng trưởng của quần thể vi khuẩn gồm bốn pha: khởi phát chậm, bùng nổ, ổn định và suy giảm do cạn kiệt tài nguyên – đồ thị giống chữ S.</p>
+<p>Qua nghiên cứu, Altshuller nhận ra các MPV trong hệ kỹ thuật cũng tiến hóa theo những đường cong chữ S riêng biệt.</p>
+<p>Để xác định hệ đang ở giai đoạn nào, Altshuller đề xuất một số chỉ báo. Đây là phần quan trọng của TRIZ cổ điển, tuy nhiên việc áp dụng thực tiễn đôi khi gặp hạn chế và kết quả không phải lúc nào cũng tin cậy. Tiếp nối nền tảng đó, phân tích đường cong chữ S thực dụng đã được phát triển.</p>
+</section>
+<section id="các-giai-đoạn-của-đường-cong-chữ-s" class="level2">
+<h2 class="anchored" data-anchor-id="các-giai-đoạn-của-đường-cong-chữ-s">Các giai đoạn của đường cong chữ S</h2>
+<p>Mỗi hệ đi qua bốn giai đoạn chính:</p>
+<p><img src="media/wp-content/uploads/2025/03/Scurve-1024x592.png" class="img-fluid"></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>GIAI ĐOẠN 1:</strong></td>
+<td>Hệ “sơ sinh” <strong>chưa vào thị trường</strong>; có thể chỉ tồn tại dưới dạng ý tưởng, phác thảo hoặc nguyên mẫu. <strong>MPV gần như phẳng</strong>.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Nếu vượt qua giai đoạn này, hệ bước vào <strong>GIAI ĐOẠN CHUYỂN TIẾP</strong> – phần cuối của giai đoạn 1 theo TRIZ. Hệ còn non trẻ, nhạy cảm với tác động bên ngoài nhưng đã <strong>gần sẵn sàng thương mại hóa</strong> hoặc đang phục vụ một <strong>phân khúc rất hẹp</strong>. <strong>MPV bắt đầu tăng</strong> rõ rệt.</td>
+</tr>
+<tr class="odd">
+<td><strong>GIAI ĐOẠN 2:</strong></td>
+<td>Giai đoạn tăng trưởng và mở rộng mạnh – hệ được <strong>sản xuất hàng loạt</strong>, thích nghi với nhiều ứng dụng, các biến thể phát triển đa dạng, siêu hệ bắt đầu thích ứng. <strong>MPV tăng nhanh</strong>.</td>
+</tr>
+<tr class="even">
+<td><strong>GIAI ĐOẠN 3:</strong></td>
+<td>Hệ trưởng thành <strong>chạm các giới hạn phát triển</strong>. Vẫn được <strong>sản xuất hàng loạt</strong>, mở rộng sang ứng dụng mới, đòi hỏi nguồn lực chuyên biệt; cải tiến đòi hỏi chi phí cao. Siêu hệ thích nghi mạnh mẽ. <strong>MPV ổn định và tăng chậm</strong>.</td>
+</tr>
+<tr class="odd">
+<td><strong>GIAI ĐOẠN 4:</strong></td>
+<td>Giai đoạn <strong>suy thoái</strong>. Hệ mất chức năng thực dụng, chuyển thành đồ giải trí, trang trí, thể thao… hoặc chỉ tồn tại trong <strong>lĩnh vực chuyên biệt/siêu hệ</strong>. <strong>MPV giảm</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p><img src="media/wp-content/uploads/2025/03/S-curve_stag-1024x162.png" class="img-fluid"></p>
+</section>
+<section id="các-chỉ-báo-theo-altshuller" class="level2">
+<h2 class="anchored" data-anchor-id="các-chỉ-báo-theo-altshuller">Các chỉ báo theo Altshuller</h2>
+<p>Altshuller đề xuất bốn chỉ báo giúp xác định giai đoạn vận hành của hệ:</p>
+<ol type="1">
+<li><strong>Diễn biến của MPV</strong> – thường dễ đo nhất.</li>
+<li><strong>Số lượng sáng chế</strong> – thường biểu diễn bằng số bằng sáng chế; dữ liệu dễ thu thập từ các cơ sở dữ liệu trực tuyến.</li>
+<li><strong>Mức độ sáng chế</strong> – chỉ báo có tính chủ quan vì phụ thuộc đánh giá của chuyên gia.</li>
+<li><strong>Lợi nhuận</strong> – chỉ báo khó thu thập nhất; với các hệ là phân hệ của hệ lớn hơn, đôi khi gần như không thể tách riêng.</li>
+</ol>
+<p>Biểu đồ sau cho thấy cách các chỉ báo biến đổi khi hệ tiến hóa:</p>
+<p><img src="media/wp-content/uploads/2025/03/S-curve_indicators-1024x592.png" class="img-fluid"></p>
+<section id="giá-trị-mpv" class="level3">
+<h3 class="anchored" data-anchor-id="giá-trị-mpv">Giá trị MPV</h3>
+<p>Ở giai đoạn đầu, MPV thường thấp do hệ còn đang hoàn thiện. Trong giai đoạn tăng trưởng mạnh, MPV tăng nhanh vì hệ được tối ưu cho sản xuất hàng loạt và nhu cầu thị trường. Khi bước sang giai đoạn chín muồi, MPV có thể đạt đỉnh hoặc tăng chậm lại; đến giai đoạn suy thoái, MPV giảm khi hệ lỗi thời hoặc kém cạnh tranh.</p>
+<p><img src="media/wp-content/uploads/2025/03/S-curve_MPV-1024x611.png" class="img-fluid"></p>
+</section>
+<section id="số-lượng-bằng-sáng-chế" class="level3">
+<h3 class="anchored" data-anchor-id="số-lượng-bằng-sáng-chế">Số lượng bằng sáng chế</h3>
+<p>Số lượng bằng sáng chế là chỉ báo dễ thu thập từ cơ sở dữ liệu công khai. Thông thường, đường cong có hai đỉnh rõ rệt:</p>
+<ol type="1">
+<li>khi hệ được đưa vào sản xuất hàng loạt, và</li>
+<li>khi nỗ lực kéo dài vòng đời hệ.</li>
+</ol>
+<p><img src="media/wp-content/uploads/2025/03/S-curve_numbofpat-1024x610.png" class="img-fluid"></p>
+<p>Ở giai đoạn đầu, số bằng sáng chế thấp do chưa có ứng dụng thực tế. Sang giai đoạn 2, nhu cầu công nghệ phục vụ sản xuất và phổ cập tăng, doanh nghiệp và nhà sáng chế chạy đua đăng ký bảo hộ nên số bằng sáng chế tăng vọt.</p>
+<p>Ở giai đoạn 3, số bằng sáng chế tiếp tục tăng nhưng vì lý do khác: hệ đã chín muồi, các kỹ sư tập trung tối ưu hóa, kéo dài tuổi thọ và tìm ứng dụng mới để duy trì lợi nhuận.</p>
+<p>Đến giai đoạn 4, số bằng sáng chế giảm hẳn. Công nghệ đạt đỉnh, cơ hội đổi mới hạn chế; xu hướng giảm phản ánh việc hệ bị thay thế hoặc loại bỏ nên động lực đăng ký sáng chế suy yếu.</p>
+</section>
+<section id="mức-độ-sáng-chế" class="level3">
+<h3 class="anchored" data-anchor-id="mức-độ-sáng-chế">Mức độ sáng chế</h3>
+<p>Mức độ sáng chế là chỉ báo khó đo hơn vì phụ thuộc đánh giá chủ quan. Việc phân tích lịch sử của một hệ theo chỉ báo này thường rất tốn thời gian. Hệ trẻ có mức độ sáng chế cao nhưng giảm dần theo thời gian; trong giai đoạn ứng dụng đại trà có thể xuất hiện một đợt tăng tạm thời rồi lại giảm.</p>
+<p><img src="media/wp-content/uploads/2025/03/S-curve_levelofinv-1024x612.png" class="img-fluid"></p>
+<p>Altshuller chia sáng chế thành năm mức dựa trên cách giải mâu thuẫn và phạm vi đổi mới:</p>
+<ul>
+<li><strong>Mức 1</strong>: cải tiến nhỏ, không giải mâu thuẫn; chủ yếu tinh chỉnh cấu trúc dựa trên thử nghiệm, dùng tri thức sẵn có của hệ.</li>
+<li><strong>Mức 2</strong>: giải được mâu thuẫn đơn giản; thay đổi lớn hơn mức 1 nhưng vẫn trong cùng lĩnh vực kỹ thuật, đôi khi cần kiến thức phụ trợ.</li>
+<li><strong>Mức 3</strong>: giải pháp tiên tiến, bất ngờ nhưng vẫn trong cùng lĩnh vực; đòi hỏi kiến thức từ các ngành liên quan.</li>
+<li><strong>Mức 4</strong>: giải pháp đột phá bằng cách ứng dụng tri thức của lĩnh vực này vào vấn đề của lĩnh vực khác (ví dụ dùng nguyên lý sinh học xử lý bài toán cơ học).</li>
+<li><strong>Mức 5</strong>: bước ngoặt dựa trên nghiên cứu khoa học nền tảng, tạo nguyên lý mới có thể thay đổi cả ngành – như laser hoặc radio – vượt ra ngoài phạm vi các phương pháp giải quyết vấn đề truyền thống, kể cả TRIZ.</li>
+</ul>
+</section>
+<section id="lợi-nhuận" class="level3">
+<h3 class="anchored" data-anchor-id="lợi-nhuận">Lợi nhuận</h3>
+<p>Lợi nhuận thường khó thu thập nhất; với phân hệ trong hệ lớn, việc tách riêng gần như bất khả. Hệ trẻ dù có mức độ sáng chế cao nhưng chưa tạo doanh thu – thường chỉ tồn tại trên giấy hoặc vài nguyên mẫu, còn nhiều nhược điểm. Lợi nhuận xuất hiện khi hệ bước vào giai đoạn ứng dụng đại trà, lúc những cải tiến dù nhỏ cũng đem lại giá trị đáng kể.</p>
+<p><img src="media/wp-content/uploads/2025/03/S-curve_profitability-1024x613.png" class="img-fluid"></p>
+</section>
+<section id="xu-hướng-chuyển-sang-siêu-hệ" class="level3">
+<h3 class="anchored" data-anchor-id="xu-hướng-chuyển-sang-siêu-hệ">Xu hướng chuyển sang siêu hệ</h3>
+</section>
+</section>
+</section>
+<section id="xu-hướng-chuyển-sang-siêu-hệ-1" class="level1">
+<h1>Xu hướng chuyển sang siêu hệ</h1>
+<p><em><strong>Xu hướng chuyển sang siêu hệ</strong> cho rằng khi hệ thống kỹ thuật tiến hóa, nó sẽ được tích hợp với các thành phần của siêu hệ.</em></p>
+<section id="tổng-quan-11" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-11">Tổng quan</h2>
+<p>Hiểu một cách đơn giản, chuyển sang siêu hệ chính là lai ghép hệ với các thành phần của siêu hệ. Việc tích hợp vừa mang lại thêm nguồn lực để cải thiện chức năng, vừa mở ra cơ hội cắt bỏ các thành phần trở nên dư thừa sau khi hợp nhất, từ đó giảm chi phí.</p>
+</section>
+<section id="các-cơ-chế-của-xu-hướng" class="level2">
+<h2 class="anchored" data-anchor-id="các-cơ-chế-của-xu-hướng">Các cơ chế của xu hướng</h2>
+<p>Xu hướng này được nghiên cứu rất sâu và bao gồm bốn cơ chế giúp xác định cần kết hợp những hệ nào, mức độ tích hợp, số hệ tham gia…:</p>
+<ol type="1">
+<li><strong>Tham số</strong> của các hệ cùng thực hiện một chức năng chính ngày càng khác biệt.</li>
+<li><strong>Chức năng chính</strong> của các hệ được tích hợp ngày càng khác nhau.</li>
+<li><strong>Mức độ tích hợp</strong> ngày càng sâu.</li>
+<li><strong>Số lượng hệ</strong> được tích hợp ngày càng tăng.</li>
+</ol>
+<section id="gia-tăng-khác-biệt-về-tham-số" class="level3">
+<h3 class="anchored" data-anchor-id="gia-tăng-khác-biệt-về-tham-số">Gia tăng khác biệt về tham số</h3>
+<p>Cơ chế này mô tả cách hợp nhất các hệ cùng chức năng chính. Chuỗi tiến hóa gồm:</p>
+<ul>
+<li>các hệ <strong>đồng nhất</strong> (tham số giống nhau),</li>
+<li>các hệ <strong>khác nhau ở ít nhất một tham số</strong>, rồi</li>
+<li>các <strong>hệ cạnh tranh</strong> – khác nhau nhưng cùng thực hiện chức năng chính tương tự.</li>
+</ul>
+<p>Thuật toán chi tiết để lai ghép các hệ cạnh tranh chính là công cụ chuyển giao đặc tính.</p>
+</section>
+<section id="gia-tăng-khác-biệt-về-chức-năng-chính" class="level3">
+<h3 class="anchored" data-anchor-id="gia-tăng-khác-biệt-về-chức-năng-chính">Gia tăng khác biệt về chức năng chính</h3>
+<p>Cơ chế này giải thích cách hợp nhất các hệ có chức năng chính khác nhau – có thể xem là bước tiếp theo của cơ chế trên. Các mức độ gồm:</p>
+<ul>
+<li><strong>hệ đồng minh</strong>: chức năng khác nhau nhưng có điểm chung (ví dụ cùng đối tượng chức năng, cùng quy trình, cùng bối cảnh sử dụng),</li>
+<li><strong>hệ dị loại</strong>: chức năng khác nhau và không có điểm chung,</li>
+<li><strong>hệ nghịch đảo</strong>: thực hiện các chức năng chính đối lập.</li>
+</ul>
+</section>
+<section id="tăng-độ-sâu-tích-hợp" class="level3">
+<h3 class="anchored" data-anchor-id="tăng-độ-sâu-tích-hợp">Tăng độ sâu tích hợp</h3>
+<p>Cơ chế này cho biết mức tích hợp nên đạt tới đâu:</p>
+<ul>
+<li><strong>hệ không liên kết</strong>: đặt cạnh nhau mà không có liên kết liên tục,</li>
+<li><strong>hệ cắt gọn một phần</strong>: một số thành phần trở nên dư thừa và bị cắt bỏ,</li>
+<li><strong>hệ cắt gọn hoàn toàn</strong>: tích hợp sâu đến mức khó nhận ra hệ ban đầu; thường một hệ bị cắt gọn toàn bộ.</li>
+</ul>
+</section>
+<section id="tăng-số-lượng-hệ-được-tích-hợp" class="level3">
+<h3 class="anchored" data-anchor-id="tăng-số-lượng-hệ-được-tích-hợp">Tăng số lượng hệ được tích hợp</h3>
+<p>Cơ chế cuối cùng mô tả số hệ tham gia:</p>
+<ul>
+<li><strong>mono-system</strong>: một hệ đơn lẻ – điểm khởi đầu,</li>
+<li><strong>bi-system</strong>: kết hợp hai hệ,</li>
+<li><strong>poly-system</strong>: kết hợp nhiều hệ.</li>
+</ul>
+<p>Khi hệ phát triển, số hệ được tích hợp có xu hướng tăng dần.</p>
+</section>
+<section id="xu-hướng-phát-triển-không-đồng-đều-của-các-thành-phần" class="level3">
+<h3 class="anchored" data-anchor-id="xu-hướng-phát-triển-không-đồng-đều-của-các-thành-phần">Xu hướng phát triển không đồng đều của các thành phần</h3>
+</section>
+</section>
+</section>
+<section id="xu-hướng-phát-triển-không-đồng-đều-của-các-thành-phần-1" class="level1">
+<h1>Xu hướng phát triển không đồng đều của các thành phần</h1>
+<p><em><strong>Xu hướng phát triển không đồng đều của các thành phần</strong> cho rằng khi hệ thống kỹ thuật tiến hóa, tác nhân vận hành phát triển trước, các phần còn lại phát triển sau.</em></p>
+<section id="tổng-quan-12" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-12">Tổng quan</h2>
+<p>Cùng với xu hướng gia tăng khả năng điều khiển, xu hướng này là cơ chế của xu hướng gia tăng mức độ phối hợp.</p>
+<p>Xu hướng tạo cầu nối giữa kỹ thuật và triết học: hệ tiến hóa nhờ giải mâu thuẫn, còn mâu thuẫn xuất hiện do các thành phần phát triển không đồng đều. Khi một phần phát triển nhanh hơn phần khác, sự lệch pha xuất hiện và kích hoạt chuỗi cải tiến tiếp theo.</p>
+<p>Xu hướng này gắn trực tiếp với đường cong chữ S:</p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_uneven-1024x517.png" class="img-fluid"></p>
+<p>Ví dụ điển hình là sự phát triển của ô tô. Trong những chiếc xe đầu tiên, động cơ là thành phần tiên tiến nhất. Dần dần, khoảng cách giữa động cơ và các hệ phụ khác xuất hiện, kéo theo sự phát triển của hệ truyền động, hộp số, khung vỏ, điều hòa… – tất cả nhằm san bằng tốc độ phát triển giữa các thành phần.</p>
+</section>
+<section id="thuật-ngữ" class="level2">
+<h2 class="anchored" data-anchor-id="thuật-ngữ">THUẬT NGỮ</h2>
+<p><em>Phần thuật ngữ dưới đây sử dụng hệ thống khái niệm của MATRIZ. Mỗi thuật ngữ đều có liên kết tới bài viết giải thích chi tiết.</em></p>
+</section>
+<section id="a" class="level2">
+<h2 class="anchored" data-anchor-id="a">A</h2>
+<p><strong>Chức năng bổ sung</strong>: chức năng hữu ích tác động lên một thành phần của siêu hệ nhưng không phải thành phần mục tiêu.</p>
+<p><strong>Thuật toán giải mâu thuẫn vật lý</strong>: công cụ giải quyết vấn đề cung cấp phương pháp có hệ thống để lựa chọn các nguyên tắc sáng tạo nhằm giải mâu thuẫn vật lý.</p>
+<p><strong>Hệ thống thay thế</strong>: hệ thống cạnh tranh có cặp ưu – nhược điểm bổ sung cho hệ cơ sở.</p>
+<p><strong>Ma trận Altshuller</strong>: <em>xem</em> ma trận mâu thuẫn.</p>
+<p><strong>ARIZ</strong>: công cụ giải quyết vấn đề chuyển một vấn đề then chốt phức tạp thành mô hình rõ ràng để có thể giải hiệu quả bằng nhiều công cụ TRIZ.</p>
+<p><strong>Chức năng phụ trợ</strong>: chức năng hữu ích tác động lên một thành phần của hệ kỹ thuật đang phân tích.</p>
+</section>
+<section id="b" class="level2">
+<h2 class="anchored" data-anchor-id="b">B</h2>
+<p><strong>Hệ cơ sở</strong>: hệ được chọn để nhận đặc tính từ hệ thay thế; đây là hệ được cải tiến trong chuyển giao đặc tính.</p>
+<p><strong>Chức năng cơ bản</strong>: chức năng hữu ích hướng tới thành phần mục tiêu của hệ kỹ thuật đang phân tích.</p>
+</section>
+<section id="c" class="level2">
+<h2 class="anchored" data-anchor-id="c">C</h2>
+<p><strong>Phân tích chuỗi nhân – quả (CECA)</strong>: công cụ phân tích xác định các nhược điểm then chốt bằng cách xây dựng chuỗi nhân quả liên kết nhược điểm ban đầu với nguyên nhân gốc.</p>
+<p><strong>Su-Field dạng chuỗi</strong>: tổ hợp hai hoặc nhiều Su-Field trong đó một chất tham gia vào hai Su-Field.</p>
+<p><strong>Áp dụng bài toán tương tự</strong>: công cụ giải quyết vấn đề khái quát cách giải của một bài toán để áp dụng cho bài toán khác.</p>
+<p><strong>Hệ cạnh tranh</strong>: hệ kỹ thuật thực hiện cùng hoặc tương tự chức năng chính với hệ đang phân tích.</p>
+<p><strong>Su-Field phức hợp</strong>: Su-Field hoàn chỉnh có thêm một chất (thường là phụ gia) phản ứng nhanh với trường hiện có.</p>
+<p><strong>Thành phần</strong>: đối tượng vật chất cấu thành một phần của hệ kỹ thuật hoặc siêu hệ của nó.</p>
+<p><strong>Phân tích thành phần</strong>: giai đoạn trong phân tích chức năng nhằm xác định các thành phần của hệ kỹ thuật và siêu hệ.</p>
+<p><strong>Mô hình thành phần</strong>: tập hợp thành phần thuộc hệ kỹ thuật được phân tích và siêu hệ của nó.</p>
+<p><strong>Cặp xung đột</strong>: (trong ARIZ) cặp công cụ – sản phẩm mà tương tác giữa chúng gây xung đột cản trở việc đạt kết quả mong muốn.</p>
+<p><strong>Ma trận mâu thuẫn</strong> (ma trận Altshuller): ma trận cung cấp cách tiếp cận hệ thống để chọn các nguyên tắc sáng tạo giải mâu thuẫn kỹ thuật.</p>
+<p><strong>Chức năng hiệu chỉnh</strong>: chức năng hữu ích dùng để loại bỏ khuyết tật.</p>
+<p><strong>Phân tích chi phí</strong>: bước trong phân tích chức năng – chi phí nhằm xác định chi phí tuyệt đối và tương đối của các thành phần trong hệ.</p>
+</section>
+<section id="d" class="level2">
+<h2 class="anchored" data-anchor-id="d">D</h2>
+<p><strong>Cơ sở dữ liệu hiệu ứng khoa học</strong>: công cụ giải quyết vấn đề cho các bài toán mô hình hóa bằng chức năng; bao gồm các hiệu ứng, hiện tượng ở nhiều lĩnh vực (vật lý, hóa học, sinh học…) được tổ chức theo hướng chức năng và tài nguyên.</p>
+<p><strong>Khuyết tật</strong>: đối tượng vật chất (chất hoặc trường) làm suy giảm chức năng hữu ích hoặc tạo chức năng có hại.</p>
+<p><strong>Su-Field kép</strong>: Su-Field trong đó hai trường khác nhau cùng tạo tương tác giữa các chất (một chất tác động lên chất kia bằng hai trường).</p>
+</section>
+<section id="e" class="level2">
+<h2 class="anchored" data-anchor-id="e">E</h2>
+<p><strong>Mâu thuẫn kỹ thuật</strong> (mâu thuẫn kỹ thuật/technical contradiction): mô hình tham số của vấn đề khi nỗ lực cải thiện một tham số làm xấu đi tham số khác.</p>
+<p><strong>Hệ kỹ thuật</strong> (hệ công nghệ): hệ được phát triển để thực hiện một chức năng.</p>
+</section>
+<section id="f" class="level2">
+<h2 class="anchored" data-anchor-id="f">F</h2>
+<p><strong>Chuyển giao đặc tính</strong>: công cụ phân tích cải tiến hệ bằng cách chuyển đặc tính từ hệ thay thế sang hệ cơ sở nhằm kết hợp các đặc tính hữu ích trong một hệ duy nhất.</p>
+<p><strong>Bài toán chuyển giao đặc tính</strong>: vấn đề then chốt cần giải để thực hiện chuyển giao đặc tính.</p>
+<p><strong>Trường</strong>: đối tượng không có khối lượng nghỉ dùng để truyền tương tác giữa các chất.</p>
+<p><strong>Dòng chảy</strong>: sự chuyển động của chất, năng lượng (trường) hoặc thông tin trong hệ kỹ thuật.</p>
+<p><strong>Phân tích dòng chảy</strong>: công cụ phân tích xác định các nhược điểm trong dòng chảy chất, năng lượng, thông tin của hệ.</p>
+<p><strong>Nhược điểm dòng chảy</strong>: nhược điểm được phát hiện trong phân tích dòng chảy.</p>
+<p><strong>Chức năng</strong>: hành động do một đối tượng vật chất (chủ thể chức năng) thực hiện nhằm thay đổi hoặc duy trì một tham số của đối tượng vật chất khác (đối tượng chức năng).</p>
+<p><strong>Phân tích chức năng</strong> (<em>xem thêm</em>: phân tích chức năng – chi phí): công cụ phân tích xác định các chức năng, đặc tính của chúng và chi phí của hệ cùng siêu hệ.</p>
+<p><strong>Sơ đồ chức năng – chi phí</strong>: đồ thị biểu diễn điểm chức năng (<em>F</em>) của các thành phần so với chi phí (<em>C</em>).</p>
+<p><strong>Nhược điểm chức năng</strong>: nhược điểm của hệ kỹ thuật được xác định trong mô hình hóa chức năng.</p>
+<p><strong>Mô hình chức năng</strong>: mô hình mô tả chức năng do các thành phần của hệ và siêu hệ thực hiện, nêu rõ tính hữu ích, mức độ thực hiện và chi phí.</p>
+<p><strong>Mô hình hóa chức năng</strong>: giai đoạn trong phân tích chức năng xây dựng mô hình chức năng của hệ.</p>
+<p><strong>Tìm kiếm định hướng chức năng (FOS)</strong>: công cụ giải quyết vấn đề dựa trên việc truy tìm công nghệ hiện có trên toàn thế giới theo tiêu chí chức năng.</p>
+<p><strong>Thứ hạng chức năng</strong>: thước đo vô hướng đánh giá tầm quan trọng của chức năng hữu ích.</p>
+<p><strong>Chỉ số chức năng</strong> (functionality index): thước đo vô hướng về mức đóng góp chức năng tổng thể của một thành phần đối với hiệu suất chung của hệ kỹ thuật.</p>
+</section>
+<section id="h" class="level2">
+<h2 class="anchored" data-anchor-id="h">H</h2>
+<p><strong>Dòng chảy có hại</strong>: dòng mà đối tượng (chất, năng lượng, thông tin) thực hiện chức năng có hại.</p>
+<p><strong>Chức năng có hại</strong>: chức năng gây thay đổi không chấp nhận được hoặc duy trì không mong muốn tham số của đối tượng.</p>
+<p><strong>Su-Field có hại</strong>: Su-Field mô tả vấn đề mà ít nhất một tương tác mang tính có hại hoặc vượt mức.</p>
+</section>
+<section id="i" class="level2">
+<h2 class="anchored" data-anchor-id="i">I</h2>
+<p><strong>Kết quả cuối lý tưởng (IFR)</strong>: mô hình giải pháp tốt nhất, trong đó vấn đề bị loại bỏ hoàn toàn với thay đổi tối thiểu và không làm xấu các tham số của hệ.</p>
+<p><strong>Hệ thống lý tưởng</strong>: hệ có giá trị vô hạn; có thể không có thành phần hay chi phí nhưng vẫn thực hiện chức năng mong muốn – tức hệ không tồn tại nhưng chức năng chính vẫn được đảm bảo.</p>
+<p><strong>Tính lý tưởng</strong>: tỷ số giữa tổng lợi ích hệ cung cấp và tổng các yếu tố chi trả (chi phí, không gian, môi trường, bảo trì…).</p>
+<p><strong>Su-Field chưa hoàn chỉnh</strong>: Su-Field còn thiếu một chất, một trường hoặc cả hai.</p>
+<p><strong>Hệ trung tính (hệ trơ)</strong>: <em>xem</em> hệ trung tính.</p>
+<p><strong>Nhược điểm ban đầu</strong>: nhược điểm cần loại bỏ để đạt mục tiêu dự án; được hình thành bằng cách đảo mục tiêu dự án.</p>
+<p><strong>So sánh chuẩn sáng tạo</strong>: công cụ phân tích xác định hệ tốt nhất để cải tiến và các ứng viên cho chuyển giao đặc tính.</p>
+<p><strong>Su-Field không đủ</strong>: Su-Field đã đầy đủ nhưng không hoạt động.</p>
+<p><strong>Tương tác</strong>: tiếp xúc vật lý giữa các thành phần của hệ hoặc siêu hệ.</p>
+<p><strong>Phân tích tương tác</strong>: giai đoạn phân tích chức năng của thiết bị nhằm xác định các tương tác giữa thành phần.</p>
+<p><strong>Ma trận tương tác</strong>: bảng thể hiện tương tác giữa các thành phần của hệ và siêu hệ – kết quả của phân tích tương tác.</p>
+<p><strong>Nguyên tắc sáng tạo</strong>: mô hình giải pháp trừu tượng cung cấp khuyến nghị khái quát để chỉnh sửa hệ nhằm giải mâu thuẫn.</p>
+</section>
+<section id="k" class="level2">
+<h2 class="anchored" data-anchor-id="k">K</h2>
+<p><strong>Nhược điểm then chốt</strong>: nhược điểm được chọn để loại bỏ nhằm đạt mục tiêu dự án; thường nằm ở gốc chuỗi nhân quả.</p>
+<p><strong>Vấn đề then chốt</strong>: vấn đề được chọn để giải nhằm đáp ứng mục tiêu dự án.</p>
+</section>
+<section id="l" class="level2">
+<h2 class="anchored" data-anchor-id="l">L</h2>
+<p><strong>Su-Field hoàn chỉnh</strong>: Su-Field chứa ít nhất hai chất và một trường, tạo nên hệ (hoặc hệ con) hoạt động được.</p>
+<p><strong>Lợi nhuận</strong> (<em>profitability</em>): chỉ báo phản ánh hiệu quả tài chính của hệ.</p>
+</section>
+<section id="m" class="level2">
+<h2 class="anchored" data-anchor-id="m">M</h2>
+<p><strong>Su-Field đo lường</strong>: Su-Field đặc biệt biểu diễn các bài toán đo lường/phát hiện (đầu vào là trường, qua một chất, cho ra trường).*</p>
+<p><strong>Hệ trung tính</strong>: hệ không sở hữu nhược điểm của hệ cơ sở nhưng cũng không thực hiện chức năng chính mong muốn; thường có chi phí thấp hoặc miễn phí.</p>
+</section>
+<section id="p" class="level2">
+<h2 class="anchored" data-anchor-id="p">P</h2>
+<p><strong>Sản phẩm</strong>: (trong ARIZ) thành phần chịu tác động trực tiếp của công cụ trong cặp xung đột.</p>
+<p><strong>Chức năng sản xuất</strong>: chức năng hữu ích tạo thay đổi không thể đảo ngược đối với đối tượng.</p>
+<p><strong>Bài toán cắt gọn</strong>: bài toán cần giải để hiện thực hóa mô hình cắt gọn.</p>
+<p><strong>Chuyển pha</strong>: cơ chế sử dụng các hiện tượng xảy ra trong quá trình chuyển pha.</p>
+<p><strong>Mức độ sáng chế</strong>: chỉ báo phân loại sáng chế theo độ đột phá.</p>
+</section>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+<p><strong>Nguồn lực</strong> (<em>xem mục Resources in TRIZ</em>).</p>
+</section>
+<section id="s" class="level2">
+<h2 class="anchored" data-anchor-id="s">S</h2>
+<p><strong>Su-Field</strong>: mô hình trừu tượng mô tả tương tác giữa các chất và trường.</p>
+<p><strong>Đường cong chữ S</strong>: đường cong hình chữ S thể hiện sự tiến hóa của MPV theo thời gian.</p>
+<p><strong>Siêu hệ</strong>: hệ chứa hệ kỹ thuật đang phân tích như một thành phần.</p>
+<p><strong>Chức năng cung cấp</strong>: chức năng hữu ích cần thiết để thực hiện chức năng hữu ích khác.</p>
+<p><strong>Chức năng hỗ trợ</strong>: chức năng cung cấp tạm thời thay đổi tham số của sản phẩm.</p>
+<p><strong>Chức năng vận chuyển</strong>: chức năng cung cấp làm thay đổi vị trí đối tượng trong không gian.</p>
+<p><strong>Chức năng đo lường</strong>: chức năng cung cấp bộc lộ thông tin về các thành phần.</p>
+<p><strong>Xu hướng chuyển sang siêu hệ</strong>: xu hướng TESE mô tả sự tích hợp của hệ với các thành phần siêu hệ.</p>
+<p><strong>Xu hướng gia tăng điều khiển</strong>: xu hướng TESE cho rằng hệ càng tiến hóa càng có nhiều cách điều khiển.</p>
+<p><strong>Xu hướng gia tăng phối hợp</strong>: xu hướng TESE cho rằng đặc tính của các thành phần càng được phối hợp chặt chẽ với nhau và với siêu hệ.</p>
+<p><strong>Xu hướng gia tăng cắt gọn</strong>: xu hướng TESE cho rằng các thành phần/thao tác sẽ bị loại bỏ mà không làm giảm chức năng.</p>
+<p><strong>Xu hướng gia tăng động hóa</strong>: xu hướng TESE cho rằng hệ và các thành phần trở nên linh hoạt, thích ứng, có nhiều bậc tự do hơn.</p>
+<p><strong>Xu hướng gia tăng giá trị</strong>: xu hướng TESE cho rằng giá trị của hệ luôn tăng theo thời gian.</p>
+<p><strong>Xu hướng đường cong chữ S</strong>: xu hướng cao nhất trong TESE, mô tả sự tiến hóa của mỗi MPV theo đường cong chữ S.</p>
+<p><strong>Xu hướng phát triển không đồng đều</strong>: xu hướng TESE cho rằng tác nhân vận hành phát triển trước, các phần còn lại phát triển sau.</p>
+<p><strong>Xu hướng tăng cường dòng chảy</strong>: xu hướng TESE cho rằng lưu lượng chất, năng lượng, thông tin tăng và/hoặc được khai thác hiệu quả hơn.</p>
+<p><strong>Xu hướng giảm sự tham gia của con người</strong>: xu hướng TESE cho rằng số chức năng do con người đảm nhiệm thay hệ giảm dần.</p>
+<p><strong>Xu hướng gia tăng mức độ đầy đủ của các khối chức năng</strong>: xu hướng TESE cho rằng hệ lần lượt sở hữu tác nhân vận hành, truyền dẫn, nguồn năng lượng, điều khiển.</p>
+<p><strong>Xu hướng gia tăng khả năng điều khiển</strong>: xu hướng TESE cho rằng hệ phát triển thêm các cách điều khiển.</p>
+</section>
+<section id="t" class="level2">
+<h2 class="anchored" data-anchor-id="t">T</h2>
+<p><strong>Chức năng mục tiêu (main function)</strong>: chức năng mà hệ được thiết kế để thực hiện.</p>
+<p><strong>Thanh phần mục tiêu</strong>: đối tượng của chức năng chính.</p>
+<p><strong>Chức năng bổ sung</strong>: <em>xem mục A</em>.</p>
+<p><strong>Chức năng hiệu chỉnh</strong>: <em>xem mục C</em>.</p>
+<p><strong>Chức năng hữu ích</strong>: chức năng gây thay đổi tích cực hoặc duy trì tham số mong muốn.</p>
+<p><strong>Chức năng có hại</strong>: <em>xem mục H</em>.</p>
+<p><strong>Cắt gọn</strong>: công cụ cải tiến hệ bằng cách loại bỏ thành phần và phân bổ lại chức năng hữu ích cho thành phần còn lại.</p>
+<p><strong>Mô hình cắt gọn</strong>: mô hình chức năng của hệ sau khi cắt gọn.</p>
+<p><strong>Quy tắc cắt gọn</strong>: phương án loại bỏ thành phần bằng cách loại bỏ hoặc phân bổ chức năng hữu ích cho thành phần khác.</p>
+<p><strong>Tham số điển hình</strong>: tập tham số khái quát cần cải thiện trong hệ, được dùng trong ma trận mâu thuẫn.</p>
+</section>
+<section id="u" class="level2">
+<h2 class="anchored" data-anchor-id="u">U</h2>
+<p><strong>Dòng hữu ích</strong>: dòng mà đối tượng thực hiện chức năng hữu ích hoặc là đối tượng của chức năng hữu ích.</p>
+<p><strong>Chức năng hữu ích</strong>: <em>xem trên</em>.</p>
+</section>
+<section id="v" class="level2">
+<h2 class="anchored" data-anchor-id="v">V</h2>
+<p><strong>Giá trị</strong>: tỷ số giữa tổng điểm chức năng đã chuẩn hóa và tổng chi phí.</p>
+<p><strong>Phân tích giá trị</strong>: công cụ phân tích so sánh chức năng tương đối và chi phí tương đối của các thành phần hệ.</p>
+<p><strong>Vòng luẩn quẩn</strong>: tình huống trong CECA khi một nhược điểm gây ra nhược điểm mới và dẫn trở về nhược điểm ban đầu.</p>
+</section>
+<section id="w" class="level2">
+<h2 class="anchored" data-anchor-id="w">W</h2>
+<p><strong>Dòng bị lãng phí</strong>: dòng đặc trưng bởi việc thất thoát chất, năng lượng hoặc thông tin.</p>
+</section>
+<section id="x" class="level2">
+<h2 class="anchored" data-anchor-id="x">X</h2>
+<p><strong>Yếu tố X</strong>: (trong ARIZ) bất kỳ thay đổi nào của hệ (thành phần, tham số…) cần đưa vào để giải quyết vấn đề.</p>
+</section>
+<section id="nguồn-lực-trong-triz" class="level2">
+<h2 class="anchored" data-anchor-id="nguồn-lực-trong-triz">Nguồn lực trong TRIZ</h2>
+</section>
+</section>
+<section id="nguồn-lực-trong-triz-1" class="level1">
+<h1>Nguồn lực trong TRIZ</h1>
+<section id="tổng-quan-13" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-13">Tổng quan</h2>
+<p>Khái niệm nguồn lực trong TRIZ vượt ra ngoài hiểu biết truyền thống (tài nguyên tự nhiên, tài chính, nhân lực). Chúng được mở rộng thành nguồn lực sáng tạo và tiến hóa, có thể khai thác để cải thiện hiệu năng hệ và tiến tới tính lý tưởng bằng cách tăng lợi ích hữu ích và giảm yếu tố chi trả.</p>
+<p>Nguồn lực trong TRIZ có thể là:</p>
+<ul>
+<li>bất kỳ chất nào hoặc đối tượng cấu thành từ chất (kể cả phế thải) nằm trong hệ hoặc siêu hệ,</li>
+<li>năng lượng dự trữ, thời gian rảnh, không gian trống, thông tin…, và</li>
+<li>khả năng chức năng/công nghệ để thực hiện chức năng bổ sung, bao gồm đặc tính của chất cũng như các hiệu ứng vật lý, hóa học, hình học…</li>
+</ul>
+<p>Nguồn lực được phân nhóm theo:</p>
+<section id="a.-theo-mức-độ-sẵn-có" class="level3">
+<h3 class="anchored" data-anchor-id="a.-theo-mức-độ-sẵn-có">A. Theo mức độ sẵn có</h3>
+<ul>
+<li>nguồn lực <strong>nội bộ</strong> (giới hạn trong các thành phần chính của hệ),</li>
+<li>nguồn lực <strong>bên ngoài</strong>, gồm môi trường chung và những nguồn lực đặc thù của hệ,</li>
+<li>nguồn lực từ <strong>siêu hệ</strong> hoặc nguồn lực khác dễ tiếp cận, chi phí thấp (kể cả phế thải).</li>
+</ul>
+</section>
+<section id="b.-theo-mức-độ-sẵn-sàng-sử-dụng" class="level3">
+<h3 class="anchored" data-anchor-id="b.-theo-mức-độ-sẵn-sàng-sử-dụng">B. Theo mức độ sẵn sàng sử dụng</h3>
+<ul>
+<li>nguồn lực <strong>sẵn có ngay</strong>, và</li>
+<li>nguồn lực <strong>chuyển hóa</strong> (biến đổi từ nguồn lực sẵn có).</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

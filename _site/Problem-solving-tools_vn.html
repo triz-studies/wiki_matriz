@@ -1,0 +1,2452 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.43">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>matriz_wiki – problem-solving-tools_vn</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">matriz_wiki</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Problem-identification-tools.html"> 
+<span class="menu-text">Problem-identification</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Problem-identification-tools_vn.html"> 
+<span class="menu-text">Problem-identification-VN</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Problem-solving-tools.html"> 
+<span class="menu-text">Problem-solving</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./Problem-solving-tools_vn.html" aria-current="page"> 
+<span class="menu-text">Problem-solving_VN</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Concept-substantiation-tools.html"> 
+<span class="menu-text">Concept-substantiation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Concept-substantiation-tools.html"> 
+<span class="menu-text">Concept-substantiation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./TESE.html"> 
+<span class="menu-text">TESE</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./TESE_vn.html"> 
+<span class="menu-text">TESE_VN</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#công-cụ-giải-quyết-vấn-đề" id="toc-công-cụ-giải-quyết-vấn-đề" class="nav-link active" data-scroll-target="#công-cụ-giải-quyết-vấn-đề">Công cụ giải quyết vấn đề</a>
+  <ul class="collapse">
+  <li><a href="#mối-quan-hệ-giữa-công-cụ-giải-quyết-vấn-đề-và-mô-hình-vấn-đề" id="toc-mối-quan-hệ-giữa-công-cụ-giải-quyết-vấn-đề-và-mô-hình-vấn-đề" class="nav-link" data-scroll-target="#mối-quan-hệ-giữa-công-cụ-giải-quyết-vấn-đề-và-mô-hình-vấn-đề">Mối quan hệ giữa công cụ giải quyết vấn đề và mô hình vấn đề</a>
+  <ul class="collapse">
+  <li><a href="#mô-hình-hóa-chất-trường" id="toc-mô-hình-hóa-chất-trường" class="nav-link" data-scroll-target="#mô-hình-hóa-chất-trường">Mô hình hóa chất-trường</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#mô-hình-hóa-chất-trường-1" id="toc-mô-hình-hóa-chất-trường-1" class="nav-link" data-scroll-target="#mô-hình-hóa-chất-trường-1">Mô hình hóa chất-trường</a></li>
+  <li><a href="#các-giải-pháp-sáng-tạo-tiêu-chuẩn-sis-1" id="toc-các-giải-pháp-sáng-tạo-tiêu-chuẩn-sis-1" class="nav-link" data-scroll-target="#các-giải-pháp-sáng-tạo-tiêu-chuẩn-sis-1">Các giải pháp sáng tạo tiêu chuẩn (SIS)</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan" id="toc-tổng-quan" class="nav-link" data-scroll-target="#tổng-quan">Tổng quan</a></li>
+  <li><a href="#cấu-trúc-hệ-thống" id="toc-cấu-trúc-hệ-thống" class="nav-link" data-scroll-target="#cấu-trúc-hệ-thống">Cấu trúc hệ thống</a></li>
+  <li><a href="#danh-sách-đầy-đủ-76-giải-pháp-sáng-tạo-tiêu-chuẩn" id="toc-danh-sách-đầy-đủ-76-giải-pháp-sáng-tạo-tiêu-chuẩn" class="nav-link" data-scroll-target="#danh-sách-đầy-đủ-76-giải-pháp-sáng-tạo-tiêu-chuẩn">Danh sách đầy đủ 76 giải pháp sáng tạo tiêu chuẩn</a>
+  <ul class="collapse">
+  <li><a href="#lớp-1-xây-dựng-và-phá-hủy-su-field" id="toc-lớp-1-xây-dựng-và-phá-hủy-su-field" class="nav-link" data-scroll-target="#lớp-1-xây-dựng-và-phá-hủy-su-field">Lớp 1: Xây dựng và phá hủy Su-Field</a></li>
+  <li><a href="#lớp-2-phát-triển-su-field" id="toc-lớp-2-phát-triển-su-field" class="nav-link" data-scroll-target="#lớp-2-phát-triển-su-field">Lớp 2: Phát triển Su-Field</a></li>
+  <li><a href="#lớp-3-chuyển-sang-siêu-hệ-thống-và-cấp-vi-mô" id="toc-lớp-3-chuyển-sang-siêu-hệ-thống-và-cấp-vi-mô" class="nav-link" data-scroll-target="#lớp-3-chuyển-sang-siêu-hệ-thống-và-cấp-vi-mô">Lớp 3: Chuyển sang siêu hệ thống và cấp vi mô</a></li>
+  <li><a href="#lớp-4-các-giải-pháp-sáng-tạo-tiêu-chuẩn-cho-đo-lường-và-phát-hiện" id="toc-lớp-4-các-giải-pháp-sáng-tạo-tiêu-chuẩn-cho-đo-lường-và-phát-hiện" class="nav-link" data-scroll-target="#lớp-4-các-giải-pháp-sáng-tạo-tiêu-chuẩn-cho-đo-lường-và-phát-hiện">Lớp 4: Các giải pháp sáng tạo tiêu chuẩn cho đo lường và phát hiện</a></li>
+  <li><a href="#lớp-5-các-giải-pháp-sáng-tạo-tiêu-chuẩn-hỗ-trợ-áp-dụng-sis" id="toc-lớp-5-các-giải-pháp-sáng-tạo-tiêu-chuẩn-hỗ-trợ-áp-dụng-sis" class="nav-link" data-scroll-target="#lớp-5-các-giải-pháp-sáng-tạo-tiêu-chuẩn-hỗ-trợ-áp-dụng-sis">Lớp 5: Các giải pháp sáng tạo tiêu chuẩn hỗ trợ áp dụng SIS</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#phân-tích-chất-trường-1" id="toc-phân-tích-chất-trường-1" class="nav-link" data-scroll-target="#phân-tích-chất-trường-1">Phân tích chất-trường</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-1" id="toc-tổng-quan-1" class="nav-link" data-scroll-target="#tổng-quan-1">Tổng quan</a></li>
+  </ul></li>
+  <li><a href="#mô-hình-chất-trường-1" id="toc-mô-hình-chất-trường-1" class="nav-link" data-scroll-target="#mô-hình-chất-trường-1">Mô hình chất-trường</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-2" id="toc-tổng-quan-2" class="nav-link" data-scroll-target="#tổng-quan-2">Tổng quan</a></li>
+  <li><a href="#cấu-trúc-của-su-field" id="toc-cấu-trúc-của-su-field" class="nav-link" data-scroll-target="#cấu-trúc-của-su-field">Cấu trúc của Su-Field</a></li>
+  <li><a href="#các-loại-su-field" id="toc-các-loại-su-field" class="nav-link" data-scroll-target="#các-loại-su-field">Các loại Su-Field</a>
+  <ul class="collapse">
+  <li><a href="#su-field-của-vấn-đề" id="toc-su-field-của-vấn-đề" class="nav-link" data-scroll-target="#su-field-của-vấn-đề">Su-Field của vấn đề</a></li>
+  <li><a href="#su-field-của-giải-pháp" id="toc-su-field-của-giải-pháp" class="nav-link" data-scroll-target="#su-field-của-giải-pháp">Su-Field của giải pháp</a></li>
+  <li><a href="#mâu-thuẫn" id="toc-mâu-thuẫn" class="nav-link" data-scroll-target="#mâu-thuẫn">Mâu thuẫn</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#mâu-thuẫn-1" id="toc-mâu-thuẫn-1" class="nav-link" data-scroll-target="#mâu-thuẫn-1">Mâu thuẫn</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-3" id="toc-tổng-quan-3" class="nav-link" data-scroll-target="#tổng-quan-3">Tổng quan</a></li>
+  <li><a href="#quan-hệ-giữa-mâu-thuẫn-kỹ-thuật-và-mâu-thuẫn-vật-lý" id="toc-quan-hệ-giữa-mâu-thuẫn-kỹ-thuật-và-mâu-thuẫn-vật-lý" class="nav-link" data-scroll-target="#quan-hệ-giữa-mâu-thuẫn-kỹ-thuật-và-mâu-thuẫn-vật-lý">Quan hệ giữa mâu thuẫn kỹ thuật và mâu thuẫn vật lý</a></li>
+  <li><a href="#giải-mâu-thuẫn" id="toc-giải-mâu-thuẫn" class="nav-link" data-scroll-target="#giải-mâu-thuẫn">Giải mâu thuẫn</a></li>
+  </ul></li>
+  <li><a href="#mâu-thuẫn-kỹ-thuật-1" id="toc-mâu-thuẫn-kỹ-thuật-1" class="nav-link" data-scroll-target="#mâu-thuẫn-kỹ-thuật-1">Mâu thuẫn kỹ thuật</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-4" id="toc-tổng-quan-4" class="nav-link" data-scroll-target="#tổng-quan-4">Tổng quan</a></li>
+  <li><a href="#cách-hình-thành-mâu-thuẫn-kỹ-thuật" id="toc-cách-hình-thành-mâu-thuẫn-kỹ-thuật" class="nav-link" data-scroll-target="#cách-hình-thành-mâu-thuẫn-kỹ-thuật">Cách hình thành mâu thuẫn kỹ thuật</a></li>
+  <li><a href="#mâu-thuẫn-kỹ-thuật-đảo" id="toc-mâu-thuẫn-kỹ-thuật-đảo" class="nav-link" data-scroll-target="#mâu-thuẫn-kỹ-thuật-đảo">Mâu thuẫn kỹ thuật đảo</a></li>
+  <li><a href="#thuật-toán-xử-lý-mâu-thuẫn-kỹ-thuật" id="toc-thuật-toán-xử-lý-mâu-thuẫn-kỹ-thuật" class="nav-link" data-scroll-target="#thuật-toán-xử-lý-mâu-thuẫn-kỹ-thuật">Thuật toán xử lý mâu thuẫn kỹ thuật</a></li>
+  </ul></li>
+  <li><a href="#ma-trận-mâu-thuẫn-1" id="toc-ma-trận-mâu-thuẫn-1" class="nav-link" data-scroll-target="#ma-trận-mâu-thuẫn-1">Ma trận mâu thuẫn</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-5" id="toc-tổng-quan-5" class="nav-link" data-scroll-target="#tổng-quan-5">Tổng quan</a></li>
+  <li><a href="#cấu-trúc-ma-trận-mâu-thuẫn" id="toc-cấu-trúc-ma-trận-mâu-thuẫn" class="nav-link" data-scroll-target="#cấu-trúc-ma-trận-mâu-thuẫn">Cấu trúc ma trận mâu thuẫn</a></li>
+  </ul></li>
+  <li><a href="#các-tham-số-điển-hình-1" id="toc-các-tham-số-điển-hình-1" class="nav-link" data-scroll-target="#các-tham-số-điển-hình-1">Các tham số điển hình</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-6" id="toc-tổng-quan-6" class="nav-link" data-scroll-target="#tổng-quan-6">Tổng quan</a></li>
+  <li><a href="#tham-số-điển-hình" id="toc-tham-số-điển-hình" class="nav-link" data-scroll-target="#tham-số-điển-hình">39 tham số điển hình</a></li>
+  </ul></li>
+  <li><a href="#mâu-thuẫn-vật-lý-1" id="toc-mâu-thuẫn-vật-lý-1" class="nav-link" data-scroll-target="#mâu-thuẫn-vật-lý-1">Mâu thuẫn vật lý</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-7" id="toc-tổng-quan-7" class="nav-link" data-scroll-target="#tổng-quan-7">Tổng quan</a></li>
+  <li><a href="#mẫu-định-dạng" id="toc-mẫu-định-dạng" class="nav-link" data-scroll-target="#mẫu-định-dạng">Mẫu định dạng</a></li>
+  </ul></li>
+  <li><a href="#thuật-toán-giải-mâu-thuẫn-vật-lý-1" id="toc-thuật-toán-giải-mâu-thuẫn-vật-lý-1" class="nav-link" data-scroll-target="#thuật-toán-giải-mâu-thuẫn-vật-lý-1">Thuật toán giải mâu thuẫn vật lý</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-8" id="toc-tổng-quan-8" class="nav-link" data-scroll-target="#tổng-quan-8">Tổng quan</a></li>
+  <li><a href="#các-cách-tiếp-cận-giải-mâu-thuẫn-vật-lý" id="toc-các-cách-tiếp-cận-giải-mâu-thuẫn-vật-lý" class="nav-link" data-scroll-target="#các-cách-tiếp-cận-giải-mâu-thuẫn-vật-lý">Các cách tiếp cận giải mâu thuẫn vật lý</a>
+  <ul class="collapse">
+  <li><a href="#tách-các-yêu-cầu-đối-nghịch" id="toc-tách-các-yêu-cầu-đối-nghịch" class="nav-link" data-scroll-target="#tách-các-yêu-cầu-đối-nghịch">Tách các yêu cầu đối nghịch</a></li>
+  <li><a href="#thỏa-mãn-các-yêu-cầu-đối-nghịch" id="toc-thỏa-mãn-các-yêu-cầu-đối-nghịch" class="nav-link" data-scroll-target="#thỏa-mãn-các-yêu-cầu-đối-nghịch">Thỏa mãn các yêu cầu đối nghịch</a></li>
+  <li><a href="#đi-vòng-yêu-cầu-đối-nghịch" id="toc-đi-vòng-yêu-cầu-đối-nghịch" class="nav-link" data-scroll-target="#đi-vòng-yêu-cầu-đối-nghịch">Đi vòng yêu cầu đối nghịch</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#nguyên-tắc-sáng-tạo-1" id="toc-nguyên-tắc-sáng-tạo-1" class="nav-link" data-scroll-target="#nguyên-tắc-sáng-tạo-1">Nguyên tắc sáng tạo</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-9" id="toc-tổng-quan-9" class="nav-link" data-scroll-target="#tổng-quan-9">Tổng quan</a></li>
+  <li><a href="#nguyên-tắc-sáng-tạo-2" id="toc-nguyên-tắc-sáng-tạo-2" class="nav-link" data-scroll-target="#nguyên-tắc-sáng-tạo-2">40 nguyên tắc sáng tạo</a>
+  <ul class="collapse">
+  <li><a href="#ariz" id="toc-ariz" class="nav-link" data-scroll-target="#ariz">ARIZ</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#ariz-1" id="toc-ariz-1" class="nav-link" data-scroll-target="#ariz-1">ARIZ</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-10" id="toc-tổng-quan-10" class="nav-link" data-scroll-target="#tổng-quan-10">Tổng quan</a></li>
+  <li><a href="#khi-nào-dùng-ariz" id="toc-khi-nào-dùng-ariz" class="nav-link" data-scroll-target="#khi-nào-dùng-ariz">Khi nào dùng ARIZ</a></li>
+  <li><a href="#điểm-mạnh-của-ariz" id="toc-điểm-mạnh-của-ariz" class="nav-link" data-scroll-target="#điểm-mạnh-của-ariz">Điểm mạnh của ARIZ</a>
+  <ul class="collapse">
+  <li><a href="#tập-trung-vào-kết-quả-cuối-lý-tưởng" id="toc-tập-trung-vào-kết-quả-cuối-lý-tưởng" class="nav-link" data-scroll-target="#tập-trung-vào-kết-quả-cuối-lý-tưởng">Tập trung vào kết quả cuối lý tưởng</a></li>
+  <li><a href="#dựa-trên-xu-hướng-tiến-hóa-hệ-kỹ-thuật" id="toc-dựa-trên-xu-hướng-tiến-hóa-hệ-kỹ-thuật" class="nav-link" data-scroll-target="#dựa-trên-xu-hướng-tiến-hóa-hệ-kỹ-thuật">Dựa trên xu hướng tiến hóa hệ kỹ thuật</a></li>
+  <li><a href="#tập-trung-vào-nguồn-lực-hệ" id="toc-tập-trung-vào-nguồn-lực-hệ" class="nav-link" data-scroll-target="#tập-trung-vào-nguồn-lực-hệ">Tập trung vào nguồn lực hệ</a></li>
+  </ul></li>
+  <li><a href="#cấu-trúc-của-ariz" id="toc-cấu-trúc-của-ariz" class="nav-link" data-scroll-target="#cấu-trúc-của-ariz">Cấu trúc của ARIZ</a></li>
+  </ul></li>
+  <li><a href="#khối-1-ariz-tái-cấu-trúc-vấn-đề-ban-đầu-1" id="toc-khối-1-ariz-tái-cấu-trúc-vấn-đề-ban-đầu-1" class="nav-link" data-scroll-target="#khối-1-ariz-tái-cấu-trúc-vấn-đề-ban-đầu-1">Khối 1 ARIZ: Tái cấu trúc vấn đề ban đầu</a>
+  <ul class="collapse">
+  <li><a href="#phần-1.-phân-tích-hệ" id="toc-phần-1.-phân-tích-hệ" class="nav-link" data-scroll-target="#phần-1.-phân-tích-hệ">Phần 1. Phân tích hệ</a>
+  <ul class="collapse">
+  <li><a href="#bước-1.1.-hình-thành-mini-problem" id="toc-bước-1.1.-hình-thành-mini-problem" class="nav-link" data-scroll-target="#bước-1.1.-hình-thành-mini-problem">Bước 1.1. Hình thành mini-problem</a></li>
+  <li><a href="#bước-1.2.-xác-định-cặp-xung-đột" id="toc-bước-1.2.-xác-định-cặp-xung-đột" class="nav-link" data-scroll-target="#bước-1.2.-xác-định-cặp-xung-đột">Bước 1.2. Xác định cặp xung đột</a></li>
+  <li><a href="#bước-1.3.-tạo-mô-hình-đồ-họa-cho-các-mâu-thuẫn-kỹ-thuật" id="toc-bước-1.3.-tạo-mô-hình-đồ-họa-cho-các-mâu-thuẫn-kỹ-thuật" class="nav-link" data-scroll-target="#bước-1.3.-tạo-mô-hình-đồ-họa-cho-các-mâu-thuẫn-kỹ-thuật">Bước 1.3. Tạo mô hình đồ họa cho các mâu thuẫn kỹ thuật</a></li>
+  <li><a href="#bước-1.4.-chọn-mâu-thuẫn-để-phân-tích-tiếp-mâu-thuẫn-cơ-bản" id="toc-bước-1.4.-chọn-mâu-thuẫn-để-phân-tích-tiếp-mâu-thuẫn-cơ-bản" class="nav-link" data-scroll-target="#bước-1.4.-chọn-mâu-thuẫn-để-phân-tích-tiếp-mâu-thuẫn-cơ-bản">Bước 1.4. Chọn mâu thuẫn để phân tích tiếp (mâu thuẫn cơ bản)</a></li>
+  <li><a href="#bước-1.5.-tăng-cường-mâu-thuẫn-cơ-bản" id="toc-bước-1.5.-tăng-cường-mâu-thuẫn-cơ-bản" class="nav-link" data-scroll-target="#bước-1.5.-tăng-cường-mâu-thuẫn-cơ-bản">Bước 1.5. Tăng cường mâu thuẫn cơ bản</a></li>
+  <li><a href="#bước-1.6.-xác-định-yếu-tố-x-và-phát-biểu-vấn-đề-cuối-cùng" id="toc-bước-1.6.-xác-định-yếu-tố-x-và-phát-biểu-vấn-đề-cuối-cùng" class="nav-link" data-scroll-target="#bước-1.6.-xác-định-yếu-tố-x-và-phát-biểu-vấn-đề-cuối-cùng">Bước 1.6. Xác định yếu tố X và phát biểu vấn đề cuối cùng</a></li>
+  <li><a href="#bước-1.7.-tăng-cường-mini-problem" id="toc-bước-1.7.-tăng-cường-mini-problem" class="nav-link" data-scroll-target="#bước-1.7.-tăng-cường-mini-problem">Bước 1.7. Tăng cường mini-problem</a></li>
+  </ul></li>
+  <li><a href="#phần-2.-phân-tích-mô-hình-vấn-đề" id="toc-phần-2.-phân-tích-mô-hình-vấn-đề" class="nav-link" data-scroll-target="#phần-2.-phân-tích-mô-hình-vấn-đề">Phần 2. Phân tích mô hình vấn đề</a>
+  <ul class="collapse">
+  <li><a href="#bước-2.1.-xác-định-vùng-tác-động" id="toc-bước-2.1.-xác-định-vùng-tác-động" class="nav-link" data-scroll-target="#bước-2.1.-xác-định-vùng-tác-động">Bước 2.1. Xác định vùng tác động</a></li>
+  <li><a href="#bước-2.2.-xác-định-thời-gian-tác-động" id="toc-bước-2.2.-xác-định-thời-gian-tác-động" class="nav-link" data-scroll-target="#bước-2.2.-xác-định-thời-gian-tác-động">Bước 2.2. Xác định thời gian tác động</a></li>
+  <li><a href="#bước-2.3.-liệt-kê-nguồn-lực" id="toc-bước-2.3.-liệt-kê-nguồn-lực" class="nav-link" data-scroll-target="#bước-2.3.-liệt-kê-nguồn-lực">Bước 2.3. Liệt kê nguồn lực</a></li>
+  </ul></li>
+  <li><a href="#phần-3.-xác-định-ifr-và-hình-thành-mâu-thuẫn-vật-lý" id="toc-phần-3.-xác-định-ifr-và-hình-thành-mâu-thuẫn-vật-lý" class="nav-link" data-scroll-target="#phần-3.-xác-định-ifr-và-hình-thành-mâu-thuẫn-vật-lý">Phần 3. Xác định IFR và hình thành mâu thuẫn vật lý</a>
+  <ul class="collapse">
+  <li><a href="#bước-3.1.-soạn-ifr" id="toc-bước-3.1.-soạn-ifr" class="nav-link" data-scroll-target="#bước-3.1.-soạn-ifr">Bước 3.1. Soạn IFR</a></li>
+  <li><a href="#bước-3.2.-tăng-cường-ifr" id="toc-bước-3.2.-tăng-cường-ifr" class="nav-link" data-scroll-target="#bước-3.2.-tăng-cường-ifr">Bước 3.2. Tăng cường IFR</a></li>
+  <li><a href="#bước-3.3.-hình-thành-mâu-thuẫn-vật-lý-ở-cấp-vĩ-mô" id="toc-bước-3.3.-hình-thành-mâu-thuẫn-vật-lý-ở-cấp-vĩ-mô" class="nav-link" data-scroll-target="#bước-3.3.-hình-thành-mâu-thuẫn-vật-lý-ở-cấp-vĩ-mô">Bước 3.3. Hình thành mâu thuẫn vật lý ở cấp vĩ mô</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#cặp-xung-đột-1" id="toc-cặp-xung-đột-1" class="nav-link" data-scroll-target="#cặp-xung-đột-1">Cặp xung đột</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-11" id="toc-tổng-quan-11" class="nav-link" data-scroll-target="#tổng-quan-11">Tổng quan</a></li>
+  </ul></li>
+  <li><a href="#mini-problem-1" id="toc-mini-problem-1" class="nav-link" data-scroll-target="#mini-problem-1">Mini-problem</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-12" id="toc-tổng-quan-12" class="nav-link" data-scroll-target="#tổng-quan-12">Tổng quan</a></li>
+  </ul></li>
+  <li><a href="#sản-phẩm-1" id="toc-sản-phẩm-1" class="nav-link" data-scroll-target="#sản-phẩm-1">Sản phẩm</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-13" id="toc-tổng-quan-13" class="nav-link" data-scroll-target="#tổng-quan-13">Tổng quan</a></li>
+  </ul></li>
+  <li><a href="#công-cụ-1" id="toc-công-cụ-1" class="nav-link" data-scroll-target="#công-cụ-1">Công cụ</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-14" id="toc-tổng-quan-14" class="nav-link" data-scroll-target="#tổng-quan-14">Tổng quan</a></li>
+  </ul></li>
+  <li><a href="#yếu-tố-x-1" id="toc-yếu-tố-x-1" class="nav-link" data-scroll-target="#yếu-tố-x-1">Yếu tố X</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-15" id="toc-tổng-quan-15" class="nav-link" data-scroll-target="#tổng-quan-15">Tổng quan</a></li>
+  </ul></li>
+  <li><a href="#kết-quả-cuối-lý-tưởng-1" id="toc-kết-quả-cuối-lý-tưởng-1" class="nav-link" data-scroll-target="#kết-quả-cuối-lý-tưởng-1">Kết quả cuối lý tưởng</a>
+  <ul class="collapse">
+  <li><a href="#tổng-quan-16" id="toc-tổng-quan-16" class="nav-link" data-scroll-target="#tổng-quan-16">Tổng quan</a></li>
+  <li><a href="#đặc-điểm-chính" id="toc-đặc-điểm-chính" class="nav-link" data-scroll-target="#đặc-điểm-chính">Đặc điểm chính</a></li>
+  <li><a href="#khác-biệt-giữa-ifr-và-hệ-thống-lý-tưởng" id="toc-khác-biệt-giữa-ifr-và-hệ-thống-lý-tưởng" class="nav-link" data-scroll-target="#khác-biệt-giữa-ifr-và-hệ-thống-lý-tưởng">Khác biệt giữa IFR và hệ thống lý tưởng</a>
+  <ul class="collapse">
+  <li><a href="#tìm-kiếm-định-hướng-chức-năng-fos" id="toc-tìm-kiếm-định-hướng-chức-năng-fos" class="nav-link" data-scroll-target="#tìm-kiếm-định-hướng-chức-năng-fos">Tìm kiếm định hướng chức năng (FOS)</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#tìm-kiếm-định-hướng-chức-năng-fos-1" id="toc-tìm-kiếm-định-hướng-chức-năng-fos-1" class="nav-link" data-scroll-target="#tìm-kiếm-định-hướng-chức-năng-fos-1">Tìm kiếm định hướng chức năng (FOS)</a>
+  <ul class="collapse">
+  <li><a href="#áp-dụng-bài-toán-tương-tự" id="toc-áp-dụng-bài-toán-tương-tự" class="nav-link" data-scroll-target="#áp-dụng-bài-toán-tương-tự">Áp dụng bài toán tương tự</a></li>
+  </ul></li>
+  <li><a href="#áp-dụng-bài-toán-tương-tự-1" id="toc-áp-dụng-bài-toán-tương-tự-1" class="nav-link" data-scroll-target="#áp-dụng-bài-toán-tương-tự-1">Áp dụng bài toán tương tự</a>
+  <ul class="collapse">
+  <li><a href="#cơ-sở-dữ-liệu-hiệu-ứng-khoa-học" id="toc-cơ-sở-dữ-liệu-hiệu-ứng-khoa-học" class="nav-link" data-scroll-target="#cơ-sở-dữ-liệu-hiệu-ứng-khoa-học">Cơ sở dữ liệu hiệu ứng khoa học</a></li>
+  </ul></li>
+  <li><a href="#cơ-sở-dữ-liệu-hiệu-ứng-khoa-học-1" id="toc-cơ-sở-dữ-liệu-hiệu-ứng-khoa-học-1" class="nav-link" data-scroll-target="#cơ-sở-dữ-liệu-hiệu-ứng-khoa-học-1">Cơ sở dữ liệu hiệu ứng khoa học</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="công-cụ-giải-quyết-vấn-đề" class="level1">
+<h1>Công cụ giải quyết vấn đề</h1>
+<p><img src="media/wp-content/uploads/2024/08/3stages_pr-sol-1024x76.png" class="img-fluid"></p>
+<p>Các công cụ giải quyết vấn đề là tập hợp các phương tiện được thiết kế để xử lý những <strong>vấn đề then chốt</strong> cụ thể đã được xác định trong giai đoạn nhận diện vấn đề của dự án.</p>
+<p>Mô hình sau là nền tảng cho mọi quy trình giải quyết vấn đề theo TRIZ:</p>
+<p><img src="media/wp-content/uploads/2024/08/prob-sol_mod-1024x266.png" class="img-fluid"></p>
+<p>Ở bước đầu tiên, một vấn đề then chốt được chuyển thành mô hình của vấn đề. Mô hình này sau đó được xử lý bằng công cụ dành riêng cho mô hình đó để tạo ra mô hình của giải pháp. Cuối cùng, ta tiến hành động não dựa trên mô hình giải pháp đã tạo để phát triển các ý tưởng giải pháp cụ thể.</p>
+<p>Các công cụ giải quyết vấn đề được nhóm thành hai khối: khối yêu cầu hình thành mâu thuẫn (kỹ thuật hoặc vật lý) và khối không yêu cầu mâu thuẫn:</p>
+<p><strong>cần mâu thuẫn</strong></p>
+<ul>
+<li>ARIZ</li>
+<li>bài toán tương tự (clone problem)</li>
+<li>các nguyên tắc sáng tạo</li>
+</ul>
+<p><strong>không cần mâu thuẫn</strong></p>
+<ul>
+<li>tìm kiếm định hướng chức năng (FOS)</li>
+<li>các giải pháp sáng tạo tiêu chuẩn</li>
+<li>cơ sở dữ liệu hiệu ứng khoa học</li>
+</ul>
+<section id="mối-quan-hệ-giữa-công-cụ-giải-quyết-vấn-đề-và-mô-hình-vấn-đề" class="level2">
+<h2 class="anchored" data-anchor-id="mối-quan-hệ-giữa-công-cụ-giải-quyết-vấn-đề-và-mô-hình-vấn-đề">Mối quan hệ giữa công cụ giải quyết vấn đề và mô hình vấn đề</h2>
+<p>Tùy vào cách mô hình hóa vấn đề mà chọn công cụ giải quyết tương ứng. Kết quả là mỗi công cụ sẽ tạo ra một mô hình giải pháp phù hợp. Bảng dưới minh họa mối liên hệ này:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>mô hình của vấn đề</strong></td>
+<td><strong>công cụ xử lý mô hình vấn đề</strong></td>
+<td><strong>mô hình giải pháp</strong></td>
+</tr>
+<tr class="even">
+<td>mâu thuẫn kỹ thuật</td>
+<td>1. ma trận mâu thuẫn (Altshuller)</td>
+<td>1. nguyên tắc sáng tạo</td>
+</tr>
+<tr class="odd">
+<td>mâu thuẫn vật lý</td>
+<td>1. thuật toán giải mâu thuẫn vật lý 2. tìm kiếm định hướng chức năng (FOS) 3. cơ sở dữ liệu hiệu ứng khoa học 4. áp dụng bài toán tương tự</td>
+<td>1. nguyên tắc sáng tạo 2. công nghệ tìm thấy thông qua FOS 3. hiệu ứng khoa học</td>
+</tr>
+<tr class="even">
+<td>Su-Field</td>
+<td>1. hệ 76 giải pháp sáng tạo tiêu chuẩn</td>
+<td>1. giải pháp sáng tạo tiêu chuẩn</td>
+</tr>
+<tr class="odd">
+<td>chức năng</td>
+<td>1. tìm kiếm định hướng chức năng (FOS) 2. cơ sở dữ liệu hiệu ứng khoa học</td>
+<td>1. công nghệ tìm thấy thông qua FOS 2. hiệu ứng/hiện tượng khoa học</td>
+</tr>
+</tbody>
+</table>
+<section id="bài-viết" class="level4">
+<h4 class="anchored" data-anchor-id="bài-viết">Bài viết</h4>
+<ul>
+<li>Mô hình hóa chất-trường
+<ul>
+<li>Các giải pháp sáng tạo tiêu chuẩn (SIS)
+<ul>
+<li>Phân tích chất-trường</li>
+<li>Mô hình chất-trường</li>
+</ul></li>
+</ul></li>
+<li>Mâu thuẫn
+<ul>
+<li>Mâu thuẫn kỹ thuật
+<ul>
+<li>Ma trận mâu thuẫn
+<ul>
+<li>Các tham số điển hình</li>
+</ul></li>
+</ul></li>
+<li>Mâu thuẫn vật lý
+<ul>
+<li>Thuật toán giải mâu thuẫn vật lý</li>
+</ul></li>
+<li>Nguyên tắc sáng tạo</li>
+</ul></li>
+<li>ARIZ
+<ul>
+<li>Cặp xung đột</li>
+<li>Sản phẩm</li>
+<li>Công cụ</li>
+<li>Khối 1 ARIZ: Tái cấu trúc vấn đề ban đầu</li>
+<li>Yếu tố X (X-factor)</li>
+<li>Vùng tác động</li>
+<li>Thời gian tác động</li>
+<li>Bài toán vi mô (mini-problem)</li>
+<li>Kết quả cuối lý tưởng</li>
+</ul></li>
+<li>Tìm kiếm định hướng chức năng (FOS)</li>
+<li>Áp dụng bài toán tương tự</li>
+<li>Cơ sở dữ liệu hiệu ứng khoa học</li>
+</ul>
+</section>
+<section id="mô-hình-hóa-chất-trường" class="level3">
+<h3 class="anchored" data-anchor-id="mô-hình-hóa-chất-trường">Mô hình hóa chất-trường</h3>
+</section>
+</section>
+</section>
+<section id="mô-hình-hóa-chất-trường-1" class="level1">
+<h1>Mô hình hóa chất-trường</h1>
+<p>Tương tự việc sử dụng mâu thuẫn, mô hình hóa chất-trường được dùng để mô hình hóa vấn đề đã được nhận diện trong giai đoạn phân tích của dự án. Tuy nhiên, nó mang lại một góc nhìn khác về vấn đề so với mâu thuẫn.</p>
+<p>Giả định cơ bản của cách tiếp cận này là một hệ thống tối thiểu để hoạt động phải gồm 3 phần tử cơ bản:<br>
+1. 2 chất (S) – các đối tượng có khối lượng nghỉ tham gia trong hệ thống, và<br>
+2. 1 trường (F) – thực thể không có khối lượng nghỉ, tạo ra tương tác giữa các chất.</p>
+<p>Các chất gắn trực tiếp với vấn đề then chốt cần giải quyết. Chúng có thể là các đối tượng vi mô, một thành phần đơn lẻ hoặc cả hệ thống kỹ thuật. Trường thường được chọn theo các loại trong mô hình MATChEM.</p>
+<p>Trừu tượng hóa các phần tử này giúp biểu diễn vấn đề then chốt dưới dạng trực quan đơn giản:</p>
+<p><img src="media/wp-content/uploads/2024/12/su-field_basic.png" class="img-fluid"></p>
+<p>Trong TRIZ cổ điển, công cụ dùng để xác định chất và trường cần thiết để tạo Su-Field của vấn đề là phân tích chất-trường. Ngày nay, công cụ này không còn sử dụng vì các nhược điểm then chốt xác định bằng CECA đã cung cấp thông tin chi tiết cho mục đích đó.</p>
+<p>Công cụ dùng để xử lý các mô hình chất-trường (Su-Field) của vấn đề là hệ 76 giải pháp sáng tạo tiêu chuẩn (SIS), cho ra các mô hình giải pháp được biểu diễn bằng các SIS tương ứng. Trong một số trường hợp, các giải pháp này cũng có thể được mô tả dưới dạng Su-Field. Do đó, phân tích chất-trường là công cụ TRIZ duy nhất mà mô hình giải pháp có thể có cùng hình thức với mô hình vấn đề.</p>
+<p><img src="media/wp-content/uploads/2025/01/su-field_diag-1024x266.png" class="img-fluid"></p>
+<section id="bài-viết-1" class="level4">
+<h4 class="anchored" data-anchor-id="bài-viết-1">Bài viết</h4>
+<ul>
+<li>Các giải pháp sáng tạo tiêu chuẩn (SIS)
+<ul>
+<li>Phân tích chất-trường</li>
+<li>Mô hình chất-trường</li>
+</ul></li>
+</ul>
+</section>
+<section id="các-giải-pháp-sáng-tạo-tiêu-chuẩn-sis" class="level4">
+<h4 class="anchored" data-anchor-id="các-giải-pháp-sáng-tạo-tiêu-chuẩn-sis">Các giải pháp sáng tạo tiêu chuẩn (SIS)</h4>
+</section>
+</section>
+<section id="các-giải-pháp-sáng-tạo-tiêu-chuẩn-sis-1" class="level1">
+<h1>Các giải pháp sáng tạo tiêu chuẩn (SIS)</h1>
+<p><em><strong>Các giải pháp sáng tạo tiêu chuẩn (SIS)</strong> là tập hợp 76 mô hình giải pháp điển hình cho những mô hình vấn đề điển hình được biểu diễn dưới dạng mô hình chất-trường (Su-Field).</em></p>
+<section id="tổng-quan" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan">Tổng quan</h2>
+<p>Hệ các giải pháp sáng tạo tiêu chuẩn (SIS) là bộ sưu tập 76 giải pháp kỹ thuật điển hình, được phát triển dưới dạng mô hình chất-trường (Su-Field) mô tả tương tác giữa các chất và trường. Đây là công cụ để phân tích và tạo ra giải pháp cho các vấn đề kỹ thuật.</p>
+<p>Hệ thống được Genrikh Altshuller xây dựng sau khi phân tích hàng nghìn bằng sáng chế, từ đó nhận diện các mẫu lặp lại trong cách giải quyết vấn đề ở nhiều lĩnh vực kỹ thuật khác nhau. Lịch sử của SIS bắt đầu từ thập niên 1970, khi Altshuller và cộng sự phát triển bộ 28 giải pháp tiêu chuẩn đầu tiên dựa trên mô hình Su-Field. Hệ thống được mở rộng trong suốt thập niên 1980, hoàn thiện thành 76 tiêu chuẩn mà Altshuller cho là đủ đầy. Tuy nhiên, ông không loại trừ khả năng hệ thống sẽ được mở rộng thêm trong tương lai.</p>
+<p>Vì vậy danh sách giải pháp sáng tạo tiêu chuẩn không phải là hữu hạn. Về lý thuyết, những khuyến nghị mới có thể được khám phá và bổ sung dựa trên công nghệ mới và các xu hướng kỹ thuật đang phát triển. Dẫu vậy, bộ sưu tập hiện tại đã cung cấp nền tảng vững chắc để xử lý nhiều thách thức kỹ thuật.</p>
+</section>
+<section id="cấu-trúc-hệ-thống" class="level2">
+<h2 class="anchored" data-anchor-id="cấu-trúc-hệ-thống">Cấu trúc hệ thống</h2>
+<p>Hệ giải pháp sáng tạo tiêu chuẩn gồm 76 SIS, được tổ chức thành năm lớp. Cấu trúc logic này giúp điều hướng và áp dụng giải pháp phù hợp với từng loại vấn đề kỹ thuật:</p>
+<ul>
+<li><strong>Lớp 1</strong>: Xây dựng và phá hủy Su-Field,</li>
+<li><strong>Lớp 2</strong>: Phát triển Su-Field,</li>
+<li><strong>Lớp 3</strong>: Chuyển sang siêu hệ thống và cấp vi mô,</li>
+<li><strong>Lớp 4</strong>: Các giải pháp sáng tạo tiêu chuẩn cho đo lường và phát hiện,</li>
+<li><strong>Lớp 5</strong>: Các giải pháp sáng tạo tiêu chuẩn về cách áp dụng SIS.</li>
+</ul>
+</section>
+<section id="danh-sách-đầy-đủ-76-giải-pháp-sáng-tạo-tiêu-chuẩn" class="level2">
+<h2 class="anchored" data-anchor-id="danh-sách-đầy-đủ-76-giải-pháp-sáng-tạo-tiêu-chuẩn">Danh sách đầy đủ 76 giải pháp sáng tạo tiêu chuẩn</h2>
+<p>Phần dưới đây trình bày nội dung gốc do G. Altshuller phát triển (bao gồm cả hình minh họa).</p>
+<section id="lớp-1-xây-dựng-và-phá-hủy-su-field" class="level3">
+<h3 class="anchored" data-anchor-id="lớp-1-xây-dựng-và-phá-hủy-su-field">Lớp 1: Xây dựng và phá hủy Su-Field</h3>
+<p>Các SIS trong Lớp 1 dùng để giải quyết vấn đề kỹ thuật bằng cách cải thiện tương tác và loại bỏ tác động có hại. Chúng tập trung vào việc xây dựng hoặc phá hủy các mô hình Su-Field khi mô hình bị thiếu (thiếu S1, S2 hoặc F), đầy đủ nhưng không hoạt động (F không phù hợp) hoặc gây hại.</p>
+<p>Lớp này gồm 2 phân lớp và 13 SIS.</p>
+<section id="tổng-hợp-hệ-chất-trường" class="level4">
+<h4 class="anchored" data-anchor-id="tổng-hợp-hệ-chất-trường">1.1. Tổng hợp hệ chất-trường</h4>
+<p>Ý tưởng chính của phân lớp này thể hiện rõ ở SIS 1.1.1: để tổng hợp một hệ kỹ thuật hoạt động được, trong trường hợp đơn giản nhất cần chuyển từ Su-Field chưa hoàn chỉnh sang Su-Field hoàn chỉnh. Việc xây dựng Su-Field thường gặp khó khăn vì các ràng buộc khi đưa thêm chất hoặc trường. Các tiêu chuẩn 1.1.2 đến 1.1.8 cho thấy những cách “lách” điển hình trong các tình huống như vậy.</p>
+<p>1.1.1. Tổng hợp hệ chất-trường</p>
+<p>Nếu có một đối tượng khó thay đổi theo yêu cầu và điều kiện không giới hạn việc bổ sung chất hoặc trường, hãy giải quyết bằng cách tổng hợp SIS, tức bổ sung phần tử còn thiếu.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_1-1-1-e1738249667390.png" class="img-fluid"></p>
+<p>1.1.2. Cải thiện tương tác bằng cách bổ sung phụ gia vào đối tượng</p>
+<p>Nếu tồn tại Su-Field khó thay đổi và không hạn chế việc đưa phụ gia vào các chất hiện có, giải pháp là chuyển sang Su-Field phức hợp bên trong, nghĩa là thêm phụ gia bên trong cho S1 hoặc S2. Điều này tăng khả năng điều khiển hoặc bổ sung thuộc tính cần thiết cho Su-Field. Phụ gia có thể được thêm vĩnh viễn hoặc tạm thời.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_1-1-2-e1738249711879.png" class="img-fluid"></p>
+<p>S1 là sản phẩm, S2 là công cụ, S3 là phụ gia. Dấu ngoặc biểu thị liên kết bên trong (liên kết bên ngoài không có ngoặc).</p>
+<p>1.1.3. Cải thiện tương tác bằng cách bổ sung phụ gia vào hệ thống</p>
+<p>Nếu tồn tại Su-Field khó thay đổi và không hạn chế việc đưa phụ gia vào các chất hiện có, giải pháp là chuyển sang Su-Field phức hợp bên ngoài, tức bổ sung phụ gia bên ngoài cho S1 hoặc S2. Điều này tăng khả năng điều khiển hoặc bổ sung thuộc tính cần thiết. Phụ gia có thể được thêm vĩnh viễn hoặc tạm thời.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_113-e1738249752718.png" class="img-fluid"></p>
+<p>1.1.4. Tận dụng môi trường để cải thiện tương tác</p>
+<p>Nếu tồn tại Su-Field khó thay đổi và không hạn chế việc bổ sung phụ gia vào các chất hiện có, giải pháp là thêm một phụ gia lấy từ môi trường hoặc siêu hệ thống.</p>
+<p>1.1.5. Biến đổi môi trường để cải thiện tương tác</p>
+<p>Nếu môi trường bên ngoài không có sẵn chất cần thiết để tổng hợp Su-Field, có thể thu được các chất này bằng cách thay đổi môi trường, phân giải môi trường hoặc bổ sung phụ gia vào môi trường.</p>
+<p>1.1.6. Đảm bảo hiệu ứng tác động tối thiểu</p>
+<p>Khi cần hiệu ứng tác động tối thiểu (đo được, tối ưu) nhưng khó hoặc không thể đảm bảo trong điều kiện hiện có, hãy sử dụng tác động tối đa (của trường hoặc chất) rồi loại bỏ phần dư. Phần dư của chất được loại bỏ bằng trường, phần dư của trường được loại bỏ bằng chất. Phần dư được thể hiện bằng đường đôi.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_116-e1738249908434.png" class="img-fluid"></p>
+<p>1.1.7. Đảm bảo hiệu ứng tác động tối đa</p>
+<p>Nếu cần tác động tối đa lên một chất nhưng không được phép, hãy giữ nguyên tác động tối đa nhưng hướng nó sang chất khác gắn với chất ban đầu.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_117-e1738249884887.png" class="img-fluid"></p>
+<p>1.1.8. Sử dụng chế độ tối đa có chọn lọc</p>
+<p>Khi cần tác động tối đa có chọn lọc (tối đa ở vùng nhất định, tối thiểu ở vùng khác), trường phải đạt mức tối đa, nhưng:</p>
+<p><strong>1.1.8.1. Chế độ tối đa có chọn lọc: trường tối đa</strong></p>
+<p>Trong trường hợp thứ nhất, ta đưa vào một chất bảo vệ tại nơi cần duy trì tác động tối thiểu.</p>
+<p><strong>1.1.8.2. Chế độ tối đa có chọn lọc: trường tối thiểu</strong></p>
+<p>Trong trường hợp thứ hai, với chế độ tối thiểu, ta đưa cục bộ các chất tạo thêm trường phụ, ví dụ hỗn hợp nhiệt alumin (thermit) cho tác động nhiệt, thuốc nổ cho tác động cơ học.</p>
+</section>
+<section id="phá-hủy-su-field" class="level4">
+<h4 class="anchored" data-anchor-id="phá-hủy-su-field">1.2. Phá hủy Su-Field</h4>
+<p>Phân lớp 1.2 bao gồm các SIS dùng để phá hủy Su-Field và loại bỏ hoặc trung hòa tác động có hại trong đó. Ý tưởng mạnh nhất của phân lớp này là huy động những phần tử cần thiết bằng cách tận dụng nguồn lực sẵn có của hệ chất-trường. Tiêu chuẩn 1.2.2 đặc biệt quan trọng: theo đó, chức năng của chất mới được thực hiện bởi chất hiện có đã được biến đổi.</p>
+<p>1.2.1. Loại bỏ tương tác có hại bằng cách đưa vào chất trung gian</p>
+<p>Nếu giữa hai chất trong hệ chất-trường vừa có tác động hữu ích vừa có tác động có hại và không cần duy trì tiếp xúc trực tiếp, hãy đưa một chất thứ ba vào giữa chúng. Chất này phải sẵn có hoặc đủ rẻ.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_121-e1738250033385.png" class="img-fluid"></p>
+<p>Mũi tên lượn biểu thị tác động cần loại bỏ.</p>
+<p>1.2.2. Loại bỏ tương tác có hại bằng cách biến đổi chất hiện có</p>
+<p>Nếu giữa hai chất vừa có tác động hữu ích vừa có tác động có hại, không cần duy trì tiếp xúc trực tiếp và việc dùng chất lạ bị cấm hoặc bất tiện, giải pháp là đưa vào chất thứ ba nằm giữa hai chất. Trong trường hợp này, chất thứ ba là biến thể của chất thứ nhất hoặc thứ hai.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_122-e1738250190313.png" class="img-fluid"></p>
+<p>Lưu ý: S3 có thể được đưa vào hệ như một chất sẵn có từ siêu hệ thống hoặc được tạo ra (nhờ F1 hoặc F2) từ S1 hoặc S2. Ví dụ S3 có thể là “khoảng trống”, bọt khí, bọt xốp…</p>
+<p>1.2.3. Loại bỏ tác hại của trường bằng chất hy sinh</p>
+<p>Nếu cần loại bỏ tác động có hại của một trường lên chất, hãy đưa vào chất thứ hai hứng chịu tác động có hại đó.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_123-e1738250276243.png" class="img-fluid"></p>
+<p>1.2.4. Loại bỏ tác động có hại bằng một trường đối kháng mới</p>
+<p>Nếu giữa hai chất trong Su-Field vừa có tác động hữu ích vừa có tác động có hại và phải duy trì tiếp xúc trực tiếp, hãy chuyển sang hệ chất-trường kép – tác động hữu ích được giữ bởi trường hiện có, còn trường mới đối kháng sẽ trung hòa (hoặc biến đổi) tác động có hại.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_124-e1738250582262.png" class="img-fluid"></p>
+<p>1.2.5. “Tắt” trường từ</p>
+<p>Nếu cần phá hủy Su-Field có trường từ, hãy dùng các hiệu ứng vật lý có khả năng “tắt” tính sắt từ của chất (ví dụ khử từ bằng tác động cơ học hoặc gia nhiệt vượt điểm Curie).</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_125-e1738250605791.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="lớp-2-phát-triển-su-field" class="level3">
+<h3 class="anchored" data-anchor-id="lớp-2-phát-triển-su-field">Lớp 2: Phát triển Su-Field</h3>
+<p>Lớp 2 của các giải pháp sáng tạo tiêu chuẩn dùng để nâng cao hiệu quả hệ kỹ thuật thông qua những điều chỉnh nhỏ.</p>
+<p>Lớp này gồm 4 phân lớp và 23 SIS.</p>
+<section id="chuyển-sang-su-field-tinh-vi-hơn" class="level4">
+<h4 class="anchored" data-anchor-id="chuyển-sang-su-field-tinh-vi-hơn">2.1. Chuyển sang Su-Field tinh vi hơn</h4>
+<p>Có thể tăng hiệu quả của Su-Field bằng cách chuyển từ Su-Field đơn giản sang Su-Field tinh vi hơn – dạng chuỗi hoặc dạng kép. Những thay đổi này tương đối nhỏ nhưng đem lại chất lượng mới và tăng cường những đặc tính hiện có, đặc biệt là khả năng điều khiển hệ thống.</p>
+<p>2.1.1. Chuyển sang Su-Field dạng chuỗi</p>
+<p>Khi cần tăng hiệu quả Su-Field, hãy biến S1 hoặc S2 thành một Su-Field độc lập được điều khiển, từ đó tạo ra Su-Field dạng chuỗi.</p>
+<p>S3 hoặc S4 cũng có thể được biến thành Su-Field độc lập được điều khiển.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_211-e1738250650897.png" class="img-fluid"></p>
+<p>2.1.2. Chuyển sang Su-Field kép</p>
+<p>Nếu Su-Field chưa đủ mạnh và việc thay thế các phần tử là không thể, hãy bổ sung một trường thứ hai để tạo Su-Field kép có hiệu quả cao hơn.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_212-e1738250825684.png" class="img-fluid"></p>
+</section>
+<section id="tăng-cường-su-field" class="level4">
+<h4 class="anchored" data-anchor-id="tăng-cường-su-field">2.2. Tăng cường Su-Field</h4>
+<p>Ý tưởng chung của sáu SIS trong phân lớp này là tăng hiệu quả của Su-Field – đơn giản hoặc tinh vi – mà không cần đưa trường hoặc chất mới. Điều này đạt được bằng cách khai thác mạnh hơn nguồn lực chất-trường sẵn có.</p>
+<p>2.2.1. Chuyển sang trường dễ điều khiển hơn</p>
+<p>Có thể tăng hiệu quả của Su-Field bằng cách thay trường khó điều khiển (hoặc không điều khiển được) bằng trường dễ điều khiển hơn, ví dụ thay trường trọng lực bằng trường cơ, cơ-điện…</p>
+<p>2.2.2. Phân đoạn chất</p>
+<p>Có thể cải thiện hiệu quả Su-Field bằng cách tăng mức độ phân đoạn của S1 hoặc S2.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_222-e1738250858175.png" class="img-fluid"></p>
+<p>Lưu ý:</p>
+<ul>
+<li>Ký hiệu&nbsp;Sm&nbsp;biểu thị chất đã được phân đoạn thành nhiều hạt nhỏ (cát, bột, viên…).</li>
+<li>SIS 2.2.2 phản ánh một trong các xu hướng của TESE, tức phân đoạn thành phần.</li>
+</ul>
+<p>2.2.3. Chuyển sang chất mao dẫn xốp</p>
+<p>Một trường hợp đặc biệt của phân đoạn chất là chuyển từ chất rắn sang chất mao dẫn xốp. Lộ trình chuyển đổi như sau:</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_223-a-e1738250933523.png" class="img-fluid"></p>
+<p>chất khối đồng nhất</p>
+<p>chất có một khoang rỗng</p>
+<p>chất có nhiều khoang (chất đục lỗ)</p>
+<p>chất mao dẫn xốp</p>
+<p>chất mao dẫn xốp có cấu trúc lỗ rỗng xác định (kích thước nhất định)</p>
+<p>Khi phát triển theo hướng này, khả năng đưa chất lỏng vào khoang/lỗ rỗng và sử dụng các hiệu ứng vật lý tăng lên.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_223-b-e1738250954649.png" class="img-fluid"></p>
+<p>2.2.4. Động hóa Su-Field</p>
+<p>Có thể cải thiện hiệu quả Su-Field bằng cách tăng mức độ động hóa, tức chuyển sang cấu trúc hệ thống linh hoạt hơn, thay đổi nhanh hơn.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_224-e1738251000430.png" class="img-fluid"></p>
+<p>Lưu ý: Ký hiệu tam giác có đường lượn biểu thị Su-Field động thay đổi trong quá trình hoạt động.<br>
+Động hóa S2 thường bắt đầu bằng việc thêm khớp. Cấp độ động hóa tiếp theo: một khớp -&gt; nhiều khớp -&gt; chất mềm dẻo.<br>
+Động hóa trường thường chuyển từ trường hằng sang trường xung.</p>
+<p>2.2.5. Thay đổi cấu trúc của trường</p>
+<p>Có thể tăng hiệu quả Su-Field bằng cách chuyển từ trường đồng nhất hoặc không cấu trúc sang trường không đồng nhất hoặc trường có cấu trúc đặc biệt (ổn định hoặc biến thiên theo thời gian và không gian).</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_225-e1738251023830.png" class="img-fluid"></p>
+<p>Lưu ý: Dấu # bên cạnh chữ F biểu thị trường có cấu trúc đặc biệt biến thiên theo thời gian và không gian.<br>
+Nếu một chất trong Su-Field hoặc có thể tham gia Su-Field cần cấu trúc không gian cụ thể, quá trình nên diễn ra trong trường có cấu trúc phù hợp với cấu trúc yêu cầu của chất.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_225_b-e1738251042647.png" class="img-fluid"></p>
+<p>2.2.6. Thay đổi cấu trúc của chất</p>
+<p>Có thể tăng hiệu quả Su-Field bằng cách chuyển từ chất đồng nhất hoặc không cấu trúc sang chất không đồng nhất hoặc chất có cấu trúc đặc biệt (ổn định hoặc biến thiên theo thời gian và không gian).</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_226-e1738251202221.png" class="img-fluid"></p>
+<p>Lưu ý: Dấu # bên cạnh chữ S biểu thị chất có cấu trúc đặc biệt biến thiên theo thời gian và không gian.<br>
+Nếu cần tạo hiệu ứng nhiệt mạnh tại những vị trí nhất định (điểm, đường), nên đưa các chất tỏa nhiệt vào những vị trí đó từ trước.</p>
+</section>
+<section id="tăng-cường-phối-hợp-nhịp-điệu" class="level4">
+<h4 class="anchored" data-anchor-id="tăng-cường-phối-hợp-nhịp-điệu">2.3. Tăng cường phối hợp nhịp điệu</h4>
+<p>Phân lớp 2.3 bao gồm các SIS giúp tăng cường Su-Field theo cách tiết kiệm. Thay vì đưa thêm hoặc thay đổi đáng kể chất hay trường, các SIS chỉ yêu cầu thay đổi định lượng – tần số, kích thước hoặc khối lượng. Nhờ đó, ta đạt được hiệu ứng mới đáng kể với mức thay đổi tối thiểu của hệ thống.</p>
+<p>2.3.1. Phối hợp nhịp điệu giữa trường và chất</p>
+<p>Có thể tăng hiệu quả Su-Field bằng cách đồng bộ tần số của trường với tần số riêng của chất.</p>
+<p>2.3.2. Phối hợp nhịp điệu giữa các trường sử dụng</p>
+<p>Trong Su-Field phức tạp hơn, cần đồng bộ tần số của các trường được sử dụng.</p>
+<p>2.3.3. Phối hợp những hoạt động xung khắc hoặc độc lập trước đó</p>
+<p>Khi hai hoạt động, ví dụ thay đổi và đo lường, vốn xung khắc nhau, có thể thực hiện một hoạt động trong khoảng tạm dừng của hoạt động kia. Quan trọng: khoảng dừng của hoạt động này phải được lấp đầy bởi hoạt động kia.</p>
+</section>
+<section id="fe-field-su-field-tinh-vi-đã-được-tăng-cường" class="level4">
+<h4 class="anchored" data-anchor-id="fe-field-su-field-tinh-vi-đã-được-tăng-cường">2.4. Fe-Field (Su-Field tinh vi đã được tăng cường)</h4>
+<p>Fe-Field là Su-Field trong đó một trong các chất được phân đoạn, có tính từ và ít nhất một trường là trường điện từ.</p>
+<p>Có thể tăng cường bằng nhiều cách điển hình cùng lúc. Su-Field mà chất từ được phân đoạn là loại dễ tăng cường nhất.</p>
+<p>2.4.1. Chuyển sang Proto-Fe-Field</p>
+<p>Có thể cải thiện hiệu quả Su-Field bằng cách sử dụng chất sắt từ (ở dạng khối) và trường từ.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_241-e1738251265362.png" class="img-fluid"></p>
+<p>Lưu ý: Đây là SIS sử dụng chất sắt từ chưa phân đoạn. Ta gọi đây là Proto-Fe-Field hoặc các trạng thái trung gian khác.</p>
+<p>SIS này áp dụng không chỉ cho Su-Field đơn giản mà còn cho Su-Field phức hợp (có phụ gia) cũng như Su-Field mà phụ gia là một phần của môi trường.</p>
+<p>2.4.2. Chuyển sang Fe-Field</p>
+<p>Có thể cải thiện hiệu quả Su-Field bằng cách chuyển từ Su-Field hoặc Proto-Fe-Field sang Fe-Field bằng cách thay một trong các chất bằng hạt sắt từ (hoặc thêm hạt sắt từ như mạt, viên, hạt…) và sử dụng trường từ hoặc trường điện từ.</p>
+<p>Khả năng điều khiển tăng lên khi mức độ phân mảnh của hạt sắt từ tăng, vì vậy sự phát triển của Fe-Field theo tuyến:</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_242_a-e1738218425147.png" class="img-fluid"></p>
+<p>hạt</p>
+<p>bột</p>
+<p>hạt sắt từ phân tán mịn</p>
+<p>Khả năng điều khiển cũng tăng khi mức độ phân mảnh của chất được bổ sung hạt sắt từ tăng lên. Tuyến phát triển:</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_242_b-e1738218581240.png" class="img-fluid"></p>
+<p>chất khối</p>
+<p>hạt</p>
+<p>bột</p>
+<p>chất lỏng</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_242_c-e1738251304436.png" class="img-fluid"></p>
+<p>Lưu ý:</p>
+<p>Chuyển sang Fe-Field có thể xem là sự kết hợp của hai SIS – 2.4.1 (chuyển sang Proto-Fe-Field) và 2.2.2 (phân đoạn chất).</p>
+<p>Khi trở thành Fe-Field, Su-Field lặp lại chu kỳ phát triển nhưng ở cấp độ mới vì Fe-Field có khả năng điều khiển và hiệu quả cao. Các SIS của phân lớp 2.4 có thể coi là “đồng vị” của các SIS phân lớp 2.1–2.3. Việc tách Fe-Field thành phân lớp riêng là hợp lý (ít nhất ở giai đoạn hiện tại của SIS) do tầm quan trọng thực tiễn đặc biệt của Fe-Field. Ngoài ra, Fe-Field là công cụ nghiên cứu chính xác hơn để khảo sát các Su-Field thô và dự đoán sự phát triển của chúng.</p>
+<p>2.4.3. Sử dụng chất lỏng sắt từ</p>
+<p>Có thể tăng hiệu quả Fe-Field bằng cách sử dụng chất lỏng sắt từ – các hạt sắt từ dạng keo phân tán trong dầu hỏa, silicone hoặc nước. SIS 2.4.3 có thể xem là điểm cuối cùng trong lộ trình phát triển theo SIS 2.4.2.</p>
+<p>2.4.4. Sử dụng chất mao dẫn xốp trong Fe-Field</p>
+<p>Có thể tăng hiệu quả Fe-Field bằng cách sử dụng cấu trúc mao dẫn xốp – đặc điểm của nhiều Fe-Field.</p>
+<p>2.4.5. Chuyển sang Fe-Field phức hợp</p>
+<p>Nếu cần tăng khả năng điều khiển của hệ bằng cách chuyển sang Fe-Field nhưng không thể thay chất bằng hạt sắt từ, có thể bổ sung phụ gia vào một trong các chất để tạo Fe-Field phức hợp bên trong hoặc bên ngoài.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_245-e1738219108738.png" class="img-fluid"></p>
+<p>2.4.6. Chuyển sang Fe-Field bằng cách sử dụng môi trường bên ngoài</p>
+<p>Nếu cần tăng khả năng điều khiển bằng cách chuyển từ Su-Field sang Fe-Field nhưng không thể thay chất bằng hạt sắt từ (hoặc bổ sung phụ gia), hãy đưa hạt sắt từ vào môi trường bên ngoài và điều khiển hệ thống bằng trường từ thông qua việc thay đổi tham số môi trường (SIS 2.4.3).</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_246-e1738219356541.png" class="img-fluid"></p>
+<p>Các chất lỏng điện lưu biến (electrorheological) được điều khiển bằng trường điện cũng có thể dùng làm môi trường bên ngoài.</p>
+<p>2.4.7. Sử dụng các hiệu ứng vật lý</p>
+<p>Có thể điều khiển Fe-Field bằng cách sử dụng các hiệu ứng vật lý.</p>
+<p>2.4.8. Động hóa Fe-Field</p>
+<p>Có thể cải thiện hiệu quả Fe-Field bằng cách tăng mức độ động hóa, tức chuyển sang cấu trúc hệ thống linh hoạt và thay đổi nhanh hơn.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_248-e1738219703170.png" class="img-fluid"></p>
+<p>2.4.9. Thay đổi cấu trúc Fe-Field</p>
+<p>Có thể tăng hiệu quả Fe-Field bằng cách chuyển từ trường đồng nhất sang trường không đồng nhất hoặc từ trường không cấu trúc sang trường có cấu trúc đặc biệt (ổn định hoặc biến thiên theo thời gian và không gian).</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_249-e1738219807601.png" class="img-fluid"></p>
+<p>2.4.10. Phối hợp nhịp điệu của Fe-Field</p>
+<p>Có thể cải thiện hiệu quả Proto-Fe-Field và Fe-Field bằng cách phối hợp nhịp điệu của các phần tử trong đó.</p>
+<p>2.4.11. Chuyển sang E-Field (Su-Field với dòng điện tương tác)</p>
+<p>Nếu khó đưa chất sắt từ hoặc từ hóa chất, hãy sử dụng tương tác giữa trường điện từ bên ngoài với dòng điện tiếp xúc trực tiếp hoặc dòng điện cảm ứng, hoặc tương tác giữa các dòng điện này với nhau.</p>
+<p>Lưu ý:</p>
+<ol type="1">
+<li>Nếu Fe-Field là SIS với hạt sắt từ, thì E-Field là SIS với dòng điện hoặc các dòng điện tương tác thay cho hạt sắt từ.</li>
+<li>Sự phát triển của E-Field – tương tự Fe-Field – lặp lại tuyến tiến hóa chung của Su-Field:</li>
+</ol>
+<p><img src="media/wp-content/uploads/2025/01/SIS_2411-1-e1738220190414.png" class="img-fluid"></p>
+<p>E-Field đơn giản</p>
+<p>E-Field phức hợp</p>
+<p>E-Field dựa trên môi trường bên ngoài</p>
+<p>động hóa</p>
+<p>phân đoạn/cấu trúc hóa</p>
+<p>phối hợp nhịp điệu</p>
+<p>2.4.12. Sử dụng chất lỏng điện lưu biến</p>
+<p>Một dạng đặc biệt của E-Field là Su-Field với huyền phù điện lưu biến (các hạt mịn không dẫn nhưng nhạy điện), có độ nhớt điều khiển được. Nếu không thể dùng chất lỏng sắt từ, có thể sử dụng huyền phù điện lưu biến.</p>
+</section>
+</section>
+<section id="lớp-3-chuyển-sang-siêu-hệ-thống-và-cấp-vi-mô" class="level3">
+<h3 class="anchored" data-anchor-id="lớp-3-chuyển-sang-siêu-hệ-thống-và-cấp-vi-mô">Lớp 3: Chuyển sang siêu hệ thống và cấp vi mô</h3>
+<p>Lớp 3 của các giải pháp sáng tạo tiêu chuẩn áp dụng cho các hệ kỹ thuật có hiệu suất <strong>chưa đủ</strong>. Hiệu quả của chúng được cải thiện bằng cách phát triển giải pháp ở các cấp hệ thống khác, như cấp siêu hệ thống hoặc cấp vi mô.</p>
+<p>Lớp này gồm 2 phân lớp và 6 SIS.</p>
+<section id="chuyển-sang-hệ-hai-đa-hợp" class="level4">
+<h4 class="anchored" data-anchor-id="chuyển-sang-hệ-hai-đa-hợp">3.1. Chuyển sang hệ hai – đa hợp</h4>
+<p>Song song với cải tiến bên trong (các SIS của Lớp 2) tồn tại tuyến phát triển bên ngoài: ở bất kỳ giai đoạn phát triển nội bộ nào, hệ thống cũng có thể được tích hợp với các thành phần của siêu hệ thống để đạt chất lượng mới.</p>
+<p>3.1.1. Chuyển sang hệ hai – đa hợp</p>
+<p>Ở bất kỳ giai đoạn phát triển nào, có thể tăng hiệu quả Su-Field bằng cách tích hợp hệ thống với hệ khác (hoặc nhiều hệ) thành hệ hai hợp hoặc đa hợp tinh vi hơn (chuyển hệ cấp 1a).</p>
+<p>3.1.2. Phát triển liên kết trong hệ hai – đa hợp</p>
+<p>Tăng hiệu quả của các hệ hai – đa hợp được tổng hợp chủ yếu bằng cách phát triển liên kết giữa các phần tử của Su-Field.</p>
+<p>Các hệ hai – đa hợp mới hình thành thường “không có liên kết”, tức chỉ là “đống” thành phần. Việc phát triển nhằm củng cố các liên kết. Mặt khác, các phần tử trong hệ mới đôi khi được nối bằng liên kết cứng. Khi đó cần tăng mức độ động hóa của liên kết.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_242_b-e1738218581240.png" class="img-fluid"></p>
+<p>không liên kết</p>
+<p>liên kết cứng</p>
+<p>liên kết linh hoạt</p>
+<p>liên kết bằng trường</p>
+<p>3.1.3. Tăng độ khác biệt giữa các phần tử trong hệ hai – đa hợp</p>
+<p>3.1.3. Tăng độ khác biệt giữa các phần tử trong hệ hai – đa hợp</p>
+<p>Hiệu quả của hệ hai – đa hợp tăng lên khi độ khác biệt giữa các phần tử của Su-Field tăng (chuyển hệ cấp 1b):</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_242_b-e1738218581240.png" class="img-fluid"></p>
+<p>các phần tử giống hệt</p>
+<p>phần tử có đặc tính lệch nhau</p>
+<p>phần tử khác nhau</p>
+<p>tổ hợp nghịch đảo “phần tử và phản phần tử”</p>
+<p>3.1.4. Cắt gọn hệ hai – đa hợp</p>
+<p>Có thể cải thiện hiệu quả của hệ hai – đa hợp bằng cách cắt gọn. Hệ hai – đa hợp bị cắt hoàn toàn sẽ trở lại thành hệ đơn. Chu kỳ có thể lặp lại.</p>
+<p>3.1.5. Thuộc tính đối nghịch của hệ và các phần của nó</p>
+<p>Có thể cải thiện hiệu quả của hệ hai – đa hợp bằng cách phân bổ các thuộc tính đối nghịch giữa toàn hệ và các phần. Hệ hai cấp được dùng, trong đó toàn hệ có thuộc tính C còn các phần (tiểu phần) có thuộc tính phản C (chuyển hệ cấp 1c).</p>
+</section>
+<section id="chuyển-sang-cấp-vi-mô" class="level4">
+<h4 class="anchored" data-anchor-id="chuyển-sang-cấp-vi-mô">3.2. Chuyển sang cấp vi mô</h4>
+<p>Có hai cách chuyển hệ:</p>
+<ul>
+<li>chuyển sang siêu hệ (“đi lên” – các SIS phân lớp 3.1),</li>
+<li>chuyển sang cấp vi mô (“đi xuống” – các SIS phân lớp 3.2).</li>
+</ul>
+<p>3.2.1. Chuyển sang cấp vi mô</p>
+<p>Ở bất kỳ giai đoạn phát triển nào, có thể cải thiện hiệu quả hệ bằng chuyển hệ cấp 2: từ cấp vĩ mô xuống vi mô, khi hệ hoặc một phần của nó được thay bằng chất có khả năng thực hiện hành động cần thiết khi tương tác với trường.</p>
+</section>
+</section>
+<section id="lớp-4-các-giải-pháp-sáng-tạo-tiêu-chuẩn-cho-đo-lường-và-phát-hiện" class="level3">
+<h3 class="anchored" data-anchor-id="lớp-4-các-giải-pháp-sáng-tạo-tiêu-chuẩn-cho-đo-lường-và-phát-hiện">Lớp 4: Các giải pháp sáng tạo tiêu chuẩn cho đo lường và phát hiện</h3>
+<p>Lớp 4 của các giải pháp sáng tạo tiêu chuẩn áp dụng cho các vấn đề đo lường hoặc phát hiện.</p>
+<p>Lớp này gồm 5 phân lớp và 17 SIS.</p>
+<section id="cách-đi-vòng" class="level4">
+<h4 class="anchored" data-anchor-id="cách-đi-vòng">4.1. Cách đi vòng</h4>
+<p>Khi cần đo lường hoặc phát hiện, khuyến nghị thay đổi nguyên lý hoạt động sao cho không cần đo hay phát hiện nữa mà vẫn đảm bảo độ chính xác và chi phí yêu cầu.</p>
+<p>4.1.1. Biến đổi hệ thống để không cần đo hay phát hiện</p>
+<p>Khi cần đo lường hoặc phát hiện, nên biến đổi hệ thống sao cho không cần đo hay phát hiện nữa.</p>
+<p>4.1.2. Đo một bản sao hoặc hình ảnh</p>
+<p>Nếu không thể giải bài toán phát hiện hoặc đo bằng SIS 4.1.1, hãy thay thao tác trực tiếp lên đối tượng bằng thao tác trên bản sao của nó. Ví dụ thay vì đo trực tiếp đống gỗ trên toa tàu, đo từ bức ảnh chụp với tỷ lệ xác định.</p>
+<p>4.1.3. Phát hiện thay đổi liên tiếp</p>
+<p>Nếu không thể giải bài toán phát hiện hoặc đo bằng SIS 4.1.1 hoặc 4.1.2, hãy chuyển nó thành nhiệm vụ ghi nhận chuỗi thay đổi.</p>
+</section>
+<section id="tạo-su-field-đo-lường" class="level4">
+<h4 class="anchored" data-anchor-id="tạo-su-field-đo-lường">4.2. Tạo Su-Field đo lường</h4>
+<p>Khi tạo Su-Field đo lường, chiến lược giống như khi tạo Su-Field để cải thiện: hoàn thiện Su-Field bằng cách bổ sung chất hoặc trường còn thiếu. Điểm khác biệt là đầu ra của Su-Field đo lường là một trường.</p>
+<p>4.2.1. Tạo Su-Field đo lường</p>
+<p>Nếu một đối tượng không phải Su-Field khó phát hiện hoặc đo, có thể tạo Su-Field đơn hoặc kép với trường đầu ra.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_421-e1738222411506.png" class="img-fluid"></p>
+<p>4.2.2. Chuyển sang Su-Field đo lường phức hợp</p>
+<p>Nếu hệ (hoặc một phần) khó phát hiện hoặc đo, có thể chuyển sang Su-Field phức hợp bên trong hoặc bên ngoài bằng cách đưa các phụ gia dễ phát hiện (đánh dấu).</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_422-e1738222553995.png" class="img-fluid"></p>
+<p>4.2.3. Chuyển sang Su-Field đo lường dựa trên môi trường bên ngoài</p>
+<p>Nếu hệ khó phát hiện hoặc đo tại một thời điểm và không thể đưa phụ gia tạo trường dễ phát hiện, hãy đưa các phụ gia đó vào môi trường bên ngoài để đánh giá sự thay đổi trạng thái của hệ.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_423-e1738222711788.png" class="img-fluid"></p>
+<p>4.2.4. Tận dụng nguồn lực môi trường</p>
+<p>Nếu không thể đưa phụ gia vào môi trường bên ngoài (theo SIS 4.2.3), có thể thu được phụ gia bằng cách tận dụng nguồn lực môi trường, ví dụ phân giải môi trường hoặc thay đổi trạng thái vật lý của nó (bọt khí tạo bằng điện phân, xâm thực… ).</p>
+</section>
+<section id="tăng-cường-su-field-đo-lường" class="level4">
+<h4 class="anchored" data-anchor-id="tăng-cường-su-field-đo-lường">4.3. Tăng cường Su-Field đo lường</h4>
+<p>Có thể tăng cường Su-Field đo lường bằng cách áp dụng hiệu ứng vật lý và phối hợp nhịp điệu.</p>
+<p>4.3.1. Sử dụng các hiệu ứng vật lý</p>
+<p>Có thể cải thiện hiệu quả phát hiện hoặc đo Su-Field bằng cách sử dụng các hiệu ứng vật lý.</p>
+<p>4.3.2. Sử dụng cộng hưởng của đối tượng được điều khiển</p>
+<p>Nếu không thể phát hiện hoặc đo trực tiếp sự thay đổi trong hệ và không thể truyền trường qua hệ, hãy kích thích dao động cộng hưởng trong toàn hệ hoặc một phần. Thay đổi tần số dao động giúp nhận biết sự thay đổi trong hệ.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_432-e1738223425801.png" class="img-fluid"></p>
+<p>4.3.3. Sử dụng cộng hưởng của đối tượng tích hợp</p>
+<p>Nếu không thể áp dụng SIS 4.3.2, có thể đánh giá trạng thái hệ bằng cách theo dõi thay đổi tần số riêng của một đối tượng tích hợp với hệ (trong môi trường ngoài).</p>
+</section>
+<section id="chuyển-sang-fe-field-đo-lường" class="level4">
+<h4 class="anchored" data-anchor-id="chuyển-sang-fe-field-đo-lường">4.4. Chuyển sang Fe-Field đo lường</h4>
+<p>Su-Field đo lường có xu hướng mạnh chuyển thành Fe-Field.</p>
+<p>4.4.1. Chuyển sang Proto-Fe-Field đo lường</p>
+<p>Su-Field với trường không từ có xu hướng chuyển thành Proto-Fe-Field, tức Su-Field với chất sắt từ và trường từ.</p>
+<p>4.4.2. Chuyển sang Fe-Field đo lường</p>
+<p>Khi cần tăng hiệu quả phát hiện hoặc đo bằng Proto-Fe-Field hoặc Su-Field, hãy chuyển sang Fe-Field. Có thể thay một trong các chất bằng hạt sắt từ hoặc sử dụng phụ gia sắt từ rồi đo trường từ.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_442-e1738223673692.png" class="img-fluid"></p>
+<p>4.4.3. Chuyển sang Fe-Field đo lường phức hợp</p>
+<p>Nếu cần tăng hiệu quả phát hiện hoặc đo bằng cách chuyển sang Fe-Field nhưng không thể thay chất bằng hạt sắt từ, hãy tạo Fe-Field phức hợp bằng cách đưa phụ gia vào chất.</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_443-e1738223947217.png" class="img-fluid"></p>
+<p>4.4.4. Chuyển sang Fe-Field đo lường dựa trên môi trường bên ngoài</p>
+<p>Nếu cần tăng hiệu quả phát hiện hoặc đo bằng cách chuyển từ Su-Field sang Fe-Field nhưng không thể đưa hạt sắt từ vào hệ, hãy đưa chúng vào môi trường bên ngoài.</p>
+<p>4.4.5. Sử dụng các hiệu ứng vật lý</p>
+<p>Khi cần tăng hiệu quả phát hiện hoặc đo, hãy sử dụng các hiệu ứng khoa học, ví dụ điểm Curie, hiệu ứng Hopkinson hoặc Barkhausen, hiệu ứng từ đàn hồi…</p>
+</section>
+<section id="hướng-phát-triển-của-su-field-đo-lường" class="level4">
+<h4 class="anchored" data-anchor-id="hướng-phát-triển-của-su-field-đo-lường">4.5. Hướng phát triển của Su-Field đo lường</h4>
+<p>Su-Field đo lường phát triển thông qua các chuyển hệ quen thuộc, nhưng cũng có những đặc điểm riêng.</p>
+<p>4.5.1. Chuyển sang hệ hai – đa hợp đo lường</p>
+<p>Ở bất kỳ giai đoạn nào, có thể tăng hiệu quả Su-Field đo lường bằng cách chuyển sang hệ hai – đa hợp.</p>
+<p>4.5.2. Chuyển sang đo đạo hàm</p>
+<p>Su-Field đo lường phát triển theo hướng:</p>
+<p><img src="media/wp-content/uploads/2025/01/SIS_242_a-e1738218425147.png" class="img-fluid"></p>
+<p>đo hàm</p>
+<p>đo đạo hàm bậc nhất</p>
+<p>đo đạo hàm bậc hai</p>
+</section>
+</section>
+<section id="lớp-5-các-giải-pháp-sáng-tạo-tiêu-chuẩn-hỗ-trợ-áp-dụng-sis" class="level3">
+<h3 class="anchored" data-anchor-id="lớp-5-các-giải-pháp-sáng-tạo-tiêu-chuẩn-hỗ-trợ-áp-dụng-sis">Lớp 5: Các giải pháp sáng tạo tiêu chuẩn hỗ trợ áp dụng SIS</h3>
+<p>Lớp 5 của các giải pháp sáng tạo tiêu chuẩn đưa ra khuyến nghị về cách đưa chất mới, trường mới hoặc hiệu ứng khoa học vào hiệu quả hơn khi áp dụng các SIS ở bốn lớp trước. Nó cung cấp các “trợ thủ” để đáp ứng ràng buộc của dự án.</p>
+<p>Lớp này gồm 5 phân lớp và 17 SIS.</p>
+<section id="đặc-thù-khi-đưa-chất-vào-hệ" class="level4">
+<h4 class="anchored" data-anchor-id="đặc-thù-khi-đưa-chất-vào-hệ">5.1. Đặc thù khi đưa chất vào hệ</h4>
+<p>Khi tạo, tái cấu trúc hoặc phá hủy Su-Field, thường cần đưa chất mới vào. Điều này làm giảm tính lý tưởng của hệ. Vì vậy, cần “đưa mà như không đưa” chất và sử dụng các cách đi vòng.</p>
+<p>5.1.1. Cách đi vòng</p>
+<p>Nếu cần đưa chất vào hệ nhưng điều này bị ràng buộc của bài toán cấm hoặc không phù hợp do điều kiện vận hành, hãy sử dụng các cách đi vòng.</p>
+<p><strong>5.1.1.1. Dùng khoảng trống thay chất</strong></p>
+<p><strong>5.1.1.2. Dùng trường thay cho chất</strong></p>
+<p><strong>5.1.1.3. Dùng phụ gia bên ngoài thay vì bên trong</strong></p>
+<p><strong>5.1.1.4. Dùng liều rất nhỏ của phụ gia có hoạt tính cao</strong></p>
+<p><strong>5.1.1.5. Dùng liều rất nhỏ của phụ gia thông thường nhưng tập trung tại các vùng riêng biệt của đối tượng</strong></p>
+<p><strong>5.1.1.6. Dùng phụ gia trong một khoảng thời gian nhất định</strong></p>
+<p><strong>5.1.1.7. Thay đối tượng bằng bản sao (mô hình) có thể đưa phụ gia vào</strong></p>
+<p><strong>5.1.1.8. Dùng phụ gia dưới dạng hợp chất hóa học rồi giải phóng sau đó</strong></p>
+<p><strong>5.1.1.9. Thu phụ gia bằng cách phân giải môi trường ngoài hoặc chính đối tượng, ví dụ điện phân hoặc thay đổi trạng thái vật chất của môi trường hay của một phần đối tượng</strong></p>
+<p>5.1.2. Chia sản phẩm thành các phần tương tác</p>
+<p>Nếu khó biến đổi Su-Field và điều kiện bài toán không cho phép thay công cụ hoặc thêm phụ gia, hãy dùng chính sản phẩm thay cho công cụ bằng cách chia nó thành các phần tương tác với nhau.</p>
+<p>5.1.3. Dùng chất trong thời gian giới hạn</p>
+<p>Sau khi thực hiện tác động, chất được đưa vào hệ phải biến mất hoặc trở nên không phân biệt được với chất vốn có trong hệ hoặc môi trường.</p>
+<p>5.1.4. Dùng cấu trúc bơm phồng và bọt</p>
+<p>Nếu cần đưa lượng chất lớn nhưng điều này bị ràng buộc hoặc không phù hợp với điều kiện vận hành, hãy dùng “khoảng trống” dưới dạng cấu trúc bơm phồng hoặc bọt thay cho chất.</p>
+</section>
+<section id="đưa-trường-vào-hệ" class="level4">
+<h4 class="anchored" data-anchor-id="đưa-trường-vào-hệ">5.2. Đưa trường vào hệ</h4>
+<p>Khi tạo, tái cấu trúc hoặc phá hủy Su-Field, ta thường phải đưa trường mới vào. Để không làm hệ phức tạp, nên sử dụng các SIS phân lớp 5.2.</p>
+<p>5.2.1. Sử dụng trường sẵn có</p>
+<p>Khi cần đưa trường vào Su-Field, trước tiên hãy tận dụng các trường sẵn có. Các chất của Su-Field chính là các chủ thể mang trường đó.</p>
+<p>5.2.2. Sử dụng trường của môi trường bên ngoài</p>
+<p>Nếu cần đưa trường vào Su-Field mà không thể theo SIS 5.2.1, hãy sử dụng các trường có sẵn trong môi trường bên ngoài.</p>
+<p>5.2.3. Sử dụng chất hiện có làm nguồn trường</p>
+<p>Nếu cần đưa trường vào hệ và không thể theo SIS 5.2.1 và 5.2.2, hãy dùng các trường có thể được tạo ra bởi chất hiện có trong hệ hoặc môi trường ngoài.</p>
+</section>
+<section id="sử-dụng-chuyển-pha" class="level4">
+<h4 class="anchored" data-anchor-id="sử-dụng-chuyển-pha">5.3. Sử dụng chuyển pha</h4>
+<p>Những yêu cầu mâu thuẫn đối với chất và trường được đưa vào có thể được đáp ứng bằng chuyển pha.</p>
+<p>5.3.1. Thay đổi trạng thái pha của chất</p>
+<p>Có thể tăng hiệu quả sử dụng chất mà không cần đưa chất khác bằng chuyển pha loại 1, tức thay đổi trạng thái vật chất của chất hiện có.</p>
+<p>5.3.2. Trạng thái pha kép của chất</p>
+<p>Có thể tạo thuộc tính “kép” bằng chuyển pha loại 2, tức sử dụng chất có khả năng thay đổi giữa các trạng thái pha tùy điều kiện làm việc.</p>
+<p>5.3.3. Sử dụng các hiện tượng đi kèm chuyển pha</p>
+<p>Có thể cải thiện hiệu quả hệ bằng chuyển pha loại 3, tức tận dụng các hiện tượng đi kèm chuyển pha.</p>
+<p>5.3.4. Chuyển sang trạng thái hai pha của chất</p>
+<p>Có thể tạo thuộc tính “kép” cho hệ bằng chuyển pha loại 4 – thay trạng thái một pha bằng trạng thái hai pha.</p>
+<p>5.3.5. Sử dụng tương tác giữa các phần (pha) của hệ</p>
+<p>Hiệu quả đạt được nhờ chuyển pha loại 4 có thể tăng thêm bằng cách tạo tương tác (vật lý, hóa học) giữa các phần (pha) của hệ.</p>
+</section>
+<section id="đặc-thù-khi-dùng-hiệu-ứng-khoa-học" class="level4">
+<h4 class="anchored" data-anchor-id="đặc-thù-khi-dùng-hiệu-ứng-khoa-học">5.4. Đặc thù khi dùng hiệu ứng khoa học</h4>
+<p>Nhiều SIS khuyến nghị sử dụng hiệu ứng khoa học hoặc có thể kết hợp với chúng. Khi đó cần lưu ý một số kỹ thuật giúp tăng hiệu quả áp dụng hiệu ứng khoa học.</p>
+<p>5.4.1. Sử dụng các biến đổi vật lý thuận nghịch</p>
+<p>Nếu đối tượng cần định kỳ ở các trạng thái vật lý khác nhau, hãy để chính đối tượng thực hiện chuyển đổi bằng các biến đổi vật lý thuận nghịch, ví dụ chuyển pha, ion hóa – tái hợp, phân ly – kết hợp…</p>
+<p>5.4.2. Tăng cường trường đầu ra</p>
+<p>Nếu cần tác động đầu ra mạnh trong khi tác động đầu vào yếu, hãy đưa chất chuyển đổi tới trạng thái cận tới hạn. Năng lượng được tích trữ trong chất và tín hiệu đầu vào đóng vai trò “kích hoạt”.</p>
+</section>
+<section id="các-sis-thực-nghiệm" class="level4">
+<h4 class="anchored" data-anchor-id="các-sis-thực-nghiệm">5.5. Các SIS thực nghiệm</h4>
+<p>5.5.1. Thu các phần tử chất bằng cách phân giải</p>
+<p>Nếu cần các phần tử của chất (ví dụ ion) để giải bài toán mà việc tạo trực tiếp bị cản trở, hãy thu các phần tử cần thiết bằng cách phá hủy chất ở cấp cấu trúc cao hơn (ví dụ phân tử).</p>
+<p>5.5.2. Thu các phần tử chất bằng cách kết hợp</p>
+<p>Nếu cần các phần tử của chất (ví dụ phân tử) và không thể tạo trực tiếp hoặc theo SIS 5.5.1, hãy tạo chúng bằng cách hoàn thiện hoặc kết hợp các phần tử ở cấp cấu trúc thấp hơn (ví dụ ion).</p>
+<p>5.5.3. Cách đơn giản nhất để thu các phần tử chất</p>
+<p>Khi áp dụng SIS 5.5.1, cách đơn giản nhất là phá hủy “toàn thể” hoặc “phần dư” gần nhất (ion âm), còn khi dùng SIS 5.5.2, cách đơn giản nhất là hoàn thiện kết hợp ở cấp “không toàn vẹn” gần nhất.</p>
+<p><strong>TÀI LIỆU THAM KHẢO</strong></p>
+<ol type="1">
+<li>G. Altshuller: <em>Find an Idea. Introduction to the theory of inventive problem solving.</em> Novosibirsk.: Nhà xuất bản Nauka, 1986, ISBN 5-02-029265-6.</li>
+</ol>
+</section>
+<section id="bài-viết-2" class="level4">
+<h4 class="anchored" data-anchor-id="bài-viết-2">Bài viết</h4>
+<ul>
+<li>Phân tích chất-trường</li>
+<li>Mô hình chất-trường</li>
+</ul>
+<section id="phân-tích-chất-trường" class="level5">
+<h5 class="anchored" data-anchor-id="phân-tích-chất-trường">Phân tích chất-trường</h5>
+</section>
+</section>
+</section>
+</section>
+</section>
+<section id="phân-tích-chất-trường-1" class="level1">
+<h1>Phân tích chất-trường</h1>
+<p><em><strong>Phân tích chất-trường</strong> là phần của việc áp dụng các giải pháp sáng tạo tiêu chuẩn dùng để mô hình hóa vấn đề dưới dạng mô hình chất-trường.</em></p>
+<section id="tổng-quan-1" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-1">Tổng quan</h2>
+<p>Trong TRIZ cổ điển, phân tích chất-trường được dùng để xác định các thành phần (chất và trường) cần thiết nhằm mô hình hóa vấn đề dưới dạng Su-Field. Tuy nhiên, kể từ khi phân tích chuỗi nhân quả (CECA) được sử dụng rộng rãi ở giai đoạn phân tích, công cụ này dần không còn phổ biến.</p>
+<p>Các nhược điểm then chốt xác định qua CECA chỉ ra rõ các chất và trường tạo nên Su-Field của vấn đề.</p>
+<p>Tương tự mâu thuẫn, phân tích chất-trường được dùng để mô hình hóa vấn đề. Công cụ xử lý các mô hình chất-trường (Su-Field) là hệ 76 giải pháp sáng tạo tiêu chuẩn (SIS), tạo ra các mô hình giải pháp được biểu diễn bằng những SIS phù hợp. Trong một số trường hợp, các giải pháp này cũng có thể trình bày dưới dạng Su-Field. Vì vậy, phân tích chất-trường là công cụ TRIZ duy nhất mà mô hình giải pháp có thể có cùng hình thức với mô hình vấn đề.</p>
+<p><img src="media/wp-content/uploads/2024/12/su-field_diag-1024x266.png" class="img-fluid"></p>
+<p>Giả định cơ bản của cách tiếp cận này là một hệ tối thiểu để hoạt động phải gồm 3 phần tử cơ bản:<br>
+1. 2 chất (S) – các đối tượng có khối lượng nghỉ tham gia vào hệ, và<br>
+2. 1 trường (F) – thực thể không có khối lượng nghỉ tạo tương tác giữa các chất.</p>
+<p>Các chất gắn chặt với vấn đề then chốt cần giải quyết. Chúng có thể là đối tượng vi mô, thành phần đơn lẻ hoặc toàn hệ kỹ thuật. Trường thường thuộc một trong những loại của mô hình MATChEM.</p>
+<section id="mô-hình-chất-trường" class="level5">
+<h5 class="anchored" data-anchor-id="mô-hình-chất-trường">Mô hình chất-trường</h5>
+</section>
+</section>
+</section>
+<section id="mô-hình-chất-trường-1" class="level1">
+<h1>Mô hình chất-trường</h1>
+<p><em><strong>Mô hình chất-trường</strong> (Su-Field model, Su-Field) là mô hình trừu tượng của vấn đề và, khi có thể, các giải pháp tiềm năng được diễn đạt bằng tương tác giữa chất và trường.</em></p>
+<section id="tổng-quan-2" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-2">Tổng quan</h2>
+<p>Mô hình chất-trường lấy cảm hứng từ hóa học – cách biểu diễn phân tử thể hiện thành phần và liên kết. Tương tự, Su-Field nhằm giải thích các mối quan hệ và chức năng trong hệ kỹ thuật.</p>
+<p>Việc xây dựng mô hình chất-trường được thực hiện trong phân tích chất-trường.</p>
+<p>Giả định cơ bản giống như trên: hệ tối thiểu để hoạt động gồm 3 phần tử cơ bản – 2 chất và 1 trường.</p>
+<p>Các chất gắn liền với vấn đề then chốt cần giải quyết, có thể là đối tượng vi mô, thành phần đơn lẻ hoặc toàn hệ kỹ thuật. Trường thường thuộc một trong các loại của mô hình MATChEM.</p>
+</section>
+<section id="cấu-trúc-của-su-field" class="level2">
+<h2 class="anchored" data-anchor-id="cấu-trúc-của-su-field">Cấu trúc của Su-Field</h2>
+<p>Thông thường mô hình được mô tả bằng sơ đồ, trong đó các chất (S) và trường (F) là các nút, còn tương tác được thể hiện bằng đường nối hoặc mũi tên.</p>
+<p><img src="media/wp-content/uploads/2024/12/su-field_basic.png" class="img-fluid"></p>
+<p>Các ký hiệu tương tác dùng trong mô hình Su-Field tương tự ký hiệu dùng trong mô hình chức năng cho thiết bị:</p>
+<p><img src="media/wp-content/uploads/2024/12/su-fields_arrows-1024x109.png" class="img-fluid"></p>
+<p>Ví dụ:</p>
+<p><img src="media/wp-content/uploads/2024/12/su-fields_symb-examples-1024x212.png" class="img-fluid"></p>
+</section>
+<section id="các-loại-su-field" class="level2">
+<h2 class="anchored" data-anchor-id="các-loại-su-field">Các loại Su-Field</h2>
+<p>Dù mô hình chất-trường có thể mô tả cả vấn đề lẫn (đôi khi) giải pháp, các mô hình này không giống nhau, vì vậy được phân thành:</p>
+<ul>
+<li>Su-Field của vấn đề, và</li>
+<li>Su-Field của giải pháp.</li>
+</ul>
+<section id="su-field-của-vấn-đề" class="level3">
+<h3 class="anchored" data-anchor-id="su-field-của-vấn-đề">Su-Field của vấn đề</h3>
+<p>Khi mô hình hóa vấn đề bằng Su-Field, chỉ nên đưa những chất và trường gắn trực tiếp với vấn đề then chốt cần giải.</p>
+<p>Mô hình chất-trường của vấn đề có thể có 1, 2 hoặc 3 phần tử. Việc xây dựng mô hình vấn đề với hơn 3 phần tử là không đúng.</p>
+<p>Các loại Su-Field được dùng để mô hình hóa vấn đề gồm:<br>
+1. Su-Field chưa hoàn chỉnh (cần bổ sung),<br>
+2. Su-Field không đủ, tức hoàn chỉnh nhưng không hiệu quả (cần cải tiến),<br>
+3. Su-Field có hại (cần loại bỏ tác động có hại hoặc dư thừa).</p>
+<section id="su-field-chưa-hoàn-chỉnh" class="level4">
+<h4 class="anchored" data-anchor-id="su-field-chưa-hoàn-chỉnh">Su-Field chưa hoàn chỉnh</h4>
+<p><em><strong>Su-Field chưa hoàn chỉnh</strong> là Su-Field mô tả vấn đề còn thiếu một chất, một trường hoặc cả chất lẫn trường.</em></p>
+<p>Ví dụ:</p>
+<p><img src="media/wp-content/uploads/2024/12/su-field_incomplete-1024x281.png" class="img-fluid"></p>
+</section>
+<section id="su-field-không-đủ" class="level4">
+<h4 class="anchored" data-anchor-id="su-field-không-đủ">Su-Field không đủ</h4>
+<p><em><strong>Su-Field không đủ</strong> là Su-Field mô tả vấn đề mà mô hình đã đầy đủ nhưng không hoạt động.</em></p>
+<p>Su-Field không đủ thường mô tả tình huống <em>chất 1</em> không phản ứng với trường do <em>chất 2</em> tạo ra.</p>
+<p><img src="media/wp-content/uploads/2024/12/su-field_insuf.png" class="img-fluid"></p>
+</section>
+<section id="su-field-có-hại" class="level4">
+<h4 class="anchored" data-anchor-id="su-field-có-hại">Su-Field có hại</h4>
+<p><em><strong>Su-Field có hại</strong> là Su-Field mô tả mô hình trong đó ít nhất một tương tác gây hại hoặc dư thừa (dư thừa = bình thường + phần gây hại vượt mức).</em></p>
+<p><img src="media/wp-content/uploads/2024/12/su-field_harm-1024x268.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="su-field-của-giải-pháp" class="level3">
+<h3 class="anchored" data-anchor-id="su-field-của-giải-pháp">Su-Field của giải pháp</h3>
+<p>Su-Field của giải pháp có thể có 3 phần tử trở lên.</p>
+<p>Ví dụ về mô hình giải pháp gồm:<br>
+1. Su-Field hoàn chỉnh,<br>
+2. Su-Field phức hợp (bên trong và bên ngoài),<br>
+3. Su-Field dạng chuỗi,<br>
+4. Su-Field kép,<br>
+5. Su-Field đo lường.</p>
+<section id="su-field-hoàn-chỉnh" class="level4">
+<h4 class="anchored" data-anchor-id="su-field-hoàn-chỉnh">Su-Field hoàn chỉnh</h4>
+<p>Su-Field hoàn chỉnh mô tả giải pháp trong đó có ít nhất hai chất và một trường tạo thành hệ kỹ thuật hoặc hệ con hoạt động được.</p>
+<p><img src="media/wp-content/uploads/2024/12/su-field_basic.png" class="img-fluid"></p>
+</section>
+<section id="su-field-phức-hợp" class="level4">
+<h4 class="anchored" data-anchor-id="su-field-phức-hợp">Su-Field phức hợp</h4>
+<p><em><strong>Su-Field phức hợp</strong> là Su-Field hoàn chỉnh có thêm một chất (thường là phụ gia) phản ứng nhanh với trường hiện có.</em></p>
+<p><img src="media/wp-content/uploads/2024/12/su-field_complx-1024x225.png" class="img-fluid"></p>
+<p>Loại mô hình này được dùng trong lớp 1.1 (tổng hợp Su-Field), lớp 2 (phát triển Su-Field) và lớp 4 (các SIS cho đo lường, phát hiện).</p>
+<p>LƯU Ý! Su-Field phức hợp không phải Su-Field kép hay Su-Field chuỗi. Đây là những loại mô hình khác nhau.</p>
+</section>
+<section id="su-field-dạng-chuỗi" class="level4">
+<h4 class="anchored" data-anchor-id="su-field-dạng-chuỗi">Su-Field dạng chuỗi</h4>
+<p><em><strong>Su-Field dạng chuỗi</strong> là tổ hợp hai hoặc nhiều Su-Field trong đó một chất tham gia vào hai Su-Field.</em></p>
+<p><img src="media/wp-content/uploads/2024/12/su-field_chain.png" class="img-fluid"></p>
+<p>Loại mô hình này được dùng trong lớp 2 (phát triển Su-Field).</p>
+</section>
+<section id="su-field-kép" class="level4">
+<h4 class="anchored" data-anchor-id="su-field-kép">Su-Field kép</h4>
+<p><em><strong>Su-Field kép</strong> là Su-Field trong đó hai trường khác nhau cùng tạo tương tác giữa các chất (một chất tác động lên chất kia bằng hai trường).</em></p>
+<p><img src="media/wp-content/uploads/2024/12/su-field_double.png" class="img-fluid"></p>
+<p>Loại mô hình này được dùng trong lớp 2 (phát triển Su-Field).</p>
+</section>
+<section id="su-field-đo-lường" class="level4">
+<h4 class="anchored" data-anchor-id="su-field-đo-lường">Su-Field đo lường</h4>
+<p><em><strong>Su-Field đo lường</strong> là Su-Field đặc biệt dùng để mô tả các bài toán sáng tạo cần đo lường hoặc phát hiện theo phân tích chất-trường. Điểm độc đáo là nó là mô hình duy nhất có 2 trường và 1 chất (trường vào &gt; chất &gt; trường ra).</em></p>
+<p><img src="media/wp-content/uploads/2024/12/su-field_measur.png" class="img-fluid"></p>
+<p>Loại mô hình này được sử dụng trong lớp 4 (các SIS cho đo lường và phát hiện).</p>
+</section>
+</section>
+<section id="mâu-thuẫn" class="level3">
+<h3 class="anchored" data-anchor-id="mâu-thuẫn">Mâu thuẫn</h3>
+</section>
+</section>
+</section>
+<section id="mâu-thuẫn-1" class="level1">
+<h1>Mâu thuẫn</h1>
+<section id="tổng-quan-3" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-3">Tổng quan</h2>
+<p>Mâu thuẫn là mô hình tham số của các vấn đề then chốt được xác định trong giai đoạn nhận diện vấn đề. TRIZ hiện đại sử dụng hai loại mâu thuẫn:</p>
+<ul>
+<li>mâu thuẫn kỹ thuật, và</li>
+<li>mâu thuẫn vật lý.</li>
+</ul>
+<p>Mâu thuẫn kỹ thuật liên quan đến hai tham số khác nhau. Nó mô tả tình huống khi cải thiện một tham số lại làm xấu đi tham số khác.</p>
+<p>Mâu thuẫn vật lý liên quan đến một tham số với hai yêu cầu chính đáng nhưng đối nghịch đặt lên nó.</p>
+</section>
+<section id="quan-hệ-giữa-mâu-thuẫn-kỹ-thuật-và-mâu-thuẫn-vật-lý" class="level2">
+<h2 class="anchored" data-anchor-id="quan-hệ-giữa-mâu-thuẫn-kỹ-thuật-và-mâu-thuẫn-vật-lý">Quan hệ giữa mâu thuẫn kỹ thuật và mâu thuẫn vật lý</h2>
+<p>Hai loại mâu thuẫn liên hệ trực tiếp vì đều được diễn đạt theo cấu trúc <strong>NẾU – THÌ – NHƯNG</strong>.</p>
+<ul>
+<li>Trong mâu thuẫn kỹ thuật, tham số được cải thiện nằm ở dòng THÌ, tham số bị xấu đi nằm ở dòng NHƯNG.</li>
+<li>Mâu thuẫn vật lý liên quan tới tham số ở dòng NẾU, còn các yêu cầu đối nghịch nằm ở dòng THÌ.</li>
+</ul>
+<p>Có thể hình thành mâu thuẫn vật lý từ mâu thuẫn kỹ thuật qua các bước:</p>
+<ol type="1">
+<li>soạn mâu thuẫn kỹ thuật,</li>
+<li>xem dòng <strong>NẾU</strong> của mâu thuẫn; <strong>tham số/hành động/thuộc tính</strong> nêu ở dòng NẾU là đối tượng dùng để hình thành mâu thuẫn vật lý,</li>
+<li>dòng <strong>THÌ</strong> của mâu thuẫn kỹ thuật là <strong>lý do</strong> cho một yêu cầu của mâu thuẫn vật lý,</li>
+<li>dòng <strong>NHƯNG</strong> gợi ý lý do cho yêu cầu còn lại (đảo ngữ của dòng NHƯNG sẽ cho lý do).</li>
+</ol>
+<p>Để dễ hình thành mâu thuẫn vật lý, việc tạo trước một mâu thuẫn kỹ thuật đảo (thay thế) cũng rất hữu ích.</p>
+<p>Quy trình này cũng đi theo chiều ngược lại. Từ mỗi mâu thuẫn vật lý có thể lập được hai mâu thuẫn kỹ thuật: mâu thuẫn cơ bản và mâu thuẫn đảo.</p>
+</section>
+<section id="giải-mâu-thuẫn" class="level2">
+<h2 class="anchored" data-anchor-id="giải-mâu-thuẫn">Giải mâu thuẫn</h2>
+<p>Cả hai loại mâu thuẫn đều được khuyến nghị giải bằng <strong>40 nguyên tắc sáng tạo</strong>. Tuy nhiên, cách dẫn tới các nguyên tắc cụ thể khác nhau:</p>
+<ul>
+<li>với mâu thuẫn kỹ thuật là <strong>ma trận mâu thuẫn</strong> (ma trận Altshuller),</li>
+<li>với mâu thuẫn vật lý là <strong>thuật toán giải mâu thuẫn vật lý</strong>.</li>
+</ul>
+<p>Ngoài ra, mâu thuẫn vật lý có thể sử dụng thêm tìm kiếm định hướng chức năng (FOS), cơ sở dữ liệu hiệu ứng khoa học và bài toán tương tự.</p>
+<section id="bài-viết-3" class="level4">
+<h4 class="anchored" data-anchor-id="bài-viết-3">Bài viết</h4>
+<ul>
+<li>Mâu thuẫn kỹ thuật
+<ul>
+<li>Ma trận mâu thuẫn
+<ul>
+<li>Các tham số điển hình</li>
+</ul></li>
+</ul></li>
+<li>Mâu thuẫn vật lý
+<ul>
+<li>Thuật toán giải mâu thuẫn vật lý</li>
+</ul></li>
+<li>Nguyên tắc sáng tạo</li>
+</ul>
+</section>
+<section id="mâu-thuẫn-kỹ-thuật" class="level4">
+<h4 class="anchored" data-anchor-id="mâu-thuẫn-kỹ-thuật">Mâu thuẫn kỹ thuật</h4>
+</section>
+</section>
+</section>
+<section id="mâu-thuẫn-kỹ-thuật-1" class="level1">
+<h1>Mâu thuẫn kỹ thuật</h1>
+<p><em><strong>Mâu thuẫn kỹ thuật</strong> (engineering contradiction – EC, còn gọi technical contradiction – TC) là mô hình tham số của vấn đề trong đó nỗ lực cải thiện một tham số của hệ kỹ thuật lại làm xấu đi tham số khác.</em></p>
+<section id="tổng-quan-4" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-4">Tổng quan</h2>
+<p>Khi giải quyết vấn đề then chốt, ta thường sử dụng các phương pháp/công nghệ mà trong khi cải thiện một tham số nào đó của hệ kỹ thuật lại đồng thời làm xấu đi tham số khác.</p>
+<p>Mô hình hóa tình huống như vậy thành <strong>mâu thuẫn kỹ thuật</strong> là bước đầu để giải vấn đề theo hướng không chỉ cải thiện tham số thứ nhất mà còn tránh – thậm chí có thể cải thiện – tham số thứ hai.</p>
+<p>Mô hình giải cho mâu thuẫn kỹ thuật là <strong>các nguyên tắc sáng tạo</strong>. Công cụ chuyển mâu thuẫn kỹ thuật thành nguyên tắc sáng tạo là <strong>ma trận mâu thuẫn</strong> (ma trận Altshuller).</p>
+</section>
+<section id="cách-hình-thành-mâu-thuẫn-kỹ-thuật" class="level2">
+<h2 class="anchored" data-anchor-id="cách-hình-thành-mâu-thuẫn-kỹ-thuật">Cách hình thành mâu thuẫn kỹ thuật</h2>
+<p>Mâu thuẫn kỹ thuật nên được diễn đạt bằng cấu trúc <strong>NẾU – THÌ – NHƯNG</strong>. Công thức này cung cấp hai tham số tạo thành mâu thuẫn kỹ thuật cần giải:</p>
+<ol type="1">
+<li>dòng <strong>THÌ</strong> chứa tham số cần được <strong>cải thiện</strong> để giải quyết vấn đề,</li>
+<li>dòng <strong>NHƯNG</strong> chứa tham số <strong>bị xấu đi</strong> khi áp dụng phương pháp/giải pháp nêu ở dòng NẾU.</li>
+</ol>
+<p><img src="media/wp-content/uploads/2024/08/EC_ord-1024x135.png" class="img-fluid"></p>
+<p>Để diễn đạt mâu thuẫn chính xác, nên tuân theo thứ tự cung cấp thông tin. Thông thường bắt đầu với dòng <strong>THÌ</strong>, tiếp tục với <strong>NẾU</strong>, cuối cùng là <strong>NHƯNG</strong>. Các con số đỏ trong hình trên biểu thị thứ tự điền.</p>
+<p>Xét ví dụ đơn giản: <em>cái bàn không đủ chắc</em>. Một cách gia cố là thêm các chi tiết tăng cứng, nhưng chúng làm bàn nặng hơn. Mâu thuẫn kỹ thuật được diễn đạt như sau:</p>
+<p><img src="media/wp-content/uploads/2024/08/EC_exampl-1024x175.png" class="img-fluid"></p>
+<p>Thông thường, một vấn đề then chốt có thể được mô hình hóa bằng nhiều mâu thuẫn kỹ thuật vì có nhiều công nghệ truyền thống để giải quyết vấn đề.</p>
+<p>Với mỗi công nghệ/hành động/tham số nêu ở dòng NẾU, cần xây dựng mâu thuẫn riêng.</p>
+<p>Ví dụ để giải quyết chiếc bàn yếu, có thể dùng vật liệu mạnh hơn, tăng độ dày mặt bàn, hoặc tạo hình vồng nhẹ. Mỗi cách dẫn đến một tham số khác bị xấu đi, do đó cần tạo mâu thuẫn kỹ thuật tương ứng.</p>
+</section>
+<section id="mâu-thuẫn-kỹ-thuật-đảo" class="level2">
+<h2 class="anchored" data-anchor-id="mâu-thuẫn-kỹ-thuật-đảo">Mâu thuẫn kỹ thuật đảo</h2>
+<p>Với mỗi mâu thuẫn kỹ thuật có thể xây dựng một mâu thuẫn đảo (ngược). Ví dụ sau minh họa quy trình:</p>
+<p><img src="media/wp-content/uploads/2024/08/EC_altern-1024x147.png" class="img-fluid"></p>
+<p>Mâu thuẫn đảo sử dụng cùng tham số với mâu thuẫn gốc nhưng mô hình hóa vấn đề khác. Vì ma trận mâu thuẫn không đối xứng, mâu thuẫn đảo giúp mở rộng phạm vi ý tưởng và có thể dẫn tới giải pháp đạt mục tiêu dự án. Nó cũng rất hữu ích khi hình thành mâu thuẫn vật lý.</p>
+</section>
+<section id="thuật-toán-xử-lý-mâu-thuẫn-kỹ-thuật" class="level2">
+<h2 class="anchored" data-anchor-id="thuật-toán-xử-lý-mâu-thuẫn-kỹ-thuật">Thuật toán xử lý mâu thuẫn kỹ thuật</h2>
+<p>Thuật toán xử lý mâu thuẫn kỹ thuật như sau:</p>
+<p><img src="media/wp-content/uploads/2024/08/EC_algor-1024x667.png" class="img-fluid"></p>
+<section id="bài-viết-4" class="level4">
+<h4 class="anchored" data-anchor-id="bài-viết-4">Bài viết</h4>
+<ul>
+<li>Ma trận mâu thuẫn
+<ul>
+<li>Các tham số điển hình</li>
+</ul></li>
+</ul>
+<section id="ma-trận-mâu-thuẫn" class="level5">
+<h5 class="anchored" data-anchor-id="ma-trận-mâu-thuẫn">Ma trận mâu thuẫn</h5>
+</section>
+</section>
+</section>
+</section>
+<section id="ma-trận-mâu-thuẫn-1" class="level1">
+<h1>Ma trận mâu thuẫn</h1>
+<p><em><strong>Ma trận mâu thuẫn</strong> (Altshuller matrix) là ma trận cung cấp cách tiếp cận hệ thống để chọn các nguyên tắc sáng tạo nhằm giải mâu thuẫn kỹ thuật.</em></p>
+<section id="tổng-quan-5" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-5">Tổng quan</h2>
+<p>Ma trận mâu thuẫn là công cụ giải quyết vấn đề liên kết mâu thuẫn kỹ thuật với các nguyên tắc sáng tạo được sử dụng thường xuyên nhất theo thống kê – những mô hình giải pháp tổng quát cho mâu thuẫn.</p>
+<p><img src="media/wp-content/uploads/2024/08/Alt-matr_model-1024x359.png" class="img-fluid"></p>
+<p>Ma trận Altshuller truyền thống là bảng tra số nguyên tắc. Để thuận tiện, chúng tôi đã xây dựng <strong>công cụ tương tác</strong> giúp đơn giản hóa quy trình. Nhấn nút bên dưới để sử dụng.</p>
+<p>MA TRẬN MÂU THUẪN</p>
+<p>Sau khi chuyển hai tham số cụ thể trong mâu thuẫn về các tham số điển hình, có thể tìm bộ nguyên tắc sáng tạo khuyến nghị trong ma trận. Khi đã xác định tập nguyên tắc, hãy động não xung quanh chúng để phát triển giải pháp.</p>
+<p>Lưu ý các nguyên tắc trong mỗi ô là những nguyên tắc được sử dụng thường xuyên nhất theo thống kê, nhưng điều đó không có nghĩa không thể tìm giải pháp ngoài chúng. Nếu kết quả từ ma trận không thỏa đáng, hãy cân nhắc thử các nguyên tắc khác.</p>
+</section>
+<section id="cấu-trúc-ma-trận-mâu-thuẫn" class="level2">
+<h2 class="anchored" data-anchor-id="cấu-trúc-ma-trận-mâu-thuẫn">Cấu trúc ma trận mâu thuẫn</h2>
+<p>Ma trận truyền thống chứa 39 tham số điển hình trên cả trục dọc lẫn trục ngang:</p>
+<ul>
+<li>trục dọc liệt kê các tham số cần cải thiện để giải quyết vấn đề,</li>
+<li>trục ngang liệt kê các tham số bị xấu đi khi áp dụng công nghệ cụ thể.</li>
+</ul>
+<p>Danh sách tham số ở hàng và cột giống nhau về thứ tự.</p>
+<p>Tại giao điểm hàng – cột tương ứng, ô ma trận chứa các số nguyên tắc sáng tạo được khuyến nghị.</p>
+<p>Ví dụ:</p>
+<p><img src="media/wp-content/uploads/2024/08/contr-matrix-1024x1016.png" class="img-fluid"></p>
+<p>Các ô có thể chứa 4, 3, 2 hoặc 1 nguyên tắc; một số ô trống.</p>
+<p>Thứ tự các nguyên tắc trong một ô không biểu thị mức ưu tiên. Tất cả nguyên tắc đều quan trọng như nhau; thứ tự chỉ phản ánh trình tự Altshuller bổ sung khi ông khám phá ra chúng.</p>
+<p>Ô trống nghĩa là chưa có nguyên tắc nào được xác định là nổi trội hơn. Khi đó có thể áp dụng bất kỳ trong 40 nguyên tắc.</p>
+<p>Ma trận mâu thuẫn không đối xứng. Cải thiện tham số A trong khi tham số B xấu đi sẽ dẫn tới tập nguyên tắc khác với trường hợp cải thiện B và làm xấu A.</p>
+<section id="bài-viết-5" class="level4">
+<h4 class="anchored" data-anchor-id="bài-viết-5">Bài viết</h4>
+<ul>
+<li>Các tham số điển hình</li>
+</ul>
+<section id="các-tham-số-điển-hình" class="level5">
+<h5 class="anchored" data-anchor-id="các-tham-số-điển-hình">Các tham số điển hình</h5>
+</section>
+</section>
+</section>
+</section>
+<section id="các-tham-số-điển-hình-1" class="level1">
+<h1>Các tham số điển hình</h1>
+<p><em><strong>Các tham số điển hình</strong> là tập hợp hữu hạn các tham số khái quát thường cần cải thiện trong hệ kỹ thuật, được sử dụng trong ma trận mâu thuẫn (Altshuller).</em></p>
+<section id="tổng-quan-6" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-6">Tổng quan</h2>
+<p>Để làm việc với ma trận mâu thuẫn, các tham số được cải thiện và bị xấu đi trong mâu thuẫn kỹ thuật phải được diễn đạt dưới dạng tham số điển hình có trong ma trận. Do sự đa dạng của các lĩnh vực kỹ thuật, việc quy đổi tham số cụ thể sang tham số điển hình là yếu tố cốt lõi giúp ma trận Altshuller mang tính phổ quát.</p>
+<p>Đôi khi tham số cụ thể đã trùng với tham số điển hình. Nếu không, cần quy đổi cho cả trục dọc và trục ngang của ma trận.</p>
+<p>Bên dưới là danh sách đầy đủ 39 tham số điển hình cùng ví dụ về các tham số cụ thể thường gắn với chúng. Lưu ý danh sách ví dụ không mang tính bắt buộc; mỗi vấn đề nên được cân nhắc riêng.</p>
+<p>Các ví dụ này chỉ nhằm gợi ý. Nếu bạn thấy tham số cụ thể của mình phù hợp với tham số điển hình khác, hãy mạnh dạn sử dụng. Điều đó chỉ giúp mở rộng số lượng ý tưởng giải pháp.</p>
+<p>Một thực hành tốt là tạo vài cặp tham số điển hình khác nhau phù hợp với mâu thuẫn đã hình thành và dùng ma trận cho từng cặp. Khi đó ta nhận được nhiều bộ khuyến nghị – mỗi bộ đều có thể là hướng dẫn tốt nhất.</p>
+</section>
+<section id="tham-số-điển-hình" class="level2">
+<h2 class="anchored" data-anchor-id="tham-số-điển-hình">39 tham số điển hình</h2>
+<p>Lưu ý trong một số trường hợp, các tham số điển hình phân biệt giữa đối tượng chuyển động và đối tượng cố định. <strong>Đối tượng chuyển động</strong> là đối tượng đang chuyển vị hoặc thay đổi vị trí so với đối tượng khác trong vấn đề. Chuyển động có thể do lực bên ngoài hoặc tự thân, có thể tuyến tính, quay, rất nhỏ hoặc rất lớn. Ví dụ điển hình là các vật dụng thiết kế để di chuyển. <strong>Đối tượng cố định</strong> thì đứng yên hoàn toàn so với đối tượng còn lại, giữa chúng không có chuyển động tương đối.</p>
+<ol type="1">
+<li>Khối lượng của đối tượng chuyển động</li>
+</ol>
+<p>Khối lượng hoặc lực hấp dẫn (theo áp suất hoặc treo) do đối tượng chuyển động sinh ra.</p>
+<p><em><strong>Liên quan tới:</strong> đối trọng, trọng lực, tải trọng, lực nổi, nặng nhẹ, khối lượng, gánh nặng, áp lực, cồng kềnh, nhẹ cân, trọng tải, nổi, nhẹ.</em></p>
+<ol start="2" type="1">
+<li>Khối lượng của đối tượng cố định</li>
+</ol>
+<p>Khối lượng hoặc lực hấp dẫn (theo áp suất, treo hoặc bề mặt đỡ) do đối tượng cố định tạo ra.</p>
+<p><em><strong>Liên quan tới:</strong> đối trọng, trọng lực, tải trọng, lực nổi, nặng nhẹ, khối lượng, gánh nặng, áp lực, cồng kềnh, nhẹ cân, trọng tải, nổi, nhẹ.</em></p>
+<ol start="3" type="1">
+<li>Chiều dài của đối tượng chuyển động</li>
+</ol>
+<p>Bất kỳ kích thước tuyến tính hoặc góc nào của đối tượng chuyển động, không nhất thiết là chiều dài lớn nhất.</p>
+<p><em><strong>Liên quan tới:</strong> cao độ, khoảng cách, tầm, biên độ, độ rộng, sải, khe hở, độ vươn, chu vi, vòng đai, độ phủ, kích thước chéo, chiều cao, dung sai, chiều sâu, chiều dài, chiều rộng, đường kính, bán kính.</em></p>
+<ol start="4" type="1">
+<li>Chiều dài của đối tượng cố định</li>
+</ol>
+<p>Bất kỳ kích thước tuyến tính hoặc góc nào của đối tượng cố định, không nhất thiết là chiều dài lớn nhất.</p>
+<p><em><strong>Liên quan tới:</strong> cao độ, khoảng cách, tầm, biên độ, độ rộng, sải, khe hở, độ vươn, chu vi, vòng đai, độ phủ, kích thước chéo, chiều cao, dung sai, chiều sâu, chiều dài, chiều rộng, đường kính, bán kính.</em></p>
+<ol start="5" type="1">
+<li>Diện tích của đối tượng chuyển động</li>
+</ol>
+<p>Các đặc tính liên quan đến bề mặt hoặc diện tích của đối tượng chuyển động (bên trong hoặc bên ngoài). Có thể bao gồm diện tích bề mặt của đối tượng, phần diện tích mà đối tượng chiếm giữ, hoặc diện tích tiếp xúc giữa các đối tượng.</p>
+<p><em><strong>Liên quan tới:</strong> diện tích tiếp xúc, độ rỗng, không gian, kích thước, vùng, diện tích, khoảng, bề mặt, trường, khu vực, lãnh thổ, tiếp điểm, kích cỡ, vùng.</em></p>
+<ol start="6" type="1">
+<li>Diện tích của đối tượng cố định</li>
+</ol>
+<p>Các đặc tính liên quan đến bề mặt hoặc diện tích của đối tượng cố định (bên trong hoặc bên ngoài). Có thể bao gồm diện tích bề mặt, phần bề mặt bị chiếm, hoặc diện tích tiếp xúc.</p>
+<p><em><strong>Liên quan tới:</strong> diện tích tiếp xúc, độ rỗng, không gian, kích thước, vùng, diện tích, khoảng, bề mặt, trường, khu vực, lãnh thổ, tiếp điểm, kích cỡ, vùng.</em></p>
+<ol start="7" type="1">
+<li>Thể tích của đối tượng chuyển động</li>
+</ol>
+<p>Bất kỳ đặc tính nào liên quan đến thể tích của đối tượng chuyển động hoặc không gian bao quanh nó.</p>
+<p><em><strong>Liên quan tới:</strong> kích thước 3D, độ gọn, kích cỡ, lượng chất, thể tích, co rút, lưu lượng, không gian, tổng khối, quá khổ, trương nở, cồng kềnh, dung tích, khoảng rỗng.</em></p>
+<ol start="8" type="1">
+<li>Thể tích của đối tượng cố định</li>
+</ol>
+<p>Bất kỳ đặc tính nào liên quan đến thể tích của đối tượng cố định hoặc không gian bao quanh nó.</p>
+<p><em><strong>Liên quan tới:</strong> kích thước 3D, độ gọn, kích cỡ, lượng chất, thể tích, co rút, lưu lượng, không gian, tổng khối, quá khổ, trương nở, cồng kềnh, dung tích, khoảng rỗng.</em></p>
+<ol start="9" type="1">
+<li>Tốc độ</li>
+</ol>
+<p>Vận tốc của đối tượng hoặc tốc độ của quá trình/hành động theo thời gian, tập trung vào động lực học hơn là sản lượng (xem <strong>30. Năng suất</strong>). Tốc độ có thể tương đối hoặc tuyệt đối, tuyến tính hoặc quay.</p>
+<p><em><strong>Liên quan tới:</strong> gia tốc, nhanh, chậm, giảm tốc, nhịp độ, tăng tốc, độ trễ, hối hả, takt time, nhịp, chậm lại, trì trệ.</em></p>
+<ol start="10" type="1">
+<li>Lực (cường độ)</li>
+</ol>
+<p><strong>Lực</strong> đo tương tác giữa các hệ. Trong cơ học Newton, <em>lực = khối lượng x gia tốc</em>. Ở đây là bất kỳ tương tác nào nhằm thay đổi trạng thái của đối tượng. Có thể là lực tuyến tính hoặc mô-men.</p>
+<p><em><strong>Liên quan tới:</strong> mô-men, áp suất, sức căng, lực cắt, va đập, sức kéo, lực nén, lực ép, lực đẩy, lực nâng, lực ma sát, lực xoắn.</em></p>
+<ol start="11" type="1">
+<li>Ứng suất hoặc áp suất</li>
+</ol>
+<p>Ứng suất cơ học hoặc áp suất tác dụng lên bề mặt hoặc thể tích của hệ.</p>
+<p><em><strong>Liên quan tới:</strong> áp lực, sức căng, lực nén, lực cắt, lực uốn, tải trọng, lực kéo, hệ số an toàn, giới hạn bền, mỏi, phá hủy, quá tải.</em></p>
+<ol start="12" type="1">
+<li>Hình dạng</li>
+</ol>
+<p>Đặc tính hình học tổng thể của đối tượng hoặc hệ, bao gồm dạng, đường cong, cấu trúc bề mặt.</p>
+<p><em><strong>Liên quan tới:</strong> biên dạng, hình học, cấu trúc, dáng, đường nét, mặt phẳng, độ cong, độ méo, độ phẳng, độ cứng vững, tính đồng nhất.</em></p>
+<ol start="13" type="1">
+<li>Ổn định của vật thể (vĩnh cửu/non-vĩnh cửu)</li>
+</ol>
+<p>Khả năng duy trì hình dạng, trạng thái hoặc vị trí mong muốn; mức độ nhạy với nhiễu, rung, biến dạng.</p>
+<p><em><strong>Liên quan tới:</strong> dao động, rung động, cân bằng, độ ổn định, độ vững, độ cứng, chống lật, chống xoắn, trôi, độ lệch, độ dao động.</em></p>
+<ol start="14" type="1">
+<li>Sức mạnh (cường lực)</li>
+</ol>
+<p>Khả năng chịu tải hoặc lực mà không bị hỏng, bao gồm độ bền cơ học, khả năng chịu lực kéo, nén, cắt.</p>
+<p><em><strong>Liên quan tới:</strong> độ bền, giới hạn chảy, độ bền mỏi, độ cứng, độ dẻo, độ bền uốn, độ dai va đập, độ bền kéo, độ bền nén.</em></p>
+<ol start="15" type="1">
+<li>Thời gian tác động</li>
+</ol>
+<p>Khoảng thời gian cần thiết để một hành động, quá trình hoặc chức năng xảy ra.</p>
+<p><em><strong>Liên quan tới:</strong> thời lượng, chu kỳ, thời gian chờ, độ trễ, thời gian tiếp xúc, thời gian phản hồi, thời gian xử lý, thời gian thay đổi, thời gian bảo trì.</em></p>
+<ol start="16" type="1">
+<li>Năng lượng tiêu thụ</li>
+</ol>
+<p>Lượng năng lượng cần thiết để vận hành hệ hoặc thực hiện một chức năng.</p>
+<p><em><strong>Liên quan tới:</strong> tiêu thụ, công suất, hiệu suất, nhiệt lượng, nhiên liệu, điện năng, lượng nhiệt, tổn thất năng lượng, hiệu quả năng lượng.</em></p>
+<ol start="17" type="1">
+<li>Nhiệt độ</li>
+</ol>
+<p>Mức nhiệt hoặc đặc tính liên quan đến nhiệt của hệ thống hoặc đối tượng.</p>
+<p><em><strong>Liên quan tới:</strong> nóng, lạnh, nhiệt độ làm việc, nhiệt độ môi trường, quá nhiệt, quá lạnh, độ dốc nhiệt, truyền nhiệt, ổn định nhiệt.</em></p>
+<ol start="18" type="1">
+<li>Độ sáng</li>
+</ol>
+<p>Độ chiếu sáng hoặc khả năng phát/thu ánh sáng của hệ.</p>
+<p><em><strong>Liên quan tới:</strong> độ rọi, độ chói, ánh sáng, quang thông, độ tương phản, độ phản xạ, độ trong suốt, điều khiển ánh sáng.</em></p>
+<ol start="19" type="1">
+<li>Lượng chất</li>
+</ol>
+<p>Khối lượng hoặc số lượng vật liệu cần cho hệ, bao gồm vật tiêu hao, nguyên liệu phụ.</p>
+<p><em><strong>Liên quan tới:</strong> vật liệu, phụ gia, hóa chất, chất lỏng, chất bột, lượng tiêu hao, lưu lượng, lượng cấp liệu, lượng thải.</em></p>
+<ol start="20" type="1">
+<li>Độ bền (độ tuổi thọ)</li>
+</ol>
+<p>Thời gian hệ hoặc đối tượng thực hiện chức năng trước khi xuống cấp, hỏng hóc.</p>
+<p><em><strong>Liên quan tới:</strong> tuổi thọ, độ mòn, độ bền mỏi, độ suy giảm, độ ổn định, chu kỳ sử dụng, độ tin cậy theo thời gian.</em></p>
+<ol start="21" type="1">
+<li>Độ tin cậy</li>
+</ol>
+<p>Khả năng hệ hoạt động đúng chức năng mà không bị hỏng trong điều kiện xác định.</p>
+<p><em><strong>Liên quan tới:</strong> xác suất hỏng, tần suất hỏng, MTBF, MTTR, độ tin cậy thống kê, độ an toàn, độ chắc chắn, sai hỏng.</em></p>
+<ol start="22" type="1">
+<li>Năng suất lao động của con người</li>
+</ol>
+<p>Lượng công việc hoặc giá trị do con người tạo ra trong một đơn vị thời gian khi tương tác với hệ.</p>
+<p><em><strong>Liên quan tới:</strong> hiệu quả con người, thời gian thao tác, năng lực, số người, ca làm việc, ergonomics, mức độ mệt mỏi, tải lao động.</em></p>
+<ol start="23" type="1">
+<li>Khả năng bảo vệ khỏi tác động nguy hiểm</li>
+</ol>
+<p>Mức độ bảo vệ con người, sản phẩm hoặc môi trường khỏi tác động nguy hiểm của hệ.</p>
+<p><em><strong>Liên quan tới:</strong> an toàn, che chắn, cách ly, phòng hộ, PPE, bảo vệ môi trường, kiểm soát rủi ro, an toàn chức năng, khóa liên động.</em></p>
+<ol start="24" type="1">
+<li>Tiến trình (tốc độ) phản ứng</li>
+</ol>
+<p>Tốc độ phản ứng hóa học hoặc các biến đổi xảy ra trong hệ.</p>
+<p><em><strong>Liên quan tới:</strong> động học phản ứng, thời gian phản ứng, tốc độ chuyển hóa, pha trộn, tốc độ xúc tác, sự ổn định phản ứng.</em></p>
+<ol start="25" type="1">
+<li>Độ chính xác của đo lường</li>
+</ol>
+<p>Khả năng đo chính xác tham số mong muốn.</p>
+<p><em><strong>Liên quan tới:</strong> sai số, độ lặp lại, độ phân giải, độ nhạy, độ lệch chuẩn, độ tái lập, hiệu chuẩn, độ chính xác hệ đo.</em></p>
+<ol start="26" type="1">
+<li>Độ chính xác của sản xuất</li>
+</ol>
+<p>Mức độ tuân thủ kích thước, hình dạng, đặc tính của sản phẩm so với yêu cầu.</p>
+<p><em><strong>Liên quan tới:</strong> dung sai, độ chính xác gia công, độ ổn định quá trình, độ đồng nhất, độ lệch, độ chính xác lắp ráp, sai số công nghệ.</em></p>
+<ol start="27" type="1">
+<li>Độ chính xác của điều khiển</li>
+</ol>
+<p>Khả năng hệ điều khiển đạt giá trị mục tiêu hoặc duy trì trong phạm vi yêu cầu.</p>
+<p><em><strong>Liên quan tới:</strong> điều khiển chính xác, sai số điều khiển, độ bám theo, ổn định điều khiển, quá điều chỉnh, dao động, PID, điều khiển chính xác.</em></p>
+<ol start="28" type="1">
+<li>Độ ồn</li>
+</ol>
+<p>Mức âm thanh hoặc rung không mong muốn phát ra từ hệ.</p>
+<p><em><strong>Liên quan tới:</strong> âm lượng, tiếng ồn, độ rung, tiếng ầm, dao động, nhiễu âm, độ ồn môi trường, tiếng ồn khí động, tiếng ồn cơ học.</em></p>
+<ol start="29" type="1">
+<li>Độ mất cân bằng</li>
+</ol>
+<p>Mức độ lệch khỏi trạng thái cân bằng, bao gồm mất cân bằng quay, phân bố khối lượng không đều, lệch trọng tâm.</p>
+<p><em><strong>Liên quan tới:</strong> rung, dao động, mất cân bằng tĩnh/động, cân bằng, lắc, lệch tâm, phân bố khối lượng, rung động dư.</em></p>
+<ol start="30" type="1">
+<li>Năng suất</li>
+</ol>
+<p>Số lượng hoặc lượng chức năng hữu ích/thao tác (đầu ra hữu ích) của hệ trong một đơn vị thời gian; hoặc thời gian/chi phí cho mỗi đơn vị đầu ra.</p>
+<p><em><strong>Liên quan tới:</strong> nút thắt cổ chai, thông lượng, công suất, số công đoạn, giá trị gia tăng, chi phí, sản lượng, hiệu suất, quá sản xuất, bước dư, hiệu năng, tỷ suất.</em></p>
+<ol start="31" type="1">
+<li>Lãng phí năng lượng hoặc vật liệu</li>
+</ol>
+<p>Lượng năng lượng hoặc vật liệu bị tiêu hao mà không tạo giá trị.</p>
+<p><em><strong>Liên quan tới:</strong> hao phí, tổn thất, phế thải, rò rỉ, tiêu hao vô ích, năng lượng dư, nguyên liệu dư, hiệu suất thấp.</em></p>
+<ol start="32" type="1">
+<li>Khả năng sản xuất (dễ chế tạo)</li>
+</ol>
+<p>Mức độ dễ dàng của quá trình sản xuất, bao gồm số bước, tính sẵn sàng dụng cụ, sự cần thiết của thao tác thủ công, thời gian chuẩn bị máy.</p>
+<p><em><strong>Liên quan tới:</strong> công nghệ hóa, tự động hóa, thời gian chuẩn máy, tiện lợi chế tạo, thay dụng cụ, khó sản xuất, lập trình gia công, điều chỉnh, độ sẵn sàng công cụ.</em></p>
+<ol start="33" type="1">
+<li>Dễ vận hành</li>
+</ol>
+<p>Mức độ người dùng có thể học, vận hành, điều khiển hệ thống hoặc quá trình. Tính thuận tiện sử dụng.</p>
+<p>Quá trình không dễ nếu cần nhiều người, nhiều bước, dụng cụ đặc biệt… Ngược lại, quá trình “dễ” là quá trình hiệu quả và dễ làm đúng.</p>
+<p><em><strong>Liên quan tới:</strong> kỹ năng, thuận tiện, thời gian thiết lập, khả năng điều khiển, đơn giản, dễ vận chuyển, tính sẵn có, dễ sử dụng, đường cong học tập, đào tạo, ergonomics, di động, điều khiển từ xa.</em></p>
+<ol start="34" type="1">
+<li>Dễ bảo trì/sửa chữa</li>
+</ol>
+<p>Các đặc tính như tiện lợi, thoải mái, đơn giản và thời gian để sửa lỗi/hỏng hóc của hệ. Bao gồm nhu cầu dụng cụ đặc biệt, điều kiện sửa tại chỗ hay từ xa.</p>
+<p><em><strong>Liên quan tới:</strong> khả năng tiếp cận, thay thế, tháo lắp, bảo trì, mô-đun hóa, cập nhật, phục hồi, nâng cấp, tháo rời, truy cập từ xa, thời gian uptime, ergonomics.</em></p>
+<ol start="35" type="1">
+<li>Khả năng thích ứng hoặc đa dụng</li>
+</ol>
+<p>Mức độ hệ có thể phản ứng với thay đổi bên ngoài hoặc sử dụng trong nhiều hoàn cảnh.</p>
+<p><em><strong>Liên quan tới:</strong> linh hoạt, thích nghi, chuyển đổi, điều chỉnh, tùy biến, dẻo, tiến hóa, đáp ứng, đa năng, biến thiên.</em></p>
+<ol start="36" type="1">
+<li>Độ phức tạp của thiết bị</li>
+</ol>
+<p>Số lượng và sự đa dạng của các phần tử cùng mối quan hệ giữa chúng, bao gồm cả người vận hành. Bao gồm số chức năng, số giao diện, số kết nối, số thành phần, độ phức tạp điều khiển (phần cứng và thuật toán).</p>
+<p><em><strong>Liên quan tới:</strong> vi phân, mô-đun hóa, phản hồi dương/âm, tính đồng nhất, sự nguyên vẹn, đơn giản hóa, không đổi, tính đồng nhất, số lượng chi tiết, giao diện.</em></p>
+<ol start="37" type="1">
+<li>Độ khó phát hiện/đo lường</li>
+</ol>
+<p>Độ khó khi đo lường hoặc theo dõi hệ. Hệ đo phức tạp, tốn kém, mất thời gian, cần nhiều nhân lực, có nhiều quan hệ phức tạp hoặc nhiễu được xem là khó đo. Chi phí tăng để đạt sai số chấp nhận được cũng là dấu hiệu.</p>
+<p><em><strong>Liên quan tới:</strong> khả năng tiếp cận, nhiễu, vị trí, sẵn có, độ chính xác, độ lặp lại, tham số đo phù hợp, khó tiếp cận, độ tin cậy, dung sai, can nhiễu, nhìn thấy, độ trễ, biến thiên, biến mất, độ trễ phản hồi.</em></p>
+<ol start="38" type="1">
+<li>Mức độ tự động hóa</li>
+</ol>
+<p>Khả năng hệ thực hiện chức năng mà không cần can thiệp của con người. Mức thấp nhất là công cụ thủ công; mức trung gian là con người lập trình/giám sát; mức cao nhất là máy tự cảm nhận, tự lập trình, tự giám sát.</p>
+<p><em><strong>Liên quan tới:</strong> thuật toán, người-trong-vòng/người-ngoài-vòng, khả năng lập trình, mức tự động hóa, robot hóa, đảm bảo chất lượng, giảm phụ thuộc kỹ năng, điều khiển thủ công, độ lặp lại.</em></p>
+<ol start="39" type="1">
+<li>Năng suất (sản lượng hữu ích)</li>
+</ol>
+<p>Số chức năng hữu ích hoặc thao tác được hệ thực hiện trong một đơn vị thời gian; thời gian/cost cho mỗi đơn vị đầu ra.</p>
+<p>Không tập trung vào động lực học (xem <strong>14. Tốc độ</strong>).</p>
+<p><em><strong>Liên quan tới:</strong> nút thắt cổ chai, số lượng, thông lượng, công suất, thao tác, giá trị, chi phí, đầu ra, giá trị gia tăng, bước dư, sản xuất quá mức, hiệu năng, hiệu suất, sản lượng.</em></p>
+<p><strong>TÀI LIỆU THAM KHẢO:</strong></p>
+<ol type="1">
+<li>E. Domb, <em>The 39 Features of Altshuller’s Contradiction Matrix</em>.</li>
+<li>R. Platt, <em>39 Parameters – Definitions</em>.</li>
+<li>D. Mann, <em>Matrix 2010: Re-updating the TRIZ Contradiction Matrix</em>, IFR Press, 2009.</li>
+</ol>
+<section id="mâu-thuẫn-vật-lý" class="level4">
+<h4 class="anchored" data-anchor-id="mâu-thuẫn-vật-lý">Mâu thuẫn vật lý</h4>
+</section>
+</section>
+</section>
+<section id="mâu-thuẫn-vật-lý-1" class="level1">
+<h1>Mâu thuẫn vật lý</h1>
+<p><em><strong>Mâu thuẫn vật lý</strong> là mô hình tham số của vấn đề khi hai yêu cầu chính đáng nhưng đối nghịch được đặt lên cùng một tham số của đối tượng để đạt kết quả mong muốn.</em></p>
+<section id="tổng-quan-7" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-7">Tổng quan</h2>
+<p>Mâu thuẫn vật lý mô tả tình huống một tham số duy nhất của đối tượng phải thỏa mãn hai yêu cầu đối nghịch. Việc tập trung vào một tham số phân biệt nó với mâu thuẫn kỹ thuật (liên quan hai tham số khác nhau). Tuy nhiên, hai loại mâu thuẫn này liên kết trực tiếp và có thể chuyển đổi cho nhau.</p>
+<p>Lưu ý: nếu một trong hai trạng thái tham số không có căn cứ hợp lý thì không tồn tại mâu thuẫn vật lý – bạn đã có giải pháp.</p>
+<p>Mâu thuẫn vật lý chính xác hơn mâu thuẫn kỹ thuật vì vấn đề được mô hình hóa bằng tham số thuộc về một thành phần duy nhất. Điều này giúp rõ ngay từ đầu thành phần nào cần áp dụng khuyến nghị từ TRIZ.</p>
+<p>Mô hình giải cho mâu thuẫn vật lý cũng là <strong>các nguyên tắc sáng tạo</strong>. Công cụ chuyển mâu thuẫn kỹ thuật thành nguyên tắc sáng tạo là <strong>thuật toán giải mâu thuẫn vật lý</strong>.</p>
+</section>
+<section id="mẫu-định-dạng" class="level2">
+<h2 class="anchored" data-anchor-id="mẫu-định-dạng">Mẫu định dạng</h2>
+<p>Cấu trúc chung cho mâu thuẫn vật lý:</p>
+<p><img src="media/wp-content/uploads/2024/08/pc_format-1024x193.png" class="img-fluid"></p>
+<p>Ví dụ:</p>
+<p><img src="media/wp-content/uploads/2024/08/pc_example-1024x125.png" class="img-fluid"></p>
+<section id="bài-viết-6" class="level4">
+<h4 class="anchored" data-anchor-id="bài-viết-6">Bài viết</h4>
+<ul>
+<li>Thuật toán giải mâu thuẫn vật lý</li>
+</ul>
+<section id="thuật-toán-giải-mâu-thuẫn-vật-lý" class="level5">
+<h5 class="anchored" data-anchor-id="thuật-toán-giải-mâu-thuẫn-vật-lý">Thuật toán giải mâu thuẫn vật lý</h5>
+</section>
+</section>
+</section>
+</section>
+<section id="thuật-toán-giải-mâu-thuẫn-vật-lý-1" class="level1">
+<h1>Thuật toán giải mâu thuẫn vật lý</h1>
+<p><em><strong>Thuật toán giải mâu thuẫn vật lý</strong> là công cụ giải quyết vấn đề cung cấp cách tiếp cận có hệ thống để chọn các nguyên tắc sáng tạo cho mâu thuẫn vật lý.</em></p>
+<section id="tổng-quan-8" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-8">Tổng quan</h2>
+<p>Có nhiều công cụ để giải mâu thuẫn vật lý, nhưng thuật toán là công cụ được dùng phổ biến nhất. Mỗi cách tiếp cận dẫn tới một tập nguyên tắc sáng tạo tương ứng. Đây chính là các nguyên tắc trong ma trận mâu thuẫn, nhưng được nhóm lại theo cách khác.</p>
+<p>Sau khi xác định được tập nguyên tắc phù hợp cho mâu thuẫn cụ thể, hãy động não xung quanh chúng để đề xuất các giải pháp cụ thể.</p>
+<p><img src="media/wp-content/uploads/2024/12/alg-PC_model-1024x266.png" class="img-fluid"></p>
+</section>
+<section id="các-cách-tiếp-cận-giải-mâu-thuẫn-vật-lý" class="level2">
+<h2 class="anchored" data-anchor-id="các-cách-tiếp-cận-giải-mâu-thuẫn-vật-lý">Các cách tiếp cận giải mâu thuẫn vật lý</h2>
+<p>Cách tiếp cận chủ đạo là <strong>tách biệt</strong> các yêu cầu đối nghịch theo không gian, thời gian, mối quan hệ hoặc hướng. Để làm được, ta đặt các câu hỏi kiểm soát phù hợp. Điều này giúp lọc ra phương pháp tách phù hợp với tình huống. Tách ở cấp hệ thống là cách hơi khác – không cần câu hỏi kiểm soát và luôn được khuyến nghị.</p>
+<p>Nếu không thể tách, hãy xem xét <strong>thỏa mãn</strong> đồng thời cả hai yêu cầu.</p>
+<p>Cách cuối cùng là <strong>đi vòng</strong>, tức giải quyết vấn đề mà bỏ qua hoàn toàn các yêu cầu đối nghịch.</p>
+<p><img src="media/wp-content/uploads/2024/12/PC_algorythm-1024x901.png" class="img-fluid"></p>
+<p>Các phương pháp tách và thỏa mãn dẫn tới tập nguyên tắc cụ thể; với đi vòng, có thể dùng bất kỳ nguyên tắc nào.</p>
+<p>Nên mô hình hóa vấn đề theo nhiều cách. Càng nhiều mô hình vấn đề, càng nhiều mô hình giải pháp, từ đó sinh ra nhiều ý tưởng.</p>
+<p>Mỗi mâu thuẫn vật lý là tình huống độc nhất. Có trường hợp mọi cách đều dùng được, nhưng cũng có khi chỉ vài cách – thậm chí chỉ một – áp dụng được. Nếu có thể tách theo nhiều cách, hãy khai thác tất cả. Ngay cả khi tách đã tạo ra ý tưởng tốt, vẫn nên xem xét tiếp các phương pháp thỏa mãn và đi vòng.</p>
+<section id="tách-các-yêu-cầu-đối-nghịch" class="level3">
+<h3 class="anchored" data-anchor-id="tách-các-yêu-cầu-đối-nghịch">Tách các yêu cầu đối nghịch</h3>
+<p>Tách là phương pháp dùng nhiều nhất. Có năm cách tách:</p>
+<section id="tách-theo-không-gian" class="level4">
+<h4 class="anchored" data-anchor-id="tách-theo-không-gian">Tách theo không gian</h4>
+<p><em>câu hỏi kiểm soát:</em> <strong><em>ở đâu?</em></strong></p>
+<p>Áp dụng khi câu trả lời cho câu hỏi kiểm soát cho thấy các yêu cầu đối nghịch áp dụng cho <strong>những vị trí khác nhau trong không gian</strong>. Các nguyên tắc khuyến nghị:</p>
+<p><strong>Nguyên tắc 1. Phân đoạn</strong></p>
+<ol type="1">
+<li>Chia đối tượng thành các phần độc lập.</li>
+<li>Làm cho đối tượng dễ tháo lắp.</li>
+<li>Tăng mức độ phân đoạn/tách rời của đối tượng.</li>
+</ol>
+<p><strong>Nguyên tắc 2. Tách riêng</strong></p>
+<ol type="1">
+<li>Tách các phần hoặc thuộc tính gây nhiễu khỏi đối tượng, hoặc tách ra phần/thuộc tính cần thiết.</li>
+</ol>
+<p><strong>Nguyên tắc 3. Chất lượng cục bộ</strong></p>
+<ol type="1">
+<li>Biến cấu trúc đối tượng từ đồng nhất thành không đồng nhất, biến môi trường (hoặc tác động bên ngoài) từ đồng nhất thành không đồng nhất.</li>
+<li>Đảm bảo mỗi phần của đối tượng làm việc trong điều kiện tối ưu cho chính nó.</li>
+<li>Đảm bảo mỗi phần thực hiện chức năng khác nhau nhưng hữu ích.</li>
+</ol>
+<p><strong>Nguyên tắc 7. “Búp bê lồng nhau”</strong></p>
+<ol type="1">
+<li>Đặt đối tượng này vào trong đối tượng khác; hoặc đặt từng đối tượng vào nhau.</li>
+<li>Cho một phần đi xuyên qua khoang của phần khác.</li>
+</ol>
+<p><strong>Nguyên tắc 4. Bất đối xứng</strong></p>
+<ol type="1">
+<li>Biến hình dạng đối tượng từ đối xứng sang bất đối xứng.</li>
+<li>Nếu đối tượng đã bất đối xứng, tăng mức bất đối xứng.</li>
+</ol>
+<p><strong>Nguyên tắc 17. Chuyển sang chiều khác</strong></p>
+<ol type="1">
+<li>Di chuyển đối tượng trong không gian hai hoặc ba chiều.</li>
+<li>Dùng bố trí nhiều tầng thay vì một tầng.</li>
+<li>Nghiêng hoặc tái định hướng đối tượng, đặt nằm nghiêng.</li>
+<li>Sử dụng mặt khác của vùng có sẵn.</li>
+</ol>
+</section>
+<section id="tách-theo-thời-gian" class="level4">
+<h4 class="anchored" data-anchor-id="tách-theo-thời-gian">Tách theo thời gian</h4>
+<p><em>câu hỏi kiểm soát:</em> <strong><em>khi nào?</em></strong></p>
+<p>Áp dụng khi câu trả lời chỉ ra các yêu cầu đối nghịch cần ở <strong>những thời điểm khác nhau</strong>. Các nguyên tắc khuyến nghị:</p>
+<p><strong>Nguyên tắc 9. Hành động phòng ngừa</strong></p>
+<ol type="1">
+<li>Nếu phải thực hiện hành động vừa có lợi vừa có hại, hãy làm trước một hành động đối kháng để kiểm soát phần có hại.</li>
+<li>Tạo ra ứng suất trong đối tượng trước để chống lại ứng suất không mong muốn sau này.</li>
+</ol>
+<p><strong>Nguyên tắc 10. Hành động trước</strong></p>
+<ol type="1">
+<li>Thực hiện một phần hoặc toàn bộ thay đổi trước khi cần.</li>
+<li>Chuẩn bị sẵn đối tượng để khi cần có thể kích hoạt nhanh mà không mất thời gian vận chuyển.</li>
+</ol>
+<p><strong>Nguyên tắc 11. Đệm sẵn</strong></p>
+<ol type="1">
+<li>Chuẩn bị sẵn phương tiện dự phòng để bù cho phần không tin cậy.</li>
+</ol>
+<p><strong>Nguyên tắc 15. Động hóa</strong></p>
+<ol type="1">
+<li>Cho phép (hoặc thiết kế) sự thay đổi các đặc tính của đối tượng, môi trường hoặc quá trình nhằm tối ưu đối tượng hay điều kiện làm việc.</li>
+<li>Chia đối tượng thành các phần có thể chuyển động tương đối nhau.</li>
+<li>Nếu đối tượng/quá trình cứng nhắc, hãy làm cho nó chuyển động hoặc thích nghi.</li>
+</ol>
+<p><strong>Nguyên tắc 34. Loại bỏ và phục hồi</strong></p>
+<ol type="1">
+<li>Loại bỏ phần đã hoàn thành chức năng (bằng hòa tan, bay hơi…) hoặc biến đổi chúng trong quá trình làm việc.</li>
+<li>Ngược lại, phục hồi phần tiêu hao trong quá trình hoạt động.</li>
+</ol>
+</section>
+<section id="tách-theo-mối-quan-hệ-điều-kiện" class="level4">
+<h4 class="anchored" data-anchor-id="tách-theo-mối-quan-hệ-điều-kiện">Tách theo mối quan hệ (điều kiện)</h4>
+<p><em>câu hỏi kiểm soát:</em> <strong><em>dành cho ai/đối tượng nào?</em></strong></p>
+<p>Áp dụng khi câu trả lời cho thấy các yêu cầu đối nghịch áp dụng cho <strong>những đối tượng khác nhau</strong>.</p>
+<p>Các nguyên tắc khuyến nghị:</p>
+<p><strong>Nguyên tắc 3. Chất lượng cục bộ</strong></p>
+<ol type="1">
+<li>Biến cấu trúc đối tượng từ đồng nhất thành không đồng nhất, biến môi trường (hoặc tác động) từ đồng nhất thành không đồng nhất.</li>
+<li>Đảm bảo mỗi phần hoạt động trong điều kiện tối ưu cho nó.</li>
+<li>Đảm bảo mỗi phần thực hiện chức năng khác nhau nhưng hữu ích.</li>
+</ol>
+<p><strong>Nguyên tắc 17. Chuyển sang chiều khác</strong></p>
+<ol type="1">
+<li>Di chuyển đối tượng trong không gian hai hoặc ba chiều.</li>
+<li>Dùng bố trí nhiều tầng thay vì một tầng.</li>
+<li>Nghiêng hoặc tái định hướng đối tượng, đặt nằm nghiêng.</li>
+<li>Sử dụng mặt khác của vùng có sẵn.</li>
+</ol>
+<p><strong>Nguyên tắc 19. Tác động tuần hoàn</strong></p>
+<ol type="1">
+<li>Thay vì tác động liên tục, dùng tác động tuần hoàn hoặc xung.</li>
+<li>Nếu đã tuần hoàn, thay đổi biên độ hoặc tần số.</li>
+<li>Dùng khoảng nghỉ giữa các xung để thực hiện hành động khác.</li>
+</ol>
+<p><strong>Nguyên tắc 31. Vật liệu xốp</strong></p>
+<ol type="1">
+<li>Làm đối tượng thành xốp hoặc thêm phần tử xốp (miếng chèn, lớp phủ…).</li>
+<li>Nếu đối tượng đã xốp, tận dụng lỗ xốp để đưa chất hoặc chức năng hữu ích.</li>
+</ol>
+<p><strong>Nguyên tắc 32. Thay đổi màu sắc</strong></p>
+<ol type="1">
+<li><p>Thay đổi màu của đối tượng hoặc môi trường.</p></li>
+<li><p>Sử dụng vật liệu có thể đổi màu.</p></li>
+<li><p>Dùng chất phát quang hoặc hấp thụ màu để đáp ứng yêu cầu khác nhau.</p></li>
+<li><p>Thay đổi màu sắc của đối tượng hoặc môi trường xung quanh.</p></li>
+<li><p>Thay đổi độ trong suốt của đối tượng hoặc môi trường xung quanh.</p></li>
+</ol>
+<p><strong>Nguyên tắc 40. Vật liệu tổng hợp</strong></p>
+<ol type="1">
+<li>Thay vật liệu đồng nhất bằng vật liệu tổ hợp (đa vật liệu).</li>
+</ol>
+</section>
+<section id="tách-theo-hướng" class="level4">
+<h4 class="anchored" data-anchor-id="tách-theo-hướng">Tách theo hướng</h4>
+<p><em>câu hỏi kiểm soát:</em> <strong><em>theo hướng nào?</em></strong></p>
+<p>Áp dụng khi câu trả lời cho thấy các yêu cầu đối nghịch áp dụng cho <strong>những hướng tác động khác nhau</strong>.</p>
+<p>Các nguyên tắc khuyến nghị:</p>
+<p><strong>Nguyên tắc 4. Bất đối xứng</strong></p>
+<ol type="1">
+<li>Biến đối tượng từ đối xứng thành bất đối xứng.</li>
+<li>Nếu đã bất đối xứng, tăng mức bất đối xứng.</li>
+</ol>
+<p><strong>Nguyên tắc 14. Cong hóa</strong></p>
+<ol type="1">
+<li>Thay phần tử, bề mặt hoặc hình dạng thẳng bằng cong; chuyển bề mặt phẳng thành cầu; phần tử dạng khối hộp thành cấu trúc dạng cầu.</li>
+<li>Dùng con lăn, bi, xoắn ốc, mái vòm.</li>
+<li>Chuyển chuyển động thẳng thành quay; sử dụng lực ly tâm.</li>
+</ol>
+<p><strong>Nguyên tắc 17. Chuyển sang chiều khác</strong> (như trên).</p>
+<p><strong>Nguyên tắc 32. Thay đổi màu sắc</strong> (như trên).</p>
+<p><strong>Nguyên tắc 35. Thay đổi tham số</strong></p>
+<ol type="1">
+<li>Thay đổi trạng thái vật lý của đối tượng (ví dụ chuyển thành khí, lỏng, rắn).</li>
+<li>Thay đổi nồng độ hoặc độ đặc.</li>
+<li>Thay đổi mức linh hoạt.</li>
+<li>Thay đổi nhiệt độ.</li>
+</ol>
+<p><strong>Nguyên tắc 40. Vật liệu tổng hợp</strong> (như trên).</p>
+</section>
+<section id="tách-ở-cấp-hệ-thống" class="level4">
+<h4 class="anchored" data-anchor-id="tách-ở-cấp-hệ-thống">Tách ở cấp hệ thống</h4>
+<p>Không có câu hỏi kiểm soát cho phương pháp này. Có thể áp dụng <strong>mọi lúc</strong>.</p>
+<p>Các nguyên tắc khuyến nghị:</p>
+<p><strong>Nguyên tắc 1. Phân đoạn</strong> (như trên).</p>
+<p><strong>Nguyên tắc 5. Hợp nhất</strong></p>
+<ol type="1">
+<li>Đưa các đối tượng giống/ tương tự lại gần nhau hoặc ghép chúng để thực hiện các thao tác song song.</li>
+<li>Làm các thao tác diễn ra liền kề hoặc song song; gom chúng về cùng thời điểm.</li>
+</ol>
+<p><strong>Nguyên tắc 12. Đẳng thế</strong></p>
+<ol type="1">
+<li>Trong bất kỳ trường thế nào, hạn chế thay đổi vị trí (ví dụ thay đổi điều kiện vận hành để loại bỏ việc nâng/hạ đối tượng trong trường trọng lực).</li>
+</ol>
+<p><strong>Nguyên tắc 33. Đồng chất</strong></p>
+<ol type="1">
+<li>Làm cho các đối tượng tương tác với đối tượng đang xét cùng vật liệu (hoặc có tính chất giống nhau).</li>
+</ol>
+</section>
+</section>
+<section id="thỏa-mãn-các-yêu-cầu-đối-nghịch" class="level3">
+<h3 class="anchored" data-anchor-id="thỏa-mãn-các-yêu-cầu-đối-nghịch">Thỏa mãn các yêu cầu đối nghịch</h3>
+<p>Phương pháp thỏa mãn được dùng ít hơn nhiều so với tách. Cả hai yêu cầu đều được đáp ứng <strong>đồng thời</strong>. Khuyến nghị thường gắn với vật liệu thông minh và hiệu ứng khoa học.</p>
+<p>Các nguyên tắc khuyến nghị:</p>
+<p><strong>Nguyên tắc 13. Làm ngược lại</strong></p>
+<ol type="1">
+<li>Đảo ngược hành động đang dùng để giải vấn đề (ví dụ thay vì làm mát thì gia nhiệt).</li>
+<li>Biến phần chuyển động (hoặc môi trường) thành tĩnh và ngược lại.</li>
+<li>Lật ngược đối tượng/quá trình.</li>
+</ol>
+<p><strong>Nguyên tắc 28. Thay cơ học</strong></p>
+<ol type="1">
+<li>Thay phương tiện cơ học bằng giác quan (quang, âm, vị, mùi…).</li>
+<li>Dùng trường điện, từ, điện từ để tác động đối tượng.</li>
+<li>Chuyển từ trường tĩnh sang trường động, từ trường không cấu trúc sang có cấu trúc.</li>
+<li>Dùng trường kết hợp với hạt kích hoạt bởi trường (ví dụ hạt sắt từ).</li>
+</ol>
+<p><strong>Nguyên tắc 35. Thay đổi tham số</strong> (như trên).</p>
+<p><strong>Nguyên tắc 36. Chuyển pha</strong></p>
+<ol type="1">
+<li>Tận dụng các hiện tượng xảy ra trong chuyển pha (thay đổi thể tích, thu/phát nhiệt…).</li>
+</ol>
+<p><strong>Nguyên tắc 37. Giãn nở nhiệt</strong></p>
+<ol type="1">
+<li>Tận dụng giãn nở/ co lại nhiệt của vật liệu.</li>
+<li>Nếu đã dùng giãn nở nhiệt, dùng nhiều vật liệu có hệ số giãn nở khác nhau.</li>
+</ol>
+<p><strong>Nguyên tắc 38. Chất oxy hóa mạnh</strong></p>
+<ol type="1">
+<li>Thay không khí bằng không khí giàu oxy.</li>
+<li>Thay không khí giàu oxy bằng oxy tinh khiết.</li>
+<li>Chiếu xạ ion hóa không khí/oxy.</li>
+<li>Dùng oxy ozon hóa.</li>
+<li>Thay oxy ozon hóa (hoặc ion hóa) bằng ozone.</li>
+</ol>
+<p><strong>Nguyên tắc 39. Môi trường trơ</strong></p>
+<ol type="1">
+<li>Thay môi trường bình thường bằng môi trường trơ.</li>
+<li>Thêm phần tử trơ hoặc phụ gia trơ vào đối tượng.</li>
+</ol>
+</section>
+<section id="đi-vòng-yêu-cầu-đối-nghịch" class="level3">
+<h3 class="anchored" data-anchor-id="đi-vòng-yêu-cầu-đối-nghịch">Đi vòng yêu cầu đối nghịch</h3>
+<p>Đây là phương pháp ít dùng nhất, thường áp dụng khi tách hoặc thỏa mãn không hiệu quả.</p>
+<p>Cách tiếp cận dựa trên việc thay đổi hệ kỹ thuật để mâu thuẫn vật lý không còn liên quan, ví dụ tìm cách khác thực hiện chức năng mong muốn.</p>
+<p>Không có nguyên tắc nào gắn cố định – có thể dùng bất kỳ nguyên tắc nào.</p>
+<section id="nguyên-tắc-sáng-tạo" class="level4">
+<h4 class="anchored" data-anchor-id="nguyên-tắc-sáng-tạo">Nguyên tắc sáng tạo</h4>
+</section>
+</section>
+</section>
+</section>
+<section id="nguyên-tắc-sáng-tạo-1" class="level1">
+<h1>Nguyên tắc sáng tạo</h1>
+<p><em><strong>Nguyên tắc sáng tạo</strong> là mô hình giải pháp trừu tượng đưa ra khuyến nghị khái quát để chỉnh sửa hệ nhằm giải vấn đề đã mô hình hóa thành mâu thuẫn.</em></p>
+<section id="tổng-quan-9" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-9">Tổng quan</h2>
+<p>Nguyên tắc sáng tạo là <strong>mô hình giải pháp</strong> cho cả mâu thuẫn kỹ thuật và mâu thuẫn vật lý. Tùy loại mâu thuẫn và công cụ xử lý, tập nguyên tắc đề xuất sẽ khác nhau. Nói cách khác, ma trận mâu thuẫn đưa tới tập nguyên tắc khác với thuật toán giải mâu thuẫn vật lý.</p>
+<p>Khái niệm nguyên tắc sáng tạo xuất phát từ nghiên cứu sâu rộng của G. Altshuller về bằng sáng chế ở nhiều lĩnh vực kỹ thuật. Bằng cách tập trung vào các bằng sáng chế giải mâu thuẫn (thay vì tối ưu hóa), ông nhận ra các mô thức chung giữa các giải pháp sáng tạo. Qua phân tích và phân loại hàng nghìn bằng sáng chế, ông phát hiện các vấn đề được mô hình hóa như cùng mâu thuẫn kỹ thuật thường có giải pháp tương tự về mặt khái niệm. Những cách tiếp cận đó được chưng cất và hệ thống hóa thành 40 nguyên tắc sáng tạo.</p>
+</section>
+<section id="nguyên-tắc-sáng-tạo-2" class="level2">
+<h2 class="anchored" data-anchor-id="nguyên-tắc-sáng-tạo-2">40 nguyên tắc sáng tạo</h2>
+<p><strong>Nguyên tắc 1. Phân đoạn</strong></p>
+<ol type="1">
+<li>Chia đối tượng thành các phần độc lập.</li>
+<li>Làm cho đối tượng dễ tháo lắp.</li>
+<li>Tăng mức độ phân đoạn/ phân mảnh của đối tượng.</li>
+</ol>
+<p><strong>Nguyên tắc 2. Tách riêng</strong></p>
+<ol type="1">
+<li>Tách các phần/thuộc tính gây nhiễu khỏi đối tượng, hoặc tách phần (thuộc tính) cần thiết.</li>
+</ol>
+<p><strong>Nguyên tắc 3. Chất lượng cục bộ</strong></p>
+<ol type="1">
+<li>Biến cấu trúc đối tượng từ đồng nhất thành không đồng nhất, biến môi trường/tác động từ đồng nhất thành không đồng nhất.</li>
+<li>Đảm bảo mỗi phần hoạt động trong điều kiện tối ưu.</li>
+<li>Đảm bảo mỗi phần thực hiện chức năng khác nhau nhưng hữu ích.</li>
+</ol>
+<p><strong>Nguyên tắc 4. Bất đối xứng</strong></p>
+<ol type="1">
+<li>Biến hình dạng đối tượng từ đối xứng sang bất đối xứng.</li>
+<li>Nếu đối tượng đã bất đối xứng, tăng mức bất đối xứng.</li>
+</ol>
+<p><strong>Nguyên tắc 5. Hợp nhất</strong></p>
+<ol type="1">
+<li>Đưa các đối tượng giống/ tương tự lại gần hoặc gộp chúng để thực hiện các thao tác song song.</li>
+<li>Làm cho các thao tác trở nên liền mạch hoặc song song; gom chúng về cùng thời điểm.</li>
+</ol>
+<p><strong>Nguyên tắc 6. Tính vạn năng</strong></p>
+<ol type="1">
+<li>Thiết kế một phần hoặc toàn bộ đối tượng thực hiện nhiều chức năng; loại bỏ nhu cầu về các phần khác.</li>
+</ol>
+<p><strong>Nguyên tắc 7. “Búp bê lồng nhau”</strong></p>
+<ol type="1">
+<li>Đặt đối tượng này vào đối tượng khác; lần lượt đặt từng đối tượng vào nhau.</li>
+<li>Cho một phần đi xuyên qua khoang của phần khác.</li>
+</ol>
+<p><strong>Nguyên tắc 8. Chống trọng lượng</strong></p>
+<ol type="1">
+<li>Để bù trọng lượng của đối tượng, kết hợp nó với đối tượng khác cung cấp lực đỡ.</li>
+<li>Hoặc làm đối tượng tương tác với môi trường (lực khí động, thủy động, lực nổi…).</li>
+</ol>
+<p><strong>Nguyên tắc 9. Hành động phòng ngừa</strong> (như đã mô tả ở phần tách theo thời gian).</p>
+<p><strong>Nguyên tắc 10. Hành động trước</strong> (như trên).</p>
+<p><strong>Nguyên tắc 11. Đệm sẵn</strong> (như trên).</p>
+<p><strong>Nguyên tắc 12. Đẳng thế</strong> (như trên).</p>
+<p><strong>Nguyên tắc 13. Làm ngược lại</strong> (như trên).</p>
+<p><strong>Nguyên tắc 14. Cong hóa</strong> (như trên).</p>
+<p><strong>Nguyên tắc 15. Động hóa</strong> (như trên).</p>
+<p><strong>Nguyên tắc 16. Vượt hoặc thiếu một chút</strong></p>
+<ol type="1">
+<li>Nếu khó đạt hiệu ứng 100% bằng phương pháp hiện có, hãy thử dùng “hơi ít hơn” hoặc “hơi nhiều hơn” để việc giải quyết dễ dàng hơn.</li>
+</ol>
+<p><strong>Nguyên tắc 17. Chuyển sang chiều khác</strong> (như trên).</p>
+<p><strong>Nguyên tắc 18. Rung động cơ học</strong></p>
+<ol type="1">
+<li>Làm đối tượng dao động hoặc rung.</li>
+<li>Tăng tần số (đến mức siêu âm nếu cần).</li>
+<li>Dùng tần số cộng hưởng của đối tượng.</li>
+<li>Thay bộ rung cơ học bằng bộ rung áp điện.</li>
+<li>Kết hợp rung siêu âm với dao động trường điện từ.</li>
+</ol>
+<p><strong>Nguyên tắc 19. Tác động tuần hoàn</strong> (như trên).</p>
+<p><strong>Nguyên tắc 20. Duy trì tác động hữu ích liên tục</strong></p>
+<ol type="1">
+<li>Làm việc liên tục; để mọi phần hoạt động với tải tối đa mọi lúc.</li>
+<li>Loại bỏ các thao tác/trạng thái chờ.</li>
+</ol>
+<p><strong>Nguyên tắc 21. Vượt nhanh (tốc độ cao)</strong></p>
+<ol type="1">
+<li>Thực hiện quá trình hoặc các giai đoạn (đặc biệt là giai đoạn phá hoại, nguy hiểm) ở tốc độ cao.</li>
+</ol>
+<p><strong>Nguyên tắc 22. “Họa may nên phúc”</strong></p>
+<ol type="1">
+<li>Tận dụng yếu tố có hại để tạo hiệu ứng tích cực.</li>
+<li>Thêm yếu tố có hại khác để triệt tiêu yếu tố có hại ban đầu.</li>
+<li>Khuếch đại yếu tố có hại tới mức nó không còn gây hại.</li>
+</ol>
+<p><strong>Nguyên tắc 23. Phản hồi</strong></p>
+<ol type="1">
+<li>Thiết lập phản hồi để cải thiện quá trình hoặc hành động.</li>
+<li>Nếu đã có phản hồi, thay đổi loại phản hồi.</li>
+</ol>
+<p><strong>Nguyên tắc 24. Trung gian</strong></p>
+<ol type="1">
+<li>Dùng vật mang trung gian hoặc quá trình trung gian.</li>
+<li>Tạm thời kết hợp một đối tượng với đối tượng khác (dễ tháo bỏ).</li>
+</ol>
+<p><strong>Nguyên tắc 25. Tự phục vụ</strong></p>
+<ol type="1">
+<li>Đối tượng phải tự phục vụ bằng cách sử dụng phần thừa, năng lượng, tài nguyên của chính nó.</li>
+<li>Sử dụng phần thải, năng lượng dư để hỗ trợ chức năng chính.</li>
+</ol>
+<p><strong>Nguyên tắc 26. Sao chép</strong></p>
+<ol type="1">
+<li>Thay đối tượng hoặc quá trình phức tạp bằng mô hình, bản sao (quang học, âm thanh, mùi, vị…).</li>
+<li>Dùng bản sao cỡ nhỏ hoặc cỡ lớn.</li>
+<li>Sử dụng hình ảnh hoặc sự phản chiếu.</li>
+</ol>
+<p><strong>Nguyên tắc 27. Vật liệu dùng một lần</strong></p>
+<ol type="1">
+<li>Thay phần tử bền bằng phần tử dùng một lần (có thể phân hủy sau sử dụng).</li>
+<li>Sử dụng các vật liệu rẻ, dễ thay.</li>
+</ol>
+<p><strong>Nguyên tắc 28. Thay cơ học</strong> (đã nêu).</p>
+<p><strong>Nguyên tắc 29. Kết cấu khí và chất lỏng</strong></p>
+<ol type="1">
+<li>Thay các phần cứng bằng khí hoặc chất lỏng (cấu trúc mềm).</li>
+<li>Dùng đệm khí, đệm chất lỏng, gối hơi.</li>
+</ol>
+<p><strong>Nguyên tắc 30. Màng mỏng, vỏ dẻo</strong></p>
+<ol type="1">
+<li>Thay cấu trúc khối bằng màng mỏng, vỏ mỏng.</li>
+<li>Tăng cường bằng cấu trúc căng kéo.</li>
+</ol>
+<p><strong>Nguyên tắc 31. Vật liệu xốp</strong> (đã nêu).</p>
+<p><strong>Nguyên tắc 32. Thay đổi màu sắc</strong> (đã nêu).</p>
+<p><strong>Nguyên tắc 33. Đồng chất</strong> (đã nêu).</p>
+<p><strong>Nguyên tắc 34. Loại bỏ và phục hồi</strong> (đã nêu).</p>
+<p><strong>Nguyên tắc 35. Thay đổi tham số</strong> (đã nêu).</p>
+<p><strong>Nguyên tắc 36. Chuyển pha</strong> (đã nêu).</p>
+<p><strong>Nguyên tắc 37. Giãn nở nhiệt</strong> (đã nêu).</p>
+<p><strong>Nguyên tắc 38. Chất oxy hóa mạnh</strong> (đã nêu).</p>
+<p><strong>Nguyên tắc 39. Môi trường trơ</strong> (đã nêu).</p>
+<p><strong>Nguyên tắc 40. Vật liệu tổng hợp</strong> (đã nêu).</p>
+<section id="ariz" class="level3">
+<h3 class="anchored" data-anchor-id="ariz">ARIZ</h3>
+</section>
+</section>
+</section>
+<section id="ariz-1" class="level1">
+<h1>ARIZ</h1>
+<p><em><strong>ARIZ</strong> là công cụ giải quyết vấn đề chuyển một vấn đề then chốt phức tạp thành mô hình vấn đề rõ ràng, từ đó có thể giải hiệu quả bằng nhiều công cụ TRIZ.</em></p>
+<section id="tổng-quan-10" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-10">Tổng quan</h2>
+<p>ARIZ là chữ viết tắt tiếng Nga của <strong>thuật toán giải bài toán sáng chế</strong> (<em>алгоритм решения изобретательских задач</em>, <em>АРИЗ</em>).</p>
+<p>Trong lịch sử có nhiều phiên bản ARIZ. Bản cuối cùng được Altshuller chính thức công bố là ARIZ-85C. Dù các phiên bản sau được phát triển sau khi ông mất, chúng không cải thiện đáng kể hiệu quả – thậm chí có bản làm quy trình phức tạp hơn. Vì vậy ARIZ-85C vẫn là phiên bản chuẩn.</p>
+<p>Cần nhớ rằng vào năm 1985, TRIZ chưa có những công cụ phân tích tiên tiến như hiện nay. Tuy nhiên Altshuller đã hiểu rõ tầm quan trọng của việc xác định đúng vấn đề cần giải, nên ARIZ-85C đã tích hợp nhiều bước phân tích.</p>
+<p>nhấn vào đây để đọc nguyên bản ARIZ-85C kèm toàn bộ ghi chú và khuyến nghị do Altshuller soạn thảo</p>
+<p>nhấn vào đây để tải mẫu ARIZ-85C dạng Word có thể chỉnh sửa</p>
+<p>Để thuận tiện, mỗi khối của ARIZ được mô tả trong một bài viết riêng.</p>
+</section>
+<section id="khi-nào-dùng-ariz" class="level2">
+<h2 class="anchored" data-anchor-id="khi-nào-dùng-ariz">Khi nào dùng ARIZ</h2>
+<p>ARIZ thường được dùng để giải các <strong>vấn đề then chốt phức tạp</strong> không thể xử lý bằng các công cụ TRIZ khác, trong những dự án mà <strong>không chấp nhận thay đổi lớn đối với hệ thống</strong>. Để nhấn mạnh đặc thù đó, thuật toán giới thiệu khái niệm mini-problem.</p>
+<p>Mini-problem là vấn đề then chốt có thể xuất phát từ CECA, trimming hoặc chuyển giao đặc tính.</p>
+</section>
+<section id="điểm-mạnh-của-ariz" class="level2">
+<h2 class="anchored" data-anchor-id="điểm-mạnh-của-ariz">Điểm mạnh của ARIZ</h2>
+<p>Điểm mạnh của ARIZ nằm ở các đặc trưng nổi bật:</p>
+<ol type="1">
+<li>Tập trung đạt kết quả cuối lý tưởng (IFR).</li>
+<li>Dựa trên xu hướng tiến hóa hệ kỹ thuật.</li>
+<li>Tập trung vào nguồn lực của hệ.</li>
+</ol>
+<section id="tập-trung-vào-kết-quả-cuối-lý-tưởng" class="level3">
+<h3 class="anchored" data-anchor-id="tập-trung-vào-kết-quả-cuối-lý-tưởng">Tập trung vào kết quả cuối lý tưởng</h3>
+<p>ARIZ hướng tới đạt IFR – giải pháp tốt nhất cho vấn đề, trong đó vấn đề bị loại bỏ hoàn toàn với thay đổi tối thiểu và không làm xấu các tham số của hệ.</p>
+<p>Đừng nhầm IFR với hệ thống lý tưởng – hai khái niệm khác nhau. Hệ thống lý tưởng là hệ không tồn tại (thực hiện chức năng mà không chiếm chỗ, không tốn chi phí, không bảo trì), còn IFR trong ARIZ nói về <strong>giải một vấn đề cụ thể</strong> trong hệ hiện hữu bằng cách thay đổi tối thiểu. Hệ vẫn tồn tại, chiếm chỗ, phát sinh chi phí và cần bảo trì – nhưng vấn đề đã được giải theo cách hiệu quả nhất.</p>
+</section>
+<section id="dựa-trên-xu-hướng-tiến-hóa-hệ-kỹ-thuật" class="level3">
+<h3 class="anchored" data-anchor-id="dựa-trên-xu-hướng-tiến-hóa-hệ-kỹ-thuật">Dựa trên xu hướng tiến hóa hệ kỹ thuật</h3>
+<p>Giống nhiều công cụ TRIZ khác, ARIZ được xây dựng dựa trên các quy luật tiến hóa hệ kỹ thuật. Thuật toán gồm nhiều bước phản ánh trực tiếp các xu hướng như: xác định và loại bỏ mâu thuẫn, hướng tới IFR, hạn chế thay đổi hệ ban đầu, sử dụng tiếp cận đa màn hình…</p>
+<p>Các bước này giúp vượt qua quán tính tâm lý và dẫn tới giải pháp hiệu quả.</p>
+</section>
+<section id="tập-trung-vào-nguồn-lực-hệ" class="level3">
+<h3 class="anchored" data-anchor-id="tập-trung-vào-nguồn-lực-hệ">Tập trung vào nguồn lực hệ</h3>
+<p>Việc thay đổi tối thiểu đòi hỏi khai thác nguồn lực sẵn có trong hệ và siêu hệ. Việc bổ sung vật liệu mới, thêm thành phần hay trường mới thường tốn kém. Thực tế, hầu hết hệ thống đã có đủ tài nguyên – chỉ là chúng bị bỏ qua. Một mục tiêu chính của ARIZ là khám phá chúng.</p>
+<p>ARIZ làm điều đó theo hai hướng: đầu tiên thu hẹp như phễu, biến vấn đề then chốt rộng thành mini-problem TRIZ rõ ràng; sau đó mở rộng, hé lộ ngày càng nhiều nguồn lực ẩn trong hệ và siêu hệ khi phân tích tiến triển.</p>
+</section>
+</section>
+<section id="cấu-trúc-của-ariz" class="level2">
+<h2 class="anchored" data-anchor-id="cấu-trúc-của-ariz">Cấu trúc của ARIZ</h2>
+<p>ARIZ là công cụ có cấu trúc rất chặt chẽ, gồm các bước, quy tắc, ghi chú.</p>
+<p>Thuật toán hoàn chỉnh gồm 9 phần chia thành ba khối chính. Mỗi phần lại gồm nhiều bước nhỏ. Cấu trúc tổng quát:</p>
+<p><strong>Khối 1: Tái cấu trúc vấn đề ban đầu</strong></p>
+<p>Phần 1. Phân tích hệ.</p>
+<p>Phần 2. Phân tích mô hình vấn đề.</p>
+<p>Phần 3. Xác định IFR và hình thành mâu thuẫn vật lý.</p>
+<p><strong>Khối 2: Loại bỏ mâu thuẫn vật lý</strong></p>
+<p>Phần 4. Giải mâu thuẫn vật lý.</p>
+<p>Phần 5. Áp dụng cơ sở tri thức, hiệu ứng khoa học, SIS, ma trận mâu thuẫn…</p>
+<p>Phần 6. Thay đổi mini-problem.</p>
+<p><strong>Khối 3: Phân tích giải pháp</strong></p>
+<p>Phần 7. Xem xét giải pháp và phân tích việc loại bỏ mâu thuẫn vật lý.</p>
+<p>Phần 8. Tối đa hóa khả năng khai thác giải pháp.</p>
+<p>Phần 9. Xem lại toàn bộ ARIZ trong quá trình áp dụng “thời gian thực”.</p>
+<section id="bài-viết-7" class="level4">
+<h4 class="anchored" data-anchor-id="bài-viết-7">Bài viết</h4>
+<ul>
+<li>Cặp xung đột</li>
+<li>Sản phẩm</li>
+<li>Công cụ</li>
+<li>Khối 1 ARIZ: Tái cấu trúc vấn đề ban đầu</li>
+<li>Yếu tố X</li>
+<li>Vùng tác động</li>
+<li>Thời gian tác động</li>
+<li>Bài toán vi mô (mini-problem)</li>
+<li>Kết quả cuối lý tưởng</li>
+</ul>
+</section>
+<section id="khối-1-ariz-tái-cấu-trúc-vấn-đề-ban-đầu" class="level4">
+<h4 class="anchored" data-anchor-id="khối-1-ariz-tái-cấu-trúc-vấn-đề-ban-đầu">Khối 1 ARIZ: Tái cấu trúc vấn đề ban đầu</h4>
+</section>
+</section>
+</section>
+<section id="khối-1-ariz-tái-cấu-trúc-vấn-đề-ban-đầu-1" class="level1">
+<h1>Khối 1 ARIZ: Tái cấu trúc vấn đề ban đầu</h1>
+<section id="phần-1.-phân-tích-hệ" class="level2">
+<h2 class="anchored" data-anchor-id="phần-1.-phân-tích-hệ">Phần 1. Phân tích hệ</h2>
+<p>Phần 1 nhằm phân tích vấn đề then chốt, gồm bảy bước.</p>
+<p>Bắt đầu bằng xác định chức năng chính của hệ, cũng như các thành phần của hệ và siêu hệ. Sau đó mô hình hóa vấn đề kỹ thuật thành hai mâu thuẫn kỹ thuật đảo nhau và hình thành mini-problem.</p>
+<p>Các bước tiếp giúp xác định công cụ và sản phẩm trong xung đột, cùng hai trạng thái của chúng. Tiếp theo tạo mô hình đồ họa cho các mâu thuẫn. Cuối cùng chọn mâu thuẫn cơ bản, tăng cường và diễn đạt vấn đề.</p>
+<section id="bước-1.1.-hình-thành-mini-problem" class="level3">
+<h3 class="anchored" data-anchor-id="bước-1.1.-hình-thành-mini-problem">Bước 1.1. Hình thành mini-problem</h3>
+<p>Bước đầu tiên là xác định mini-problem thông qua việc xác định hệ và mô hình hóa vấn đề thành các mâu thuẫn kỹ thuật (EC).</p>
+<p>Trong ARIZ, hệ có thể khác với hệ đã phân tích trong phân tích chức năng. Ở đây tập trung vào vấn đề then chốt nên hệ chỉ gồm những thành phần liên quan trực tiếp. Tuy vậy, nên liệt kê cả các thành phần “tự nhiên” tương tác với hệ. Ví dụ bài toán bảo vệ ăng-ten kính viễn vọng cần tính tới sét hoặc sóng vô tuyến đến từ thiên thể.</p>
+<p>Các nhược điểm then chốt từ CECA giúp xác định nguyên nhân gốc có thể nằm sâu bên trong hoặc ngoài hệ gốc. Loại bỏ nguyên nhân đó chính là vấn đề then chốt; “hệ” trong ARIZ là khu vực vấn đề diễn ra.</p>
+<p>Để xác định hệ, ta ghi chức năng chính và liệt kê thành phần trọng yếu của hệ, siêu hệ. Dựa trên đó, hình thành hai mâu thuẫn kỹ thuật: EC-1 (trực tiếp) và EC-2 (đảo). Cặp này tạo nền tảng cho mini-problem.</p>
+<p>Khi soạn mâu thuẫn, hãy chắc rằng tham số chính có trong dòng <em>NẾU</em>, <em>THÌ</em>, <em>NHƯNG</em>. Giữ định dạng chức năng trong dòng <em>THÌ</em> và <em>NHƯNG</em> để thể hiện chủ thể tác động lên tham số nào của đối tượng – điều này hữu ích cho các bước sau.</p>
+<p>Đôi khi tình huống chỉ có sản phẩm, không có công cụ. Khi đó chưa có mâu thuẫn kỹ thuật rõ ràng, nhưng vẫn có thể hình thành bằng cách xét hai trạng thái của sản phẩm, dù một trạng thái có vẻ bất khả thi.</p>
+<p>Ví dụ: <em>Làm sao quan sát các hạt rất nhỏ lơ lửng trong chất lỏng trong suốt bằng mắt thường nếu ánh sáng đi vòng quanh chúng?</em></p>
+<p>TC-1: <em>Chất lỏng vẫn trong vì hạt nhỏ, nhưng không thể nhìn thấy bằng mắt thường.</em></p>
+<p>TC-2: <em>Hạt lớn dễ quan sát nhưng khiến chất lỏng mất tính trong – không chấp nhận được.</em></p>
+<p>Vì không thể thay đổi sản phẩm, ta tiếp tục với TC-1, đồng thời lưu ý TC-2 thêm yêu cầu: <em>Hạt phải vừa nhỏ (để giữ chất lỏng trong) vừa lớn (để quan sát được).</em></p>
+</section>
+<section id="bước-1.2.-xác-định-cặp-xung-đột" class="level3">
+<h3 class="anchored" data-anchor-id="bước-1.2.-xác-định-cặp-xung-đột">Bước 1.2. Xác định cặp xung đột</h3>
+<p>Bước này nhằm xác định công cụ và sản phẩm tạo thành cặp xung đột.</p>
+<p>Đồng thời xác định các trạng thái hoạt động của công cụ – chính là thuộc tính, đặc điểm, tham số được nêu ở dòng <em>NẾU</em> của mâu thuẫn trong bước 1.1:</p>
+<ul>
+<li>trạng thái 1 xuất hiện trong mâu thuẫn trực tiếp,</li>
+<li>trạng thái 2 xuất hiện trong mâu thuẫn đảo.</li>
+</ul>
+</section>
+<section id="bước-1.3.-tạo-mô-hình-đồ-họa-cho-các-mâu-thuẫn-kỹ-thuật" class="level3">
+<h3 class="anchored" data-anchor-id="bước-1.3.-tạo-mô-hình-đồ-họa-cho-các-mâu-thuẫn-kỹ-thuật">Bước 1.3. Tạo mô hình đồ họa cho các mâu thuẫn kỹ thuật</h3>
+<p>Bước 1.3 trình bày vấn đề bằng sơ đồ cho cả EC-1 và EC-2.</p>
+<p>Sơ đồ dùng ký hiệu quen thuộc từ phân tích chức năng và mô hình hóa chất-trường.</p>
+<p>Lưu ý mục đích sơ đồ không phải mô tả chức năng mà là mâu thuẫn kỹ thuật.</p>
+<p>Sơ đồ phải thể hiện rõ tác động hữu ích và tác động có hại – nghĩa là cần hai mũi tên “tốt” và “xấu”. Nếu cả hai đều hữu ích hoặc đều có hại/không đủ/quá mức, tức sơ đồ sai và phải sửa.</p>
+<p>Cặp xung đột trong hình thường gồm hai thành phần, nhưng đôi khi có thể là ba – hai sản phẩm và một công cụ, hoặc ngược lại.</p>
+</section>
+<section id="bước-1.4.-chọn-mâu-thuẫn-để-phân-tích-tiếp-mâu-thuẫn-cơ-bản" class="level3">
+<h3 class="anchored" data-anchor-id="bước-1.4.-chọn-mâu-thuẫn-để-phân-tích-tiếp-mâu-thuẫn-cơ-bản">Bước 1.4. Chọn mâu thuẫn để phân tích tiếp (mâu thuẫn cơ bản)</h3>
+<p>EC-1 và EC-2 mô tả cùng tình huống nhưng đại diện hai vấn đề hoàn toàn khác nhau.</p>
+<p>Để đạt mục tiêu dự án cần giải cả hai, nhưng không thể xử lý đồng thời. Vì vậy, bước này chọn một mâu thuẫn làm mâu thuẫn cơ bản để tiếp tục; mâu thuẫn còn lại được lưu lại để xem xét sau nếu cần.</p>
+</section>
+<section id="bước-1.5.-tăng-cường-mâu-thuẫn-cơ-bản" class="level3">
+<h3 class="anchored" data-anchor-id="bước-1.5.-tăng-cường-mâu-thuẫn-cơ-bản">Bước 1.5. Tăng cường mâu thuẫn cơ bản</h3>
+<p>Sau khi chọn mâu thuẫn cơ bản, ta tăng cường nó bằng cách thêm yêu cầu khiến mâu thuẫn trở nên gay gắt hơn nhưng vẫn đúng với mục tiêu dự án. Điều này giúp tránh giải pháp thỏa hiệp. Thông thường ta xác định rõ hơn điều kiện môi trường, phạm vi tham số hoặc yêu cầu bổ sung từ khách hàng.</p>
+</section>
+<section id="bước-1.6.-xác-định-yếu-tố-x-và-phát-biểu-vấn-đề-cuối-cùng" class="level3">
+<h3 class="anchored" data-anchor-id="bước-1.6.-xác-định-yếu-tố-x-và-phát-biểu-vấn-đề-cuối-cùng">Bước 1.6. Xác định yếu tố X và phát biểu vấn đề cuối cùng</h3>
+<p>Bước này xác định thành phần hoặc thay đổi chưa biết – gọi là <strong>X-factor</strong> – sẽ giúp loại bỏ mâu thuẫn. Ta mô tả yêu cầu đối với X-factor, vùng tác động, thời gian tác động và diễn đạt vấn đề cuối cùng cần giải.</p>
+</section>
+<section id="bước-1.7.-tăng-cường-mini-problem" class="level3">
+<h3 class="anchored" data-anchor-id="bước-1.7.-tăng-cường-mini-problem">Bước 1.7. Tăng cường mini-problem</h3>
+<p>Cuối cùng, mini-problem được nâng cấp bằng cách kết hợp thông tin từ các bước trước: mâu thuẫn cơ bản, yêu cầu với X-factor, vùng và thời gian tác động. Kết quả là phát biểu bài toán rõ ràng làm cơ sở cho phần tiếp theo của ARIZ.</p>
+</section>
+</section>
+<section id="phần-2.-phân-tích-mô-hình-vấn-đề" class="level2">
+<h2 class="anchored" data-anchor-id="phần-2.-phân-tích-mô-hình-vấn-đề">Phần 2. Phân tích mô hình vấn đề</h2>
+<p>Phần 2 tập trung vào vùng tác động (operating zone), thời gian tác động và nguồn lực, gồm ba bước.</p>
+<section id="bước-2.1.-xác-định-vùng-tác-động" class="level3">
+<h3 class="anchored" data-anchor-id="bước-2.1.-xác-định-vùng-tác-động">Bước 2.1. Xác định vùng tác động</h3>
+<p>Vùng tác động là khu vực không gian nơi xung đột xảy ra và X-factor phải hoạt động. Ta mô tả cụ thể vị trí, kích thước, hình dạng… của vùng này. Nếu cần, mô tả nhiều vùng.</p>
+</section>
+<section id="bước-2.2.-xác-định-thời-gian-tác-động" class="level3">
+<h3 class="anchored" data-anchor-id="bước-2.2.-xác-định-thời-gian-tác-động">Bước 2.2. Xác định thời gian tác động</h3>
+<p>Bước này đặc tả khoảng thời gian X-factor cần hoạt động. Có thể là thời điểm, chu kỳ, thứ tự, hoặc điều kiện kích hoạt. Việc hiểu rõ thời gian giúp lựa chọn nguồn lực phù hợp.</p>
+</section>
+<section id="bước-2.3.-liệt-kê-nguồn-lực" class="level3">
+<h3 class="anchored" data-anchor-id="bước-2.3.-liệt-kê-nguồn-lực">Bước 2.3. Liệt kê nguồn lực</h3>
+<p>Ở bước này, ta xác định các nguồn lực chất và trường có sẵn trong vùng xung đột, trong công cụ, sản phẩm và siêu hệ. Mỗi nguồn lực cần ghi rõ đặc tính quan trọng (tham số, trạng thái…). Danh sách càng đầy đủ càng tốt vì bất kỳ nguồn lực nào cũng có thể trở thành cơ sở cho giải pháp.</p>
+<p>Nguồn lực bao gồm:</p>
+<ol type="1">
+<li><strong>Nguồn lực nội bộ</strong> – từ công cụ và sản phẩm.</li>
+<li><strong>Nguồn lực bên ngoài</strong> – từ môi trường xung quanh hoặc siêu hệ.</li>
+</ol>
+<p>Trong thực tế, nguồn lực của sản phẩm thường bị hạn chế hơn do yêu cầu thiết kế hoặc kinh doanh. Chỉ khi được phép thay đổi, kết hợp với khoảng trống, v.v. mới được sử dụng.</p>
+</section>
+</section>
+<section id="phần-3.-xác-định-ifr-và-hình-thành-mâu-thuẫn-vật-lý" class="level2">
+<h2 class="anchored" data-anchor-id="phần-3.-xác-định-ifr-và-hình-thành-mâu-thuẫn-vật-lý">Phần 3. Xác định IFR và hình thành mâu thuẫn vật lý</h2>
+<p>Phần 3 tập trung vào kết quả cuối lý tưởng và các mâu thuẫn vật lý cản trở việc đạt IFR.</p>
+<section id="bước-3.1.-soạn-ifr" class="level3">
+<h3 class="anchored" data-anchor-id="bước-3.1.-soạn-ifr">Bước 3.1. Soạn IFR</h3>
+<p>Dựa trên yêu cầu cho X-factor (bước 1.6) và thông tin về vùng, thời gian tác động (bước 2.1, 2.2), ta soạn câu mô tả IFR. Nếu mẫu IFR chuẩn gây khó hiểu, hãy tách thành vài câu rõ ràng.</p>
+</section>
+<section id="bước-3.2.-tăng-cường-ifr" class="level3">
+<h3 class="anchored" data-anchor-id="bước-3.2.-tăng-cường-ifr">Bước 3.2. Tăng cường IFR</h3>
+<p>Ở bước này, ta thay X-factor bằng nguồn lực cụ thể đã liệt kê ở bước 2.3. Chỉ được dùng các nguồn lực đó. Có thể sử dụng một hoặc kết hợp nhiều nguồn lực. Thứ tự khuyến nghị:</p>
+<ol type="1">
+<li>Nguồn lực của công cụ.</li>
+<li>Nguồn lực của siêu hệ.</li>
+<li>Các nguồn lực ngoài khác.</li>
+<li>Nguồn lực của sản phẩm (nếu không bị hạn chế).</li>
+</ol>
+<p>Thông thường nên bắt đầu với khoảng 5–6 nguồn lực. Nếu chưa hiệu quả, có thể quay lại bước 3.2 sau này để thử nguồn lực khác.</p>
+</section>
+<section id="bước-3.3.-hình-thành-mâu-thuẫn-vật-lý-ở-cấp-vĩ-mô" class="level3">
+<h3 class="anchored" data-anchor-id="bước-3.3.-hình-thành-mâu-thuẫn-vật-lý-ở-cấp-vĩ-mô">Bước 3.3. Hình thành mâu thuẫn vật lý ở cấp vĩ mô</h3>
+<p>Các phương án IFR tăng cường ở bước 3.2 thường vẫn chưa giải được mini-problem vì nguồn lực được chọn bị cản trở bởi mâu thuẫn vật lý. Ta cần phát hiện và mô tả các mâu thuẫn đó, ví dụ:</p>
+<p><em>Tham số [nêu rõ] của nguồn lực [nêu rõ] phải có giá trị 1 [nêu rõ] để loại bỏ tác động có hại [nêu rõ] và đồng thời có giá trị 2 [nêu rõ] để cung cấp chức năng hữu ích [nêu rõ].</em></p>
+<p>Khi diễn đạt, thường gặp ba tình huống:</p>
+<ol type="1">
+<li>Mâu thuẫn được xác định rõ và có thể xử lý.</li>
+<li>Hóa ra nguồn lực không ảnh hưởng tới tham số cần thay đổi – tạm gác nguồn lực đó.</li>
+<li>Chỉ một yêu cầu là hợp lý – tức không tồn tại mâu thuẫn và ta đã tìm thấy giải pháp.</li>
+</ol>
+<p>Các mâu thuẫn vật lý này chính là mô hình của những vấn đề hoàn toàn mới – bí quyết tạo nên sức mạnh của ARIZ.</p>
+<section id="cặp-xung-đột" class="level4">
+<h4 class="anchored" data-anchor-id="cặp-xung-đột">Cặp xung đột</h4>
+</section>
+</section>
+</section>
+</section>
+<section id="cặp-xung-đột-1" class="level1">
+<h1>Cặp xung đột</h1>
+<p><em><strong>Cặp xung đột</strong> gồm công cụ và sản phẩm, tương tác giữa chúng gây ra xung đột cản trở kết quả mong muốn.</em></p>
+<section id="tổng-quan-11" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-11">Tổng quan</h2>
+<p>Thuật ngữ cặp xung đột dùng trong ARIZ.</p>
+<p>Công cụ và sản phẩm trong ARIZ tương ứng với chủ thể và đối tượng trong phân tích chức năng. Sản phẩm gần giống thành phần mục tiêu – đối tượng của chức năng chính – còn công cụ là thành phần thực hiện chức năng. Nhờ vậy việc nhận diện cặp xung đột trở nên nhanh hơn.</p>
+<p>Một cặp xung đột gồm <strong>hai hoặc ba thành phần</strong>.</p>
+<p>Ví dụ: trong quá trình hàn kín ampoule thủy tinh chứa thuốc, <em>ngọn lửa</em>, <em>ampoule</em> và <em>thuốc</em> tạo thành cặp xung đột. Ngọn lửa làm nóng chảy đầu ampoule; quá mạnh sẽ làm hỏng thuốc, quá yếu thì không kín. Ở đây có một công cụ (ngọn lửa) và hai sản phẩm (ampoule, thuốc). Ở tình huống khác có thể gồm hai công cụ và một sản phẩm.</p>
+<section id="mini-problem" class="level4">
+<h4 class="anchored" data-anchor-id="mini-problem">Mini-problem</h4>
+</section>
+</section>
+</section>
+<section id="mini-problem-1" class="level1">
+<h1>Mini-problem</h1>
+<p><em><strong>Mini-problem</strong> là vấn đề mà giải pháp bị ràng buộc phải tránh thay đổi lớn đối với hệ kỹ thuật phân tích.</em></p>
+<section id="tổng-quan-12" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-12">Tổng quan</h2>
+<p>“Mini” không có nghĩa vấn đề nhỏ mà nhấn mạnh giải pháp phải <strong>thay đổi tối thiểu</strong> hệ.</p>
+<p>Mini-problem được tạo bằng cách lấy tình huống ban đầu và thêm ràng buộc: mọi thứ trong hệ phải giữ nguyên hoặc đơn giản hơn, trong khi hành động mong muốn xuất hiện hoặc hành động có hại biến mất. Điều này không thu nhỏ vấn đề mà làm mâu thuẫn sắc nét hơn, loại bỏ khả năng thỏa hiệp. Giải pháp phải dựa vào nguồn lực sẵn có trong hệ hoặc môi trường.</p>
+<p>Đối với dự án kỹ thuật, đây thường là điều kiện cần để cân bằng lợi ích kinh doanh và định hướng kỹ thuật.</p>
+<p>Mini-problem có thể đến từ CECA, trimming hoặc chuyển giao đặc tính.</p>
+<section id="sản-phẩm" class="level4">
+<h4 class="anchored" data-anchor-id="sản-phẩm">Sản phẩm</h4>
+</section>
+</section>
+</section>
+<section id="sản-phẩm-1" class="level1">
+<h1>Sản phẩm</h1>
+<p><em><strong>Sản phẩm</strong> là thành phần – trong cặp xung đột – chịu tác động trực tiếp từ công cụ.</em></p>
+<section id="tổng-quan-13" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-13">Tổng quan</h2>
+<p>Thuật ngữ sản phẩm thuộc ARIZ. Trong chức năng phân tích hiện đại, nó tương đương thành phần mục tiêu – đối tượng của chức năng chính – giúp nhận diện nhanh.</p>
+<p>Sự khác biệt thuật ngữ xuất phát từ việc khi ARIZ được hoàn thiện (1985), phân tích chức năng chưa được đưa vào bộ công cụ TRIZ. Dù sau này đã trở thành công cụ chuẩn, thuật ngữ gốc vẫn được giữ để bảo toàn cấu trúc ban đầu.</p>
+<p>Để xác định sản phẩm, hãy xem xét chức năng chính của hệ.</p>
+<section id="công-cụ" class="level4">
+<h4 class="anchored" data-anchor-id="công-cụ">Công cụ</h4>
+</section>
+</section>
+</section>
+<section id="công-cụ-1" class="level1">
+<h1>Công cụ</h1>
+<p><em><strong>Công cụ</strong> là thành phần tương tác trực tiếp (xung đột) với sản phẩm trong các mâu thuẫn xác định ở phần 1 của ARIZ.</em></p>
+<section id="tổng-quan-14" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-14">Tổng quan</h2>
+<p>Cùng với sản phẩm, công cụ tạo thành cặp xung đột ở bước 1.2.</p>
+<p>Công cụ là phần tử tác động trực tiếp lên sản phẩm, ví dụ dao phay chứ không phải máy phay, ngọn lửa chứ không phải đầu đốt. Đôi khi một phần môi trường được xem là công cụ. Các chi tiết chuẩn mà sản phẩm lắp ghép cũng có thể được coi là công cụ.</p>
+<p>Theo ngôn ngữ TRIZ hiện đại, công cụ là thành phần hệ thực hiện chức năng chính – tương đương chủ thể chức năng – nên nhận diện khá nhanh. Khác biệt thuật ngữ do lịch sử tương tự như với sản phẩm.</p>
+<p>Để xác định công cụ, hãy nhìn vào dòng <em>NẾU</em> của mâu thuẫn.</p>
+<section id="yếu-tố-x" class="level4">
+<h4 class="anchored" data-anchor-id="yếu-tố-x">Yếu tố X</h4>
+</section>
+</section>
+</section>
+<section id="yếu-tố-x-1" class="level1">
+<h1>Yếu tố X</h1>
+<p><em><strong>Yếu tố X</strong> là bất kỳ thay đổi nào trong hệ kỹ thuật (ví dụ thay đổi thành phần, tham số…) cần được đưa vào để giải quyết vấn đề.</em></p>
+<section id="tổng-quan-15" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-15">Tổng quan</h2>
+<p>Yếu tố X là thuật ngữ của ARIZ, chỉ mọi yếu tố cần đưa vào hệ để giúp giải quyết vấn đề.</p>
+<p>Yếu tố X có thể là bất kỳ nguồn lực nào ở Phần 2 của ARIZ hoặc kết hợp nhiều nguồn lực. Đó có thể là chất, trường, tham số, thời gian, không gian hay đặc tính nào khác – từ hệ hoặc siêu hệ.</p>
+<p>Yếu tố X có thể là bất kỳ nguồn lực nào ở Phần 2 hoặc kết hợp nhiều nguồn lực: chất, trường, tham số, thời gian, không gian hay đặc tính khác xuất phát từ hệ hoặc siêu hệ.</p>
+<p>Ví dụ có thể là thay đổi nhiệt độ, chuyển pha, đổi màu, đổi vật liệu… Vai trò của yếu tố X là giữ lại phần mong muốn trong mâu thuẫn đồng thời loại bỏ phần không mong muốn.</p>
+<p>Các yêu cầu đối với yếu tố X được xác định ở Bước 1.6 của ARIZ.</p>
+<p>Ban đầu, ARIZ dùng thuật ngữ X-element. Tuy nhiên do từ “element” đa nghĩa trong nhiều ngôn ngữ, TRIZ hiện đại đã thay bằng “X-factor”.</p>
+<section id="kết-quả-cuối-lý-tưởng" class="level4">
+<h4 class="anchored" data-anchor-id="kết-quả-cuối-lý-tưởng">Kết quả cuối lý tưởng</h4>
+</section>
+</section>
+</section>
+<section id="kết-quả-cuối-lý-tưởng-1" class="level1">
+<h1>Kết quả cuối lý tưởng</h1>
+<p><em><strong>Kết quả cuối lý tưởng</strong> (Ideal Final Result – IFR) là mô hình giải pháp tốt nhất cho một bài toán sáng tạo, trong đó vấn đề được loại bỏ hoàn toàn với thay đổi tối thiểu và không làm xấu các tham số của hệ.</em></p>
+<section id="tổng-quan-16" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-quan-16">Tổng quan</h2>
+<p>IFR là khái niệm do ARIZ giới thiệu, giúp xác lập mục tiêu rõ ràng, dẫn hướng cho các bước tiếp theo. Việc soạn IFR là bước quan trọng của thuật toán.</p>
+<p>Với IFR làm đích, ARIZ sử dụng nhiều công cụ và nguyên tắc TRIZ để hệ thống hóa việc loại bỏ mâu thuẫn và phát triển giải pháp sáng tạo.</p>
+</section>
+<section id="đặc-điểm-chính" class="level2">
+<h2 class="anchored" data-anchor-id="đặc-điểm-chính">Đặc điểm chính</h2>
+<ul>
+<li>IFR hướng tới tối đa hóa lợi ích của hệ với mức sử dụng tài nguyên thấp nhất (thời gian, chi phí, năng lượng, vật liệu…).</li>
+<li>Đạt IFR không được tạo ra vấn đề hay tác dụng phụ mới; giải pháp phải loại bỏ vấn đề mà không gây thách thức bổ sung.</li>
+<li>IFR thường làm hệ đơn giản hơn, có xu hướng giảm số thành phần hoặc bước cần thiết; nhiều trường hợp tích hợp khả năng tự điều chỉnh/tự duy trì nên ít cần can thiệp bên ngoài.</li>
+</ul>
+</section>
+<section id="khác-biệt-giữa-ifr-và-hệ-thống-lý-tưởng" class="level2">
+<h2 class="anchored" data-anchor-id="khác-biệt-giữa-ifr-và-hệ-thống-lý-tưởng">Khác biệt giữa IFR và hệ thống lý tưởng</h2>
+<p>IFR đôi khi bị nhầm với hệ thống lý tưởng. Đây là hai khái niệm hoàn toàn khác nhau và không nên đánh đồng.</p>
+<p>IRF là thuật ngữ của ARIZ, mô tả giải pháp tốt nhất cho <strong>một vấn đề cụ thể</strong>, trong đó vấn đề được loại bỏ với thay đổi tối thiểu và không làm xấu các tham số. Hệ vẫn tồn tại, chiếm chỗ, phát sinh chi phí, cần bảo trì…</p>
+<p>Hệ thống lý tưởng ám chỉ hệ có giá trị vô hạn – không có thành phần, không tốn chi phí nhưng vẫn thực hiện chức năng mong muốn; tức là hệ không tồn tại nhưng chức năng chính vẫn được thực hiện.</p>
+<section id="tìm-kiếm-định-hướng-chức-năng-fos" class="level3">
+<h3 class="anchored" data-anchor-id="tìm-kiếm-định-hướng-chức-năng-fos">Tìm kiếm định hướng chức năng (FOS)</h3>
+</section>
+</section>
+</section>
+<section id="tìm-kiếm-định-hướng-chức-năng-fos-1" class="level1">
+<h1>Tìm kiếm định hướng chức năng (FOS)</h1>
+<p><em><strong>Tìm kiếm định hướng chức năng</strong> (Function-oriented search – FOS) là công cụ giải quyết vấn đề dựa trên việc xác định các công nghệ hiện có trên toàn thế giới thông qua tiêu chí chức năng.</em></p>
+<section id="áp-dụng-bài-toán-tương-tự" class="level3">
+<h3 class="anchored" data-anchor-id="áp-dụng-bài-toán-tương-tự">Áp dụng bài toán tương tự</h3>
+</section>
+</section>
+<section id="áp-dụng-bài-toán-tương-tự-1" class="level1">
+<h1>Áp dụng bài toán tương tự</h1>
+<p><em><strong>Áp dụng bài toán tương tự</strong> (clone problems application) là công cụ giải quyết vấn đề tổng quát hóa cách tiếp cận giải một bài toán để áp dụng cho bài toán khác.</em></p>
+<section id="cơ-sở-dữ-liệu-hiệu-ứng-khoa-học" class="level3">
+<h3 class="anchored" data-anchor-id="cơ-sở-dữ-liệu-hiệu-ứng-khoa-học">Cơ sở dữ liệu hiệu ứng khoa học</h3>
+</section>
+</section>
+<section id="cơ-sở-dữ-liệu-hiệu-ứng-khoa-học-1" class="level1">
+<h1>Cơ sở dữ liệu hiệu ứng khoa học</h1>
+<p><em><strong>Cơ sở dữ liệu hiệu ứng khoa học</strong> là công cụ giải quyết vấn đề dùng cho các vấn đề được mô hình hóa dưới dạng chức năng. Đây là tập hợp các hiệu ứng và hiện tượng khoa học từ nhiều lĩnh vực (vật lý, hóa học, sinh học…), được tổ chức theo hướng chức năng và tài nguyên chứ không theo chủ đề.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
