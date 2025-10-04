@@ -190,8 +190,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#xu-hướng-gia-tăng-động-hóa" id="toc-xu-hướng-gia-tăng-động-hóa" class="nav-link" data-scroll-target="#xu-hướng-gia-tăng-động-hóa">Xu hướng gia tăng động hóa</a>
   <ul class="collapse">
   <li><a href="#tổng-quan-6" id="toc-tổng-quan-6" class="nav-link" data-scroll-target="#tổng-quan-6">Tổng quan</a></li>
-  <li><a href="#động-hóa-cấu-trúc" id="toc-động-hóa-cấu-trúc" class="nav-link" data-scroll-target="#động-hóa-cấu-trúc">Động hóa cấu trúc</a></li>
-  <li><a href="#động-hóa-trường" id="toc-động-hóa-trường" class="nav-link" data-scroll-target="#động-hóa-trường">Động hóa trường</a></li>
+  <li><a href="#động-hóa-thiết-kế" id="toc-động-hóa-thiết-kế" class="nav-link" data-scroll-target="#động-hóa-thiết-kế">Động hóa thiết kế</a>
+  <ul class="collapse">
+  <li><a href="#tuyến-động-hóa-chất" id="toc-tuyến-động-hóa-chất" class="nav-link" data-scroll-target="#tuyến-động-hóa-chất">Tuyến động hóa chất</a></li>
+  <li><a href="#tuyến-động-hóa-trường" id="toc-tuyến-động-hóa-trường" class="nav-link" data-scroll-target="#tuyến-động-hóa-trường">Tuyến động hóa trường</a></li>
+  </ul></li>
   <li><a href="#động-hóa-thành-phần" id="toc-động-hóa-thành-phần" class="nav-link" data-scroll-target="#động-hóa-thành-phần">Động hóa thành phần</a></li>
   <li><a href="#động-hóa-chức-năng" id="toc-động-hóa-chức-năng" class="nav-link" data-scroll-target="#động-hóa-chức-năng">Động hóa chức năng</a>
   <ul class="collapse">
@@ -636,21 +639,26 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="tổng-quan-6">Tổng quan</h2>
 <p>Xu hướng gia tăng động hóa là xu hướng con của xu hướng gia tăng khả năng điều khiển. Nó gồm ba xu hướng con chính:</p>
 <ol type="1">
-<li>động hóa cấu trúc,</li>
-<li>động hóa trường, và</li>
-<li>động hóa thành phần.</li>
+<li>động hóa thiết kế (bao gồm tuyến động hóa chất và tuyến động hóa trường),</li>
+<li>động hóa thành phần, và</li>
+<li>động hóa chức năng.</li>
 </ol>
 </section>
-<section id="động-hóa-cấu-trúc" class="level2">
-<h2 class="anchored" data-anchor-id="động-hóa-cấu-trúc">Động hóa cấu trúc</h2>
+<section id="động-hóa-thiết-kế" class="level2">
+<h2 class="anchored" data-anchor-id="động-hóa-thiết-kế">Động hóa thiết kế</h2>
+<p>Xu hướng con này còn được gọi là <strong>động hóa thành phần</strong>. Một thành phần của hệ kỹ thuật có thể là chất, trường hoặc kết hợp cả hai, vì vậy có hai tuyến phát triển riêng biệt.</p>
+<section id="tuyến-động-hóa-chất" class="level3">
+<h3 class="anchored" data-anchor-id="tuyến-động-hóa-chất">Tuyến động hóa chất</h3>
 <p>Hệ phát triển từ cấu trúc cứng nhắc sang cấu trúc linh hoạt:</p>
-<p><img src="media/wp-content/uploads/2025/03/TESE_dynam_structure-1024x233.png" class="img-fluid"></p>
+<p><img src="media/wp-content/uploads/2025/03/TESE_dynam-subst-1024x215.png" class="img-fluid"></p>
+<p>Một hệ mới thường khởi đầu như một <strong>khối nguyên</strong> nên được xem là điểm xuất phát. Đây là cấu trúc đơn giản nhất nhưng cũng kém thích nghi nhất – các thuộc tính không thể thay đổi trong quá trình vận hành. Khi hệ tiến hóa, mức độ động hóa tăng dần: khối nguyên được chia thành các vùng không gian có <strong>thuộc tính khác nhau</strong>. Tiếp theo, hệ trở thành <strong>hệ một khớp</strong>, rồi <strong>hệ đa khớp</strong>, trong đó mỗi khớp tượng trưng cho một bậc tự do. Cuối cùng, số khớp tăng đến mức toàn bộ hệ (hoặc từng phần) trở nên <strong>mềm dẻo hoặc đàn hồi</strong>. Sau đó hệ có thể tiếp tục phát triển thành dạng <strong>bột</strong>, <strong>lỏng</strong> và cuối cùng là <strong>khí</strong>. Bước tiến cuối cùng là <strong>hệ dựa trên trường</strong>, vốn dễ điều khiển và thích ứng hơn vật chất, khiến hệ trở nên năng động hơn nữa.</p>
 </section>
-<section id="động-hóa-trường" class="level2">
-<h2 class="anchored" data-anchor-id="động-hóa-trường">Động hóa trường</h2>
+<section id="tuyến-động-hóa-trường" class="level3">
+<h3 class="anchored" data-anchor-id="tuyến-động-hóa-trường">Tuyến động hóa trường</h3>
 <p>Hệ tiến từ trường hằng sang trường phức tạp:</p>
 <p><img src="media/wp-content/uploads/2025/03/TESE_dynam-field_stages-1024x152.png" class="img-fluid"></p>
 <p>Hệ mới ra đời thường sử dụng <strong>trường hằng</strong>. Bước tiếp theo là chuyển sang <strong>trường gradient</strong>, rồi <strong>trường biến thiên</strong> (tham số thay đổi theo thời gian). Tiếp đến là trường <strong>xung</strong> và <strong>cộng hưởng</strong>. Giai đoạn cuối dùng các <strong>trường phức tạp</strong>, khai thác giao thoa sóng đứng và sóng chạy.</p>
+</section>
 </section>
 <section id="động-hóa-thành-phần" class="level2">
 <h2 class="anchored" data-anchor-id="động-hóa-thành-phần">Động hóa thành phần</h2>

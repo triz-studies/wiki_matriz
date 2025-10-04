@@ -366,17 +366,23 @@ Theo đó, thao tác nên được cắt theo thứ tự: 1) thao tác có chứ
 
 Xu hướng gia tăng động hóa là xu hướng con của xu hướng gia tăng khả năng điều khiển. Nó gồm ba xu hướng con chính:
 
-1. động hóa cấu trúc,
-2. động hóa trường, và
-3. động hóa thành phần.
+1. động hóa thiết kế (bao gồm tuyến động hóa chất và tuyến động hóa trường),
+2. động hóa thành phần, và
+3. động hóa chức năng.
 
-## Động hóa cấu trúc
+## Động hóa thiết kế
+
+Xu hướng con này còn được gọi là **động hóa thành phần**. Một thành phần của hệ kỹ thuật có thể là chất, trường hoặc kết hợp cả hai, vì vậy có hai tuyến phát triển riêng biệt.
+
+### Tuyến động hóa chất
 
 Hệ phát triển từ cấu trúc cứng nhắc sang cấu trúc linh hoạt:
 
-![](media/wp-content/uploads/2025/03/TESE_dynam_structure-1024x233.png)
+![](media/wp-content/uploads/2025/03/TESE_dynam-subst-1024x215.png)
 
-## Động hóa trường
+Một hệ mới thường khởi đầu như một **khối nguyên** nên được xem là điểm xuất phát. Đây là cấu trúc đơn giản nhất nhưng cũng kém thích nghi nhất – các thuộc tính không thể thay đổi trong quá trình vận hành. Khi hệ tiến hóa, mức độ động hóa tăng dần: khối nguyên được chia thành các vùng không gian có **thuộc tính khác nhau**. Tiếp theo, hệ trở thành **hệ một khớp**, rồi **hệ đa khớp**, trong đó mỗi khớp tượng trưng cho một bậc tự do. Cuối cùng, số khớp tăng đến mức toàn bộ hệ (hoặc từng phần) trở nên **mềm dẻo hoặc đàn hồi**. Sau đó hệ có thể tiếp tục phát triển thành dạng **bột**, **lỏng** và cuối cùng là **khí**. Bước tiến cuối cùng là **hệ dựa trên trường**, vốn dễ điều khiển và thích ứng hơn vật chất, khiến hệ trở nên năng động hơn nữa.
+
+### Tuyến động hóa trường
 
 Hệ tiến từ trường hằng sang trường phức tạp:
 
@@ -385,12 +391,6 @@ Hệ tiến từ trường hằng sang trường phức tạp:
 Hệ mới ra đời thường sử dụng **trường hằng**. Bước tiếp theo là chuyển sang **trường gradient**, rồi **trường biến thiên** (tham số thay đổi theo thời gian). Tiếp đến là trường **xung** và **cộng hưởng**. Giai đoạn cuối dùng các **trường phức tạp**, khai thác giao thoa sóng đứng và sóng chạy.
 
 ## Động hóa thành phần
-
-Còn gọi là **phân đoạn thành phần**. Trong tuyến phát triển này, hệ trải qua các giai đoạn sau:
-
-![](media/wp-content/uploads/2025/03/TESE_dynam-subst-1024x215.png)
-
-Một hệ mới thường khởi đầu như một **khối nguyên** nên được xem là điểm xuất phát. Đây là cấu trúc đơn giản nhất nhưng cũng kém thích nghi nhất – các thuộc tính không thể thay đổi trong quá trình vận hành. Khi hệ tiến hóa, mức độ động hóa tăng dần: khối nguyên được chia thành các vùng không gian có **thuộc tính khác nhau**. Tiếp theo, hệ trở thành **hệ một khớp**, rồi **hệ đa khớp**, trong đó mỗi khớp tượng trưng cho một bậc tự do. Cuối cùng, số khớp tăng đến mức toàn bộ hệ (hoặc từng phần) trở nên **mềm dẻo hoặc đàn hồi**. Sau đó hệ có thể tiếp tục phát triển thành dạng **bột**, **lỏng** và cuối cùng là **khí**. Bước tiến cuối cùng là **hệ dựa trên trường**, vốn dễ điều khiển và thích ứng hơn vật chất, khiến hệ trở nên năng động hơn nữa.
 
 Còn gọi là **phân đoạn thành phần**. Hệ phát triển theo chuỗi:
 

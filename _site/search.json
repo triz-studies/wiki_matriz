@@ -3784,7 +3784,7 @@
     "href": "TESE_vn.html#tổng-quan-6",
     "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
     "section": "Tổng quan",
-    "text": "Tổng quan\nXu hướng gia tăng động hóa là xu hướng con của xu hướng gia tăng khả năng điều khiển. Nó gồm ba xu hướng con chính:\n\nđộng hóa cấu trúc,\nđộng hóa trường, và\nđộng hóa thành phần."
+    "text": "Tổng quan\nXu hướng gia tăng động hóa là xu hướng con của xu hướng gia tăng khả năng điều khiển. Nó gồm ba xu hướng con chính:\n\nđộng hóa thiết kế (bao gồm tuyến động hóa chất và tuyến động hóa trường),\nđộng hóa thành phần, và\nđộng hóa chức năng."
   },
   {
     "objectID": "TESE_vn.html#động-hóa-cấu-trúc",
@@ -4037,5 +4037,12 @@
     "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
     "section": "Tổng quan",
     "text": "Tổng quan\nKhái niệm nguồn lực trong TRIZ vượt ra ngoài hiểu biết truyền thống (tài nguyên tự nhiên, tài chính, nhân lực). Chúng được mở rộng thành nguồn lực sáng tạo và tiến hóa, có thể khai thác để cải thiện hiệu năng hệ và tiến tới tính lý tưởng bằng cách tăng lợi ích hữu ích và giảm yếu tố chi trả.\nNguồn lực trong TRIZ có thể là:\n\nbất kỳ chất nào hoặc đối tượng cấu thành từ chất (kể cả phế thải) nằm trong hệ hoặc siêu hệ,\nnăng lượng dự trữ, thời gian rảnh, không gian trống, thông tin…, và\nkhả năng chức năng/công nghệ để thực hiện chức năng bổ sung, bao gồm đặc tính của chất cũng như các hiệu ứng vật lý, hóa học, hình học…\n\nNguồn lực được phân nhóm theo:\n\nA. Theo mức độ sẵn có\n\nnguồn lực nội bộ (giới hạn trong các thành phần chính của hệ),\nnguồn lực bên ngoài, gồm môi trường chung và những nguồn lực đặc thù của hệ,\nnguồn lực từ siêu hệ hoặc nguồn lực khác dễ tiếp cận, chi phí thấp (kể cả phế thải).\n\n\n\nB. Theo mức độ sẵn sàng sử dụng\n\nnguồn lực sẵn có ngay, và\nnguồn lực chuyển hóa (biến đổi từ nguồn lực sẵn có)."
+  },
+  {
+    "objectID": "TESE_vn.html#động-hóa-thiết-kế",
+    "href": "TESE_vn.html#động-hóa-thiết-kế",
+    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
+    "section": "Động hóa thiết kế",
+    "text": "Động hóa thiết kế\nXu hướng con này còn được gọi là động hóa thành phần. Một thành phần của hệ kỹ thuật có thể là chất, trường hoặc kết hợp cả hai, vì vậy có hai tuyến phát triển riêng biệt.\n\nTuyến động hóa chất\nHệ phát triển từ cấu trúc cứng nhắc sang cấu trúc linh hoạt:\n\nMột hệ mới thường khởi đầu như một khối nguyên nên được xem là điểm xuất phát. Đây là cấu trúc đơn giản nhất nhưng cũng kém thích nghi nhất – các thuộc tính không thể thay đổi trong quá trình vận hành. Khi hệ tiến hóa, mức độ động hóa tăng dần: khối nguyên được chia thành các vùng không gian có thuộc tính khác nhau. Tiếp theo, hệ trở thành hệ một khớp, rồi hệ đa khớp, trong đó mỗi khớp tượng trưng cho một bậc tự do. Cuối cùng, số khớp tăng đến mức toàn bộ hệ (hoặc từng phần) trở nên mềm dẻo hoặc đàn hồi. Sau đó hệ có thể tiếp tục phát triển thành dạng bột, lỏng và cuối cùng là khí. Bước tiến cuối cùng là hệ dựa trên trường, vốn dễ điều khiển và thích ứng hơn vật chất, khiến hệ trở nên năng động hơn nữa.\n\n\nTuyến động hóa trường\nHệ tiến từ trường hằng sang trường phức tạp:\n\nHệ mới ra đời thường sử dụng trường hằng. Bước tiếp theo là chuyển sang trường gradient, rồi trường biến thiên (tham số thay đổi theo thời gian). Tiếp đến là trường xung và cộng hưởng. Giai đoạn cuối dùng các trường phức tạp, khai thác giao thoa sóng đứng và sóng chạy."
   }
 ]
