@@ -1,6 +1,6 @@
 # Xu hướng tiến hóa hệ thống kỹ thuật (TESE)
 
-***Xu hướng tiến hóa hệ thống kỹ thuật** (Trends of Engineering Systems Evolution – TESE) là những hướng phát triển của hệ thống kỹ thuật đã được chứng minh bằng thống kê hoặc thực nghiệm, mô tả sự chuyển dịch tự nhiên của hệ thống kỹ thuật từ trạng thái này sang trạng thái khác.*
+***Xu hướng tiến hóa hệ thống kỹ thuật** (Trends of Engineering Systems Evolution – TESE) là những hướng phát triển của hệ thống kỹ thuật đã được chứng minh bằng thống kê hoặc thực nghiệm, mô tả sự chuyển dịch tự nhiên của hệ thống kỹ thuật từ trạng thái này sang trạng thái khác. Một số tài liệu gọi lý thuyết này với tên khác, là "Quy luật phát triển hệ thống kỹ thuật".*
 
 ## Tổng quan
 

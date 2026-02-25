@@ -2,32 +2,42 @@ project:
   type: website
 
 website:
-  title: "matriz_wiki"
+  title: "TRIZ Wiki"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: Problem-identification-tools.qmd
-        text: Problem-identification
-      - href: Problem-identification-tools_vn.qmd
-        text: Problem-identification-VN
-      - href: Problem-solving-tools.qmd
-        text: Problem-solving
-      - href: Problem-solving-tools_vn.qmd
-        text: Problem-solving_VN
-      - href: Concept-substantiation-tools.qmd
-        text: Concept-substantiation
-      - href: Concept-substantiation-tools_vn.qmd
-        text: Concept-substantiation_VN        
-      - href: TESE.qmd
-        text: TESE
-      - href: TESE_vn.qmd
-        text: TESE_VN        
+      # English navigation links (shown when lang=en)
+      - text: "Home"
+        href: index.qmd
+      - text: "Problem Identification"
+        href: Problem-identification-tools.qmd
+      - text: "Problem Solving"
+        href: Problem-solving-tools.qmd
+      - text: "Concept Substantiation"
+        href: Concept-substantiation-tools.qmd
+      - text: "Trends of Engineering Systems Evolution"
+        href: TESE.qmd
+      # Vietnamese navigation links (shown when lang=vn)
+      - text: "Xác định vấn đề"
+        href: Problem-identification-tools_vn.qmd
+      - text: "Giải quyết vấn đề"
+        href: Problem-solving-tools_vn.qmd
+      - text: "Thẩm định giải pháp"
+        href: Concept-substantiation-tools_vn.qmd
+      - text: "Xu hướng tiến hóa hệ thống kỹ thuật"
+        href: TESE_vn.qmd
+    right:
+      - text: "🇬🇧"
+        href: "#"
+        id: lang-btn-en
+      - text: "🇻🇳"
+        href: "#"
+        id: lang-btn-vn
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    include-after-body: lang-switcher.js
 
 editor: visual
