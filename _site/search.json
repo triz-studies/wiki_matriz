@@ -1,5 +1,166 @@
 [
   {
+    "objectID": "Glossary_vn.html",
+    "href": "Glossary_vn.html",
+    "title": "TRIZ Wiki",
+    "section": "",
+    "text": "Phần thuật ngữ dưới đây sử dụng hệ thống khái niệm của MATRIZ. Mỗi thuật ngữ đều có liên kết tới bài viết giải thích chi tiết."
+  },
+  {
+    "objectID": "Glossary_vn.html#thuật-ngữ",
+    "href": "Glossary_vn.html#thuật-ngữ",
+    "title": "TRIZ Wiki",
+    "section": "",
+    "text": "Phần thuật ngữ dưới đây sử dụng hệ thống khái niệm của MATRIZ. Mỗi thuật ngữ đều có liên kết tới bài viết giải thích chi tiết."
+  },
+  {
+    "objectID": "Glossary_vn.html#a",
+    "href": "Glossary_vn.html#a",
+    "title": "TRIZ Wiki",
+    "section": "A",
+    "text": "A\nChức năng bổ sung: chức năng hữu ích tác động lên một thành phần của siêu hệ nhưng không phải thành phần mục tiêu.\nThuật toán giải mâu thuẫn vật lý: công cụ giải quyết vấn đề cung cấp phương pháp có hệ thống để lựa chọn các nguyên tắc sáng tạo nhằm giải mâu thuẫn vật lý.\nHệ thống thay thế: hệ thống cạnh tranh có cặp ưu – nhược điểm bổ sung cho hệ cơ sở.\nMa trận Altshuller: xem ma trận mâu thuẫn.\nARIZ: công cụ giải quyết vấn đề chuyển một vấn đề then chốt phức tạp thành mô hình rõ ràng để có thể giải hiệu quả bằng nhiều công cụ TRIZ.\nChức năng phụ trợ: chức năng hữu ích tác động lên một thành phần của hệ kỹ thuật đang phân tích."
+  },
+  {
+    "objectID": "Glossary_vn.html#b",
+    "href": "Glossary_vn.html#b",
+    "title": "TRIZ Wiki",
+    "section": "B",
+    "text": "B\nHệ cơ sở: hệ được chọn để nhận đặc tính từ hệ thay thế; đây là hệ được cải tiến trong chuyển giao đặc tính.\nChức năng cơ bản: chức năng hữu ích hướng tới thành phần mục tiêu của hệ kỹ thuật đang phân tích."
+  },
+  {
+    "objectID": "Glossary_vn.html#c",
+    "href": "Glossary_vn.html#c",
+    "title": "TRIZ Wiki",
+    "section": "C",
+    "text": "C\nPhân tích chuỗi nhân – quả (CECA): công cụ phân tích xác định các nhược điểm then chốt bằng cách xây dựng chuỗi nhân quả liên kết nhược điểm ban đầu với nguyên nhân gốc.\nSu-Field dạng chuỗi: tổ hợp hai hoặc nhiều Su-Field trong đó một chất tham gia vào hai Su-Field.\nÁp dụng bài toán tương tự: công cụ giải quyết vấn đề khái quát cách giải của một bài toán để áp dụng cho bài toán khác.\nHệ cạnh tranh: hệ kỹ thuật thực hiện cùng hoặc tương tự chức năng chính với hệ đang phân tích.\nSu-Field phức hợp: Su-Field hoàn chỉnh có thêm một chất (thường là phụ gia) phản ứng nhanh với trường hiện có.\nThành phần: đối tượng vật chất cấu thành một phần của hệ kỹ thuật hoặc siêu hệ của nó.\nPhân tích thành phần: giai đoạn trong phân tích chức năng nhằm xác định các thành phần của hệ kỹ thuật và siêu hệ.\nMô hình thành phần: tập hợp thành phần thuộc hệ kỹ thuật được phân tích và siêu hệ của nó.\nCặp xung đột: (trong ARIZ) cặp công cụ – sản phẩm mà tương tác giữa chúng gây xung đột cản trở việc đạt kết quả mong muốn.\nMa trận mâu thuẫn (ma trận Altshuller): ma trận cung cấp cách tiếp cận hệ thống để chọn các nguyên tắc sáng tạo giải mâu thuẫn kỹ thuật.\nChức năng hiệu chỉnh: chức năng hữu ích dùng để loại bỏ khuyết tật.\nPhân tích chi phí: bước trong phân tích chức năng – chi phí nhằm xác định chi phí tuyệt đối và tương đối của các thành phần trong hệ."
+  },
+  {
+    "objectID": "Glossary_vn.html#d",
+    "href": "Glossary_vn.html#d",
+    "title": "TRIZ Wiki",
+    "section": "D",
+    "text": "D\nCơ sở dữ liệu hiệu ứng khoa học: công cụ giải quyết vấn đề cho các bài toán mô hình hóa bằng chức năng; bao gồm các hiệu ứng, hiện tượng ở nhiều lĩnh vực (vật lý, hóa học, sinh học…) được tổ chức theo hướng chức năng và tài nguyên.\nKhuyết tật: đối tượng vật chất (chất hoặc trường) làm suy giảm chức năng hữu ích hoặc tạo chức năng có hại.\nSu-Field kép: Su-Field trong đó hai trường khác nhau cùng tạo tương tác giữa các chất (một chất tác động lên chất kia bằng hai trường)."
+  },
+  {
+    "objectID": "Glossary_vn.html#e",
+    "href": "Glossary_vn.html#e",
+    "title": "TRIZ Wiki",
+    "section": "E",
+    "text": "E\nMâu thuẫn kỹ thuật (mâu thuẫn kỹ thuật/technical contradiction): mô hình tham số của vấn đề khi nỗ lực cải thiện một tham số làm xấu đi tham số khác.\nHệ kỹ thuật (hệ công nghệ): hệ được phát triển để thực hiện một chức năng."
+  },
+  {
+    "objectID": "Glossary_vn.html#f",
+    "href": "Glossary_vn.html#f",
+    "title": "TRIZ Wiki",
+    "section": "F",
+    "text": "F\nChuyển giao đặc tính: công cụ phân tích cải tiến hệ bằng cách chuyển đặc tính từ hệ thay thế sang hệ cơ sở nhằm kết hợp các đặc tính hữu ích trong một hệ duy nhất.\nBài toán chuyển giao đặc tính: vấn đề then chốt cần giải để thực hiện chuyển giao đặc tính.\nTrường: đối tượng không có khối lượng nghỉ dùng để truyền tương tác giữa các chất.\nDòng chảy: sự chuyển động của chất, năng lượng (trường) hoặc thông tin trong hệ kỹ thuật.\nPhân tích dòng chảy: công cụ phân tích xác định các nhược điểm trong dòng chảy chất, năng lượng, thông tin của hệ.\nNhược điểm dòng chảy: nhược điểm được phát hiện trong phân tích dòng chảy.\nChức năng: hành động do một đối tượng vật chất (chủ thể chức năng) thực hiện nhằm thay đổi hoặc duy trì một tham số của đối tượng vật chất khác (đối tượng chức năng).\nPhân tích chức năng (xem thêm: phân tích chức năng – chi phí): công cụ phân tích xác định các chức năng, đặc tính của chúng và chi phí của hệ cùng siêu hệ.\nSơ đồ chức năng – chi phí: đồ thị biểu diễn điểm chức năng (F) của các thành phần so với chi phí (C).\nNhược điểm chức năng: nhược điểm của hệ kỹ thuật được xác định trong mô hình hóa chức năng.\nMô hình chức năng: mô hình mô tả chức năng do các thành phần của hệ và siêu hệ thực hiện, nêu rõ tính hữu ích, mức độ thực hiện và chi phí.\nMô hình hóa chức năng: giai đoạn trong phân tích chức năng xây dựng mô hình chức năng của hệ.\nTìm kiếm định hướng chức năng (FOS): công cụ giải quyết vấn đề dựa trên việc truy tìm công nghệ hiện có trên toàn thế giới theo tiêu chí chức năng.\nThứ hạng chức năng: thước đo vô hướng đánh giá tầm quan trọng của chức năng hữu ích.\nChỉ số chức năng (functionality index): thước đo vô hướng về mức đóng góp chức năng tổng thể của một thành phần đối với hiệu suất chung của hệ kỹ thuật."
+  },
+  {
+    "objectID": "Glossary_vn.html#h",
+    "href": "Glossary_vn.html#h",
+    "title": "TRIZ Wiki",
+    "section": "H",
+    "text": "H\nDòng chảy có hại: dòng mà đối tượng (chất, năng lượng, thông tin) thực hiện chức năng có hại.\nChức năng có hại: chức năng gây thay đổi không chấp nhận được hoặc duy trì không mong muốn tham số của đối tượng.\nSu-Field có hại: Su-Field mô tả vấn đề mà ít nhất một tương tác mang tính có hại hoặc vượt mức."
+  },
+  {
+    "objectID": "Glossary_vn.html#i",
+    "href": "Glossary_vn.html#i",
+    "title": "TRIZ Wiki",
+    "section": "I",
+    "text": "I\nKết quả cuối lý tưởng (IFR): mô hình giải pháp tốt nhất, trong đó vấn đề bị loại bỏ hoàn toàn với thay đổi tối thiểu và không làm xấu các tham số của hệ.\nHệ thống lý tưởng: hệ có giá trị vô hạn; có thể không có thành phần hay chi phí nhưng vẫn thực hiện chức năng mong muốn – tức hệ không tồn tại nhưng chức năng chính vẫn được đảm bảo.\nTính lý tưởng: tỷ số giữa tổng lợi ích hệ cung cấp và tổng các yếu tố chi trả (chi phí, không gian, môi trường, bảo trì…).\nSu-Field chưa hoàn chỉnh: Su-Field còn thiếu một chất, một trường hoặc cả hai.\nHệ trung tính (hệ trơ): xem hệ trung tính.\nNhược điểm ban đầu: nhược điểm cần loại bỏ để đạt mục tiêu dự án; được hình thành bằng cách đảo mục tiêu dự án.\nSo sánh chuẩn sáng tạo: công cụ phân tích xác định hệ tốt nhất để cải tiến và các ứng viên cho chuyển giao đặc tính.\nSu-Field không đủ: Su-Field đã đầy đủ nhưng không hoạt động.\nTương tác: tiếp xúc vật lý giữa các thành phần của hệ hoặc siêu hệ.\nPhân tích tương tác: giai đoạn phân tích chức năng của thiết bị nhằm xác định các tương tác giữa thành phần.\nMa trận tương tác: bảng thể hiện tương tác giữa các thành phần của hệ và siêu hệ – kết quả của phân tích tương tác.\nNguyên tắc sáng tạo: mô hình giải pháp trừu tượng cung cấp khuyến nghị khái quát để chỉnh sửa hệ nhằm giải mâu thuẫn."
+  },
+  {
+    "objectID": "Glossary_vn.html#k",
+    "href": "Glossary_vn.html#k",
+    "title": "TRIZ Wiki",
+    "section": "K",
+    "text": "K\nNhược điểm then chốt: nhược điểm được chọn để loại bỏ nhằm đạt mục tiêu dự án; thường nằm ở gốc chuỗi nhân quả.\nVấn đề then chốt: vấn đề được chọn để giải nhằm đáp ứng mục tiêu dự án."
+  },
+  {
+    "objectID": "Glossary_vn.html#l",
+    "href": "Glossary_vn.html#l",
+    "title": "TRIZ Wiki",
+    "section": "L",
+    "text": "L\nSu-Field hoàn chỉnh: Su-Field chứa ít nhất hai chất và một trường, tạo nên hệ (hoặc hệ con) hoạt động được.\nLợi nhuận (profitability): chỉ báo phản ánh hiệu quả tài chính của hệ."
+  },
+  {
+    "objectID": "Glossary_vn.html#m",
+    "href": "Glossary_vn.html#m",
+    "title": "TRIZ Wiki",
+    "section": "M",
+    "text": "M\nSu-Field đo lường: Su-Field đặc biệt biểu diễn các bài toán đo lường/phát hiện (đầu vào là trường, qua một chất, cho ra trường).*\nHệ trung tính: hệ không sở hữu nhược điểm của hệ cơ sở nhưng cũng không thực hiện chức năng chính mong muốn; thường có chi phí thấp hoặc miễn phí."
+  },
+  {
+    "objectID": "Glossary_vn.html#p",
+    "href": "Glossary_vn.html#p",
+    "title": "TRIZ Wiki",
+    "section": "P",
+    "text": "P\nSản phẩm: (trong ARIZ) thành phần chịu tác động trực tiếp của công cụ trong cặp xung đột.\nChức năng sản xuất: chức năng hữu ích tạo thay đổi không thể đảo ngược đối với đối tượng.\nBài toán cắt gọn: bài toán cần giải để hiện thực hóa mô hình cắt gọn.\nChuyển pha: cơ chế sử dụng các hiện tượng xảy ra trong quá trình chuyển pha.\nMức độ sáng chế: chỉ báo phân loại sáng chế theo độ đột phá."
+  },
+  {
+    "objectID": "Glossary_vn.html#r",
+    "href": "Glossary_vn.html#r",
+    "title": "TRIZ Wiki",
+    "section": "R",
+    "text": "R\nNguồn lực (xem mục Resources in TRIZ)."
+  },
+  {
+    "objectID": "Glossary_vn.html#s",
+    "href": "Glossary_vn.html#s",
+    "title": "TRIZ Wiki",
+    "section": "S",
+    "text": "S\nSu-Field: mô hình trừu tượng mô tả tương tác giữa các chất và trường.\nĐường cong chữ S: đường cong hình chữ S thể hiện sự tiến hóa của MPV theo thời gian.\nSiêu hệ: hệ chứa hệ kỹ thuật đang phân tích như một thành phần.\nChức năng cung cấp: chức năng hữu ích cần thiết để thực hiện chức năng hữu ích khác.\nChức năng hỗ trợ: chức năng cung cấp tạm thời thay đổi tham số của sản phẩm.\nChức năng vận chuyển: chức năng cung cấp làm thay đổi vị trí đối tượng trong không gian.\nChức năng đo lường: chức năng cung cấp bộc lộ thông tin về các thành phần.\nXu hướng chuyển sang siêu hệ: xu hướng TESE mô tả sự tích hợp của hệ với các thành phần siêu hệ.\nXu hướng gia tăng điều khiển: xu hướng TESE cho rằng hệ càng tiến hóa càng có nhiều cách điều khiển.\nXu hướng gia tăng phối hợp: xu hướng TESE cho rằng đặc tính của các thành phần càng được phối hợp chặt chẽ với nhau và với siêu hệ.\nXu hướng gia tăng cắt gọn: xu hướng TESE cho rằng các thành phần/thao tác sẽ bị loại bỏ mà không làm giảm chức năng.\nXu hướng gia tăng động hóa: xu hướng TESE cho rằng hệ và các thành phần trở nên linh hoạt, thích ứng, có nhiều bậc tự do hơn.\nXu hướng gia tăng giá trị: xu hướng TESE cho rằng giá trị của hệ luôn tăng theo thời gian.\nXu hướng đường cong chữ S: xu hướng cao nhất trong TESE, mô tả sự tiến hóa của mỗi MPV theo đường cong chữ S.\nXu hướng phát triển không đồng đều: xu hướng TESE cho rằng tác nhân vận hành phát triển trước, các phần còn lại phát triển sau.\nXu hướng tăng cường dòng chảy: xu hướng TESE cho rằng lưu lượng chất, năng lượng, thông tin tăng và/hoặc được khai thác hiệu quả hơn.\nXu hướng giảm sự tham gia của con người: xu hướng TESE cho rằng số chức năng do con người đảm nhiệm thay hệ giảm dần.\nXu hướng gia tăng mức độ đầy đủ của các khối chức năng: xu hướng TESE cho rằng hệ lần lượt sở hữu tác nhân vận hành, truyền dẫn, nguồn năng lượng, điều khiển.\nXu hướng gia tăng khả năng điều khiển: xu hướng TESE cho rằng hệ phát triển thêm các cách điều khiển."
+  },
+  {
+    "objectID": "Glossary_vn.html#t",
+    "href": "Glossary_vn.html#t",
+    "title": "TRIZ Wiki",
+    "section": "T",
+    "text": "T\nChức năng mục tiêu (main function): chức năng mà hệ được thiết kế để thực hiện.\nThanh phần mục tiêu: đối tượng của chức năng chính.\nChức năng bổ sung: xem mục A.\nChức năng hiệu chỉnh: xem mục C.\nChức năng hữu ích: chức năng gây thay đổi tích cực hoặc duy trì tham số mong muốn.\nChức năng có hại: xem mục H.\nCắt gọn: công cụ cải tiến hệ bằng cách loại bỏ thành phần và phân bổ lại chức năng hữu ích cho thành phần còn lại.\nMô hình cắt gọn: mô hình chức năng của hệ sau khi cắt gọn.\nQuy tắc cắt gọn: phương án loại bỏ thành phần bằng cách loại bỏ hoặc phân bổ chức năng hữu ích cho thành phần khác.\nTham số điển hình: tập tham số khái quát cần cải thiện trong hệ, được dùng trong ma trận mâu thuẫn."
+  },
+  {
+    "objectID": "Glossary_vn.html#u",
+    "href": "Glossary_vn.html#u",
+    "title": "TRIZ Wiki",
+    "section": "U",
+    "text": "U\nDòng hữu ích: dòng mà đối tượng thực hiện chức năng hữu ích hoặc là đối tượng của chức năng hữu ích.\nChức năng hữu ích: xem trên."
+  },
+  {
+    "objectID": "Glossary_vn.html#v",
+    "href": "Glossary_vn.html#v",
+    "title": "TRIZ Wiki",
+    "section": "V",
+    "text": "V\nGiá trị: tỷ số giữa tổng điểm chức năng đã chuẩn hóa và tổng chi phí.\nPhân tích giá trị: công cụ phân tích so sánh chức năng tương đối và chi phí tương đối của các thành phần hệ.\nVòng luẩn quẩn: tình huống trong CECA khi một nhược điểm gây ra nhược điểm mới và dẫn trở về nhược điểm ban đầu."
+  },
+  {
+    "objectID": "Glossary_vn.html#w",
+    "href": "Glossary_vn.html#w",
+    "title": "TRIZ Wiki",
+    "section": "W",
+    "text": "W\nDòng bị lãng phí: dòng đặc trưng bởi việc thất thoát chất, năng lượng hoặc thông tin."
+  },
+  {
+    "objectID": "Glossary_vn.html#x",
+    "href": "Glossary_vn.html#x",
+    "title": "TRIZ Wiki",
+    "section": "X",
+    "text": "X\nYếu tố X: (trong ARIZ) bất kỳ thay đổi nào của hệ (thành phần, tham số…) cần đưa vào để giải quyết vấn đề."
+  },
+  {
+    "objectID": "Resources.html",
+    "href": "Resources.html",
+    "title": "Resources in TRIZ",
+    "section": "",
+    "text": "The concept of resources in TRIZ goes beyond the conventional understanding of natural, financial, or human resources. Here, they are expanded into inventive and evolutionary resources that can be harnessed to enhance the engineering system performance and achieve its ideality by providing additional useful features, as well as reducing cost-related factors.\nResource in TRIZ can be the following:\n\nany substance or anything made of a substance (including waste) that is available in the system or its supersystem,\nan energy reserve, free time, unoccupied space, information, etc., and\nthe functional and technological ability to perform additional functions, including properties of substances as well as physical, chemical, geometric, and other effects.\n\nResources can be grouped in the following categories:\nA. Based on accessibility:\n\ninternal (limited to the main elements of the system),\nexternal, including resources from the general environment and those which are specific for the given system, and\nresources from the super-system or other accessible, inexpensive resources (including waste).\n\nB. Based on readiness for utilization:\n\nreadily-available resources, and\nderived (modified readily-available resources)."
+  },
+  {
+    "objectID": "Resources.html#overview",
+    "href": "Resources.html#overview",
+    "title": "Resources in TRIZ",
+    "section": "",
+    "text": "The concept of resources in TRIZ goes beyond the conventional understanding of natural, financial, or human resources. Here, they are expanded into inventive and evolutionary resources that can be harnessed to enhance the engineering system performance and achieve its ideality by providing additional useful features, as well as reducing cost-related factors.\nResource in TRIZ can be the following:\n\nany substance or anything made of a substance (including waste) that is available in the system or its supersystem,\nan energy reserve, free time, unoccupied space, information, etc., and\nthe functional and technological ability to perform additional functions, including properties of substances as well as physical, chemical, geometric, and other effects.\n\nResources can be grouped in the following categories:\nA. Based on accessibility:\n\ninternal (limited to the main elements of the system),\nexternal, including resources from the general environment and those which are specific for the given system, and\nresources from the super-system or other accessible, inexpensive resources (including waste).\n\nB. Based on readiness for utilization:\n\nreadily-available resources, and\nderived (modified readily-available resources)."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "TRIZ knowledge base",
@@ -187,160 +348,6 @@
     "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
     "section": "Tổng quan",
     "text": "Tổng quan\nCùng với xu hướng gia tăng khả năng điều khiển, xu hướng này là cơ chế của xu hướng gia tăng mức độ phối hợp.\nXu hướng tạo cầu nối giữa kỹ thuật và triết học: hệ tiến hóa nhờ giải mâu thuẫn, còn mâu thuẫn xuất hiện do các thành phần phát triển không đồng đều. Khi một phần phát triển nhanh hơn phần khác, sự lệch pha xuất hiện và kích hoạt chuỗi cải tiến tiếp theo.\nXu hướng này gắn trực tiếp với đường cong chữ S:\n\nVí dụ điển hình là sự phát triển của ô tô. Trong những chiếc xe đầu tiên, động cơ là thành phần tiên tiến nhất. Dần dần, khoảng cách giữa động cơ và các hệ phụ khác xuất hiện, kéo theo sự phát triển của hệ truyền động, hộp số, khung vỏ, điều hòa… – tất cả nhằm san bằng tốc độ phát triển giữa các thành phần."
-  },
-  {
-    "objectID": "TESE_vn.html#thuật-ngữ",
-    "href": "TESE_vn.html#thuật-ngữ",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "THUẬT NGỮ",
-    "text": "THUẬT NGỮ\nPhần thuật ngữ dưới đây sử dụng hệ thống khái niệm của MATRIZ. Mỗi thuật ngữ đều có liên kết tới bài viết giải thích chi tiết."
-  },
-  {
-    "objectID": "TESE_vn.html#a",
-    "href": "TESE_vn.html#a",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "A",
-    "text": "A\nChức năng bổ sung: chức năng hữu ích tác động lên một thành phần của siêu hệ nhưng không phải thành phần mục tiêu.\nThuật toán giải mâu thuẫn vật lý: công cụ giải quyết vấn đề cung cấp phương pháp có hệ thống để lựa chọn các nguyên tắc sáng tạo nhằm giải mâu thuẫn vật lý.\nHệ thống thay thế: hệ thống cạnh tranh có cặp ưu – nhược điểm bổ sung cho hệ cơ sở.\nMa trận Altshuller: xem ma trận mâu thuẫn.\nARIZ: công cụ giải quyết vấn đề chuyển một vấn đề then chốt phức tạp thành mô hình rõ ràng để có thể giải hiệu quả bằng nhiều công cụ TRIZ.\nChức năng phụ trợ: chức năng hữu ích tác động lên một thành phần của hệ kỹ thuật đang phân tích."
-  },
-  {
-    "objectID": "TESE_vn.html#b",
-    "href": "TESE_vn.html#b",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "B",
-    "text": "B\nHệ cơ sở: hệ được chọn để nhận đặc tính từ hệ thay thế; đây là hệ được cải tiến trong chuyển giao đặc tính.\nChức năng cơ bản: chức năng hữu ích hướng tới thành phần mục tiêu của hệ kỹ thuật đang phân tích."
-  },
-  {
-    "objectID": "TESE_vn.html#c",
-    "href": "TESE_vn.html#c",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "C",
-    "text": "C\nPhân tích chuỗi nhân – quả (CECA): công cụ phân tích xác định các nhược điểm then chốt bằng cách xây dựng chuỗi nhân quả liên kết nhược điểm ban đầu với nguyên nhân gốc.\nSu-Field dạng chuỗi: tổ hợp hai hoặc nhiều Su-Field trong đó một chất tham gia vào hai Su-Field.\nÁp dụng bài toán tương tự: công cụ giải quyết vấn đề khái quát cách giải của một bài toán để áp dụng cho bài toán khác.\nHệ cạnh tranh: hệ kỹ thuật thực hiện cùng hoặc tương tự chức năng chính với hệ đang phân tích.\nSu-Field phức hợp: Su-Field hoàn chỉnh có thêm một chất (thường là phụ gia) phản ứng nhanh với trường hiện có.\nThành phần: đối tượng vật chất cấu thành một phần của hệ kỹ thuật hoặc siêu hệ của nó.\nPhân tích thành phần: giai đoạn trong phân tích chức năng nhằm xác định các thành phần của hệ kỹ thuật và siêu hệ.\nMô hình thành phần: tập hợp thành phần thuộc hệ kỹ thuật được phân tích và siêu hệ của nó.\nCặp xung đột: (trong ARIZ) cặp công cụ – sản phẩm mà tương tác giữa chúng gây xung đột cản trở việc đạt kết quả mong muốn.\nMa trận mâu thuẫn (ma trận Altshuller): ma trận cung cấp cách tiếp cận hệ thống để chọn các nguyên tắc sáng tạo giải mâu thuẫn kỹ thuật.\nChức năng hiệu chỉnh: chức năng hữu ích dùng để loại bỏ khuyết tật.\nPhân tích chi phí: bước trong phân tích chức năng – chi phí nhằm xác định chi phí tuyệt đối và tương đối của các thành phần trong hệ."
-  },
-  {
-    "objectID": "TESE_vn.html#d",
-    "href": "TESE_vn.html#d",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "D",
-    "text": "D\nCơ sở dữ liệu hiệu ứng khoa học: công cụ giải quyết vấn đề cho các bài toán mô hình hóa bằng chức năng; bao gồm các hiệu ứng, hiện tượng ở nhiều lĩnh vực (vật lý, hóa học, sinh học…) được tổ chức theo hướng chức năng và tài nguyên.\nKhuyết tật: đối tượng vật chất (chất hoặc trường) làm suy giảm chức năng hữu ích hoặc tạo chức năng có hại.\nSu-Field kép: Su-Field trong đó hai trường khác nhau cùng tạo tương tác giữa các chất (một chất tác động lên chất kia bằng hai trường)."
-  },
-  {
-    "objectID": "TESE_vn.html#e",
-    "href": "TESE_vn.html#e",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "E",
-    "text": "E\nMâu thuẫn kỹ thuật (mâu thuẫn kỹ thuật/technical contradiction): mô hình tham số của vấn đề khi nỗ lực cải thiện một tham số làm xấu đi tham số khác.\nHệ kỹ thuật (hệ công nghệ): hệ được phát triển để thực hiện một chức năng."
-  },
-  {
-    "objectID": "TESE_vn.html#f",
-    "href": "TESE_vn.html#f",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "F",
-    "text": "F\nChuyển giao đặc tính: công cụ phân tích cải tiến hệ bằng cách chuyển đặc tính từ hệ thay thế sang hệ cơ sở nhằm kết hợp các đặc tính hữu ích trong một hệ duy nhất.\nBài toán chuyển giao đặc tính: vấn đề then chốt cần giải để thực hiện chuyển giao đặc tính.\nTrường: đối tượng không có khối lượng nghỉ dùng để truyền tương tác giữa các chất.\nDòng chảy: sự chuyển động của chất, năng lượng (trường) hoặc thông tin trong hệ kỹ thuật.\nPhân tích dòng chảy: công cụ phân tích xác định các nhược điểm trong dòng chảy chất, năng lượng, thông tin của hệ.\nNhược điểm dòng chảy: nhược điểm được phát hiện trong phân tích dòng chảy.\nChức năng: hành động do một đối tượng vật chất (chủ thể chức năng) thực hiện nhằm thay đổi hoặc duy trì một tham số của đối tượng vật chất khác (đối tượng chức năng).\nPhân tích chức năng (xem thêm: phân tích chức năng – chi phí): công cụ phân tích xác định các chức năng, đặc tính của chúng và chi phí của hệ cùng siêu hệ.\nSơ đồ chức năng – chi phí: đồ thị biểu diễn điểm chức năng (F) của các thành phần so với chi phí (C).\nNhược điểm chức năng: nhược điểm của hệ kỹ thuật được xác định trong mô hình hóa chức năng.\nMô hình chức năng: mô hình mô tả chức năng do các thành phần của hệ và siêu hệ thực hiện, nêu rõ tính hữu ích, mức độ thực hiện và chi phí.\nMô hình hóa chức năng: giai đoạn trong phân tích chức năng xây dựng mô hình chức năng của hệ.\nTìm kiếm định hướng chức năng (FOS): công cụ giải quyết vấn đề dựa trên việc truy tìm công nghệ hiện có trên toàn thế giới theo tiêu chí chức năng.\nThứ hạng chức năng: thước đo vô hướng đánh giá tầm quan trọng của chức năng hữu ích.\nChỉ số chức năng (functionality index): thước đo vô hướng về mức đóng góp chức năng tổng thể của một thành phần đối với hiệu suất chung của hệ kỹ thuật."
-  },
-  {
-    "objectID": "TESE_vn.html#h",
-    "href": "TESE_vn.html#h",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "H",
-    "text": "H\nDòng chảy có hại: dòng mà đối tượng (chất, năng lượng, thông tin) thực hiện chức năng có hại.\nChức năng có hại: chức năng gây thay đổi không chấp nhận được hoặc duy trì không mong muốn tham số của đối tượng.\nSu-Field có hại: Su-Field mô tả vấn đề mà ít nhất một tương tác mang tính có hại hoặc vượt mức."
-  },
-  {
-    "objectID": "TESE_vn.html#i",
-    "href": "TESE_vn.html#i",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "I",
-    "text": "I\nKết quả cuối lý tưởng (IFR): mô hình giải pháp tốt nhất, trong đó vấn đề bị loại bỏ hoàn toàn với thay đổi tối thiểu và không làm xấu các tham số của hệ.\nHệ thống lý tưởng: hệ có giá trị vô hạn; có thể không có thành phần hay chi phí nhưng vẫn thực hiện chức năng mong muốn – tức hệ không tồn tại nhưng chức năng chính vẫn được đảm bảo.\nTính lý tưởng: tỷ số giữa tổng lợi ích hệ cung cấp và tổng các yếu tố chi trả (chi phí, không gian, môi trường, bảo trì…).\nSu-Field chưa hoàn chỉnh: Su-Field còn thiếu một chất, một trường hoặc cả hai.\nHệ trung tính (hệ trơ): xem hệ trung tính.\nNhược điểm ban đầu: nhược điểm cần loại bỏ để đạt mục tiêu dự án; được hình thành bằng cách đảo mục tiêu dự án.\nSo sánh chuẩn sáng tạo: công cụ phân tích xác định hệ tốt nhất để cải tiến và các ứng viên cho chuyển giao đặc tính.\nSu-Field không đủ: Su-Field đã đầy đủ nhưng không hoạt động.\nTương tác: tiếp xúc vật lý giữa các thành phần của hệ hoặc siêu hệ.\nPhân tích tương tác: giai đoạn phân tích chức năng của thiết bị nhằm xác định các tương tác giữa thành phần.\nMa trận tương tác: bảng thể hiện tương tác giữa các thành phần của hệ và siêu hệ – kết quả của phân tích tương tác.\nNguyên tắc sáng tạo: mô hình giải pháp trừu tượng cung cấp khuyến nghị khái quát để chỉnh sửa hệ nhằm giải mâu thuẫn."
-  },
-  {
-    "objectID": "TESE_vn.html#k",
-    "href": "TESE_vn.html#k",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "K",
-    "text": "K\nNhược điểm then chốt: nhược điểm được chọn để loại bỏ nhằm đạt mục tiêu dự án; thường nằm ở gốc chuỗi nhân quả.\nVấn đề then chốt: vấn đề được chọn để giải nhằm đáp ứng mục tiêu dự án."
-  },
-  {
-    "objectID": "TESE_vn.html#l",
-    "href": "TESE_vn.html#l",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "L",
-    "text": "L\nSu-Field hoàn chỉnh: Su-Field chứa ít nhất hai chất và một trường, tạo nên hệ (hoặc hệ con) hoạt động được.\nLợi nhuận (profitability): chỉ báo phản ánh hiệu quả tài chính của hệ."
-  },
-  {
-    "objectID": "TESE_vn.html#m",
-    "href": "TESE_vn.html#m",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "M",
-    "text": "M\nSu-Field đo lường: Su-Field đặc biệt biểu diễn các bài toán đo lường/phát hiện (đầu vào là trường, qua một chất, cho ra trường).*\nHệ trung tính: hệ không sở hữu nhược điểm của hệ cơ sở nhưng cũng không thực hiện chức năng chính mong muốn; thường có chi phí thấp hoặc miễn phí."
-  },
-  {
-    "objectID": "TESE_vn.html#p",
-    "href": "TESE_vn.html#p",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "P",
-    "text": "P\nSản phẩm: (trong ARIZ) thành phần chịu tác động trực tiếp của công cụ trong cặp xung đột.\nChức năng sản xuất: chức năng hữu ích tạo thay đổi không thể đảo ngược đối với đối tượng.\nBài toán cắt gọn: bài toán cần giải để hiện thực hóa mô hình cắt gọn.\nChuyển pha: cơ chế sử dụng các hiện tượng xảy ra trong quá trình chuyển pha.\nMức độ sáng chế: chỉ báo phân loại sáng chế theo độ đột phá."
-  },
-  {
-    "objectID": "TESE_vn.html#r",
-    "href": "TESE_vn.html#r",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "R",
-    "text": "R\nNguồn lực (xem mục Resources in TRIZ)."
-  },
-  {
-    "objectID": "TESE_vn.html#s",
-    "href": "TESE_vn.html#s",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "S",
-    "text": "S\nSu-Field: mô hình trừu tượng mô tả tương tác giữa các chất và trường.\nĐường cong chữ S: đường cong hình chữ S thể hiện sự tiến hóa của MPV theo thời gian.\nSiêu hệ: hệ chứa hệ kỹ thuật đang phân tích như một thành phần.\nChức năng cung cấp: chức năng hữu ích cần thiết để thực hiện chức năng hữu ích khác.\nChức năng hỗ trợ: chức năng cung cấp tạm thời thay đổi tham số của sản phẩm.\nChức năng vận chuyển: chức năng cung cấp làm thay đổi vị trí đối tượng trong không gian.\nChức năng đo lường: chức năng cung cấp bộc lộ thông tin về các thành phần.\nXu hướng chuyển sang siêu hệ: xu hướng TESE mô tả sự tích hợp của hệ với các thành phần siêu hệ.\nXu hướng gia tăng điều khiển: xu hướng TESE cho rằng hệ càng tiến hóa càng có nhiều cách điều khiển.\nXu hướng gia tăng phối hợp: xu hướng TESE cho rằng đặc tính của các thành phần càng được phối hợp chặt chẽ với nhau và với siêu hệ.\nXu hướng gia tăng cắt gọn: xu hướng TESE cho rằng các thành phần/thao tác sẽ bị loại bỏ mà không làm giảm chức năng.\nXu hướng gia tăng động hóa: xu hướng TESE cho rằng hệ và các thành phần trở nên linh hoạt, thích ứng, có nhiều bậc tự do hơn.\nXu hướng gia tăng giá trị: xu hướng TESE cho rằng giá trị của hệ luôn tăng theo thời gian.\nXu hướng đường cong chữ S: xu hướng cao nhất trong TESE, mô tả sự tiến hóa của mỗi MPV theo đường cong chữ S.\nXu hướng phát triển không đồng đều: xu hướng TESE cho rằng tác nhân vận hành phát triển trước, các phần còn lại phát triển sau.\nXu hướng tăng cường dòng chảy: xu hướng TESE cho rằng lưu lượng chất, năng lượng, thông tin tăng và/hoặc được khai thác hiệu quả hơn.\nXu hướng giảm sự tham gia của con người: xu hướng TESE cho rằng số chức năng do con người đảm nhiệm thay hệ giảm dần.\nXu hướng gia tăng mức độ đầy đủ của các khối chức năng: xu hướng TESE cho rằng hệ lần lượt sở hữu tác nhân vận hành, truyền dẫn, nguồn năng lượng, điều khiển.\nXu hướng gia tăng khả năng điều khiển: xu hướng TESE cho rằng hệ phát triển thêm các cách điều khiển."
-  },
-  {
-    "objectID": "TESE_vn.html#t",
-    "href": "TESE_vn.html#t",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "T",
-    "text": "T\nChức năng mục tiêu (main function): chức năng mà hệ được thiết kế để thực hiện.\nThanh phần mục tiêu: đối tượng của chức năng chính.\nChức năng bổ sung: xem mục A.\nChức năng hiệu chỉnh: xem mục C.\nChức năng hữu ích: chức năng gây thay đổi tích cực hoặc duy trì tham số mong muốn.\nChức năng có hại: xem mục H.\nCắt gọn: công cụ cải tiến hệ bằng cách loại bỏ thành phần và phân bổ lại chức năng hữu ích cho thành phần còn lại.\nMô hình cắt gọn: mô hình chức năng của hệ sau khi cắt gọn.\nQuy tắc cắt gọn: phương án loại bỏ thành phần bằng cách loại bỏ hoặc phân bổ chức năng hữu ích cho thành phần khác.\nTham số điển hình: tập tham số khái quát cần cải thiện trong hệ, được dùng trong ma trận mâu thuẫn."
-  },
-  {
-    "objectID": "TESE_vn.html#u",
-    "href": "TESE_vn.html#u",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "U",
-    "text": "U\nDòng hữu ích: dòng mà đối tượng thực hiện chức năng hữu ích hoặc là đối tượng của chức năng hữu ích.\nChức năng hữu ích: xem trên."
-  },
-  {
-    "objectID": "TESE_vn.html#v",
-    "href": "TESE_vn.html#v",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "V",
-    "text": "V\nGiá trị: tỷ số giữa tổng điểm chức năng đã chuẩn hóa và tổng chi phí.\nPhân tích giá trị: công cụ phân tích so sánh chức năng tương đối và chi phí tương đối của các thành phần hệ.\nVòng luẩn quẩn: tình huống trong CECA khi một nhược điểm gây ra nhược điểm mới và dẫn trở về nhược điểm ban đầu."
-  },
-  {
-    "objectID": "TESE_vn.html#w",
-    "href": "TESE_vn.html#w",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "W",
-    "text": "W\nDòng bị lãng phí: dòng đặc trưng bởi việc thất thoát chất, năng lượng hoặc thông tin."
-  },
-  {
-    "objectID": "TESE_vn.html#x",
-    "href": "TESE_vn.html#x",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "X",
-    "text": "X\nYếu tố X: (trong ARIZ) bất kỳ thay đổi nào của hệ (thành phần, tham số…) cần đưa vào để giải quyết vấn đề."
-  },
-  {
-    "objectID": "TESE_vn.html#nguồn-lực-trong-triz",
-    "href": "TESE_vn.html#nguồn-lực-trong-triz",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "Nguồn lực trong TRIZ",
-    "text": "Nguồn lực trong TRIZ"
-  },
-  {
-    "objectID": "TESE_vn.html#tổng-quan-13",
-    "href": "TESE_vn.html#tổng-quan-13",
-    "title": "Xu hướng tiến hóa hệ thống kỹ thuật (TESE)",
-    "section": "Tổng quan",
-    "text": "Tổng quan\nKhái niệm nguồn lực trong TRIZ vượt ra ngoài hiểu biết truyền thống (tài nguyên tự nhiên, tài chính, nhân lực). Chúng được mở rộng thành nguồn lực sáng tạo và tiến hóa, có thể khai thác để cải thiện hiệu năng hệ và tiến tới tính lý tưởng bằng cách tăng lợi ích hữu ích và giảm yếu tố chi trả.\nNguồn lực trong TRIZ có thể là:\n\nbất kỳ chất nào hoặc đối tượng cấu thành từ chất (kể cả phế thải) nằm trong hệ hoặc siêu hệ,\nnăng lượng dự trữ, thời gian rảnh, không gian trống, thông tin…, và\nkhả năng chức năng/công nghệ để thực hiện chức năng bổ sung, bao gồm đặc tính của chất cũng như các hiệu ứng vật lý, hóa học, hình học…\n\nNguồn lực được phân nhóm theo:\n\nA. Theo mức độ sẵn có\n\nnguồn lực nội bộ (giới hạn trong các thành phần chính của hệ),\nnguồn lực bên ngoài, gồm môi trường chung và những nguồn lực đặc thù của hệ,\nnguồn lực từ siêu hệ hoặc nguồn lực khác dễ tiếp cận, chi phí thấp (kể cả phế thải).\n\n\n\nB. Theo mức độ sẵn sàng sử dụng\n\nnguồn lực sẵn có ngay, và\nnguồn lực chuyển hóa (biến đổi từ nguồn lực sẵn có)."
   },
   {
     "objectID": "Problem-solving-tools_vn.html",
@@ -2520,164 +2527,157 @@
     "text": "Overview\nAlongside the trend of increasing controllability, the trend of uneven development of system components serves as a mechanism of the trend of increasing coordination.\nThis trend in a way bridges technology and philosophy. The evolution of a system is driven by resolving contradictions, while contradictions themselves arise from the uneven development of the system’s components. So, when one part of the system evolves faster than the others, a mismatch occurs between the components – this discrepancy triggers further developments, and the cycle continues.\nThis trend is directly tied to the S-curve of development:\n\nA good example illustrating the trend is the evolution of the automobile.\nIn early cars, the engine was the most advanced component. Over time, gaps began to emerge between the development of the engine and other sub-systems of the vehicle. These discrepancies drove the advancement of systems such as the drivetrain, transmission, body design, air conditioning, and more – all in response to the uneven pace of the development."
   },
   {
-    "objectID": "TESE.html#glossary",
-    "href": "TESE.html#glossary",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "GLOSSARY",
-    "text": "GLOSSARY"
-  },
-  {
-    "objectID": "TESE.html#a",
-    "href": "TESE.html#a",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "A",
-    "text": "A\nAdditional function: a useful function that acts on a component of the supersystem that is not a target component.\nAlgorithm for resolving physical contradictions: a problem-solving tool that provides a systematic access to the inventive principles for solving physical contradictions.\nAlternative system: a competing system that has a complementary, to the base system, pair of advantages and disadvantages.\nAltshuller matrix: go to contradiction matrix.\nARIZ: a problem-solving tool that transforms a complex key problem into a well-defined model of the problem, which can be solved effectively using a wide spectrum of TRIZ tools.\nAuxiliary function: a useful function that acts on a component of the analyzed engineering system."
-  },
-  {
-    "objectID": "TESE.html#b",
-    "href": "TESE.html#b",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "B",
-    "text": "B\nBase system: a system to which features from the alternative system is transferred. The base system is the alternative system selected for improvement.\nBasic function: a useful function directed toward a target component of the analyzed engineering system."
-  },
-  {
-    "objectID": "TESE.html#c",
-    "href": "TESE.html#c",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "C",
-    "text": "C\nCause – effect chain analysis (CECA): an analytical tool that identifies the key disadvantages of the engineering system. This is accomplished by building cause-effect chains of disadvantages that link the initial disadvantage with its fundamental causes.\nChain Su-Field: a combination of two or more Su-Fields where one substance participates in two Su-Fields.\nClone problems application: a problem- solving tool that generalizes the approach to solving one problem and applies the approach to solving another problem.\nCompeting system: an engineering system that performs the same or similar main function as the analyzed system.\nComplex Su-Field: a complete Su-Field with an extra substance (often in the form of an additive) that readily responds to the existing field.\nComponent: a material object that constitutes a part of an engineering system or its supersystem.\nComponent analysis: a stage in Function Analysis that identifies components of the engineering system and its supersystem.\nComponent model: a set of components belonging to the analyzed engineering system and its supersystem.\nConflicting pair: (in ARIZ) a pair of components, the tool(s) and the product(s), interaction between which causes a conflict that prevents reaching the required result.\nContradiction matrix (Altshuller matrix): a matrix that provides a systematic access to the inventive principles for solving engineering contradictions.\nCorrective function: a useful function that eliminates a defect.\nCost analysis: a step in function-cost analysis that identifies the absolute and relative costs of components that constitute a engineering system being analyzed."
-  },
-  {
-    "objectID": "TESE.html#d",
-    "href": "TESE.html#d",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "D",
-    "text": "D\nDatabase of scientific effects: a problem-solving tool used to solve key problems, modeled as functions. It is a collection of effects and scientific phenomena from various fields (physics, chemistry, biology, etc.), organized in accordance with a function-oriented and resource-oriented taxonomy (rather than topics).\nDefect: a material object (a substance or a field) that impairs performance of a useful function or performs some harmful function.\nDouble Su-Field: a Su-Field where two different fields provide interactions between the substances (one substance acts on the second substance with two fields)."
-  },
-  {
-    "objectID": "TESE.html#e",
-    "href": "TESE.html#e",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "E",
-    "text": "E\nEngineering contradiction (EC), also called technical contradictions (TC): a parametric model of the problem in which an attempt to improve one parameter of the engineering system leads to worsening of another parameter.\nEngineering system (technical system): a system that has been developed to perform a function."
-  },
-  {
-    "objectID": "TESE.html#f",
-    "href": "TESE.html#f",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "F",
-    "text": "F\nFeature transfer: an analytical tool for improvement of an engineering system given (base system) by transferring certain features from the alternative system with the aim to combine the useful features in a single system.\nFeature transfer problem: a key problem that must be resolved to realize feature transfer.\nField: an object without a rest mass that transfers interaction between substances.\nFlow: a movement of substance, energy (field), and information within an engineering system.\nFlow analysis: an analytical tool that identifies disadvantages in flows of energy, substances, and information in an engineering system.\nFlow disadvantage: a disadvantage of the analyzed engineering system identified during flow analysis.\nFunction: an action performed by one material object (function carrier) to change or maintain a parameter of another material object (object of the function).\nFunction analysis (see also: function-cost analysis): an analytical tool that identifies functions, their characteristics, and the cost of the system and its supersystem components.\nFunction–cost diagram: the graph that presents function point score (F) of the system components against their cost (C).\nFunction disadvantage: a disadvantage of an engineering system identified during the function modeling.\nFunction model: a model of an engineering system that identifies and describes functions performed by the components of the system and its supersystem, their usefulness and performance level, and costs.\nFunction modeling: the stage in function analysis, during which a function model of the analyzed engineering system is built.\nFunction-oriented search (FOS): a problem-solving tool based upon identifying existing technologies worldwide, using function criteria.\nFunction rank: a dimensionless measure that determines the importance of the useful function.\nFunctionality: go to functionality index.\nFunctionality index (functionality): a dimensionless measure of the overall functional contribution of the component to the overall performance of the engineering system."
-  },
-  {
-    "objectID": "TESE.html#h",
-    "href": "TESE.html#h",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "H",
-    "text": "H\nHarmful flow: a flow whose object (substance, energy, or information) performs a harmful function.\nHarmful function: a function performed by a function carrier that results in an inacceptable change or inacceptable preservation of a parameter of an object of the function.\nHarmful Su-Field: a Su-Field which represents a model of a problem, in which at least one interaction is harmful or excessive (excessive = normal + harmful excess)."
-  },
-  {
-    "objectID": "TESE.html#i",
-    "href": "TESE.html#i",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "I",
-    "text": "I\nIdeal final result (IFR): a model of the best solution to an inventive problem, whereby the problem is fully eliminated with minimal changes to the system and without any deterioration of system parameters.\nIdeal system: a system with infinite value. It may have no components or associated costs, but still deliver the intended functionality; in other words – it may not exist, but its main function is still being performed.\nIdeality: the ratio of the total benefits provided by the system to the sum of all payment factors associated with it. Payment factors include not only direct costs but also required space, environmental damage, maintenance, etc.\nIncomplete Su-Field: a Su-Field representing a model of a problem of lacking one substance, or a field, or substance and a field.\nInert system: go to neutral system.\nInitial disadvantage: a disadvantage in the analyzed engineering system, the elimination of which is the goal of a project. The initial disadvantage is formulated as an inverted project goal.\nInnovative benchmarking: an analytical tool that identifies the best engineering system for improvement and engineering system candidates for feature transfer.\nInsufficient Su-Field: a Su-Field representing a problem model, which is complete but does not work.\nInteraction: a physical touch between components of the engineeging system and/or components of its supersystem.\nInteraction analysis: a stage of function analysis of devices that identifies interactions between the components included into the component model.\nInteraction matrix: a table showing interactions among components of the analyzed engineering system and its supersystem. It is result of the interaction analysis.\nInventive principle: an abstract model of a solution that provides generalized recommendations for modifying the system to solve the problem formulated as the contradiction."
-  },
-  {
-    "objectID": "TESE.html#k",
-    "href": "TESE.html#k",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "K",
-    "text": "K\nKey disadvantage: a disadvantage selected to be eliminated to achieve the goal of the project. Usually, key disadvantages appear at the root of cause-effect chains.\nKey problem: a problem that has been selected for solving to achieve the goal of the project."
-  },
-  {
-    "objectID": "TESE.html#m",
-    "href": "TESE.html#m",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "M",
-    "text": "M\nMain function: the function for which the engineering system was designed.\nMain parameter of value (MPV): a key attribute, parameter, or feature of a product that is important for the purchasing decision.\nMATChEM: an acronym representing six types of fields used in TRIZ – mechanical, acoustic, thermal, chemical, electrical, and magnetic. The last two letters (EM) also stand for electromagnetic.\nMeasurement function: a useful function that reveals information about components.\nMeasurement Su-Field: a special type of a Su-Field which is used to present models of inventive problems where measurement or detection is required in terms of substance-field analysis. Its uniqueness lies in the fact that it is the only model with 2 fields and 1 substance (input field &gt; substance &gt; output field).\nMini-problem: a problem whose solution is limited by constraints against significant changes to the analyzed engineering system."
-  },
-  {
-    "objectID": "TESE.html#n",
-    "href": "TESE.html#n",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "N",
-    "text": "N\nNeutral flow: a flow that has an irrelevant or insignificant influence on the engineering system.\nNeutral system (inert system): a system that does not have the disadvantage of the base system (it is its advantage), but it also does not perform the desired main function (does not work) that is considered to be its disadvantage."
-  },
-  {
-    "objectID": "TESE.html#o",
-    "href": "TESE.html#o",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "O",
-    "text": "O\nOperating time: (in ARIZ) a time interval, when one of the contradiction requirements must be met.\nOperating zone: (in ARIZ) a physical space, where one of the contradiction requirements must be met.\nOperation: a set of functions within a technological process grouped because of certain considerations."
-  },
-  {
-    "objectID": "TESE.html#p",
-    "href": "TESE.html#p",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "P",
-    "text": "P\nPartial trimming: redistributing some useful functions of a system component to other components, while leaving the component in the system for performing remaining functions.\nPhysical contradiction: a parametric model of the problem that emerges when two justified contradictory demands are placed upon a single parameter of an object to provide the required result.\nProduct: (in ARIZ) the element that needs to be processed (manufactured, moved, changed, improved, protected from a harmful influence, revealed, measured etc.) according to the problem conditions\nProductive function: a useful function that irreversibly (permanently) changes a parameter of its object.\nProviding function: a useful function that is necessary for the performance of another useful function."
-  },
-  {
-    "objectID": "TESE.html#s",
-    "href": "TESE.html#s",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "S",
-    "text": "S\nS-curve: an S-shaped curve that represents the typical dependence of a main parameter of value of an evolving engineering system on time\nS-curve analysis: an analytical tool based on the trend of S-curve evolution that determines where an engineering system is in its development and what steps should be taken to improve it.\nStandard inventive solutions (SIS): a set of 76 typical solution models, to typical problem models that are expressed in the form of substance-field (Su-Field) models.\nSubstance: an object with a rest mass.\nSubstance-field analysis: a part of standard inventive solutions application that models a problem in the form of a substance-fields model.\nSubstance-field model (Su-Field model, Su-Field): an abstract model of a problem and potential solutions (when possible) formulated in terms of interactions between substances and fields.\nSupersystem: a system that contains the analyzed engineering system as a component.\nSupporting function: a useful function that temporarily changes a parameter of the product."
-  },
-  {
-    "objectID": "TESE.html#t",
-    "href": "TESE.html#t",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "T",
-    "text": "T\nTarget component: an object of the main function of the engineering system.\nTechnical contradiction: go to engineering contradiction.\nTechnical system: go to engineering system.\nTechnological process: a process that uses material objects, such as raw material, labour, energy, and machinery, to create finished products.\nTheory of inventive problems solving, TRIZ (ru: теория решения изобретательских задач): a discipline of applied sciences that deals with directions of development and methods for improvement of engineering systems.\nTool: (in ARIZ) an object directly interacting (conflicting) with the product in contradictions identified in part 1 of ARIZ.\nTransport function: a useful function that changes a position of its object in space.\nTrend of decreasing human involvement: trend of engineering system evolution according to which as an engineering system evolves, the number of engineering system functions performed by humans decreases.\nTrend of flow enhancement: trend of engineering system evolution according to which as an engineering system evolves, flow rates of substances, energy, or information increase, and/or the flows are better utilized.\nTrend of increasing completeness of system components: a trend of engineering system evolution according to which as an engineering system evolves, it acquires the following typical function blocks: operating agent, transmission, energy source, and control system.\nTrend of increasing controllability: trend of engineering system evolution according to which as engineering systems evolve, they develop more ways in which they can be controlled.\nTrend of increasing coordination: trend of engineering system evolution according to which as an engineering system evolves, characteristics of the components of the engineering system become more coordinated with each other and with the supersystem.\nTrend of increasing degree of trimming: trend of engineering system evolution according to which as an engineering system evolves, system elements (components or operations) are eliminated without impairing the functionality of the system, and possibly improving it.\nTrend of increasing dynamization: a trend of engineering system evolution according to which the engineering system and its components evolve towards becoming more flexible, dynamic, and adaptable – having more degrees of freedom.\nTrend of increasing value: a trend of engineering system evolution according to which as an engineering system evolves its value always increases.\nTrend of S-curve evolution: a trend of engineering system evolution located at the top position in the trends hierarchy. According to it, as an engineering system evolves, the evolution of each main parameter of value (MPV) describes an S-shaped curve in time.\nTrend of transition to supersystem: a trend of engineering system evolution which states that as an engineering system evolves, it is integrated with supersystem components.\nTrend of uneven development of system components: trend of engineering system evolution according to which as an engineering system evolves, development is concentrated on the operating agent first, and on the rest of the system later.\nTrends of engineering system evolution (TESE): statistically proven or empirically derived directions of engineering system development that describe the natural transition of engineering systems from one state to another.\nTrimming: an analytical tool for improving an engineering system by removing (trimming) certain components and redistributing their useful functions among the remaining system or its supersystem components, while preserving quality and performance of the system.\nTrimming model: a function model of an improved engineering system developed through trimming.\nTrimming problem: a problem that must be resolved to realize the trimming model.\nTrimming rule: an option for eliminating a component of an engineering system by either eliminating its useful functions or redistributing them to other system or supersystem components.\nTypical parameters: a limited set of the pre-defined generalized parameters that typically need improvement in the engineering system, used in the contradiction (Altshuller) matrix."
-  },
-  {
-    "objectID": "TESE.html#u",
-    "href": "TESE.html#u",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "U",
-    "text": "U\nUseful flow: a flow whose object (substance, energy, or information) performs a useful function or is an object of a useful function.\nUseful function: a function performed by a function carrier that results in a positive (required) change or preservation a parameter of an object of the function."
-  },
-  {
-    "objectID": "TESE.html#v",
-    "href": "TESE.html#v",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "V",
-    "text": "V\nValue: the ratio of a normalized sum of component/system function points over the sum of its costs.\nValue analysis: an analytical tool that compares relative functionality and relative cost of the system components.\nVicious circle: a situation in CECA when a disadvantage causes new disadvantages that lead to the original disadvantage to occur again."
-  },
-  {
-    "objectID": "TESE.html#w",
-    "href": "TESE.html#w",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "W",
-    "text": "W\nWasted flow: a flow that is characterized by losses of substance, energy, or information."
-  },
-  {
-    "objectID": "TESE.html#x",
-    "href": "TESE.html#x",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "X",
-    "text": "X\nX-factor: (in ARIZ) any change in the engineering system (e.g., change in its components, parameters, etc.) that should be incorporated into the system in order to solve a problem."
-  },
-  {
-    "objectID": "TESE.html#resources-in-triz",
-    "href": "TESE.html#resources-in-triz",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "Resources in TRIZ",
-    "text": "Resources in TRIZ"
-  },
-  {
-    "objectID": "TESE.html#overview-14",
-    "href": "TESE.html#overview-14",
-    "title": "Trends of engineering systems evolution (TESE)",
-    "section": "Overview",
-    "text": "Overview\nThe concept of resources in TRIZ goes beyond the conventional understanding of natural, financial, or human resources. Here, they are expanded into inventive and evolutionary resources that can be harnessed to enhance the engineering system performance and achieve its ideality by providing additional useful features, as well as reducing cost-related factors.\nResource in TRIZ can be the following:\n\nany substance or anything made of a substance (including waste) that is available in the system or its supersystem,\nan energy reserve, free time, unoccupied space, information, etc., and\nthe functional and technological ability to perform additional functions, including properties of substances as well as physical, chemical, geometric, and other effects.\n\nResources can be grouped in the following categories:\nA. Based on accessibility:\n\ninternal (limited to the main elements of the system),\nexternal, including resources from the general environment and those which are specific for the given system, and\nresources from the super-system or other accessible, inexpensive resources (including waste).\n\nB. Based on readiness for utilization:\n\nreadily-available resources, and\nderived (modified readily-available resources)."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "MATRIZ has shared a TRIZ Knowledgebase wiki under the Creative Commons Attribution 4.0 International License (CC BY 4.0). TRIZ Studies has made the Vietnamese translation and share it here under the same license.\nTrang web này chia sẻ bản dịch tiếng Việt cho bộ tài liệu về kiến thức TRIZ cơ bản của MATRIZ, với giấy phép công cộng Creative Commons."
+  },
+  {
+    "objectID": "Glossary.html#a",
+    "href": "Glossary.html#a",
+    "title": "GLOSSARY",
+    "section": "A",
+    "text": "A\nAdditional function: a useful function that acts on a component of the supersystem that is not a target component.\nAlgorithm for resolving physical contradictions: a problem-solving tool that provides a systematic access to the inventive principles for solving physical contradictions.\nAlternative system: a competing system that has a complementary, to the base system, pair of advantages and disadvantages.\nAltshuller matrix: go to contradiction matrix.\nARIZ: a problem-solving tool that transforms a complex key problem into a well-defined model of the problem, which can be solved effectively using a wide spectrum of TRIZ tools.\nAuxiliary function: a useful function that acts on a component of the analyzed engineering system."
+  },
+  {
+    "objectID": "Glossary.html#b",
+    "href": "Glossary.html#b",
+    "title": "GLOSSARY",
+    "section": "B",
+    "text": "B\nBase system: a system to which features from the alternative system is transferred. The base system is the alternative system selected for improvement.\nBasic function: a useful function directed toward a target component of the analyzed engineering system."
+  },
+  {
+    "objectID": "Glossary.html#c",
+    "href": "Glossary.html#c",
+    "title": "GLOSSARY",
+    "section": "C",
+    "text": "C\nCause – effect chain analysis (CECA): an analytical tool that identifies the key disadvantages of the engineering system. This is accomplished by building cause-effect chains of disadvantages that link the initial disadvantage with its fundamental causes.\nChain Su-Field: a combination of two or more Su-Fields where one substance participates in two Su-Fields.\nClone problems application: a problem- solving tool that generalizes the approach to solving one problem and applies the approach to solving another problem.\nCompeting system: an engineering system that performs the same or similar main function as the analyzed system.\nComplex Su-Field: a complete Su-Field with an extra substance (often in the form of an additive) that readily responds to the existing field.\nComponent: a material object that constitutes a part of an engineering system or its supersystem.\nComponent analysis: a stage in Function Analysis that identifies components of the engineering system and its supersystem.\nComponent model: a set of components belonging to the analyzed engineering system and its supersystem.\nConflicting pair: (in ARIZ) a pair of components, the tool(s) and the product(s), interaction between which causes a conflict that prevents reaching the required result.\nContradiction matrix (Altshuller matrix): a matrix that provides a systematic access to the inventive principles for solving engineering contradictions.\nCorrective function: a useful function that eliminates a defect.\nCost analysis: a step in function-cost analysis that identifies the absolute and relative costs of components that constitute a engineering system being analyzed."
+  },
+  {
+    "objectID": "Glossary.html#d",
+    "href": "Glossary.html#d",
+    "title": "GLOSSARY",
+    "section": "D",
+    "text": "D\nDatabase of scientific effects: a problem-solving tool used to solve key problems, modeled as functions. It is a collection of effects and scientific phenomena from various fields (physics, chemistry, biology, etc.), organized in accordance with a function-oriented and resource-oriented taxonomy (rather than topics).\nDefect: a material object (a substance or a field) that impairs performance of a useful function or performs some harmful function.\nDouble Su-Field: a Su-Field where two different fields provide interactions between the substances (one substance acts on the second substance with two fields)."
+  },
+  {
+    "objectID": "Glossary.html#e",
+    "href": "Glossary.html#e",
+    "title": "GLOSSARY",
+    "section": "E",
+    "text": "E\nEngineering contradiction (EC), also called technical contradictions (TC): a parametric model of the problem in which an attempt to improve one parameter of the engineering system leads to worsening of another parameter.\nEngineering system (technical system): a system that has been developed to perform a function."
+  },
+  {
+    "objectID": "Glossary.html#f",
+    "href": "Glossary.html#f",
+    "title": "GLOSSARY",
+    "section": "F",
+    "text": "F\nFeature transfer: an analytical tool for improvement of an engineering system given (base system) by transferring certain features from the alternative system with the aim to combine the useful features in a single system.\nFeature transfer problem: a key problem that must be resolved to realize feature transfer.\nField: an object without a rest mass that transfers interaction between substances.\nFlow: a movement of substance, energy (field), and information within an engineering system.\nFlow analysis: an analytical tool that identifies disadvantages in flows of energy, substances, and information in an engineering system.\nFlow disadvantage: a disadvantage of the analyzed engineering system identified during flow analysis.\nFunction: an action performed by one material object (function carrier) to change or maintain a parameter of another material object (object of the function).\nFunction analysis (see also: function-cost analysis): an analytical tool that identifies functions, their characteristics, and the cost of the system and its supersystem components.\nFunction–cost diagram: the graph that presents function point score (F) of the system components against their cost (C).\nFunction disadvantage: a disadvantage of an engineering system identified during the function modeling.\nFunction model: a model of an engineering system that identifies and describes functions performed by the components of the system and its supersystem, their usefulness and performance level, and costs.\nFunction modeling: the stage in function analysis, during which a function model of the analyzed engineering system is built.\nFunction-oriented search (FOS): a problem-solving tool based upon identifying existing technologies worldwide, using function criteria.\nFunction rank: a dimensionless measure that determines the importance of the useful function.\nFunctionality: go to functionality index.\nFunctionality index (functionality): a dimensionless measure of the overall functional contribution of the component to the overall performance of the engineering system."
+  },
+  {
+    "objectID": "Glossary.html#h",
+    "href": "Glossary.html#h",
+    "title": "GLOSSARY",
+    "section": "H",
+    "text": "H\nHarmful flow: a flow whose object (substance, energy, or information) performs a harmful function.\nHarmful function: a function performed by a function carrier that results in an inacceptable change or inacceptable preservation of a parameter of an object of the function.\nHarmful Su-Field: a Su-Field which represents a model of a problem, in which at least one interaction is harmful or excessive (excessive = normal + harmful excess)."
+  },
+  {
+    "objectID": "Glossary.html#i",
+    "href": "Glossary.html#i",
+    "title": "GLOSSARY",
+    "section": "I",
+    "text": "I\nIdeal final result (IFR): a model of the best solution to an inventive problem, whereby the problem is fully eliminated with minimal changes to the system and without any deterioration of system parameters.\nIdeal system: a system with infinite value. It may have no components or associated costs, but still deliver the intended functionality; in other words – it may not exist, but its main function is still being performed.\nIdeality: the ratio of the total benefits provided by the system to the sum of all payment factors associated with it. Payment factors include not only direct costs but also required space, environmental damage, maintenance, etc.\nIncomplete Su-Field: a Su-Field representing a model of a problem of lacking one substance, or a field, or substance and a field.\nInert system: go to neutral system.\nInitial disadvantage: a disadvantage in the analyzed engineering system, the elimination of which is the goal of a project. The initial disadvantage is formulated as an inverted project goal.\nInnovative benchmarking: an analytical tool that identifies the best engineering system for improvement and engineering system candidates for feature transfer.\nInsufficient Su-Field: a Su-Field representing a problem model, which is complete but does not work.\nInteraction: a physical touch between components of the engineeging system and/or components of its supersystem.\nInteraction analysis: a stage of function analysis of devices that identifies interactions between the components included into the component model.\nInteraction matrix: a table showing interactions among components of the analyzed engineering system and its supersystem. It is result of the interaction analysis.\nInventive principle: an abstract model of a solution that provides generalized recommendations for modifying the system to solve the problem formulated as the contradiction."
+  },
+  {
+    "objectID": "Glossary.html#k",
+    "href": "Glossary.html#k",
+    "title": "GLOSSARY",
+    "section": "K",
+    "text": "K\nKey disadvantage: a disadvantage selected to be eliminated to achieve the goal of the project. Usually, key disadvantages appear at the root of cause-effect chains.\nKey problem: a problem that has been selected for solving to achieve the goal of the project."
+  },
+  {
+    "objectID": "Glossary.html#m",
+    "href": "Glossary.html#m",
+    "title": "GLOSSARY",
+    "section": "M",
+    "text": "M\nMain function: the function for which the engineering system was designed.\nMain parameter of value (MPV): a key attribute, parameter, or feature of a product that is important for the purchasing decision.\nMATChEM: an acronym representing six types of fields used in TRIZ – mechanical, acoustic, thermal, chemical, electrical, and magnetic. The last two letters (EM) also stand for electromagnetic.\nMeasurement function: a useful function that reveals information about components.\nMeasurement Su-Field: a special type of a Su-Field which is used to present models of inventive problems where measurement or detection is required in terms of substance-field analysis. Its uniqueness lies in the fact that it is the only model with 2 fields and 1 substance (input field &gt; substance &gt; output field).\nMini-problem: a problem whose solution is limited by constraints against significant changes to the analyzed engineering system."
+  },
+  {
+    "objectID": "Glossary.html#n",
+    "href": "Glossary.html#n",
+    "title": "GLOSSARY",
+    "section": "N",
+    "text": "N\nNeutral flow: a flow that has an irrelevant or insignificant influence on the engineering system.\nNeutral system (inert system): a system that does not have the disadvantage of the base system (it is its advantage), but it also does not perform the desired main function (does not work) that is considered to be its disadvantage."
+  },
+  {
+    "objectID": "Glossary.html#o",
+    "href": "Glossary.html#o",
+    "title": "GLOSSARY",
+    "section": "O",
+    "text": "O\nOperating time: (in ARIZ) a time interval, when one of the contradiction requirements must be met.\nOperating zone: (in ARIZ) a physical space, where one of the contradiction requirements must be met.\nOperation: a set of functions within a technological process grouped because of certain considerations."
+  },
+  {
+    "objectID": "Glossary.html#p",
+    "href": "Glossary.html#p",
+    "title": "GLOSSARY",
+    "section": "P",
+    "text": "P\nPartial trimming: redistributing some useful functions of a system component to other components, while leaving the component in the system for performing remaining functions.\nPhysical contradiction: a parametric model of the problem that emerges when two justified contradictory demands are placed upon a single parameter of an object to provide the required result.\nProduct: (in ARIZ) the element that needs to be processed (manufactured, moved, changed, improved, protected from a harmful influence, revealed, measured etc.) according to the problem conditions\nProductive function: a useful function that irreversibly (permanently) changes a parameter of its object.\nProviding function: a useful function that is necessary for the performance of another useful function."
+  },
+  {
+    "objectID": "Glossary.html#s",
+    "href": "Glossary.html#s",
+    "title": "GLOSSARY",
+    "section": "S",
+    "text": "S\nS-curve: an S-shaped curve that represents the typical dependence of a main parameter of value of an evolving engineering system on time\nS-curve analysis: an analytical tool based on the trend of S-curve evolution that determines where an engineering system is in its development and what steps should be taken to improve it.\nStandard inventive solutions (SIS): a set of 76 typical solution models, to typical problem models that are expressed in the form of substance-field (Su-Field) models.\nSubstance: an object with a rest mass.\nSubstance-field analysis: a part of standard inventive solutions application that models a problem in the form of a substance-fields model.\nSubstance-field model (Su-Field model, Su-Field): an abstract model of a problem and potential solutions (when possible) formulated in terms of interactions between substances and fields.\nSupersystem: a system that contains the analyzed engineering system as a component.\nSupporting function: a useful function that temporarily changes a parameter of the product."
+  },
+  {
+    "objectID": "Glossary.html#t",
+    "href": "Glossary.html#t",
+    "title": "GLOSSARY",
+    "section": "T",
+    "text": "T\nTarget component: an object of the main function of the engineering system.\nTechnical contradiction: go to engineering contradiction.\nTechnical system: go to engineering system.\nTechnological process: a process that uses material objects, such as raw material, labour, energy, and machinery, to create finished products.\nTheory of inventive problems solving, TRIZ (ru: теория решения изобретательских задач): a discipline of applied sciences that deals with directions of development and methods for improvement of engineering systems.\nTool: (in ARIZ) an object directly interacting (conflicting) with the product in contradictions identified in part 1 of ARIZ.\nTransport function: a useful function that changes a position of its object in space.\nTrend of decreasing human involvement: trend of engineering system evolution according to which as an engineering system evolves, the number of engineering system functions performed by humans decreases.\nTrend of flow enhancement: trend of engineering system evolution according to which as an engineering system evolves, flow rates of substances, energy, or information increase, and/or the flows are better utilized.\nTrend of increasing completeness of system components: a trend of engineering system evolution according to which as an engineering system evolves, it acquires the following typical function blocks: operating agent, transmission, energy source, and control system.\nTrend of increasing controllability: trend of engineering system evolution according to which as engineering systems evolve, they develop more ways in which they can be controlled.\nTrend of increasing coordination: trend of engineering system evolution according to which as an engineering system evolves, characteristics of the components of the engineering system become more coordinated with each other and with the supersystem.\nTrend of increasing degree of trimming: trend of engineering system evolution according to which as an engineering system evolves, system elements (components or operations) are eliminated without impairing the functionality of the system, and possibly improving it.\nTrend of increasing dynamization: a trend of engineering system evolution according to which the engineering system and its components evolve towards becoming more flexible, dynamic, and adaptable – having more degrees of freedom.\nTrend of increasing value: a trend of engineering system evolution according to which as an engineering system evolves its value always increases.\nTrend of S-curve evolution: a trend of engineering system evolution located at the top position in the trends hierarchy. According to it, as an engineering system evolves, the evolution of each main parameter of value (MPV) describes an S-shaped curve in time.\nTrend of transition to supersystem: a trend of engineering system evolution which states that as an engineering system evolves, it is integrated with supersystem components.\nTrend of uneven development of system components: trend of engineering system evolution according to which as an engineering system evolves, development is concentrated on the operating agent first, and on the rest of the system later.\nTrends of engineering system evolution (TESE): statistically proven or empirically derived directions of engineering system development that describe the natural transition of engineering systems from one state to another.\nTrimming: an analytical tool for improving an engineering system by removing (trimming) certain components and redistributing their useful functions among the remaining system or its supersystem components, while preserving quality and performance of the system.\nTrimming model: a function model of an improved engineering system developed through trimming.\nTrimming problem: a problem that must be resolved to realize the trimming model.\nTrimming rule: an option for eliminating a component of an engineering system by either eliminating its useful functions or redistributing them to other system or supersystem components.\nTypical parameters: a limited set of the pre-defined generalized parameters that typically need improvement in the engineering system, used in the contradiction (Altshuller) matrix."
+  },
+  {
+    "objectID": "Glossary.html#u",
+    "href": "Glossary.html#u",
+    "title": "GLOSSARY",
+    "section": "U",
+    "text": "U\nUseful flow: a flow whose object (substance, energy, or information) performs a useful function or is an object of a useful function.\nUseful function: a function performed by a function carrier that results in a positive (required) change or preservation a parameter of an object of the function."
+  },
+  {
+    "objectID": "Glossary.html#v",
+    "href": "Glossary.html#v",
+    "title": "GLOSSARY",
+    "section": "V",
+    "text": "V\nValue: the ratio of a normalized sum of component/system function points over the sum of its costs.\nValue analysis: an analytical tool that compares relative functionality and relative cost of the system components.\nVicious circle: a situation in CECA when a disadvantage causes new disadvantages that lead to the original disadvantage to occur again."
+  },
+  {
+    "objectID": "Glossary.html#w",
+    "href": "Glossary.html#w",
+    "title": "GLOSSARY",
+    "section": "W",
+    "text": "W\nWasted flow: a flow that is characterized by losses of substance, energy, or information."
+  },
+  {
+    "objectID": "Glossary.html#x",
+    "href": "Glossary.html#x",
+    "title": "GLOSSARY",
+    "section": "X",
+    "text": "X\nX-factor: (in ARIZ) any change in the engineering system (e.g., change in its components, parameters, etc.) that should be incorporated into the system in order to solve a problem."
+  },
+  {
+    "objectID": "Resources_vn.html",
+    "href": "Resources_vn.html",
+    "title": "Nguồn lực trong TRIZ",
+    "section": "",
+    "text": "Khái niệm nguồn lực trong TRIZ vượt ra ngoài hiểu biết truyền thống (tài nguyên tự nhiên, tài chính, nhân lực). Chúng được mở rộng thành nguồn lực sáng tạo và tiến hóa, có thể khai thác để cải thiện hiệu năng hệ và tiến tới tính lý tưởng bằng cách tăng lợi ích hữu ích và giảm yếu tố chi trả.\nNguồn lực trong TRIZ có thể là:\n\nbất kỳ chất nào hoặc đối tượng cấu thành từ chất (kể cả phế thải) nằm trong hệ hoặc siêu hệ,\nnăng lượng dự trữ, thời gian rảnh, không gian trống, thông tin…, và\nkhả năng chức năng/công nghệ để thực hiện chức năng bổ sung, bao gồm đặc tính của chất cũng như các hiệu ứng vật lý, hóa học, hình học…\n\nNguồn lực được phân nhóm theo:\n\n\n\nnguồn lực nội bộ (giới hạn trong các thành phần chính của hệ),\nnguồn lực bên ngoài, gồm môi trường chung và những nguồn lực đặc thù của hệ,\nnguồn lực từ siêu hệ hoặc nguồn lực khác dễ tiếp cận, chi phí thấp (kể cả phế thải).\n\n\n\n\n\nnguồn lực sẵn có ngay, và\nnguồn lực chuyển hóa (biến đổi từ nguồn lực sẵn có)."
+  },
+  {
+    "objectID": "Resources_vn.html#tổng-quan",
+    "href": "Resources_vn.html#tổng-quan",
+    "title": "Nguồn lực trong TRIZ",
+    "section": "",
+    "text": "Khái niệm nguồn lực trong TRIZ vượt ra ngoài hiểu biết truyền thống (tài nguyên tự nhiên, tài chính, nhân lực). Chúng được mở rộng thành nguồn lực sáng tạo và tiến hóa, có thể khai thác để cải thiện hiệu năng hệ và tiến tới tính lý tưởng bằng cách tăng lợi ích hữu ích và giảm yếu tố chi trả.\nNguồn lực trong TRIZ có thể là:\n\nbất kỳ chất nào hoặc đối tượng cấu thành từ chất (kể cả phế thải) nằm trong hệ hoặc siêu hệ,\nnăng lượng dự trữ, thời gian rảnh, không gian trống, thông tin…, và\nkhả năng chức năng/công nghệ để thực hiện chức năng bổ sung, bao gồm đặc tính của chất cũng như các hiệu ứng vật lý, hóa học, hình học…\n\nNguồn lực được phân nhóm theo:\n\n\n\nnguồn lực nội bộ (giới hạn trong các thành phần chính của hệ),\nnguồn lực bên ngoài, gồm môi trường chung và những nguồn lực đặc thù của hệ,\nnguồn lực từ siêu hệ hoặc nguồn lực khác dễ tiếp cận, chi phí thấp (kể cả phế thải).\n\n\n\n\n\nnguồn lực sẵn có ngay, và\nnguồn lực chuyển hóa (biến đổi từ nguồn lực sẵn có)."
   }
 ]

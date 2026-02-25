@@ -16,6 +16,10 @@ website:
         href: Concept-substantiation-tools.qmd
       - text: "Trends of Engineering Systems Evolution"
         href: TESE.qmd
+      - text: "Glossary"
+        href: Glossary.qmd
+      - text: "Source: MATRIZ"
+        href: https://wiki.matriz.org/docs/triz/
       # Vietnamese navigation links (shown when lang=vn)
       - text: "Xác định vấn đề"
         href: Problem-identification-tools_vn.qmd
@@ -25,6 +29,10 @@ website:
         href: Concept-substantiation-tools_vn.qmd
       - text: "Xu hướng tiến hóa hệ thống kỹ thuật"
         href: TESE_vn.qmd
+      - text: "Thuật ngữ"
+        href: Glossary_vn.qmd
+      - text: "Nguồn: MATRIZ"
+        href: https://wiki.matriz.org/docs/triz/
     right:
       - text: "🇬🇧"
         href: "#"

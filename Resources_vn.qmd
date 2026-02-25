@@ -1,0 +1,24 @@
+# Nguồn lực trong TRIZ
+
+## Tổng quan
+
+Khái niệm nguồn lực trong TRIZ vượt ra ngoài hiểu biết truyền thống (tài nguyên tự nhiên, tài chính, nhân lực). Chúng được mở rộng thành nguồn lực sáng tạo và tiến hóa, có thể khai thác để cải thiện hiệu năng hệ và tiến tới tính lý tưởng bằng cách tăng lợi ích hữu ích và giảm yếu tố chi trả.
+
+Nguồn lực trong TRIZ có thể là:
+
+- bất kỳ chất nào hoặc đối tượng cấu thành từ chất (kể cả phế thải) nằm trong hệ hoặc siêu hệ,
+- năng lượng dự trữ, thời gian rảnh, không gian trống, thông tin…, và
+- khả năng chức năng/công nghệ để thực hiện chức năng bổ sung, bao gồm đặc tính của chất cũng như các hiệu ứng vật lý, hóa học, hình học…
+
+Nguồn lực được phân nhóm theo:
+
+### A. Theo mức độ sẵn có
+
+- nguồn lực **nội bộ** (giới hạn trong các thành phần chính của hệ),
+- nguồn lực **bên ngoài**, gồm môi trường chung và những nguồn lực đặc thù của hệ,
+- nguồn lực từ **siêu hệ** hoặc nguồn lực khác dễ tiếp cận, chi phí thấp (kể cả phế thải).
+
+### B. Theo mức độ sẵn sàng sử dụng
+
+- nguồn lực **sẵn có ngay**, và
+- nguồn lực **chuyển hóa** (biến đổi từ nguồn lực sẵn có).

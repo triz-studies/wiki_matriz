@@ -2,8 +2,7 @@
 title: "About"
 ---
 
-About this site
+MATRIZ has shared a [TRIZ Knowledgebase wiki](https://wiki.matriz.org/docs/triz/)
+under the Creative Commons Attribution 4.0 International License (CC BY 4.0). TRIZ Studies has made the Vietnamese translation and share it here under the same license.
 
-```{r}
-1 + 1
-```
+Trang web này chia sẻ bản dịch tiếng Việt cho bộ tài liệu về kiến thức TRIZ cơ bản của [MATRIZ](https://wiki.matriz.org/docs/triz/), với giấy phép công cộng [Creative Commons](https://creativecommons.org/licenses/by/4.0/).

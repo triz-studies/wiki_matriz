@@ -1,0 +1,24 @@
+# Resources in TRIZ
+
+## Overview
+
+The concept of resources in TRIZ goes beyond the conventional understanding of natural, financial, or human resources. Here, they are expanded into inventive and evolutionary resources that can be harnessed to enhance the engineering system performance and achieve its ideality by providing additional useful features, as well as reducing cost-related factors.
+
+Resource in TRIZ can be the following:
+
+- any substance or anything made of a substance (including waste) that is available in the system or its supersystem,
+- an energy reserve, free time, unoccupied space, information, etc., and
+- the functional and technological ability to perform additional functions, including properties of substances as well as physical, chemical, geometric, and other effects.
+
+Resources can be grouped in the following categories:
+
+A. Based on accessibility:
+
+- internal (limited to the main elements of the system),
+- external, including resources from the general environment and those which are specific for the given system, and
+- resources from the super-system or other accessible, inexpensive resources (including waste).
+
+B. Based on readiness for utilization:
+
+- readily-available resources, and
+- derived (modified readily-available resources).
