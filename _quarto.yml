@@ -18,8 +18,8 @@ website:
         href: TESE.qmd
       - text: "Glossary"
         href: Glossary.qmd
-      - text: "Source: MATRIZ"
-        href: https://wiki.matriz.org/docs/triz/
+      - text: "Resources"
+        href: Resources.qmd
       # Vietnamese navigation links (shown when lang=vn)
       - text: "Xác định vấn đề"
         href: Problem-identification-tools_vn.qmd
@@ -31,8 +31,8 @@ website:
         href: TESE_vn.qmd
       - text: "Thuật ngữ"
         href: Glossary_vn.qmd
-      - text: "Nguồn: MATRIZ"
-        href: https://wiki.matriz.org/docs/triz/
+      - text: "Nguồn lực"
+        href: Resources_vn.qmd
     right:
       - text: "🇬🇧"
         href: "#"
@@ -40,6 +40,13 @@ website:
       - text: "🇻🇳"
         href: "#"
         id: lang-btn-vn
+
+  page-footer:
+    left:
+      - |
+        <span class="license-en">This text inherits original source from <a href="https://wiki.matriz.org/docs/triz/">MATRIZ</a>, it is open access and distributed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>, which permits use, distribution, and reproduction in any medium, provided the original source is credited.</span>
+      - |
+        <span class="license-vn">Nội dung này kế thừa nguồn gốc từ <a href="https://wiki.matriz.org/docs/triz/">MATRIZ</a>, được truy cập mở và chia sẻ theo <a href="https://creativecommons.org/licenses/by/4.0/">Giấy phép Quốc tế Creative Commons Ghi công 4.0 (CC BY 4.0)</a>, cho phép sử dụng, phân phối và sao chép trên bất kỳ phương tiện nào, với điều kiện ghi rõ nguồn gốc.</span>
 
 format:
   html:

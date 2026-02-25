@@ -43,37 +43,39 @@
 
   // ── Apply language ─────────────────────────────────────────────────────────
   function applyLang(lang) {
-    var navItems = document.querySelectorAll('.navbar-nav .nav-item');
+    var navItems = document.querySelectorAll('.navbar-nav .nav-item, .nav-footer .nav-item, .nav-footer li');
     
     navItems.forEach(function(li) {
-      var link = li.querySelector('.nav-link');
-      if (!link) return;
-      
-      var href = link.getAttribute('href');
-      var txt = link.textContent.trim();
-      
-      // Skip flag buttons and internal hash links from the toggling logic
-      if (txt === '🇬🇧' || txt === '🇻🇳' || !href || href === '#' || href.startsWith('#')) {
-          li.style.display = ''; // Ensure visible
-          return;
-      }
-      
-      var baseHref = href.split('?')[0].split('#')[0].split('/').pop();
-      // Only fallback to index.html for relative links that seem to be the root
-      if ((href === '.' || href === './' || href === '/') && (baseHref === '.' || baseHref === '')) {
-          baseHref = 'index.html';
-      }
+      // Find the link or just use the text of the li itself if it's a direct markdown string
+      var link = li.querySelector('.nav-link, a');
+      var href = link ? link.getAttribute('href') : '';
+      var txt = li.textContent.trim();
       
       var isVnLink = false;
       var isEnLink = false;
       
       // 1. Check for explicit text-based classification first (highest priority)
-      if (txt === 'Source: MATRIZ') {
+      if (txt === 'Source: MATRIZ' || txt.indexOf('inherits original source from MATRIZ') !== -1 || li.querySelector('.license-en')) {
           isEnLink = true;
-      } else if (txt === 'Nguồn: MATRIZ') {
+      } else if (txt === 'Nguồn: MATRIZ' || txt.indexOf('kế thừa nguồn gốc từ MATRIZ') !== -1 || li.querySelector('.license-vn')) {
           isVnLink = true;
-      } else {
-          // 2. Fallback to href-based classification
+      }
+
+      // Skip flag buttons and internal hash links from the toggling logic
+      // But allow license sentences (which might or might not have links depending on rendering)
+      if (!isEnLink && !isVnLink) {
+          if (txt === '🇬🇧' || txt === '🇻🇳' || !href || href === '#' || href.startsWith('#')) {
+              li.style.display = ''; // Ensure visible
+              return;
+          }
+          
+          // 2. Fallback to href-based classification (if not already classified by text)
+          var baseHref = href.split('?')[0].split('#')[0].split('/').pop();
+          // Only fallback to index.html for relative links that seem to be the root
+          if ((href === '.' || href === './' || href === '/') && (baseHref === '.' || baseHref === '')) {
+              baseHref = 'index.html';
+          }
+
           for (var i = 0; i < VN_HREFS.length; i++) {
             if (baseHref.toLowerCase() === VN_HREFS[i].toLowerCase()) { isVnLink = true; break; }
           }

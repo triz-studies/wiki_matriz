@@ -115,8 +115,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Glossary</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://wiki.matriz.org/docs/triz/"> 
-<span class="menu-text">Source: MATRIZ</span></a>
+    <a class="nav-link" href="./Resources.html"> 
+<span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Problem-identification-tools_vn.html"> 
@@ -139,8 +139,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Thuật ngữ</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://wiki.matriz.org/docs/triz/"> 
-<span class="menu-text">Nguồn: MATRIZ</span></a>
+    <a class="nav-link" href="./Resources_vn.html"> 
+<span class="menu-text">Nguồn lực</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -2294,37 +2294,39 @@ The next steps help determine the tool(s) and the product(s) in the analyzed con
 
   // ── Apply language ─────────────────────────────────────────────────────────
   function applyLang(lang) {
-    var navItems = document.querySelectorAll('.navbar-nav .nav-item');
+    var navItems = document.querySelectorAll('.navbar-nav .nav-item, .nav-footer .nav-item, .nav-footer li');
     
     navItems.forEach(function(li) {
-      var link = li.querySelector('.nav-link');
-      if (!link) return;
-      
-      var href = link.getAttribute('href');
-      var txt = link.textContent.trim();
-      
-      // Skip flag buttons and internal hash links from the toggling logic
-      if (txt === '🇬🇧' || txt === '🇻🇳' || !href || href === '#' || href.startsWith('#')) {
-          li.style.display = ''; // Ensure visible
-          return;
-      }
-      
-      var baseHref = href.split('?')[0].split('#')[0].split('/').pop();
-      // Only fallback to index.html for relative links that seem to be the root
-      if ((href === '.' || href === './' || href === '/') && (baseHref === '.' || baseHref === '')) {
-          baseHref = 'index.html';
-      }
+      // Find the link or just use the text of the li itself if it's a direct markdown string
+      var link = li.querySelector('.nav-link, a');
+      var href = link ? link.getAttribute('href') : '';
+      var txt = li.textContent.trim();
       
       var isVnLink = false;
       var isEnLink = false;
       
       // 1. Check for explicit text-based classification first (highest priority)
-      if (txt === 'Source: MATRIZ') {
+      if (txt === 'Source: MATRIZ' || txt.indexOf('inherits original source from MATRIZ') !== -1 || li.querySelector('.license-en')) {
           isEnLink = true;
-      } else if (txt === 'Nguồn: MATRIZ') {
+      } else if (txt === 'Nguồn: MATRIZ' || txt.indexOf('kế thừa nguồn gốc từ MATRIZ') !== -1 || li.querySelector('.license-vn')) {
           isVnLink = true;
-      } else {
-          // 2. Fallback to href-based classification
+      }
+
+      // Skip flag buttons and internal hash links from the toggling logic
+      // But allow license sentences (which might or might not have links depending on rendering)
+      if (!isEnLink && !isVnLink) {
+          if (txt === '🇬🇧' || txt === '🇻🇳' || !href || href === '#' || href.startsWith('#')) {
+              li.style.display = ''; // Ensure visible
+              return;
+          }
+          
+          // 2. Fallback to href-based classification (if not already classified by text)
+          var baseHref = href.split('?')[0].split('#')[0].split('/').pop();
+          // Only fallback to index.html for relative links that seem to be the root
+          if ((href === '.' || href === './' || href === '/') && (baseHref === '.' || baseHref === '')) {
+              baseHref = 'index.html';
+          }
+
           for (var i = 0; i < VN_HREFS.length; i++) {
             if (baseHref.toLowerCase() === VN_HREFS[i].toLowerCase()) { isVnLink = true; break; }
           }
@@ -2848,6 +2850,26 @@ The next steps help determine the tool(s) and the product(s) in the analyzed con
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <span class="license-en">This text inherits original source from <a href="https://wiki.matriz.org/docs/triz/">MATRIZ</a>, it is open access and distributed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>, which permits use, distribution, and reproduction in any medium, provided the original source is credited.</span>
+  </li>  
+    <li class="nav-item">
+ <span class="license-vn">Nội dung này kế thừa nguồn gốc từ <a href="https://wiki.matriz.org/docs/triz/">MATRIZ</a>, được truy cập mở và chia sẻ theo <a href="https://creativecommons.org/licenses/by/4.0/">Giấy phép Quốc tế Creative Commons Ghi công 4.0 (CC BY 4.0)</a>, cho phép sử dụng, phân phối và sao chép trên bất kỳ phương tiện nào, với điều kiện ghi rõ nguồn gốc.</span>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
