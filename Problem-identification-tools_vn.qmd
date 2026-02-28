@@ -2,6 +2,8 @@
 
 ![](media/wp-content/uploads/2024/08/3stages_pr-id-1024x76.png)
 
+![](me/3stages_pr-id-vi.svg)
+
 Mục tiêu của giai đoạn đầu tiên trong dự án là phân tích hệ thống kỹ thuật và xác định những vấn đề “đúng” cần giải quyết. Đây là những vấn đề sâu xa, ẩn chứa nguyên nhân gốc rễ thay vì chỉ là triệu chứng và thường không hiển hiện ngay từ đầu.
 
 Kết quả của toàn bộ khối phân tích là danh sách các vấn đề chủ chốt phải được giải quyết trong giai đoạn giải quyết vấn đề để đạt được mục tiêu của dự án.
@@ -89,6 +91,8 @@ Phân tích này thường được thực hiện khi mục tiêu dự án là g
 
 ![](media/wp-content/uploads/2024/09/F-C-an-768x432.png)
 
+![](me/F-C-an-vi.svg)
+
 Phân tích chức năng-chi phí thường được trình bày bằng cách bổ sung một cột vào bảng mô hình chức năng. Nếu dự án liên quan đến xây dựng chiến lược đổi mới, kết quả của nó cũng có thể được minh họa bằng sơ đồ chức năng-chi phí.
 
 Công cụ này không nên bị nhầm lẫn với phân tích giá trị. Phân tích giá trị liên quan đến việc tính toán định lượng giá trị của các thành phần dựa trên sơ đồ chức năng-chi phí, qua đó thể hiện mức độ hữu dụng của kết quả phân tích chức năng-chi phí.
@@ -157,7 +161,7 @@ Phân tích chức năng được phân thành:
 Cả hai đều nhằm xây dựng mô hình chức năng của hệ thống và chỉ ra các nhược điểm chức năng. Dù có nhiều điểm tương đồng, vẫn tồn tại một số khác biệt quan trọng giữa chúng.
 
 |  |  |  |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **giai đoạn** | **phân tích chức năng** **của thiết bị** | **phân tích chức năng** **của quy trình** |
 | **phân tích thành phần** | chia hệ thống thành các thành phần là **chất**, **trường** hoặc **kết hợp cả hai** | chia hệ thống thành các thành phần là **các thao tác** |
 | **phân tích tương tác** | xác định các tương tác giữa các thành phần | *không thực hiện* |
@@ -179,6 +183,9 @@ Phân tích chức năng của thiết bị gồm ba giai đoạn:
 3.  mô hình hóa chức năng.
 
 ![](media/wp-content/uploads/2024/07/FA-for-D_stages-1024x76.png)
+
+
+![](me/FA-for-D_stages-vi.svg)
 
 Ở mỗi giai đoạn, thông tin được thu thập để xác nhận một trong ba điều kiện để chức năng xảy ra. Trước hết tạo danh sách thành phần, vì cả chủ thể chức năng lẫn đối tượng chức năng đều phải là thành phần của hệ thống hoặc siêu hệ thống. Tiếp theo xác định cặp thành phần nào có tương tác. Cuối cùng, với mỗi cặp, kiểm tra xem một thành phần có thay đổi hoặc chủ đích duy trì tham số nào của thành phần kia hay không.
 
@@ -220,6 +227,9 @@ Phân tích chức năng của quy trình gồm hai giai đoạn:
 2.  mô hình hóa chức năng.
 
 ![](media/wp-content/uploads/2024/07/FA_pr_stages-1024x122.png)
+
+
+![](me/FA_pr_stages-vi.svg)
 
 Lưu ý rằng trái với thiết bị, phân tích tương tác không được thực hiện cho quy trình. Trong TRIZ, tương tác được hiểu là tiếp xúc vật lý, và vì giữa các thành phần của quy trình (các thao tác) không có tiếp xúc vật lý, nên không có tương tác để phân tích.
 
@@ -319,13 +329,20 @@ Các thao tác thường được thực hiện tuần tự:
 
 ![](media/wp-content/uploads/2024/08/FA_ca-proc_seq-1024x63.png)
 
+![](me/FA_ca-proc_seq-vi.svg)
+
 Chúng cũng có thể diễn ra song song:
 
 ![](media/wp-content/uploads/2024/08/FA_ca-proc_par-1024x165.png)
 
+
+![](me/FA_ca-proc_par-vi.svg)
+
 Dù thực hiện song song hay tuần tự, vẫn có thể xuất hiện vòng lặp:
 
 ![](media/wp-content/uploads/2024/08/FA_ca-proc_loop-1024x211.png)
+
+![](me/FA_ca-proc_loop-vi.svg)
 
 ### Quy trình thực hiện
 
@@ -518,6 +535,7 @@ Ví dụ:
 Quy trình được hiểu là hệ thống mà tập hợp thành phần thay đổi theo thời gian. Một số thành phần xuất hiện, số khác biến mất khỏi hệ thống. Để mô hình hóa hệ thống như vậy, cần đưa trục thời gian vào:
 
 ![](media/wp-content/uploads/2024/08/ES_pr-model-1024x273.png)
+![](me/ES_pr-model-vi.svg)
 
 Ví dụ về hệ thống kỹ thuật có thể coi là quy trình:
 
@@ -550,12 +568,14 @@ Một thực hành tốt là liệt kê các thành phần đã xác định ở
 -   thành phần siêu hệ thống.
 
 ![](media/wp-content/uploads/2024/08/FA_compmod-1024x210.png)
+![](me/FA_compmod-vi.svg)
 
 ### Trình bày cho quy trình
 
 Đối với quy trình, mô hình thành phần thường được trình bày dưới dạng **danh sách** các thao tác. Nếu cần thể hiện thao tác tuần tự hay song song, việc tạo sơ đồ sẽ hữu ích, ví dụ:
 
 ![](media/wp-content/uploads/2024/08/FA_CM_graph-1024x209.png)
+![](me/FA_CM_graph-vi.svg)
 
 ###### Siêu hệ thống
 
@@ -636,6 +656,9 @@ Ma trận tương tác được tạo dựa trên mô hình thành phần. Các 
 
 ![](media/wp-content/uploads/2024/08/FA_int-matrix-1024x284.png)
 
+![](me/FA_int-matrix-vi.svg)
+
+
 Ma trận tương tác **phải đối xứng** qua đường chéo từ góc trên trái đến góc dưới phải. Nếu *thành phần 1* tương tác với *thành phần 2*, thì *thành phần 2* cũng phải tương tác với *1*. Tính đối xứng này xuất phát từ việc ma trận sử dụng cùng một tập thành phần cho cả hàng và cột theo cùng thứ tự, khiến mọi tương tác đều mang tính hai chiều.
 
 Khi xây dựng ma trận tương tác, cần đánh giá chính xác sự tồn tại của tương tác. Đánh dấu sai có thể ảnh hưởng đến kết quả của toàn bộ phân tích chức năng.
@@ -671,10 +694,13 @@ Mô hình hóa chức năng là giai đoạn mà hai loại phân tích khác nh
 Với thiết bị, cả chủ thể lẫn đối tượng của chức năng đều là các thành phần đã xác định trước đó:
 
 ![](media/wp-content/uploads/2024/08/FA_fm_dev-1024x161.png)
+![](me/FA_fm_dev-vi.svg)
 
 Với quy trình, chức năng được thực hiện **bên trong** các thành phần (các thao tác), nghĩa là cả chủ thể lẫn đối tượng đều không phải là thành phần – chúng chính là các hoạt động trong quy trình đó:
 
 ![](media/wp-content/uploads/2024/08/FA_fm-pr-1024x489.png)
+
+![](me/FA_fm-pr-vi.svg)
 
 ### Xếp hạng chức năng
 
@@ -742,7 +768,9 @@ Chức năng gồm 3 yếu tố:
 2.  **đối tượng chức năng**, tức đối tượng chịu tác động,
 3.  **động từ mô tả hành động** được thực hiện.
 
-[![](media/wp-content/uploads/2024/07/func_model-1024x133.png)](media/wp-content/uploads/2024/07/func_model.png)
+![](media/wp-content/uploads/2024/07/func_model-1024x133.png)
+
+![](me/func_model-vi.svg)
 
 Các chức năng được xác định trong quá trình phân tích chức năng, cụ thể là ở giai đoạn cuối – mô hình hóa chức năng.
 
@@ -765,7 +793,7 @@ Ví dụ:
 Bảng dưới minh họa cách diễn đạt sai và đúng về chức năng:
 
 |  |  |
-|----|----|
+|------------------------------------|------------------------------------|
 | **diễn đạt sai** *(không chỉ ra tham số thay đổi → không có chức năng)* | **diễn đạt đúng** |
 | kính râm bảo vệ mắt | kính râm định hướng ánh sáng |
 | máy hút bụi làm sạch thảm | máy hút bụi loại bỏ bụi |
@@ -933,9 +961,12 @@ Hình dưới minh họa cách xây dựng mô hình chức năng dạng bảng 
 
 ![](media/wp-content/uploads/2024/08/FA_fm-dev_table-1024x205.png)
 
+![](me/FA_fm-dev_table-vi.svg)
+
 Hình tiếp theo minh họa cách xây dựng mô hình chức năng dạng bảng cho một quy trình giả định:
 
 ![](media/wp-content/uploads/2024/08/FA_fm-pr_table-1024x331.png)
+![](me/FA_fm-pr_table-vi.svg)
 
 ### Mô hình chức năng dạng sơ đồ
 
@@ -947,9 +978,14 @@ Trong khi bảng mô hình chức năng của thiết bị và quy trình khá g
 
 ![](media/wp-content/uploads/2024/08/FA_fm_func-code-1024x110.png)
 
+
+![](me/FA_fm_func-code-vi.svg)
+
 Sử dụng hệ ký hiệu này, mô hình chức năng minh họa trong phần bảng có thể biểu diễn lại như sau:
 
 ![](media/wp-content/uploads/2024/08/FM_fm-gr_dev-1024x229.png)
+
+![](me/FM_fm-gr_dev-vi.svg)
 
 Khi tạo sơ đồ, cần đảm bảo hướng mũi tên biểu diễn chức năng chính xác để chỉ rõ thành phần nào là chủ thể, thành phần nào là đối tượng.
 
@@ -958,6 +994,9 @@ Khi tạo sơ đồ, cần đảm bảo hướng mũi tên biểu diễn chức 
 Mô hình chức năng của quy trình dạng sơ đồ đặc biệt hữu ích khi cần thể hiện mối quan hệ giữa các thao tác – ví dụ, thực hiện song song hay tuần tự. Hình dưới đây thể hiện mô hình quy trình đơn giản nhất. Nó chỉ bao gồm các chức năng và phân loại của chúng. Thông tin này có thể bổ sung bằng mức độ thực hiện, thứ hạng hoặc tổng điểm của toàn bộ thao tác.
 
 ![](media/wp-content/uploads/2024/08/FA_fm-pr_graph-1024x256.png)
+
+![](me/FA_fm-pr_graph-vi.svg)
+
 
 Sơ đồ này là biểu diễn của mô hình quy trình đã mô tả trong bảng ở trên. Để giữ tính rõ ràng, chúng tôi sử dụng định dạng *chủ thể (hành động) đối tượng*. Trong đó *(hành động)* được thay bằng động từ mô tả cụ thể, ví dụ: *thành phần A di chuyển đối tượng Z*, *thành phần B giữ đối tượng X*...
 
@@ -1002,6 +1041,7 @@ Giá trị cao nhất dành cho các chức năng tạo ra thay đổi không th
 Thuật toán xếp hạng chức năng cho quy trình có thể biểu diễn bằng sơ đồ sau:
 
 ![](media/wp-content/uploads/2024/08/FA_funct-alg-1024x316.png)
+![](me/FA_funct-alg-vi.svg)
 
 Trong phân tích chức năng của quy trình, việc xếp hạng đặc biệt quan trọng vì cách xử lý chức năng trong cắt gọn phụ thuộc chặt chẽ vào thứ hạng của nó. Với thiết bị, bất kỳ quy tắc nào cũng có thể áp dụng cho chức năng ở mọi hạng (trừ Quy tắc A không khuyến khích nếu thành phần bị cắt gọn thực hiện chức năng cơ bản). Nhưng đối với quy trình, không có bộ quy tắc phổ quát. Một thao tác được cắt gọn thường bao gồm nhiều chức năng và mỗi chức năng phải được xử lý thích hợp dựa trên thứ hạng.
 
@@ -1028,6 +1068,8 @@ Trong phân tích chức năng của quy trình, việc xếp hạng đặc bi�
 
 ![](media/wp-content/uploads/2024/08/FA_basic-f-1024x216.png)
 
+![](me/FA_basic-f-vi.svg)
+
 Chức năng cơ bản là một trong ba loại chức năng (cùng chức năng bổ sung và phụ trợ) có thể được thành phần của hệ thống kỹ thuật dạng thiết bị thực hiện. Là chức năng hướng đến thành phần mục tiêu, nó có giá trị cao nhất trong xếp hạng chức năng (thường 3 điểm).
 
 Chức năng cơ bản không nên nhầm với chức năng chính. Thành phần mục tiêu là đối tượng của cả hai, nhưng chủ thể khác nhau đáng kể. Chức năng cơ bản do thành phần của hệ thống thực hiện, trong khi chức năng chính do toàn hệ thống thực hiện.
@@ -1042,6 +1084,8 @@ Chức năng cơ bản không nên nhầm với chức năng chính. Thành ph�
 
 ![](media/wp-content/uploads/2024/09/FA_addit-f-1024x216.png)
 
+![](me/FA_addit-f-vi.svg)
+
 Chức năng bổ sung là một trong ba loại chức năng (cùng chức năng cơ bản và phụ trợ) mà thành phần của hệ thống kỹ thuật dạng thiết bị có thể thực hiện.
 
 Vì hướng đến thành phần của siêu hệ thống, chức năng này có thứ hạng cao hơn (thường 2 điểm) so với chức năng tác động lên thành phần hệ thống nhưng thấp hơn chức năng cơ bản. Điều này bởi phương pháp xếp hạng giả định trọng tâm nằm ở tương tác giữa hệ thống và các thành phần siêu hệ thống.
@@ -1055,6 +1099,8 @@ Vì hướng đến thành phần của siêu hệ thống, chức năng này c�
 ## Tổng quan
 
 ![](media/wp-content/uploads/2024/09/FA_aux-f-1024x216.png)
+
+![](me/FA_aux-f-vi.svg)
 
 Chức năng phụ trợ là một trong ba loại chức năng (cùng chức năng cơ bản và bổ sung) mà thành phần của hệ thống kỹ thuật dạng thiết bị có thể thực hiện.
 
@@ -1358,11 +1404,14 @@ Trục ngang của sơ đồ biểu diễn tổng chi phí thành phần; trục
 
 ![](media/wp-content/uploads/2024/08/FA_f-cdiag0-1024x743.png)
 
+![](me/FA_f-cdiag0-vi.svg)
+
 ## Nhận định từ sơ đồ
 
 Nếu chỉ số chức năng tăng tỷ lệ thuận với chi phí thành phần, điều đó cho thấy hệ thống được thiết kế tối ưu. Để đánh giá, hãy thử vẽ một đường thẳng nối giữa các điểm biểu diễn thành phần sao cho chúng phân bố tương đối đều quanh đường thẳng. Nếu làm được, hệ thống được thiết kế hợp lý; nếu các điểm phân tán rộng, thiết kế còn hạn chế. Đường càng dốc càng tốt cho hệ thống.
 
 ![](media/wp-content/uploads/2024/08/FA_f-cdiag1-1024x743.png)
+![](me/FA_f-cdiag1-vi.svg)
 
 ## Lập chiến lược dựa trên sơ đồ
 
@@ -1373,6 +1422,9 @@ Bằng cách chia sơ đồ thành bốn phần, ta có thể nhóm các thành 
 **D**: chi phí cao, chỉ số chức năng thấp.
 
 ![](media/wp-content/uploads/2024/08/FA_f-cdiag2-1024x743.png)
+
+![](me/FA_f-cdiag2-vi.svg)
+
 
 Thành phần giá trị nhất nằm ở vùng **A** (chỉ số chức năng cao, chi phí thấp) – đây là vị trí mong muốn cho mọi thành phần. Đưa các thành phần về khu vực này là cơ sở để xây dựng chiến lược đổi mới.
 
@@ -1405,6 +1457,7 @@ Dòng chảy đi qua các kênh của chúng, là các thành phần của hệ 
 Phân tích dòng chảy có thể thực hiện cho cả thiết bị và quy trình. Trong mọi trường hợp, kết quả là danh sách nhược điểm dòng chảy. Cùng với nhược điểm chức năng, chúng được dùng làm viên gạch xây dựng cho phân tích chuỗi nhân quả.
 
 ![](media/wp-content/uploads/2024/08/FlowA_przeplywy-1024x301.png)
+![](me/FlowA_przeplywy-vi.svg)
 
 ## Các giai đoạn của phân tích dòng chảy
 
@@ -1500,6 +1553,7 @@ Có bốn loại dòng chảy:
 Dù làm việc với thiết bị hay quy trình, trước khi thực hiện CECA cần tiến hành phân tích chức năng-chi phí và (tùy chọn) phân tích dòng chảy. Nhược điểm chức năng, nhược điểm chi phí và nhược điểm dòng chảy (nếu có) là các viên gạch nền tảng của CECA và tất cả đều phải được cân nhắc trong phân tích.
 
 ![](media/wp-content/uploads/2024/08/CECA_bricks-1024x249.png)
+![](me/CECA_bricks-vi.svg)
 
 Kết quả chính của CECA là **danh sách các nhược điểm then chốt**.
 
@@ -1516,6 +1570,7 @@ Khi chuỗi tiến dần xuống dưới, nhiều nhược điểm khác đượ
 Bước cuối cùng là chọn những nhược điểm được xem là nhược điểm then chốt; đây là quyết định của bạn. Thông thường chúng nằm ở cuối chuỗi, nhưng cũng không hiếm khi một nhược điểm trung gian được gán trạng thái then chốt.
 
 ![](media/wp-content/uploads/2024/08/CECA_disadvant-1024x467.png)
+![](me/CECA_disadvant-vi.svg)
 
 ### Điểm bắt đầu và kết thúc phân tích
 
@@ -1536,6 +1591,7 @@ Nếu một nhược điểm do hai hoặc nhiều nhược điểm gây ra, c�
 -   toán tử **OR** dùng khi một nhược điểm do nhiều yếu tố **độc lập** gây ra; loại bỏ một yếu tố không loại bỏ các yếu tố khác.
 
 ![](media/wp-content/uploads/2024/08/CECA_oper-1024x147.png)
+![](me/CECA_oper-vi.svg)
 
 ### Khuyến nghị
 
@@ -1573,6 +1629,9 @@ Các bài toán cắt gọn và bài toán chuyển giao đặc tính đều có
 
 ![](media/wp-content/uploads/2024/08/CECA_kd_stat-1024x290.png)
 
+
+![](me/CECA_kd_stat-vi.svg)
+
 ## Khuyến nghị
 
 Nên xem xét toàn bộ chuỗi khi chọn nhược điểm then chốt. Một số nhược điểm có thể dễ loại bỏ, hoặc đã từng được giải quyết trước đây. Hãy cân nhắc xem ai có thể hỗ trợ.
@@ -1606,6 +1665,9 @@ Một số dự án có nhiều mục tiêu. Điều này nghĩa là có nhiều
 Khi xây dựng CECA, chúng ta luôn muốn đạt đến cuối chuỗi. Tuy nhiên đôi khi nguyên nhân của một nhược điểm lại dẫn trở về một nhược điểm trước đó – có thể là nhược điểm trung gian hoặc thậm chí nhược điểm ban đầu. Điều này tạo nên vòng luẩn quẩn khiến chuỗi không có điểm kết thúc rõ ràng.
 
 ![](media/wp-content/uploads/2025/01/CECA_VicC-1024x595.png)
+
+
+![](me/CECA_VicC-vi.svg)
 
 Để phá vỡ vòng luẩn quẩn, có thể chọn **bất kỳ nhược điểm nào** trong vòng đó làm nhược điểm then chốt. Khuyến nghị chọn nhược điểm mà theo bạn sẽ dễ xử lý hơn.
 
@@ -1666,6 +1728,8 @@ Khi chọn một thành phần của thiết bị để cắt, có thể áp d�
 
 ![](media/wp-content/uploads/2024/09/trim_dev_ruleA-1024x153.png)
 
+![](me/trim_dev_ruleA-vi.svg)
+
 Quy tắc A là lựa chọn triệt để nhất – loại bỏ hai thành phần cùng lúc. Nếu đối tượng của chức năng không còn tồn tại, chủ thể thực hiện chức năng cũng không cần nữa.
 
 Cần thận trọng khi dùng quy tắc này. Khuyến nghị áp dụng khi hệ thống bị “quá thiết kế” và có quá nhiều thành phần.
@@ -1676,11 +1740,16 @@ Không khuyến khích áp dụng Quy tắc A khi thành phần bị cắt thự
 
 ![](media/wp-content/uploads/2024/09/trim_dev_rule-B-1024x132.png)
 
+![](me/trim_dev_rule-B-vi.svg)
+
+
 Quy tắc B, đôi khi gọi là quy tắc “tự phục vụ”, ít triệt để hơn Quy tắc A. Tuy nhiên cần nhớ rằng thành phần phải tự thực hiện chức năng mới có thể có nguồn lực hạn chế, và việc “dạy” nó tự làm có thể rất thách thức.
 
 **Quy tắc C**: có thể cắt bỏ chủ thể chức năng nếu một thành phần khác thực hiện chức năng hữu ích đó.
 
 ![](media/wp-content/uploads/2024/09/trim_dev_ruleC-1024x321.png)
+
+![](me/trim_dev_ruleC-vi.svg)
 
 Quy tắc C được sử dụng thường xuyên nhất vì điều kiện dễ đáp ứng hơn A hoặc B. Hệ thống và siêu hệ thống chứa nhiều thành phần cung cấp phạm vi rộng để chọn chủ thể chức năng mới. Chủ thể chức năng mới nên thỏa ít nhất một trong bốn điều kiện sau:
 
@@ -1798,6 +1867,7 @@ Nói đơn giản, cắt gọn từng phần nghĩa là thành phần vẫn nằ
 Hình dưới minh họa ví dụ. Giả sử thành phần 1 thực hiện ba chức năng hữu ích nhưng to và nặng. Bằng cách chuyển hai chức năng cho thành phần khác (thành phần 3), thành phần 1 có thể nhỏ và nhẹ hơn. Nó vẫn ở trong hệ thống, nhưng sau khi cắt gọn từng phần, chỉ còn thực hiện một chức năng và các nhược điểm chính – kích thước, khối lượng – được loại bỏ.
 
 ![](media/wp-content/uploads/2024/09/trim_partial-trimming_example-1024x196.png)
+![](me/trim_partial-trimming_example-vi.svg)
 
 Cắt gọn từng phần có thể áp dụng cho mọi hệ thống kỹ thuật – cả thiết bị lẫn quy trình. Giống như cắt gọn thông thường, việc phân bổ chức năng tuân theo các quy tắc cắt gọn tương ứng dành cho thiết bị và quy trình.
 
@@ -1831,6 +1901,8 @@ Tùy mục tiêu dự án, chuyển giao đặc tính có thể được sử d�
 2.  **Sau CECA**, như một trong hai kịch bản xử lý nhược điểm then chốt (kịch bản còn lại là cắt gọn). Cách lai ghép này thường không làm thay đổi hệ thống quá nhiều.
 
 ![](media/wp-content/uploads/2024/09/ft_2options-1024x317.png)
+
+![](me/ft_2options-vi.svg)
 
 Kết quả của chuyển giao đặc tính là tập hợp các bài toán chuyển giao đặc tính về cách chuyển một hoặc nhiều đặc tính.
 
@@ -1866,11 +1938,15 @@ Chuyển giao đặc tính có thể được thực hiện ở ba cấp độ p
 
 ![](media/wp-content/uploads/2024/09/ft_3-levels-1024x188.png)
 
+![](me/ft_3-levels-vi.svg)
+
 #### Tích hợp hệ thống vật lý – chuyển đặc tính kèm phần tử mang đặc tính
 
 Chuyển đặc tính cùng phần tử mang đặc tính là cách đơn giản nhất nhưng mức độ đổi mới và khả năng được cấp bằng thấp nhất.
 
 Cách này nhanh và dễ nhưng chỉ áp dụng khi hệ thống cơ sở có đủ không gian cho thành phần/hệ thống cung cấp đặc tính.
+
+![](media/wp-content/uploads/2024/09/ft_l1-1024x182.png)
 
 ![](media/wp-content/uploads/2024/09/ft_l1-1024x182.png)
 
@@ -1952,9 +2028,15 @@ Ví dụ về hệ thống thay thế:
 
 ![](media/wp-content/uploads/2025/02/ft_alt-syst-1-1024x185.png)
 
+![](me/ft_alt-syst-1-vi.svg)
+
 ![](media/wp-content/uploads/2025/02/ft_alt-syst-2-1024x185.png)
 
+![](me/ft_alt-syst-2-vi.svg)
+
 ![](media/wp-content/uploads/2025/02/ft_alt-syst-3-1024x185.png)
+
+![](me/ft_alt-syst-3-vi.svg)
 
 #### Hệ thống cạnh tranh
 
@@ -1979,7 +2061,7 @@ Tùy dự án, hệ thống cạnh tranh có thể được xác định cho thi
 Ví dụ cho thiết bị:
 
 |  |  |  |  |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
 | **hệ thống** | máy sấy tóc | ô tô | bóng đèn |
 | **chức năng chính** | loại bỏ ẩm (chất lỏng) | di chuyển đồ vật | tạo ánh sáng |
 | **hệ thống cạnh tranh** | miếng bọt biển than hoạt tính máy sưởi máy ly tâm khăn giấy máy sấy đông lạnh máy điện phân | thuyền túi xách thang máy băng tải nam châm (cho vật kim loại) drone cổng dịch chuyển | gậy phát sáng LED nến đom đóm vật liệu phospho cuộn Tesla màn hình điện thoại |
@@ -2027,6 +2109,9 @@ Chúng được trích xuất thông qua các công cụ:
 
 ![](media/wp-content/uploads/2024/09/key-pr-1024x290.png)
 
+![](me/key-pr-vi.svg)
+
+
 Nếu các thành phần gắn với nhược điểm then chốt được cắt gọn, các bài toán cắt gọn sẽ được tạo ra. Một kịch bản khác là thực hiện chuyển giao đặc tính trên thành phần gắn với nhược điểm then chốt, tạo ra tập các bài toán chuyển giao đặc tính. Cả bài toán cắt gọn và bài toán chuyển giao đặc tính đều được xếp là vấn đề then chốt.
 
 Những nhược điểm then chốt xác định qua CECA nhưng không được dùng tiếp trong cắt gọn hoặc chuyển giao đặc tính sẽ được chuyển thành vấn đề then chốt.
@@ -2045,7 +2130,7 @@ TRIZ vận hành với 4 loại mô hình vấn đề:
 Tùy mô hình, các công cụ sau được dùng để giải quyết vấn đề then chốt:
 
 |  |  |  |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **mô hình vấn đề** | **công cụ xử lý mô hình** | **mô hình giải pháp** |
 | mâu thuẫn kỹ thuật | 1\. ma trận mâu thuẫn (Altshuller) | 1\. nguyên tắc sáng tạo |
 | mâu thuẫn vật lý | 1\. thuật toán giải mâu thuẫn vật lý 2. tìm kiếm định hướng chức năng (FOS) 3. cơ sở dữ liệu hiệu ứng khoa học 4. áp dụng bài toán tương tự | 1\. nguyên tắc sáng tạo 2. công nghệ tìm thấy qua FOS 3. hiệu ứng khoa học |

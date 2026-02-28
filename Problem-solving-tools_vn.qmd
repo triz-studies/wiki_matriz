@@ -2,11 +2,15 @@
 
 ![](media/wp-content/uploads/2024/08/3stages_pr-sol-1024x76.png)
 
+![](me/key-pr-vi.svg)
+
 Các công cụ giải quyết vấn đề là tập hợp các phương tiện được thiết kế để xử lý những **vấn đề then chốt** cụ thể đã được xác định trong giai đoạn nhận diện vấn đề của dự án.
 
 Mô hình sau là nền tảng cho mọi quy trình giải quyết vấn đề theo TRIZ:
 
 ![](media/wp-content/uploads/2024/08/prob-sol_mod-1024x266.png)
+
+![](me/prob-sol_mod-vi.svg)
 
 Ở bước đầu tiên, một vấn đề then chốt được chuyển thành mô hình của vấn đề. Mô hình này sau đó được xử lý bằng công cụ dành riêng cho mô hình đó để tạo ra mô hình của giải pháp. Cuối cùng, ta tiến hành động não dựa trên mô hình giải pháp đã tạo để phát triển các ý tưởng giải pháp cụ thể.
 
@@ -29,7 +33,7 @@ Các công cụ giải quyết vấn đề được nhóm thành hai khối: kh�
 Tùy vào cách mô hình hóa vấn đề mà chọn công cụ giải quyết tương ứng. Kết quả là mỗi công cụ sẽ tạo ra một mô hình giải pháp phù hợp. Bảng dưới minh họa mối liên hệ này:
 
 |  |  |  |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **mô hình của vấn đề** | **công cụ xử lý mô hình vấn đề** | **mô hình giải pháp** |
 | mâu thuẫn kỹ thuật | 1\. ma trận mâu thuẫn (Altshuller) | 1\. nguyên tắc sáng tạo |
 | mâu thuẫn vật lý | 1\. thuật toán giải mâu thuẫn vật lý 2. tìm kiếm định hướng chức năng (FOS) 3. cơ sở dữ liệu hiệu ứng khoa học 4. áp dụng bài toán tương tự | 1\. nguyên tắc sáng tạo 2. công nghệ tìm thấy thông qua FOS 3. hiệu ứng khoa học |
@@ -84,6 +88,8 @@ Trong TRIZ cổ điển, công cụ dùng để xác định chất và trườn
 Công cụ dùng để xử lý các mô hình chất-trường (Su-Field) của vấn đề là hệ 76 giải pháp sáng tạo tiêu chuẩn (SIS), cho ra các mô hình giải pháp được biểu diễn bằng các SIS tương ứng. Trong một số trường hợp, các giải pháp này cũng có thể được mô tả dưới dạng Su-Field. Do đó, phân tích chất-trường là công cụ TRIZ duy nhất mà mô hình giải pháp có thể có cùng hình thức với mô hình vấn đề.
 
 ![](media/wp-content/uploads/2025/01/su-field_diag-1024x266.png)
+
+![](me/su-field_diag-vi.svg)
 
 #### Bài viết
 
@@ -761,6 +767,8 @@ Tương tự mâu thuẫn, phân tích chất-trường được dùng để mô
 
 ![](media/wp-content/uploads/2024/12/su-field_diag-1024x266.png)
 
+![](me/su-field_diag-vi.svg)
+
 Giả định cơ bản của cách tiếp cận này là một hệ tối thiểu để hoạt động phải gồm 3 phần tử cơ bản:\
 1. 2 chất (S) – các đối tượng có khối lượng nghỉ tham gia vào hệ, và\
 2. 1 trường (F) – thực thể không có khối lượng nghỉ tạo tương tác giữa các chất.
@@ -793,9 +801,13 @@ Các ký hiệu tương tác dùng trong mô hình Su-Field tương tự ký hi�
 
 ![](media/wp-content/uploads/2024/12/su-fields_arrows-1024x109.png)
 
+![](me/su-fields_arrows-vi.svg)
+
 Ví dụ:
 
 ![](media/wp-content/uploads/2024/12/su-fields_symb-examples-1024x212.png)
+
+![](me/su-fields_symb-examples-vi.svg)
 
 ## Các loại Su-Field
 
@@ -961,12 +973,15 @@ Mâu thuẫn kỹ thuật nên được diễn đạt bằng cấu trúc **NẾU
 2.  dòng **NHƯNG** chứa tham số **bị xấu đi** khi áp dụng phương pháp/giải pháp nêu ở dòng NẾU.
 
 ![](media/wp-content/uploads/2024/08/EC_ord-1024x135.png)
+![](me/EC_ord-vi.svg)
 
 Để diễn đạt mâu thuẫn chính xác, nên tuân theo thứ tự cung cấp thông tin. Thông thường bắt đầu với dòng **THÌ**, tiếp tục với **NẾU**, cuối cùng là **NHƯNG**. Các con số đỏ trong hình trên biểu thị thứ tự điền.
 
 Xét ví dụ đơn giản: *cái bàn không đủ chắc*. Một cách gia cố là thêm các chi tiết tăng cứng, nhưng chúng làm bàn nặng hơn. Mâu thuẫn kỹ thuật được diễn đạt như sau:
 
 ![](media/wp-content/uploads/2024/08/EC_exampl-1024x175.png)
+
+![](me/EC_exampl-vi.svg)
 
 Thông thường, một vấn đề then chốt có thể được mô hình hóa bằng nhiều mâu thuẫn kỹ thuật vì có nhiều công nghệ truyền thống để giải quyết vấn đề.
 
@@ -980,6 +995,8 @@ Với mỗi mâu thuẫn kỹ thuật có thể xây dựng một mâu thuẫn �
 
 ![](media/wp-content/uploads/2024/08/EC_altern-1024x147.png)
 
+![](me/EC_altern-vi.svg)
+
 Mâu thuẫn đảo sử dụng cùng tham số với mâu thuẫn gốc nhưng mô hình hóa vấn đề khác. Vì ma trận mâu thuẫn không đối xứng, mâu thuẫn đảo giúp mở rộng phạm vi ý tưởng và có thể dẫn tới giải pháp đạt mục tiêu dự án. Nó cũng rất hữu ích khi hình thành mâu thuẫn vật lý.
 
 ## Thuật toán xử lý mâu thuẫn kỹ thuật
@@ -987,6 +1004,8 @@ Mâu thuẫn đảo sử dụng cùng tham số với mâu thuẫn gốc nhưng 
 Thuật toán xử lý mâu thuẫn kỹ thuật như sau:
 
 ![](media/wp-content/uploads/2024/08/EC_algor-1024x667.png)
+
+![](me/EC_algor-vi.svg)
 
 #### Bài viết
 
@@ -1004,6 +1023,8 @@ Thuật toán xử lý mâu thuẫn kỹ thuật như sau:
 Ma trận mâu thuẫn là công cụ giải quyết vấn đề liên kết mâu thuẫn kỹ thuật với các nguyên tắc sáng tạo được sử dụng thường xuyên nhất theo thống kê – những mô hình giải pháp tổng quát cho mâu thuẫn.
 
 ![](media/wp-content/uploads/2024/08/Alt-matr_model-1024x359.png)
+
+![](me/Alt-matr_model-vi.svg)
 
 Ma trận Altshuller truyền thống là bảng tra số nguyên tắc. Để thuận tiện, chúng tôi đã xây dựng **công cụ tương tác** giúp đơn giản hóa quy trình. Nhấn nút bên dưới để sử dụng.
 
@@ -1027,6 +1048,8 @@ Tại giao điểm hàng – cột tương ứng, ô ma trận chứa các số 
 Ví dụ:
 
 ![](media/wp-content/uploads/2024/08/contr-matrix-1024x1016.png)
+
+![](me/contr-matrix-vi.svg)
 
 Các ô có thể chứa 4, 3, 2 hoặc 1 nguyên tắc; một số ô trống.
 
@@ -1328,9 +1351,13 @@ Cấu trúc chung cho mâu thuẫn vật lý:
 
 ![](media/wp-content/uploads/2024/08/pc_format-1024x193.png)
 
+![](me/pc_format-vi.svg)
+
 Ví dụ:
 
 ![](media/wp-content/uploads/2024/08/pc_example-1024x125.png)
+
+![](me/pc_example-vi.svg)
 
 #### Bài viết
 
@@ -1350,6 +1377,8 @@ Sau khi xác định được tập nguyên tắc phù hợp cho mâu thuẫn c�
 
 ![](media/wp-content/uploads/2024/12/alg-PC_model-1024x266.png)
 
+![](me/alg-PC_model-vi.svg)
+
 ## Các cách tiếp cận giải mâu thuẫn vật lý
 
 Cách tiếp cận chủ đạo là **tách biệt** các yêu cầu đối nghịch theo không gian, thời gian, mối quan hệ hoặc hướng. Để làm được, ta đặt các câu hỏi kiểm soát phù hợp. Điều này giúp lọc ra phương pháp tách phù hợp với tình huống. Tách ở cấp hệ thống là cách hơi khác – không cần câu hỏi kiểm soát và luôn được khuyến nghị.
@@ -1359,6 +1388,8 @@ Nếu không thể tách, hãy xem xét **thỏa mãn** đồng thời cả hai 
 Cách cuối cùng là **đi vòng**, tức giải quyết vấn đề mà bỏ qua hoàn toàn các yêu cầu đối nghịch.
 
 ![](media/wp-content/uploads/2024/12/PC_algorythm-1024x901.png)
+
+![](me/PC_algorythm-vi.svg)
 
 Các phương pháp tách và thỏa mãn dẫn tới tập nguyên tắc cụ thể; với đi vòng, có thể dùng bất kỳ nguyên tắc nào.
 
