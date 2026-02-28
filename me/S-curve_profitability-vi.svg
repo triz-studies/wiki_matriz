@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 613" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#444"/>
+    </marker>
+  </defs>
+
+  <!-- Bright background -->
+  <rect width="1024" height="613" fill="#f8f8f8"/>
+
+  <!-- ── AXES ── -->
+  <line x1="70" y1="568" x2="70"  y2="18" stroke="#444" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="70" y1="568" x2="998" y2="568" stroke="#444" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- Axis labels -->
+  <text x="22" y="310" text-anchor="middle" font-size="15" font-style="italic" fill="#555"
+        transform="rotate(-90,22,310)">lợi nhuận</text>
+  <text x="985" y="595" text-anchor="end" font-size="14" font-style="italic" fill="#555">thời gian</text>
+
+  <!-- ── STAGE DASHED SEPARATORS ── -->
+  <line x1="265" y1="18"  x2="265" y2="568" stroke="#bbb" stroke-width="1.5" stroke-dasharray="8,5"/>
+  <line x1="515" y1="18"  x2="515" y2="568" stroke="#bbb" stroke-width="1.5" stroke-dasharray="8,5"/>
+  <line x1="760" y1="18"  x2="760" y2="568" stroke="#bbb" stroke-width="1.5" stroke-dasharray="8,5"/>
+
+  <!-- ── S-CURVE (purple) ──
+       Starts bottom-left (below axis), flat low through stage1,
+       accelerates through stage2, inflection mid-stage2/3,
+       peaks early stage4, then declines.
+  -->
+  <path d="M78,590
+           C130,588 195,578 265,558
+           C310,544 340,518 375,480
+           C420,430 465,368 515,298
+           C555,242 590,185 640,148
+           C678,120 715,102 760,94
+           C798,88 828,90 868,106
+           C912,126 948,174 970,258"
+        fill="none" stroke="#8833bb" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ── STAGE LABELS ── -->
+  <text x="168" y="596" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">giai đoạn 1</text>
+  <text x="390" y="596" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">giai đoạn 2</text>
+  <text x="638" y="596" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">giai đoạn 3</text>
+  <text x="878" y="596" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">giai đoạn 4</text>
+
+</svg>

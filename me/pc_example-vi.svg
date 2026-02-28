@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 125" font-family="Arial, sans-serif">
+
+  <!--
+    3 rows × 3 cols
+    Cols:
+      C0 (statement): x=0,   w=756
+      C1 (to):        x=756, w=56   cx=784
+      C2 (reason):    x=812, w=212  cx=918
+    Rows (h=40 each, gaps=2):
+      R0: y=2,  h=40
+      R1: y=44, h=38   ("and" row — slightly shorter)
+      R2: y=84, h=39
+    Total: 125
+  -->
+
+  <!-- Background -->
+  <rect width="1024" height="125" fill="#1a1a1a"/>
+
+  <!-- Cell backgrounds -->
+  <!-- R0 -->
+  <rect x="1"   y="2"  width="753" height="40" fill="#252525"/>
+  <rect x="756" y="2"  width="56"  height="40" fill="#252525"/>
+  <rect x="813" y="2"  width="210" height="40" fill="#252525"/>
+  <!-- R1 -->
+  <rect x="1"   y="44" width="753" height="38" fill="#222"/>
+  <rect x="756" y="44" width="56"  height="38" fill="#222"/>
+  <rect x="813" y="44" width="210" height="38" fill="#222"/>
+  <!-- R2 -->
+  <rect x="1"   y="84" width="753" height="39" fill="#252525"/>
+  <rect x="756" y="84" width="56"  height="39" fill="#252525"/>
+  <rect x="813" y="84" width="210" height="39" fill="#252525"/>
+
+  <!-- Grid lines -->
+  <rect x="0" y="0" width="1024" height="125" fill="none" stroke="#444" stroke-width="1.5"/>
+  <line x1="0"   y1="43"  x2="1024" y2="43"  stroke="#444" stroke-width="1"/>
+  <line x1="0"   y1="83"  x2="1024" y2="83"  stroke="#444" stroke-width="1"/>
+  <line x1="755" y1="0"   x2="755"  y2="125" stroke="#444" stroke-width="1"/>
+  <line x1="812" y1="0"   x2="812"  y2="125" stroke="#444" stroke-width="1"/>
+
+  <!-- ── ROW 0 TEXT ── -->
+  <!-- C0: mixed bold/normal -->
+  <text y="27" font-size="14" fill="#eee" dominant-baseline="middle">
+    <tspan x="14" font-weight="bold">số lượng</tspan>
+    <tspan> phần tử gia cố dùng trong thiết kế bàn </tspan>
+    <tspan font-weight="bold">phải lớn</tspan>
+  </text>
+  <!-- C1: "để" centred -->
+  <text x="784" y="27" text-anchor="middle" dominant-baseline="middle"
+        font-size="14" fill="#eee">để</text>
+  <!-- C2: reason -->
+  <text x="918" y="27" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" fill="#eee">bàn chắc chắn</text>
+
+  <!-- ── ROW 1 TEXT ── -->
+  <!-- C0: "và" in blue -->
+  <text x="14" y="64" dominant-baseline="middle"
+        font-size="14" font-weight="bold" fill="#2a9fd4">và</text>
+
+  <!-- ── ROW 2 TEXT ── -->
+  <!-- C0: mixed bold/normal -->
+  <text y="104" font-size="14" fill="#eee" dominant-baseline="middle">
+    <tspan x="14" font-weight="bold">số lượng</tspan>
+    <tspan> phần tử gia cố dùng trong thiết kế bàn </tspan>
+    <tspan font-weight="bold">phải nhỏ</tspan>
+  </text>
+  <!-- C1: "để" centred -->
+  <text x="784" y="104" text-anchor="middle" dominant-baseline="middle"
+        font-size="14" fill="#eee">để</text>
+  <!-- C2: reason -->
+  <text x="918" y="104" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" fill="#eee">bàn nhẹ</text>
+
+</svg>

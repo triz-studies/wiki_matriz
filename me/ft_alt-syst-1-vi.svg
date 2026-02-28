@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 210" font-family="Arial, sans-serif">
+
+  <!-- Dark background -->
+  <rect width="1024" height="210" fill="#2D2D2D"/>
+
+  <!-- ===================== HEADER ROW ===================== -->
+  <!-- Left stub header area (dark, no fill box — just the label) -->
+  <text x="8" y="22" font-size="10" fill="#AAAAAA">chức năng chính:</text>
+  <text x="8" y="36" font-size="10" font-weight="bold" fill="#DDDDDD">loại bỏ độ ẩm</text>
+  <text x="8" y="48" font-size="9" fill="#777777" font-style="italic">main function: removes moisture</text>
+
+  <!-- Header cell: power consumption / tiêu thụ điện năng -->
+  <rect x="340" y="0" width="336" height="56" fill="#DEDEDE" stroke="none"/>
+  <text x="508" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A1A1A">tiêu thụ điện năng</text>
+  <text x="508" y="44" text-anchor="middle" font-size="10" fill="#666666">power consumption</text>
+
+  <!-- Header cell: duration of operation / thời gian hoạt động -->
+  <rect x="678" y="0" width="346" height="56" fill="#EBEBEB" stroke="none"/>
+  <text x="851" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A1A1A">thời gian hoạt động</text>
+  <text x="851" y="44" text-anchor="middle" font-size="10" fill="#666666">duration of operation</text>
+
+  <!-- Thin separator line under header -->
+  <line x1="340" y1="56" x2="1024" y2="56" stroke="#888" stroke-width="0.5"/>
+
+  <!-- ===================== ROW 1: a hair dryer / máy sấy tóc ===================== -->
+  <!-- Left label cell — light blue -->
+  <rect x="0" y="56" width="338" height="76" fill="#C8D8EC" stroke="none"/>
+  <line x1="0" y1="132" x2="338" y2="132" stroke="#AABBCC" stroke-width="0.5"/>
+  <text x="330" y="92" text-anchor="end" font-size="14" font-weight="bold" fill="#1A1A1A">máy sấy tóc</text>
+  <text x="330" y="108" text-anchor="end" font-size="10" fill="#555555" font-style="italic">a hair dryer</text>
+
+  <!-- Row 1, col 1: power consumption — ✗ red -->
+  <rect x="340" y="56" width="336" height="76" fill="#2D2D2D" stroke="none"/>
+  <text x="508" y="94" text-anchor="middle" font-size="28" fill="#DD2222">✗</text>
+  <text x="508" y="116" text-anchor="middle" font-size="10" font-style="italic" fill="#888888">(cần điện để tạo nhiệt và luồng khí)</text>
+  <text x="508" y="128" text-anchor="middle" font-size="9" font-style="italic" fill="#666666">(electricity needed to generate heat and airflow)</text>
+
+  <!-- Row 1, col 2: duration — ✓ green -->
+  <rect x="678" y="56" width="346" height="76" fill="#2D2D2D" stroke="none"/>
+  <text x="851" y="94" text-anchor="middle" font-size="28" fill="#22AA44">✓</text>
+  <text x="851" y="116" text-anchor="middle" font-size="10" font-style="italic" fill="#888888">(vài phút để sấy khô tóc)</text>
+  <text x="851" y="128" text-anchor="middle" font-size="9" font-style="italic" fill="#666666">(a few minutes to dry hair)</text>
+
+  <!-- Row separator -->
+  <line x1="0" y1="132" x2="1024" y2="132" stroke="#555" stroke-width="0.5"/>
+  <!-- Vertical separators -->
+  <line x1="340" y1="56" x2="340" y2="210" stroke="#555" stroke-width="0.5"/>
+  <line x1="678" y1="56" x2="678" y2="210" stroke="#555" stroke-width="0.5"/>
+
+  <!-- ===================== ROW 2: an activated charcoal / than hoạt tính ===================== -->
+  <!-- Left label cell — light blue, slightly different shade -->
+  <rect x="0" y="132" width="338" height="78" fill="#BAD0E8" stroke="none"/>
+  <text x="330" y="168" text-anchor="end" font-size="14" font-weight="bold" fill="#1A1A1A">than hoạt tính</text>
+  <text x="330" y="184" text-anchor="end" font-size="10" fill="#555555" font-style="italic">an activated charcoal</text>
+
+  <!-- Row 2, col 1: power consumption — ✓ green -->
+  <rect x="340" y="132" width="336" height="78" fill="#2D2D2D" stroke="none"/>
+  <text x="508" y="168" text-anchor="middle" font-size="28" fill="#22AA44">✓</text>
+  <text x="508" y="190" text-anchor="middle" font-size="10" font-style="italic" fill="#888888">(hấp phụ ẩm thụ động từ không khí)</text>
+  <text x="508" y="202" text-anchor="middle" font-size="9" font-style="italic" fill="#666666">(passive adsorption of moisture from the air)</text>
+
+  <!-- Row 2, col 2: duration — ✗ red -->
+  <rect x="678" y="132" width="346" height="78" fill="#2D2D2D" stroke="none"/>
+  <text x="851" y="168" text-anchor="middle" font-size="28" fill="#DD2222">✗</text>
+  <text x="851" y="190" text-anchor="middle" font-size="10" font-style="italic" fill="#888888">(cần nhiều ngày để hấp thụ lượng ẩm đáng kể)</text>
+  <text x="851" y="202" text-anchor="middle" font-size="9" font-style="italic" fill="#666666">(days needed to absorb noticeable amounts of moisture)</text>
+
+</svg>

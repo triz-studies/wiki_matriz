@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 970" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#aaaaaa"/>
+    </marker>
+    <marker id="arr-yes" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#22bb55"/>
+    </marker>
+    <marker id="arr-no" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e03030"/>
+    </marker>
+  </defs>
+
+  <!-- ── Layer 0: Background ── -->
+  <rect width="1060" height="970" fill="#1e1e1e"/>
+
+  <!-- ── Layer 1: Dashed border (drawn first, underneath everything) ── -->
+  <!-- Right edge = x 32+526 = 558, just inside diamond right tip at 554 -->
+  <rect x="32" y="42" width="526" height="494"
+        rx="6" fill="none" stroke="#555" stroke-width="2" stroke-dasharray="10,6"/>
+
+  <!-- Vertical dashed divider at x=622 (between diamond tip 554 and solution box 780) -->
+  <line x1="622" y1="30" x2="622" y2="548"
+        stroke="#555" stroke-width="1.5" stroke-dasharray="8,5"/>
+
+  <!-- ══════════════════════════════════════════
+       ROW 1  cy=100   không gian
+  ══════════════════════════════════════════════ -->
+  <rect x="50" y="68" width="238" height="64" rx="8" fill="#cce8f5" stroke="#99cce0" stroke-width="1.5"/>
+  <text x="169" y="95"  text-anchor="middle" font-size="14" fill="#111"><tspan font-weight="bold">phân tách</tspan> theo</text>
+  <text x="169" y="116" text-anchor="middle" font-size="14" fill="#111">không gian</text>
+  <line x1="288" y1="100" x2="343" y2="100" stroke="#aaa" stroke-width="1.5" marker-end="url(#arr)"/>
+  <!-- diamond: cx=450 cy=100 half-w=104 half-h=36  left=346 right=554 -->
+  <polygon points="450,64 554,100 450,136 346,100" fill="#f0f0f0" stroke="#aaa" stroke-width="1.5"/>
+  <text x="450" y="96"  text-anchor="middle" font-style="italic" font-size="12" fill="#444">vấn đề</text>
+  <text x="450" y="112" text-anchor="middle" font-style="italic" font-size="12" fill="#444">được giải?</text>
+
+  <!-- ══════════════════════════════════════════
+       ROW 2  cy=198   thời gian
+  ══════════════════════════════════════════════ -->
+  <rect x="50" y="166" width="238" height="64" rx="8" fill="#cce8f5" stroke="#99cce0" stroke-width="1.5"/>
+  <text x="169" y="193" text-anchor="middle" font-size="14" fill="#111"><tspan font-weight="bold">phân tách</tspan> theo</text>
+  <text x="169" y="214" text-anchor="middle" font-size="14" fill="#111">thời gian</text>
+  <line x1="288" y1="198" x2="343" y2="198" stroke="#aaa" stroke-width="1.5" marker-end="url(#arr)"/>
+  <polygon points="450,162 554,198 450,234 346,198" fill="#f0f0f0" stroke="#aaa" stroke-width="1.5"/>
+  <text x="450" y="194" text-anchor="middle" font-style="italic" font-size="12" fill="#444">vấn đề</text>
+  <text x="450" y="210" text-anchor="middle" font-style="italic" font-size="12" fill="#444">được giải?</text>
+
+  <!-- ══════════════════════════════════════════
+       ROW 3  cy=296   quan hệ   ← YES exits here
+  ══════════════════════════════════════════════ -->
+  <rect x="50" y="264" width="238" height="64" rx="8" fill="#cce8f5" stroke="#99cce0" stroke-width="1.5"/>
+  <text x="169" y="291" text-anchor="middle" font-size="14" fill="#111"><tspan font-weight="bold">phân tách</tspan> theo</text>
+  <text x="169" y="312" text-anchor="middle" font-size="14" fill="#111">quan hệ</text>
+  <line x1="288" y1="296" x2="343" y2="296" stroke="#aaa" stroke-width="1.5" marker-end="url(#arr)"/>
+  <polygon points="450,260 554,296 450,332 346,296" fill="#f0f0f0" stroke="#aaa" stroke-width="1.5"/>
+  <text x="450" y="292" text-anchor="middle" font-style="italic" font-size="12" fill="#444">vấn đề</text>
+  <text x="450" y="308" text-anchor="middle" font-style="italic" font-size="12" fill="#444">được giải?</text>
+  <!-- YES: starts exactly at diamond right tip x=554, drawn on top -->
+  <line x1="554" y1="296" x2="776" y2="296" stroke="#22bb55" stroke-width="1.8" marker-end="url(#arr-yes)"/>
+  <text x="668" y="286" text-anchor="middle" font-size="13" font-weight="bold" font-style="italic" fill="#22bb55">CÓ</text>
+  <rect x="778" y="269" width="244" height="54" rx="6" fill="#484848" stroke="#6a6a6a" stroke-width="1.5"/>
+  <text x="900" y="300" text-anchor="middle" font-size="13" fill="#ddd">ý tưởng giải pháp</text>
+
+  <!-- ══════════════════════════════════════════
+       ROW 4  cy=394   hướng
+  ══════════════════════════════════════════════ -->
+  <rect x="50" y="362" width="238" height="64" rx="8" fill="#cce8f5" stroke="#99cce0" stroke-width="1.5"/>
+  <text x="169" y="389" text-anchor="middle" font-size="14" fill="#111"><tspan font-weight="bold">phân tách</tspan> theo</text>
+  <text x="169" y="410" text-anchor="middle" font-size="14" fill="#111">hướng</text>
+  <line x1="288" y1="394" x2="343" y2="394" stroke="#aaa" stroke-width="1.5" marker-end="url(#arr)"/>
+  <polygon points="450,358 554,394 450,430 346,394" fill="#f0f0f0" stroke="#aaa" stroke-width="1.5"/>
+  <text x="450" y="390" text-anchor="middle" font-style="italic" font-size="12" fill="#444">vấn đề</text>
+  <text x="450" y="406" text-anchor="middle" font-style="italic" font-size="12" fill="#444">được giải?</text>
+
+  <!-- ══════════════════════════════════════════
+       ROW 5  cy=492   cấp hệ thống
+  ══════════════════════════════════════════════ -->
+  <rect x="50" y="460" width="238" height="64" rx="8" fill="#cce8f5" stroke="#99cce0" stroke-width="1.5"/>
+  <text x="169" y="487" text-anchor="middle" font-size="14" fill="#111" font-weight="bold">phân tách</text>
+  <text x="169" y="508" text-anchor="middle" font-size="13" fill="#111">ở cấp độ hệ thống</text>
+  <line x1="288" y1="492" x2="343" y2="492" stroke="#aaa" stroke-width="1.5" marker-end="url(#arr)"/>
+  <polygon points="450,456 554,492 450,528 346,492" fill="#f0f0f0" stroke="#aaa" stroke-width="1.5"/>
+  <text x="450" y="488" text-anchor="middle" font-style="italic" font-size="12" fill="#444">vấn đề</text>
+  <text x="450" y="504" text-anchor="middle" font-style="italic" font-size="12" fill="#444">được giải?</text>
+
+  <!-- ══════════════════════════════════════════
+       KHÔNG path 1: row-5 bottom (450,528) → rail x=24 → row-6 (cy=700)
+  ══════════════════════════════════════════════ -->
+  <polyline points="450,528 450,554 24,554 24,700 48,700"
+            fill="none" stroke="#e03030" stroke-width="1.5" marker-end="url(#arr-no)"/>
+  <text x="30" y="638" font-size="13" font-weight="bold" font-style="italic" fill="#e03030">KHÔNG</text>
+
+  <!-- ══════════════════════════════════════════
+       ROW 6  cy=700   thỏa mãn
+  ══════════════════════════════════════════════ -->
+  <rect x="50" y="668" width="238" height="64" rx="8" fill="#cce8f5" stroke="#99cce0" stroke-width="1.5"/>
+  <text x="169" y="695" text-anchor="middle" font-size="14" fill="#111" font-weight="bold">thỏa mãn</text>
+  <text x="169" y="716" text-anchor="middle" font-size="13" fill="#111">các yêu cầu mâu thuẫn</text>
+  <line x1="288" y1="700" x2="343" y2="700" stroke="#aaa" stroke-width="1.5" marker-end="url(#arr)"/>
+  <!-- same diamond geometry cx=450 -->
+  <polygon points="450,664 554,700 450,736 346,700" fill="#f0f0f0" stroke="#aaa" stroke-width="1.5"/>
+  <text x="450" y="696" text-anchor="middle" font-style="italic" font-size="12" fill="#444">vấn đề</text>
+  <text x="450" y="712" text-anchor="middle" font-style="italic" font-size="12" fill="#444">được giải?</text>
+  <line x1="554" y1="700" x2="776" y2="700" stroke="#22bb55" stroke-width="1.8" marker-end="url(#arr-yes)"/>
+  <text x="668" y="690" text-anchor="middle" font-size="13" font-weight="bold" font-style="italic" fill="#22bb55">CÓ</text>
+  <rect x="778" y="673" width="244" height="54" rx="6" fill="#484848" stroke="#6a6a6a" stroke-width="1.5"/>
+  <text x="900" y="704" text-anchor="middle" font-size="13" fill="#ddd">ý tưởng giải pháp</text>
+
+  <!-- ══════════════════════════════════════════
+       KHÔNG path 2: row-6 bottom (450,736) → rail x=24 → row-7 (cy=832)
+  ══════════════════════════════════════════════ -->
+  <polyline points="450,736 450,758 24,758 24,832 48,832"
+            fill="none" stroke="#e03030" stroke-width="1.5" marker-end="url(#arr-no)"/>
+  <text x="30" y="800" font-size="13" font-weight="bold" font-style="italic" fill="#e03030">KHÔNG</text>
+
+  <!-- ══════════════════════════════════════════
+       ROW 7  cy=832   vượt qua
+  ══════════════════════════════════════════════ -->
+  <rect x="50" y="800" width="238" height="64" rx="8" fill="#cce8f5" stroke="#99cce0" stroke-width="1.5"/>
+  <text x="169" y="827" text-anchor="middle" font-size="14" fill="#111" font-weight="bold">vượt qua</text>
+  <text x="169" y="848" text-anchor="middle" font-size="13" fill="#111">các yêu cầu mâu thuẫn</text>
+  <line x1="288" y1="832" x2="343" y2="832" stroke="#aaa" stroke-width="1.5" marker-end="url(#arr)"/>
+  <polygon points="450,796 554,832 450,868 346,832" fill="#f0f0f0" stroke="#aaa" stroke-width="1.5"/>
+  <text x="450" y="828" text-anchor="middle" font-style="italic" font-size="12" fill="#444">vấn đề</text>
+  <text x="450" y="844" text-anchor="middle" font-style="italic" font-size="12" fill="#444">được giải?</text>
+  <line x1="554" y1="832" x2="776" y2="832" stroke="#22bb55" stroke-width="1.8" marker-end="url(#arr-yes)"/>
+  <text x="668" y="822" text-anchor="middle" font-size="13" font-weight="bold" font-style="italic" fill="#22bb55">CÓ</text>
+  <rect x="778" y="805" width="244" height="54" rx="6" fill="#484848" stroke="#6a6a6a" stroke-width="1.5"/>
+  <text x="900" y="836" text-anchor="middle" font-size="13" fill="#ddd">ý tưởng giải pháp</text>
+
+</svg>

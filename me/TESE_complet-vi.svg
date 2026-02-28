@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 306" font-family="Arial, sans-serif" font-size="14">
+
+  <!-- Bright background -->
+  <rect width="1024" height="306" fill="#f4f4f4"/>
+
+  <!--
+    Layout:
+    Labels col: x=0..178
+    4 columns of boxes, each w=178, gap=10
+      C1: x=180
+      C2: x=368  (180+178+10)
+      C3: x=556
+      C4: x=744
+    4 rows of boxes, each h=44, gap=8
+      R1 (control block):  y=14
+      R2 (energy source):  y=66
+      R3 (transmission):   y=118
+      R4 (operating agent):y=170
+    Time arrow: y=228..270
+  -->
+
+  <!-- ── AXIS LABELS ── -->
+  <text x="172" y="52"  text-anchor="end" font-size="14" fill="#999">siêu hệ thống</text>
+  <text x="172" y="196" text-anchor="end" font-size="14" font-weight="bold" fill="#0C2340">hệ thống kỹ thuật</text>
+
+  <!-- ════════════════════════ COLUMN 1 ════════════════════════ -->
+  <!-- control block INACTIVE -->
+  <rect x="180" y="14" width="178" height="44" rx="3" fill="#ddd" stroke="#bbb" stroke-width="1"/>
+  <text x="269" y="41" text-anchor="middle" dominant-baseline="middle" fill="#999">khối điều khiển</text>
+  <!-- energy source INACTIVE -->
+  <rect x="180" y="66" width="178" height="44" rx="3" fill="#ddd" stroke="#bbb" stroke-width="1"/>
+  <text x="269" y="93" text-anchor="middle" dominant-baseline="middle" fill="#999">nguồn năng lượng</text>
+  <!-- transmission INACTIVE -->
+  <rect x="180" y="118" width="178" height="44" rx="3" fill="#ddd" stroke="#bbb" stroke-width="1"/>
+  <text x="269" y="145" text-anchor="middle" dominant-baseline="middle" fill="#999">bộ truyền động</text>
+  <!-- operating agent ACTIVE -->
+  <rect x="180" y="170" width="178" height="44" rx="3" fill="white" stroke="#0C2340" stroke-width="2"/>
+  <text x="269" y="197" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#0C2340">tác nhân vận hành</text>
+
+  <!-- ════════════════════════ COLUMN 2 ════════════════════════ -->
+  <!-- control block INACTIVE -->
+  <rect x="368" y="14" width="178" height="44" rx="3" fill="#ddd" stroke="#bbb" stroke-width="1"/>
+  <text x="457" y="41" text-anchor="middle" dominant-baseline="middle" fill="#999">khối điều khiển</text>
+  <!-- energy source INACTIVE -->
+  <rect x="368" y="66" width="178" height="44" rx="3" fill="#ddd" stroke="#bbb" stroke-width="1"/>
+  <text x="457" y="93" text-anchor="middle" dominant-baseline="middle" fill="#999">nguồn năng lượng</text>
+  <!-- transmission ACTIVE -->
+  <rect x="368" y="118" width="178" height="44" rx="3" fill="white" stroke="#0C2340" stroke-width="2"/>
+  <text x="457" y="145" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#0C2340">bộ truyền động</text>
+  <!-- operating agent ACTIVE -->
+  <rect x="368" y="170" width="178" height="44" rx="3" fill="white" stroke="#0C2340" stroke-width="2"/>
+  <text x="457" y="197" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#0C2340">tác nhân vận hành</text>
+
+  <!-- ════════════════════════ COLUMN 3 ════════════════════════ -->
+  <!-- control block INACTIVE -->
+  <rect x="556" y="14" width="178" height="44" rx="3" fill="#ddd" stroke="#bbb" stroke-width="1"/>
+  <text x="645" y="41" text-anchor="middle" dominant-baseline="middle" fill="#999">khối điều khiển</text>
+  <!-- energy source ACTIVE -->
+  <rect x="556" y="66" width="178" height="44" rx="3" fill="white" stroke="#0C2340" stroke-width="2"/>
+  <text x="645" y="93" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#0C2340">nguồn năng lượng</text>
+  <!-- transmission ACTIVE -->
+  <rect x="556" y="118" width="178" height="44" rx="3" fill="white" stroke="#0C2340" stroke-width="2"/>
+  <text x="645" y="145" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#0C2340">bộ truyền động</text>
+  <!-- operating agent ACTIVE -->
+  <rect x="556" y="170" width="178" height="44" rx="3" fill="white" stroke="#0C2340" stroke-width="2"/>
+  <text x="645" y="197" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#0C2340">tác nhân vận hành</text>
+
+  <!-- ════════════════════════ COLUMN 4 ════════════════════════ -->
+  <!-- control block ACTIVE -->
+  <rect x="744" y="14" width="270" height="44" rx="3" fill="white" stroke="#0C2340" stroke-width="2"/>
+  <text x="879" y="41" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#0C2340">khối điều khiển</text>
+  <!-- energy source ACTIVE -->
+  <rect x="744" y="66" width="270" height="44" rx="3" fill="white" stroke="#0C2340" stroke-width="2"/>
+  <text x="879" y="93" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#0C2340">nguồn năng lượng</text>
+  <!-- transmission ACTIVE -->
+  <rect x="744" y="118" width="270" height="44" rx="3" fill="white" stroke="#0C2340" stroke-width="2"/>
+  <text x="879" y="145" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#0C2340">bộ truyền động</text>
+  <!-- operating agent ACTIVE -->
+  <rect x="744" y="170" width="270" height="44" rx="3" fill="white" stroke="#0C2340" stroke-width="2"/>
+  <text x="879" y="197" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#0C2340">tác nhân vận hành</text>
+
+  <!-- ── TIME ARROW (wide light-blue pentagon chevron) ── -->
+  <polygon points="180,232 988,232 988,220 1018,252 988,284 988,272 180,272"
+           fill="#b8d0ea"/>
+  <!-- "time" label right-aligned inside arrow -->
+  <text x="978" y="257" text-anchor="end" dominant-baseline="middle"
+        font-size="15" font-style="italic" fill="#0C2340">thời gian</text>
+
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 210" font-family="Arial, sans-serif">
+
+  <!-- Dark background -->
+  <rect width="1024" height="210" fill="#2a2a2a"/>
+
+  <!-- Header row (slightly lighter) -->
+  <rect x="0" y="0" width="1024" height="46" fill="#3a3a3a"/>
+
+  <!-- Outer border -->
+  <rect x="0" y="0" width="1024" height="210" fill="none" stroke="#555" stroke-width="1"/>
+
+  <!-- Vertical dividers -->
+  <line x1="340" y1="0"  x2="340" y2="210" stroke="#666" stroke-width="1"/>
+  <line x1="680" y1="0"  x2="680" y2="210" stroke="#666" stroke-width="1"/>
+
+  <!-- Header separator -->
+  <line x1="0" y1="46" x2="1024" y2="46" stroke="#666" stroke-width="1"/>
+
+  <!-- ── HEADER LABELS ── -->
+  <text x="170" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="white">mô tả hệ thống kỹ thuật</text>
+  <text x="170" y="38" text-anchor="middle" font-size="10" fill="#aaa">(description of the engineering system)</text>
+
+  <text x="510" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="white">thành phần của hệ thống</text>
+  <text x="510" y="38" text-anchor="middle" font-size="10" fill="#aaa">(components of the system)</text>
+
+  <text x="852" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="white">thành phần của siêu hệ thống</text>
+  <text x="852" y="38" text-anchor="middle" font-size="10" fill="#aaa">(components of the supersystem)</text>
+
+  <!-- ── COLUMN 1: Description ── -->
+  <text x="14" y="72"  font-size="13" fill="#ccc">Hệ thống kỹ thuật để … </text>
+  <text x="14" y="90"  font-size="12" font-style="italic" fill="#999">(mô tả mục đích thiết kế của hệ thống)</text>
+  <text x="14" y="108" font-size="11" font-style="italic" fill="#777">(describe what the system was designed for)</text>
+
+  <!-- ── COLUMN 2: System components ── -->
+  <text x="510" y="74"  text-anchor="middle" font-size="13" fill="#ccc">thành phần 1 (component 1)</text>
+  <text x="510" y="102" text-anchor="middle" font-size="13" fill="#ccc">thành phần 2 (component 2)</text>
+  <text x="510" y="130" text-anchor="middle" font-size="13" fill="#ccc">thành phần 3 (component 3)</text>
+  <text x="510" y="158" text-anchor="middle" font-size="13" fill="#ccc">thành phần 4 (component 4)</text>
+
+  <!-- ── COLUMN 3: Supersystem components ── -->
+  <text x="852" y="74"  text-anchor="middle" font-size="13" fill="#ccc">thành phần 5 (component 5)</text>
+  <text x="852" y="102" text-anchor="middle" font-size="13" fill="#ccc">thành phần 6 (component 6)</text>
+  <text x="852" y="130" text-anchor="middle" font-size="13" fill="#ccc">thành phần 7 (component 7)</text>
+
+</svg>

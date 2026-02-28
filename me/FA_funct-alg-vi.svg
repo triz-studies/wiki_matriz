@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 340" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arrDark" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#222"/>
+    </marker>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="1024" height="340" fill="#2a2a2a"/>
+
+  <!-- ══════════════════════════════════════════
+       QUESTION 1 (grey box, left)
+       x=22, y=18, w=460, h=72
+  ══════════════════════════════════════════ -->
+  <rect x="22" y="18" width="460" height="72" rx="10" fill="#888"/>
+  <text x="252" y="47" text-anchor="middle" font-size="14" fill="white">Chức năng có <tspan font-weight="bold">sửa chữa một khiếm khuyết</tspan> không?</text>
+
+  <!-- YES arrow → right -->
+  <text x="542" y="48" text-anchor="middle" font-size="14" font-weight="bold" fill="#5ab55a">CÓ</text>
+  <line x1="484" y1="54" x2="584" y2="54" stroke="#1a1a1a" stroke-width="2.5" marker-end="url(#arrDark)"/>
+
+  <!-- RESULT BOX 1: chức năng sửa chữa -->
+  <rect x="587" y="22" width="410" height="64" rx="10" fill="#d8eaf8"/>
+  <text x="792" y="59" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">chức năng sửa chữa</text>
+
+  <!-- NO arrow ↓ -->
+  <line x1="252" y1="90" x2="252" y2="140" stroke="#1a1a1a" stroke-width="2.5" marker-end="url(#arrDark)"/>
+  <text x="270" y="122" font-size="14" font-weight="bold" fill="#e03030">KHÔNG</text>
+
+  <!-- ══════════════════════════════════════════
+       QUESTION 2 (grey box, left)
+       x=22, y=142, w=460, h=88
+  ══════════════════════════════════════════ -->
+  <rect x="22" y="142" width="460" height="88" rx="10" fill="#888"/>
+  <text x="252" y="170" text-anchor="middle" font-size="14" fill="white">Hiệu quả của chức năng (thay đổi/duy trì</text>
+  <text x="252" y="190" text-anchor="middle" font-size="14" fill="white">một thông số) <tspan font-weight="bold">có ở cuối quy trình</tspan> không?</text>
+
+  <!-- YES arrow → right -->
+  <text x="542" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#5ab55a">CÓ</text>
+  <line x1="484" y1="182" x2="584" y2="182" stroke="#1a1a1a" stroke-width="2.5" marker-end="url(#arrDark)"/>
+
+  <!-- RESULT BOX 2: chức năng sản xuất -->
+  <rect x="587" y="150" width="410" height="64" rx="10" fill="#d8eaf8"/>
+  <text x="792" y="187" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">chức năng sản xuất</text>
+
+  <!-- NO arrow ↓ -->
+  <line x1="252" y1="230" x2="252" y2="278" stroke="#1a1a1a" stroke-width="2.5" marker-end="url(#arrDark)"/>
+  <text x="270" y="261" font-size="14" font-weight="bold" fill="#e03030">KHÔNG</text>
+
+  <!-- ══════════════════════════════════════════
+       RESULT BOX 3 (light blue, bottom left)
+       providing function → chức năng hỗ trợ
+  ══════════════════════════════════════════ -->
+  <rect x="22" y="280" width="460" height="52" rx="10" fill="#d8eaf8"/>
+  <text x="252" y="301" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">chức năng cung cấp</text>
+  <text x="252" y="322" text-anchor="middle" font-size="13" fill="#444">(hỗ trợ, vận chuyển hoặc đo lường)</text>
+
+</svg>

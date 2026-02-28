@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 743" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#1C2B45"/>
+    </marker>
+  </defs>
+
+  <!-- White background -->
+  <rect width="1024" height="743" fill="#ffffff"/>
+
+  <!-- Axes -->
+  <line x1="80" y1="700" x2="80" y2="28" stroke="#1C2B45" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="80" y1="700" x2="998" y2="700" stroke="#1C2B45" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- Y-axis label: "chỉ số chức năng" (functionality index) -->
+  <text
+    transform="rotate(-90, 32, 380)"
+    x="32" y="380"
+    text-anchor="middle"
+    font-size="18"
+    font-weight="bold"
+    font-style="italic"
+    fill="#1C2B45"
+  >chỉ số chức năng</text>
+
+  <!-- X-axis label: "chi phí" (cost) -->
+  <text x="960" y="732" text-anchor="middle" font-size="18" font-weight="bold" font-style="italic" fill="#1C2B45">chi phí</text>
+
+  <!-- ===================== DATA POINTS ===================== -->
+
+  <!-- component 1 / thành phần 1 — high func, low cost -->
+  <circle cx="215" cy="108" r="8" fill="#1C2B45"/>
+  <text x="228" y="104" font-size="13" fill="#1C2B45">thành phần 1</text>
+
+  <!-- component 2 / thành phần 2 -->
+  <circle cx="310" cy="205" r="8" fill="#1C2B45"/>
+  <text x="323" y="201" font-size="13" fill="#1C2B45">thành phần 2</text>
+
+  <!-- component 10 / thành phần 10 -->
+  <circle cx="365" cy="295" r="8" fill="#1C2B45"/>
+  <text x="378" y="291" font-size="13" fill="#1C2B45">thành phần 10</text>
+
+  <!-- component 11 / thành phần 11 — high func, mid cost -->
+  <circle cx="500" cy="148" r="8" fill="#1C2B45"/>
+  <text x="513" y="144" font-size="13" fill="#1C2B45">thành phần 11</text>
+
+  <!-- component 6 / thành phần 6 — high func, high cost -->
+  <circle cx="630" cy="105" r="8" fill="#1C2B45"/>
+  <text x="530" y="101" font-size="13" fill="#1C2B45">thành phần 6</text>
+
+  <!-- component 9 / thành phần 9 — high func, very high cost -->
+  <circle cx="790" cy="122" r="8" fill="#1C2B45"/>
+  <text x="803" y="118" font-size="13" fill="#1C2B45">thành phần 9</text>
+
+  <!-- component 5 / thành phần 5 — mid func, high cost -->
+  <circle cx="668" cy="278" r="8" fill="#1C2B45"/>
+  <text x="681" y="274" font-size="13" fill="#1C2B45">thành phần 5</text>
+
+  <!-- component 8 / thành phần 8 — lower-mid func, low cost -->
+  <circle cx="288" cy="398" r="8" fill="#1C2B45"/>
+  <text x="185" y="394" font-size="13" fill="#1C2B45">thành phần 8</text>
+
+  <!-- component 3 / thành phần 3 — lower-mid func, mid cost -->
+  <circle cx="552" cy="408" r="8" fill="#1C2B45"/>
+  <text x="565" y="404" font-size="13" fill="#1C2B45">thành phần 3</text>
+
+  <!-- component 13 / thành phần 13 — low func, mid cost -->
+  <circle cx="432" cy="505" r="8" fill="#1C2B45"/>
+  <text x="345" y="501" font-size="13" fill="#1C2B45">thành phần 13</text>
+
+  <!-- component 7 / thành phần 7 — low func, high cost -->
+  <circle cx="615" cy="498" r="8" fill="#1C2B45"/>
+  <text x="628" y="494" font-size="13" fill="#1C2B45">thành phần 7</text>
+
+  <!-- component 4 / thành phần 4 — very low func, low cost -->
+  <circle cx="282" cy="610" r="8" fill="#1C2B45"/>
+  <text x="195" y="606" font-size="13" fill="#1C2B45">thành phần 4</text>
+
+  <!-- component 12 / thành phần 12 — very low func, high cost -->
+  <circle cx="720" cy="622" r="8" fill="#1C2B45"/>
+  <text x="733" y="618" font-size="13" fill="#1C2B45">thành phần 12</text>
+
+</svg>

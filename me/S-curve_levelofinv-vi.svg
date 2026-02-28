@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 612" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arrX" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#555"/>
+    </marker>
+    <marker id="arrY" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <!-- Bright/white background -->
+  <rect width="1024" height="612" fill="#ffffff"/>
+
+  <!-- Light grey plot area fill -->
+  <rect x="70" y="20" width="940" height="545" fill="#f7f7f7"/>
+
+  <!-- ── AXES ── -->
+  <!-- Y axis -->
+  <line x1="70" y1="565" x2="70" y2="18" stroke="#555" stroke-width="2" marker-end="url(#arrY)"/>
+  <!-- X axis -->
+  <line x1="70" y1="565" x2="1002" y2="565" stroke="#555" stroke-width="2" marker-end="url(#arrX)"/>
+
+  <!-- Y axis label (rotated) -->
+  <text transform="translate(22,310) rotate(-90)" text-anchor="middle" font-size="14" font-style="italic" fill="#444">mức độ sáng chế (level of invention)</text>
+
+  <!-- X axis label -->
+  <text x="988" y="592" font-size="14" font-style="italic" fill="#444">thời gian (time)</text>
+
+  <!-- ── STAGE DASHED DIVIDERS ── -->
+  <line x1="280" y1="20"  x2="280" y2="565" stroke="#AAAAAA" stroke-width="1.5" stroke-dasharray="7,5"/>
+  <line x1="530" y1="20"  x2="530" y2="565" stroke="#AAAAAA" stroke-width="1.5" stroke-dasharray="7,5"/>
+  <line x1="760" y1="20"  x2="760" y2="565" stroke="#AAAAAA" stroke-width="1.5" stroke-dasharray="7,5"/>
+
+  <!--
+    CURVE matching PNG:
+    - Starts very high (top-left, near y-axis top)
+    - Drops steeply and smoothly to a low around x=230, y=430
+    - Small bump rising to ~x=300, y=330 at the stage1 dashed line
+    - Then gradually and smoothly descends, flattening out toward right
+    - Final flat portion near y=500 from x=800 to x=970
+  -->
+  <path d="
+    M 75, 58
+    C 110, 62  170, 120  220, 280
+    C 235, 340  248, 420  258, 445
+    C 265, 460  270, 462  278, 440
+    C 285, 418  295, 355  312, 335
+    C 330, 320  355, 330  390, 350
+    C 440, 378  480, 410  520, 435
+    C 540, 447  570, 458  620, 472
+    C 680, 488  730, 498  790, 505
+    C 850, 511  910, 514  970, 515
+  " fill="none" stroke="#1A3AB8" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- ── STAGE LABELS (bold, large, below x-axis) ── -->
+  <text x="175" y="596" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">giai đoạn 1</text>
+  <text x="175" y="610" text-anchor="middle" font-size="10" fill="#555">(stage 1)</text>
+  <text x="405" y="596" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">giai đoạn 2</text>
+  <text x="405" y="610" text-anchor="middle" font-size="10" fill="#555">(stage 2)</text>
+  <text x="645" y="596" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">giai đoạn 3</text>
+  <text x="645" y="610" text-anchor="middle" font-size="10" fill="#555">(stage 3)</text>
+  <text x="875" y="596" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">giai đoạn 4</text>
+  <text x="875" y="610" text-anchor="middle" font-size="10" fill="#555">(stage 4)</text>
+
+</svg>

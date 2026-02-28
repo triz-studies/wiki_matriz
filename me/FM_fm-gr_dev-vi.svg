@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <!-- Black arrowhead -->
+    <marker id="arrow-black" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+    <!-- Red arrowhead -->
+    <marker id="arrow-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d42020"/>
+    </marker>
+    <!-- Black dashed arrowhead -->
+    <marker id="arrow-dash" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="450" fill="#f7f7f2" rx="8"/>
+
+  <!-- ============ COMPONENT BOXES ============ -->
+
+  <!-- thành phần 5 (top-left, blue hexagon) -->
+  <polygon points="30,100 60,50 240,50 270,100 240,150 60,150" fill="#a8c8e8" stroke="#5a8ab5" stroke-width="2.5"/>
+  <text x="150" y="108" text-anchor="middle" fill="#111" font-size="18" font-weight="bold">thành phần 5</text>
+
+  <!-- thành phần 1 (top-center, grey rectangle) -->
+  <rect x="450" y="50" width="280" height="100" rx="5" fill="#e2e2e2" stroke="#888" stroke-width="2.5"/>
+  <text x="590" y="108" text-anchor="middle" fill="#111" font-size="18" font-weight="bold">thành phần 1</text>
+
+  <!-- thành phần 4 (top-right, yellow rounded) -->
+  <rect x="950" y="55" width="220" height="90" rx="45" fill="#fde9a0" stroke="#c9a830" stroke-width="2.5"/>
+  <text x="1060" y="108" text-anchor="middle" fill="#111" font-size="18" font-weight="bold">thành phần 4</text>
+
+  <!-- thành phần 2 (bottom-left, grey rectangle) -->
+  <rect x="220" y="250" width="280" height="100" rx="5" fill="#e2e2e2" stroke="#888" stroke-width="2.5"/>
+  <text x="360" y="308" text-anchor="middle" fill="#111" font-size="18" font-weight="bold">thành phần 2</text>
+
+  <!-- thành phần 3 (bottom-right, grey rectangle) -->
+  <rect x="830" y="250" width="280" height="100" rx="5" fill="#e2e2e2" stroke="#888" stroke-width="2.5"/>
+  <text x="970" y="308" text-anchor="middle" fill="#111" font-size="18" font-weight="bold">thành phần 3</text>
+
+  <!-- ============ ARROWS ============ -->
+
+  <!-- hành động 1: thành phần 1 → thành phần 5 (solid black) -->
+  <line x1="450" y1="82" x2="272" y2="82" stroke="#333" stroke-width="2.5" marker-end="url(#arrow-black)"/>
+  <text x="360" y="72" text-anchor="middle" fill="#444" font-size="14" font-style="italic">hành động 1</text>
+
+  <!-- hành động 2: thành phần 1 → thành phần 4 (solid black) -->
+  <line x1="730" y1="82" x2="952" y2="82" stroke="#333" stroke-width="2.5" marker-end="url(#arrow-black)"/>
+  <text x="840" y="72" text-anchor="middle" fill="#444" font-size="14" font-style="italic">hành động 2</text>
+
+  <!-- hành động 3: thành phần 2 → thành phần 1 (solid black, angled touching component 1 bottom) -->
+  <polyline points="400,250 400,190 520,190 520,150" fill="none" stroke="#333" stroke-width="2.5" marker-end="url(#arrow-black)"/>
+  <text x="380" y="185" text-anchor="end" fill="#444" font-size="14" font-style="italic">hành động 3</text>
+
+  <!-- hành động 4: thành phần 2 → thành phần 1 (red, up to component 1 bottom) -->
+  <polyline points="500,250 500,210 620,210 620,150" fill="none" stroke="#d42020" stroke-width="2.5" marker-end="url(#arrow-red)"/>
+  <text x="530" y="235" text-anchor="start" fill="#d42020" font-size="14" font-style="italic" font-weight="bold">hành động 4</text>
+
+  <!-- hành động 5: thành phần 2 → thành phần 5 (red, left-up) -->
+  <polyline points="220,290 100,290 100,152" fill="none" stroke="#d42020" stroke-width="2.5" marker-end="url(#arrow-red)"/>
+  <text x="70" y="230" text-anchor="start" fill="#d42020" font-size="14" font-style="italic" font-weight="bold">hành động 5</text>
+
+  <!-- hành động 6: thành phần 3 → thành phần 1 (dashed black) -->
+  <polyline points="830,275 750,200 730,150" fill="none" stroke="#333" stroke-width="2.5" stroke-dasharray="10,6" marker-end="url(#arrow-dash)"/>
+  <text x="805" y="245" text-anchor="end" fill="#444" font-size="14" font-style="italic">hành động 6</text>
+
+</svg>

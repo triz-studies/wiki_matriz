@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="260" fill="white"/>
+
+  <!-- Header background -->
+  <rect x="0" y="0" width="900" height="40" fill="#1a3a5c"/>
+
+  <!-- Column headers -->
+  <text x="52" y="24" fill="white" font-size="11" font-weight="bold" text-anchor="middle">vật tải</text>
+  <text x="52" y="36" fill="white" font-size="11" font-weight="bold" text-anchor="middle">chức năng</text>
+  <text x="155" y="24" fill="white" font-size="11" font-weight="bold" text-anchor="middle">hành động</text>
+  <text x="268" y="24" fill="white" font-size="11" font-weight="bold" text-anchor="middle">đối tượng</text>
+  <text x="268" y="36" fill="white" font-size="11" font-weight="bold" text-anchor="middle">chức năng</text>
+  <text x="390" y="24" fill="white" font-size="11" font-weight="bold" text-anchor="middle">danh mục</text>
+  <text x="510" y="24" fill="white" font-size="11" font-weight="bold" text-anchor="middle">xếp hạng</text>
+  <text x="510" y="36" fill="white" font-size="11" font-weight="bold" text-anchor="middle">chức năng</text>
+  <text x="615" y="24" fill="white" font-size="11" font-weight="bold" text-anchor="middle">điểm số</text>
+  <text x="720" y="24" fill="white" font-size="11" font-weight="bold" text-anchor="middle">cấp độ</text>
+  <text x="720" y="36" fill="white" font-size="11" font-weight="bold" text-anchor="middle">hiệu suất</text>
+  <text x="845" y="24" fill="white" font-size="11" font-weight="bold" text-anchor="middle">tổng</text>
+  <text x="845" y="36" fill="white" font-size="11" font-weight="bold" text-anchor="middle">điểm số</text>
+
+  <!-- Row 1 - light background -->
+  <rect x="0" y="40" width="820" height="36" fill="#f0f4f8"/>
+  <text x="52" y="63" fill="#1a3a5c" font-size="11" text-anchor="middle">thành phần 1</text>
+  <text x="155" y="63" fill="#1a3a5c" font-size="11" text-anchor="middle">hành động 1</text>
+  <text x="268" y="63" fill="#1a3a5c" font-size="11" text-anchor="middle">thành phần 5</text>
+  <text x="390" y="63" fill="#1a7abf" font-size="11" font-weight="bold" text-anchor="middle">Hữu ích (U)</text>
+  <text x="510" y="63" fill="#1a3a5c" font-size="11" text-anchor="middle">bổ sung</text>
+  <text x="615" y="63" fill="#1a3a5c" font-size="11" text-anchor="middle">2</text>
+  <text x="720" y="63" fill="#1a3a5c" font-size="11" text-anchor="middle">quá mức</text>
+
+  <!-- Row 2 -->
+  <rect x="0" y="76" width="820" height="36" fill="white"/>
+  <text x="52" y="99" fill="#1a3a5c" font-size="11" text-anchor="middle">thành phần 1</text>
+  <text x="155" y="99" fill="#1a3a5c" font-size="11" text-anchor="middle">hành động 2</text>
+  <text x="268" y="99" fill="#1a3a5c" font-size="11" text-anchor="middle">thành phần 4</text>
+  <text x="390" y="99" fill="#1a7abf" font-size="11" font-weight="bold" text-anchor="middle">Hữu ích (U)</text>
+  <text x="510" y="99" fill="#1a3a5c" font-size="11" text-anchor="middle">cơ bản</text>
+  <text x="615" y="99" fill="#1a3a5c" font-size="11" text-anchor="middle">3</text>
+  <text x="720" y="99" fill="#1a3a5c" font-size="11" text-anchor="middle">bình thường</text>
+
+  <!-- Row 3 -->
+  <rect x="0" y="112" width="820" height="36" fill="#f0f4f8"/>
+  <text x="52" y="135" fill="#1a3a5c" font-size="11" text-anchor="middle">thành phần 2</text>
+  <text x="155" y="135" fill="#1a3a5c" font-size="11" text-anchor="middle">hành động 3</text>
+  <text x="268" y="135" fill="#1a3a5c" font-size="11" text-anchor="middle">thành phần 1</text>
+  <text x="390" y="135" fill="#1a7abf" font-size="11" font-weight="bold" text-anchor="middle">Hữu ích (U)</text>
+  <text x="510" y="135" fill="#1a3a5c" font-size="11" text-anchor="middle">phụ trợ</text>
+  <text x="615" y="135" fill="#1a3a5c" font-size="11" text-anchor="middle">1</text>
+  <text x="720" y="135" fill="#1a3a5c" font-size="11" text-anchor="middle">bình thường</text>
+
+  <!-- Row 4 -->
+  <rect x="0" y="148" width="820" height="36" fill="white"/>
+  <text x="52" y="171" fill="#1a3a5c" font-size="11" text-anchor="middle">thành phần 2</text>
+  <text x="155" y="171" fill="#1a3a5c" font-size="11" text-anchor="middle">hành động 4</text>
+  <text x="268" y="171" fill="#1a3a5c" font-size="11" text-anchor="middle">thành phần 1</text>
+  <text x="390" y="171" fill="#e03030" font-size="11" font-weight="bold" text-anchor="middle">Có hại (H)</text>
+  <text x="510" y="171" fill="#1a3a5c" font-size="11" text-anchor="middle">--</text>
+  <text x="615" y="171" fill="#1a3a5c" font-size="11" text-anchor="middle">--</text>
+  <text x="720" y="171" fill="#1a3a5c" font-size="11" text-anchor="middle">--</text>
+
+  <!-- Row 5 -->
+  <rect x="0" y="184" width="820" height="36" fill="#f0f4f8"/>
+  <text x="52" y="207" fill="#1a3a5c" font-size="11" text-anchor="middle">thành phần 2</text>
+  <text x="155" y="207" fill="#1a3a5c" font-size="11" text-anchor="middle">hành động 5</text>
+  <text x="268" y="207" fill="#1a3a5c" font-size="11" text-anchor="middle">thành phần 5</text>
+  <text x="390" y="207" fill="#e03030" font-size="11" font-weight="bold" text-anchor="middle">Có hại (H)</text>
+  <text x="510" y="207" fill="#1a3a5c" font-size="11" text-anchor="middle">--</text>
+  <text x="615" y="207" fill="#1a3a5c" font-size="11" text-anchor="middle">--</text>
+  <text x="720" y="207" fill="#1a3a5c" font-size="11" text-anchor="middle">--</text>
+
+  <!-- Row 6 -->
+  <rect x="0" y="220" width="820" height="36" fill="white"/>
+  <text x="52" y="243" fill="#1a3a5c" font-size="11" text-anchor="middle">thành phần 3</text>
+  <text x="155" y="243" fill="#1a3a5c" font-size="11" text-anchor="middle">hành động 6</text>
+  <text x="268" y="243" fill="#1a3a5c" font-size="11" text-anchor="middle">thành phần 1</text>
+  <text x="390" y="243" fill="#1a7abf" font-size="11" font-weight="bold" text-anchor="middle">Hữu ích (U)</text>
+  <text x="510" y="243" fill="#1a3a5c" font-size="11" text-anchor="middle">phụ trợ</text>
+  <text x="615" y="243" fill="#1a3a5c" font-size="11" text-anchor="middle">1</text>
+  <text x="720" y="243" fill="#1a3a5c" font-size="11" text-anchor="middle">không đủ</text>
+
+  <!-- Score boxes on right side -->
+  <!-- Score 5 box - spans rows 1-2 (72px) -->
+  <rect x="820" y="40" width="80" height="72" fill="#1a7abf" rx="4"/>
+  <text x="860" y="82" fill="white" font-size="28" font-weight="bold" text-anchor="middle">5</text>
+
+  <!-- Score 1 box - spans rows 3-5 (108px) -->
+  <rect x="820" y="112" width="80" height="108" fill="#e07820" rx="4"/>
+  <text x="860" y="172" fill="white" font-size="28" font-weight="bold" text-anchor="middle">1</text>
+
+  <!-- Score 1 box - row 6 only (36px) -->
+  <rect x="820" y="220" width="80" height="36" fill="#1a7abf" rx="4"/>
+  <text x="860" y="244" fill="white" font-size="20" font-weight="bold" text-anchor="middle">1</text>
+
+  <!-- Grid lines -->
+  <!-- Vertical lines -->
+  <line x1="104" y1="0" x2="104" y2="256" stroke="#ccd6e0" stroke-width="1"/>
+  <line x1="207" y1="0" x2="207" y2="256" stroke="#ccd6e0" stroke-width="1"/>
+  <line x1="330" y1="0" x2="330" y2="256" stroke="#ccd6e0" stroke-width="1"/>
+  <line x1="450" y1="0" x2="450" y2="256" stroke="#ccd6e0" stroke-width="1"/>
+  <line x1="570" y1="0" x2="570" y2="256" stroke="#ccd6e0" stroke-width="1"/>
+  <line x1="670" y1="0" x2="670" y2="256" stroke="#ccd6e0" stroke-width="1"/>
+  <line x1="820" y1="0" x2="820" y2="256" stroke="#ccd6e0" stroke-width="1"/>
+
+  <!-- Horizontal lines -->
+  <line x1="0" y1="40" x2="900" y2="40" stroke="#ccd6e0" stroke-width="1"/>
+  <line x1="0" y1="76" x2="820" y2="76" stroke="#ccd6e0" stroke-width="1"/>
+  <!-- right col divider after row 2 -->
+  <line x1="820" y1="112" x2="900" y2="112" stroke="#ccd6e0" stroke-width="1"/>
+  <line x1="0" y1="112" x2="820" y2="112" stroke="#ccd6e0" stroke-width="1"/>
+  <line x1="0" y1="148" x2="820" y2="148" stroke="#ccd6e0" stroke-width="1"/>
+  <line x1="0" y1="184" x2="820" y2="184" stroke="#ccd6e0" stroke-width="1"/>
+  <line x1="0" y1="220" x2="900" y2="220" stroke="#ccd6e0" stroke-width="1"/>
+  <line x1="0" y1="256" x2="900" y2="256" stroke="#ccd6e0" stroke-width="1"/>
+
+  <!-- Outer border -->
+  <rect x="0" y="0" width="900" height="256" fill="none" stroke="#1a3a5c" stroke-width="2"/>
+</svg>

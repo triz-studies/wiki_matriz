@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" font-family="'Georgia', 'Times New Roman', serif">
+  <defs>
+    <!-- Bright warm background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFDE7"/>
+      <stop offset="50%" style="stop-color:#FFF8E1"/>
+      <stop offset="100%" style="stop-color:#F3E5F5"/>
+    </linearGradient>
+
+    <!-- S-curve gradient stroke -->
+    <linearGradient id="curveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1565C0"/>
+      <stop offset="40%" style="stop-color:#1976D2"/>
+      <stop offset="75%" style="stop-color:#0288D1"/>
+      <stop offset="100%" style="stop-color:#01579B"/>
+    </linearGradient>
+
+    <!-- Phase band gradients -->
+    <linearGradient id="phase1Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#BBDEFB;stop-opacity:0.3"/>
+    </linearGradient>
+    <linearGradient id="phase2Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:0.3"/>
+    </linearGradient>
+    <linearGradient id="phase3Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:0.3"/>
+    </linearGradient>
+    <linearGradient id="phase4Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FCE4EC;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#F8BBD0;stop-opacity:0.3"/>
+    </linearGradient>
+
+    <!-- Subtle grid texture -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E0E0E0" stroke-width="0.5" opacity="0.5"/>
+    </pattern>
+
+    <!-- Glow filter for curve -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Shadow for labels -->
+    <filter id="labelShadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000015"/>
+    </filter>
+
+    <!-- Arrowhead marker -->
+    <marker id="arrowX" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#546E7A"/>
+    </marker>
+    <marker id="arrowY" markerWidth="7" markerHeight="10" refX="3.5" refY="1" orient="auto">
+      <polygon points="0 10, 3.5 0, 7 10" fill="#546E7A"/>
+    </marker>
+  </defs>
+
+  <!-- ── BACKGROUND ── -->
+  <rect width="960" height="600" fill="url(#bg)" rx="0"/>
+  <rect width="960" height="600" fill="url(#grid)" opacity="0.4"/>
+
+  <!-- ── PHASE BANDS (behind curve) ── -->
+  <!-- Phase 1: x 80→250 -->
+  <rect x="80" y="60" width="175" height="460" fill="url(#phase1Grad)" rx="0"/>
+  <!-- Transition zone: x 255→390 -->
+  <rect x="255" y="60" width="140" height="460" fill="url(#phase2Grad)" rx="0"/>
+  <!-- Phase 2 (growth): x 390→600 -->
+  <rect x="390" y="60" width="215" height="460" fill="url(#phase3Grad)" rx="0"/>
+  <!-- Phase 3+4: x 600→880 -->
+  <rect x="600" y="60" width="280" height="460" fill="url(#phase4Grad)" rx="0"/>
+
+  <!-- Phase divider lines (dashed) -->
+  <line x1="255" y1="60" x2="255" y2="520" stroke="#B0BEC5" stroke-width="1.2" stroke-dasharray="6,4"/>
+  <line x1="390" y1="60" x2="390" y2="520" stroke="#B0BEC5" stroke-width="1.2" stroke-dasharray="6,4"/>
+  <line x1="600" y1="60" x2="600" y2="520" stroke="#B0BEC5" stroke-width="1.2" stroke-dasharray="6,4"/>
+  <line x1="760" y1="60" x2="760" y2="520" stroke="#B0BEC5" stroke-width="1.2" stroke-dasharray="6,4"/>
+
+  <!-- ── AXES ── -->
+  <!-- Y axis -->
+  <line x1="80" y1="520" x2="80" y2="55" stroke="#546E7A" stroke-width="2.5" marker-end="url(#arrowY)"/>
+  <!-- X axis -->
+  <line x1="80" y1="520" x2="895" y2="520" stroke="#546E7A" stroke-width="2.5" marker-end="url(#arrowX)"/>
+
+  <!-- Axis labels -->
+  <text x="30" y="290" text-anchor="middle" font-size="18" font-style="italic" font-weight="bold" fill="#37474F" transform="rotate(-90,30,290)">MPV</text>
+  <text x="880" y="555" text-anchor="middle" font-size="16" font-style="italic" fill="#37474F">thời gian</text>
+
+  <!-- ── S-CURVE PATH ── -->
+  <!-- Glow shadow layer -->
+  <path d="M 80,490
+           C 120,490 160,488 200,487
+           C 230,486 250,485 270,483
+           C 310,478 340,460 370,430
+           C 400,398 420,360 450,310
+           C 480,258 510,200 545,160
+           C 575,125 600,105 640,95
+           C 680,86 720,82 760,80
+           C 800,80 840,82 880,88"
+        fill="none" stroke="#90CAF9" stroke-width="10" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Main S-curve -->
+  <path d="M 80,490
+           C 120,490 160,488 200,487
+           C 230,486 250,485 270,483
+           C 310,478 340,460 370,430
+           C 400,398 420,360 450,310
+           C 480,258 510,200 545,160
+           C 575,125 600,105 640,95
+           C 680,86 720,82 760,80
+           C 800,80 840,82 880,88"
+        fill="none" stroke="url(#curveGrad)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+
+  <!-- ── PHASE LABELS ── -->
+  <!-- Giai đoạn 1 -->
+  <rect x="88" y="75" width="155" height="60" rx="8" fill="white" opacity="0.85" filter="url(#labelShadow)"/>
+  <text x="165" y="97" text-anchor="middle" font-size="11" font-weight="bold" fill="#1565C0" letter-spacing="1">GIAI ĐOẠN 1</text>
+  <text x="165" y="114" text-anchor="middle" font-size="10" fill="#546E7A">Sơ khai / Trẻ em</text>
+  <text x="165" y="128" text-anchor="middle" font-size="10" fill="#546E7A">Tăng trưởng chậm</text>
+
+  <!-- Giai đoạn chuyển tiếp -->
+  <rect x="258" y="75" width="128" height="60" rx="8" fill="white" opacity="0.85" filter="url(#labelShadow)"/>
+  <text x="322" y="97" text-anchor="middle" font-size="10" font-weight="bold" fill="#2E7D32" letter-spacing="0.5">CHUYỂN TIẾP</text>
+  <text x="322" y="112" text-anchor="middle" font-size="10" fill="#546E7A">Điểm uốn /</text>
+  <text x="322" y="126" text-anchor="middle" font-size="10" fill="#546E7A">Bứt phá</text>
+
+  <!-- Giai đoạn 2 -->
+  <rect x="395" y="75" width="205" height="60" rx="8" fill="white" opacity="0.85" filter="url(#labelShadow)"/>
+  <text x="497" y="97" text-anchor="middle" font-size="11" font-weight="bold" fill="#E65100" letter-spacing="1">GIAI ĐOẠN 2</text>
+  <text x="497" y="114" text-anchor="middle" font-size="10" fill="#546E7A">Tăng trưởng nhanh</text>
+  <text x="497" y="128" text-anchor="middle" font-size="10" fill="#546E7A">Cải tiến mạnh mẽ</text>
+
+  <!-- Giai đoạn 3 -->
+  <rect x="605" y="75" width="150" height="60" rx="8" fill="white" opacity="0.85" filter="url(#labelShadow)"/>
+  <text x="680" y="97" text-anchor="middle" font-size="11" font-weight="bold" fill="#6A1B9A" letter-spacing="1">GIAI ĐOẠN 3</text>
+  <text x="680" y="114" text-anchor="middle" font-size="10" fill="#546E7A">Trưởng thành /</text>
+  <text x="680" y="128" text-anchor="middle" font-size="10" fill="#546E7A">Bão hoà</text>
+
+  <!-- Giai đoạn 4 -->
+  <rect x="765" y="75" width="110" height="60" rx="8" fill="white" opacity="0.85" filter="url(#labelShadow)"/>
+  <text x="820" y="97" text-anchor="middle" font-size="11" font-weight="bold" fill="#B71C1C" letter-spacing="1">GIAI ĐOẠN 4</text>
+  <text x="820" y="114" text-anchor="middle" font-size="10" fill="#546E7A">Suy thoái /</text>
+  <text x="820" y="128" text-anchor="middle" font-size="10" fill="#546E7A">Lỗi thời</text>
+
+  <!-- ── ANNOTATIONS ON THE CURVE ── -->
+  <!-- Dot at inflection -->
+  <circle cx="390" cy="430" r="6" fill="white" stroke="#1976D2" stroke-width="2.5"/>
+  <line x1="390" y1="424" x2="322" y2="380" stroke="#1976D2" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <text x="317" y="373" text-anchor="middle" font-size="10" fill="#1976D2" font-style="italic">điểm uốn</text>
+
+  <!-- Dot at maturity plateau -->
+  <circle cx="680" cy="88" r="6" fill="white" stroke="#6A1B9A" stroke-width="2.5"/>
+
+  <!-- Dot at decline start -->
+  <circle cx="760" cy="80" r="6" fill="white" stroke="#B71C1C" stroke-width="2.5"/>
+
+  <!-- ── PHASE NUMBER BADGES on curve ── -->
+  <!-- Badge 1 -->
+  <circle cx="165" cy="487" r="14" fill="#1565C0" opacity="0.9"/>
+  <text x="165" y="492" text-anchor="middle" font-size="13" font-weight="bold" fill="white">1</text>
+
+  <!-- Badge transition -->
+  <circle cx="322" cy="458" r="14" fill="#2E7D32" opacity="0.9"/>
+  <text x="322" y="463" text-anchor="middle" font-size="11" font-weight="bold" fill="white">→</text>
+
+  <!-- Badge 2 -->
+  <circle cx="490" cy="295" r="14" fill="#E65100" opacity="0.9"/>
+  <text x="490" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="white">2</text>
+
+  <!-- Badge 3 -->
+  <circle cx="680" cy="88" r="0"/><!-- already dotted -->
+  <circle cx="660" cy="84" r="14" fill="#6A1B9A" opacity="0.9"/>
+  <text x="660" y="89" text-anchor="middle" font-size="13" font-weight="bold" fill="white">3</text>
+
+  <!-- Badge 4 -->
+  <circle cx="840" cy="92" r="14" fill="#B71C1C" opacity="0.9"/>
+  <text x="840" y="97" text-anchor="middle" font-size="13" font-weight="bold" fill="white">4</text>
+
+  <!-- ── TITLE ── -->
+  <text x="480" y="565" text-anchor="middle" font-size="15" font-weight="bold" fill="#37474F" letter-spacing="1">Đường cong S – Tiến hóa Hệ thống Kỹ thuật (TRIZ)</text>
+
+  <!-- ── LEGEND strip at bottom ── -->
+  <rect x="88" y="530" width="18" height="10" rx="2" fill="#1565C0" opacity="0.7"/>
+  <text x="112" y="540" font-size="10" fill="#546E7A">GĐ 1: Sơ khai</text>
+  <rect x="218" y="530" width="18" height="10" rx="2" fill="#2E7D32" opacity="0.7"/>
+  <text x="242" y="540" font-size="10" fill="#546E7A">Chuyển tiếp</text>
+  <rect x="338" y="530" width="18" height="10" rx="2" fill="#E65100" opacity="0.7"/>
+  <text x="362" y="540" font-size="10" fill="#546E7A">GĐ 2: Tăng trưởng</text>
+  <rect x="498" y="530" width="18" height="10" rx="2" fill="#6A1B9A" opacity="0.7"/>
+  <text x="522" y="540" font-size="10" fill="#546E7A">GĐ 3: Bão hoà</text>
+  <rect x="648" y="530" width="18" height="10" rx="2" fill="#B71C1C" opacity="0.7"/>
+  <text x="672" y="540" font-size="10" fill="#546E7A">GĐ 4: Suy thoái</text>
+</svg>

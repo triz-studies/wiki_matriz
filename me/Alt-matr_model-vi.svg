@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 359" font-family="Arial, sans-serif">
+
+  <!-- Dark background -->
+  <rect width="1024" height="359" fill="#111111"/>
+
+  <!-- ── BOXES ────────────────────────────────────────────────── -->
+  <!-- Box 1: engineering contradiction (top-left) -->
+  <rect x="20" y="20" width="300" height="90" rx="12" fill="white"/>
+  <text x="170" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#000">mâu thuẫn kỹ thuật</text>
+  <text x="170" y="78" text-anchor="middle" font-size="12" fill="#444">(engineering contradiction)</text>
+
+  <!-- Box 2: set of inventive principles (top-right) -->
+  <rect x="700" y="20" width="304" height="90" rx="12" fill="white"/>
+  <text x="852" y="57" text-anchor="middle" font-size="14" font-weight="bold" fill="#000">tập hợp nguyên tắc sáng tạo</text>
+  <text x="852" y="75" text-anchor="middle" font-size="12" fill="#444">(set of inventive principles)</text>
+
+  <!-- Box 3: specific problem (bottom-left) -->
+  <rect x="20" y="249" width="300" height="90" rx="12" fill="white"/>
+  <text x="170" y="289" text-anchor="middle" font-size="14" font-weight="bold" fill="#000">vấn đề cụ thể</text>
+  <text x="170" y="307" text-anchor="middle" font-size="12" fill="#444">(specific problem)</text>
+
+  <!-- Box 4: specific solutions (bottom-right) -->
+  <rect x="700" y="249" width="304" height="90" rx="12" fill="white"/>
+  <text x="852" y="289" text-anchor="middle" font-size="14" font-weight="bold" fill="#000">các giải pháp cụ thể</text>
+  <text x="852" y="307" text-anchor="middle" font-size="12" fill="#444">(specific solutions)</text>
+
+  <!-- ── ARROWS ──────────────────────────────────────────────── -->
+
+  <!-- Horizontal → : from right edge of box1 (x=320) to left edge of box2 (x=700)
+       Vertically centered in top boxes: box top=20, height=90, center=65
+       Arrow shaft height=30, so y1=50, y2=80 -->
+  <rect x="325" y="50" width="322" height="30" fill="#aaa"/>
+  <polygon points="647,37 695,65 647,93" fill="#aaa"/>
+  <!-- label below arrow -->
+  <text x="487" y="104" text-anchor="middle" font-size="12" font-style="italic" fill="#ccc">ma trận mâu thuẫn (Altshuller)</text>
+  <text x="487" y="118" text-anchor="middle" font-size="11" font-style="italic" fill="#888">(contradiction matrix)</text>
+
+  <!-- Vertical ↑ : from top of box3 (y=249) to bottom of box1 (y=110)
+       Horizontally centered in box1: x=170, shaft width=30, so x1=155, x2=185
+       Shaft from y=130 to y=245, arrowhead tip at y=108 -->
+  <rect x="155" y="130" width="30" height="115" fill="#aaa"/>
+  <polygon points="140,133 170,105 200,133" fill="#aaa"/>
+  <!-- label to the left of arrow -->
+  <text x="148" y="183" text-anchor="end" font-size="12" font-style="italic" fill="#ccc">mô hình hóa</text>
+  <text x="148" y="197" text-anchor="end" font-size="11" font-style="italic" fill="#888">(modeling)</text>
+
+  <!-- Vertical ↓ : from bottom of box2 (y=110) to top of box4 (y=249)
+       Horizontally centered in box2: x=852, shaft width=30, so x1=837, x2=867
+       Shaft from y=113 to y=245, arrowhead tip at y=252 -->
+  <rect x="837" y="113" width="30" height="115" fill="#aaa"/>
+  <polygon points="822,225 852,253 882,225" fill="#aaa"/>
+  <!-- label to the right of arrow -->
+  <text x="875" y="165" font-size="12" font-style="italic" fill="#ccc">động não</text>
+  <text x="875" y="179" font-size="11" font-style="italic" fill="#888">(brainstorming)</text>
+
+</svg>

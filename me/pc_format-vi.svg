@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 193" font-family="Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="193" fill="#1a1a1a"/>
+
+  <!--
+    3-column layout (matching PNG):
+      Col A (parameter):  x=0    w=530   cx=265
+      Col B (to):         x=530  w=80    cx=570
+      Col C (justif.):    x=610  w=414   cx=817
+
+    3 rows:
+      Row 1 (A+):   y=0    h=64    cy=32
+      Row 2 (and):  y=64   h=64    cy=96
+      Row 3 (A-):   y=128  h=65    cy=160
+
+    Grid lines: column dividers + row dividers
+  -->
+
+  <!-- ── Grid lines ── -->
+  <!-- Row dividers -->
+  <line x1="0"    y1="64"  x2="1024" y2="64"  stroke="#444" stroke-width="1"/>
+  <line x1="0"    y1="128" x2="1024" y2="128" stroke="#444" stroke-width="1"/>
+  <line x1="0"    y1="192" x2="1024" y2="192" stroke="#444" stroke-width="1"/>
+  <!-- Column dividers -->
+  <line x1="530"  y1="0"   x2="530"  y2="193" stroke="#444" stroke-width="1"/>
+  <line x1="610"  y1="0"   x2="610"  y2="193" stroke="#444" stroke-width="1"/>
+  <!-- Outer border -->
+  <rect x="0.5" y="0.5" width="1023" height="192" fill="none" stroke="#444" stroke-width="1"/>
+
+  <!-- ══════════════════════════════════════
+       ROW 1 — A+
+  ══════════════════════════════════════ -->
+  <!-- Col A: parameter A+ -->
+  <text x="22" y="38" font-size="15" fill="#e0e0e0">
+    [tham số phải ở trạng thái A+]
+  </text>
+  <!-- Col B: "đến" -->
+  <text x="570" y="38" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0e0e0">đến</text>
+  <!-- Col C: justification A+ -->
+  <text x="630" y="38" font-size="15" fill="#e0e0e0">
+    [lý do cần trạng thái A+]
+  </text>
+
+  <!-- ══════════════════════════════════════
+       ROW 2 — and / và
+  ══════════════════════════════════════ -->
+  <!-- Col A: "và" in cyan -->
+  <text x="22" y="102" font-size="17" font-weight="bold" fill="#29abe2">và</text>
+  <!-- Col B and Col C are empty in the reference -->
+
+  <!-- ══════════════════════════════════════
+       ROW 3 — A-
+  ══════════════════════════════════════ -->
+  <!-- Col A: parameter A- -->
+  <text x="22" y="166" font-size="15" fill="#e0e0e0">
+    [tham số phải ở trạng thái A-]
+  </text>
+  <!-- Col B: "đến" -->
+  <text x="570" y="166" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0e0e0">đến</text>
+  <!-- Col C: justification A- -->
+  <text x="630" y="166" font-size="15" fill="#e0e0e0">
+    [lý do cần trạng thái A-]
+  </text>
+
+</svg>

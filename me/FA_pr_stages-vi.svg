@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 122" font-family="Arial, sans-serif">
+
+  <!-- Black background -->
+  <rect width="1024" height="122" fill="#111"/>
+
+  <!-- Left box: phân tích thành phần -->
+  <rect x="16" y="12" width="390" height="98" rx="10" fill="#e8e8e8" stroke="none"/>
+  <text x="211" y="66" text-anchor="middle" font-size="16" fill="#1a1a1a">phân tích thành phần</text>
+
+  <!-- Large pentagon chevron arrow, centred at x=512 -->
+  <!-- Body: x=420..570, Head tip: x=610, y=61 (centre), top/bottom: y=28/y=94 -->
+  <polygon points="420,32 570,32 610,61 570,90 420,90" fill="#888"/>
+
+  <!-- Right box: mô hình hoá chức năng -->
+  <rect x="618" y="12" width="390" height="98" rx="10" fill="#e8e8e8" stroke="none"/>
+  <text x="813" y="66" text-anchor="middle" font-size="16" fill="#1a1a1a">mô hình hoá chức năng</text>
+
+</svg>

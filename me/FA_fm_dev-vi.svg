@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 161" font-family="Arial, sans-serif">
+
+  <!-- Black background -->
+  <rect width="1024" height="161" fill="#111"/>
+
+  <!-- ── LEFT BOX: thành phần 1 ── -->
+  <rect x="18" y="14" width="300" height="133" rx="10" fill="#e8e8e8" stroke="none"/>
+  <text x="168" y="62"  text-anchor="middle" font-size="16" fill="#1a1a1a">thành phần 1</text>
+  <text x="168" y="86"  text-anchor="middle" font-size="16" fill="#1a1a1a">=</text>
+  <text x="168" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">vật mang chức năng</text>
+
+  <!-- ── CENTRE CHEVRON ARROW ──
+       Pentagon shape: rect body + triangular head
+       Body: x=348..580, y=38..123  (height=85)
+       Head: tip at x=650, y=80.5 (centre)
+  -->
+  <polygon points="348,38 580,38 650,80.5 580,123 348,123" fill="#888"/>
+  <text x="490" y="87" text-anchor="middle" font-size="17" font-weight="bold" fill="white">hành động</text>
+
+  <!-- ── RIGHT BOX: thành phần 2 ── -->
+  <rect x="706" y="14" width="300" height="133" rx="10" fill="#e8e8e8" stroke="none"/>
+  <text x="856" y="62"  text-anchor="middle" font-size="16" fill="#1a1a1a">thành phần 2</text>
+  <text x="856" y="86"  text-anchor="middle" font-size="16" fill="#1a1a1a">=</text>
+  <text x="856" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">đối tượng chức năng</text>
+
+</svg>

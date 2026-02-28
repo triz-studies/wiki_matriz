@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 135" font-family="Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="135" fill="#111"/>
+
+  <!-- Divider lines -->
+  <line x1="0" y1="45" x2="1024" y2="45" stroke="#333" stroke-width="1"/>
+  <line x1="0" y1="90" x2="1024" y2="90" stroke="#333" stroke-width="1"/>
+
+  <!-- ── ROW 2 (top): IF ── -->
+  <!-- Red chevron/arrow badge -->
+  <polygon points="8,10 50,10 62,22.5 50,35 8,35" fill="#C0392B"/>
+  <text x="34" y="27" text-anchor="middle" font-size="15" font-weight="bold" fill="white" dominant-baseline="middle">2</text>
+  <!-- Text -->
+  <text x="74" y="27" font-size="13.5" fill="#ddd" dominant-baseline="middle">
+    <tspan font-weight="normal">NẾU:    </tspan><tspan>công nghệ / hành động / thông số </tspan><tspan font-weight="bold">đã biết trong kỹ thuật</tspan><tspan> để thay đổi thông số từ dòng THÌ</tspan>
+  </text>
+
+  <!-- ── ROW 1 (middle): THEN ── -->
+  <polygon points="8,55 50,55 62,67.5 50,80 8,80" fill="#C0392B"/>
+  <text x="34" y="67" text-anchor="middle" font-size="15" font-weight="bold" fill="white" dominant-baseline="middle">1</text>
+  <!-- Text -->
+  <text x="74" y="67" font-size="13.5" fill="#ddd" dominant-baseline="middle">
+    <tspan font-weight="normal">THÌ:      </tspan><tspan>thông số </tspan><tspan font-weight="bold">cần thay đổi</tspan><tspan> trong hệ thống để giải quyết vấn đề</tspan>
+  </text>
+
+  <!-- ── ROW 3 (bottom): BUT ── -->
+  <polygon points="8,100 50,100 62,112.5 50,125 8,125" fill="#e8625a"/>
+  <text x="34" y="112" text-anchor="middle" font-size="15" font-weight="bold" fill="white" dominant-baseline="middle">3</text>
+  <!-- Text -->
+  <text x="74" y="112" font-size="13.5" fill="#ddd" dominant-baseline="middle">
+    <tspan font-weight="normal">NHƯNG: </tspan><tspan>thông số </tspan><tspan font-weight="bold">bị xấu đi</tspan>
+  </text>
+
+</svg>

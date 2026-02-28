@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 157" font-family="Arial, sans-serif">
+
+  <!-- Bright background -->
+  <rect width="1024" height="157" fill="#f4f4f4"/>
+
+  <!--
+    Arrow: pentagon chevron
+    Body: x=18..940, y=52..108  (height=56)
+    Head tip: x=1010, midY=80
+    Points: 18,52  940,52  1010,80  940,108  18,108
+  -->
+  <polygon points="18,52 940,52 1010,80 940,108 18,108" fill="#b8cfe8"/>
+
+  <!--
+    Tick positions (x on arrow):
+      "single state"             → x=38  (left edge) — top label, tick on top edge
+      "multiple states discrete" → x=290 — bottom label, tick on bottom edge
+      "multiple states infinite" → x=560 — top label, tick on top edge
+      "multiple states ranges"   → x=790 — bottom label, tick on bottom edge
+  -->
+
+  <!-- ── TICK UP (pointing up from top edge at y=52, into the label zone) ── -->
+  <!-- single state: x=38 -->
+  <polygon points="30,52 46,52 38,38" fill="#b8cfe8"/>
+  <!-- multiple states infinitely variable: x=560 -->
+  <polygon points="552,52 568,52 560,38" fill="#b8cfe8"/>
+
+  <!-- ── TICK DOWN (pointing down from bottom edge at y=108) ── -->
+  <!-- multiple states discrete: x=290 -->
+  <polygon points="282,108 298,108 290,122" fill="#b8cfe8"/>
+  <!-- multiple states multiple ranges: x=790 -->
+  <polygon points="782,108 798,108 790,122" fill="#b8cfe8"/>
+
+  <!-- ── LABELS ABOVE ── -->
+  <text x="18" y="30" font-size="14" font-weight="bold" fill="#1a1a1a">một trạng thái</text>
+  <text x="460" y="30" font-size="14" font-weight="bold" fill="#1a1a1a">nhiều trạng thái (biến đổi liên tục)</text>
+
+  <!-- ── LABELS BELOW ── -->
+  <text x="190" y="145" font-size="14" font-weight="bold" fill="#1a1a1a">nhiều trạng thái (rời rạc)</text>
+  <text x="660" y="145" font-size="14" font-weight="bold" fill="#1a1a1a">nhiều trạng thái (nhiều dải)</text>
+
+</svg>

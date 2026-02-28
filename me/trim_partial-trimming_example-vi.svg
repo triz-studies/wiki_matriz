@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 235" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arrBlue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4A7CAF"/>
+    </marker>
+    <marker id="arrTeal" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4A9080"/>
+    </marker>
+  </defs>
+
+  <!-- Cream background -->
+  <rect width="1024" height="235" fill="#F5F0E8"/>
+
+  <!-- ════════════════════════════════
+       LEFT DIAGRAM — Blue boxes
+       comp1: x=18,  y=30,  w=155, h=48
+       comp2: x=250, y=30,  w=155, h=48
+       comp3: x=18,  y=138, w=155, h=48
+       comp4: x=250, y=138, w=155, h=48
+  ════════════════════════════════ -->
+
+  <!-- Blue box style: fill=#7BADD4 stroke=#4A7CAF -->
+  <rect x="18"  y="30"  width="155" height="48" rx="6" fill="#7BADD4" stroke="#4A7CAF" stroke-width="1.8"/>
+  <rect x="250" y="30"  width="155" height="48" rx="6" fill="#7BADD4" stroke="#4A7CAF" stroke-width="1.8"/>
+  <rect x="18"  y="138" width="155" height="48" rx="6" fill="#7BADD4" stroke="#4A7CAF" stroke-width="1.8"/>
+  <rect x="250" y="138" width="155" height="48" rx="6" fill="#7BADD4" stroke="#4A7CAF" stroke-width="1.8"/>
+
+  <!-- Labels -->
+  <text x="95"  y="50" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">THÀNH PHẦN 1</text>
+  <text x="95"  y="64" text-anchor="middle" font-size="9"  fill="#ddeeff">(COMPONENT 1)</text>
+  <text x="327" y="50" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">THÀNH PHẦN 2</text>
+  <text x="327" y="64" text-anchor="middle" font-size="9"  fill="#ddeeff">(COMPONENT 2)</text>
+  <text x="95"  y="158" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">THÀNH PHẦN 3</text>
+  <text x="95"  y="172" text-anchor="middle" font-size="9"  fill="#ddeeff">(COMPONENT 3)</text>
+  <text x="327" y="158" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">THÀNH PHẦN 4</text>
+  <text x="327" y="172" text-anchor="middle" font-size="9"  fill="#ddeeff">(COMPONENT 4)</text>
+
+  <!-- Arrow: comp1→comp2 horizontal (Function 1) -->
+  <line x1="174" y1="54" x2="248" y2="54" stroke="#4A7CAF" stroke-width="1.8" marker-end="url(#arrBlue)"/>
+  <text x="211" y="47" text-anchor="middle" font-size="11" font-style="italic" fill="#333">Chức năng 1</text>
+
+  <!-- Arrow: comp1→comp3 vertical (Function 2) -->
+  <line x1="75" y1="79" x2="75" y2="136" stroke="#4A7CAF" stroke-width="1.8" marker-end="url(#arrBlue)"/>
+  <text x="112" y="112" text-anchor="middle" font-size="11" font-style="italic" fill="#333">Chức năng 2</text>
+
+  <!-- Arrow: comp1→comp4 diagonal (Function 3) -->
+  <line x1="173" y1="72" x2="250" y2="145" stroke="#4A7CAF" stroke-width="1.8" marker-end="url(#arrBlue)"/>
+  <text x="243" y="112" text-anchor="middle" font-size="11" font-style="italic" fill="#333">Chức năng 3</text>
+
+  <!-- ════════════════════════════════
+       RIGHT DIAGRAM — Teal/green boxes
+       comp1: x=560, y=30
+       comp2: x=820, y=30
+       comp3: x=560, y=138
+       comp4: x=820, y=138
+  ════════════════════════════════ -->
+
+  <rect x="560" y="30"  width="155" height="48" rx="6" fill="#6BBDAA" stroke="#4A9080" stroke-width="1.8"/>
+  <rect x="820" y="30"  width="155" height="48" rx="6" fill="#6BBDAA" stroke="#4A9080" stroke-width="1.8"/>
+  <rect x="560" y="138" width="155" height="48" rx="6" fill="#6BBDAA" stroke="#4A9080" stroke-width="1.8"/>
+  <rect x="820" y="138" width="155" height="48" rx="6" fill="#6BBDAA" stroke="#4A9080" stroke-width="1.8"/>
+
+  <text x="637" y="50" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">THÀNH PHẦN 1</text>
+  <text x="637" y="64" text-anchor="middle" font-size="9"  fill="#ddfff5">(COMPONENT 1)</text>
+  <text x="897" y="50" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">THÀNH PHẦN 2</text>
+  <text x="897" y="64" text-anchor="middle" font-size="9"  fill="#ddfff5">(COMPONENT 2)</text>
+  <text x="637" y="158" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">THÀNH PHẦN 3</text>
+  <text x="637" y="172" text-anchor="middle" font-size="9"  fill="#ddfff5">(COMPONENT 3)</text>
+  <text x="897" y="158" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">THÀNH PHẦN 4</text>
+  <text x="897" y="172" text-anchor="middle" font-size="9"  fill="#ddfff5">(COMPONENT 4)</text>
+
+  <!-- Arrow: comp1→comp2 diagonal up-right (Function 1 label near middle) -->
+  <line x1="716" y1="54" x2="818" y2="54" stroke="#4A9080" stroke-width="1.8" marker-end="url(#arrTeal)"/>
+
+  <!-- Arrow: comp3→comp2 diagonal up-right (crosses with comp1→comp4) -->
+  <line x1="716" y1="154" x2="818" y2="56" stroke="#4A9080" stroke-width="1.8" marker-end="url(#arrTeal)"/>
+
+  <!-- Function 1 label at crossing midpoint -->
+  <text x="780" y="96" text-anchor="middle" font-size="11" font-style="italic" fill="#333">Chức năng 1</text>
+
+  <!-- Arrow: comp1→comp4 diagonal down-right -->
+  <line x1="716" y1="68" x2="818" y2="150" stroke="#4A9080" stroke-width="1.8" marker-end="url(#arrTeal)"/>
+
+  <!-- Function 3 label near crossing -->
+  <text x="795" y="125" text-anchor="middle" font-size="11" font-style="italic" fill="#333">Chức năng 3</text>
+
+  <!-- Self-loop: comp3→comp3 arc below box, deeper curve, manual arrowhead -->
+  <!-- Arc: starts bottom-left of comp3 (x=590,y=186), dips down, ends bottom-right (x=700,y=186) -->
+  <path d="M 580,186 C 568,215 568,215 637,215 C 706,215 722,215 715,186"
+        fill="none" stroke="#4A9080" stroke-width="1.8"/>
+  <!-- Arrowhead pointing UP-LEFT at end point (715,186), tangent angle ~-60deg -->
+  <!-- tip at 715,186, rotated to match arc arrival direction -->
+  <polygon points="706,192 718,183 722,196" fill="#4A9080"/>
+  <text x="637" y="212" text-anchor="middle" font-size="11" font-style="italic" fill="#333">Chức năng 2</text>
+
+</svg>

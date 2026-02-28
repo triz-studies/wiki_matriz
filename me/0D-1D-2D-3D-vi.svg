@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 339" font-family="Arial, sans-serif">
+
+  <!-- Dark background -->
+  <rect width="1024" height="339" fill="#111111"/>
+
+  <!-- ── TOP ARROW: forward ── -->
+  <polygon points="28,36 958,36 958,20 1004,46 958,72 958,56 28,56" fill="#5BB0D0"/>
+  <text x="512" y="16" text-anchor="middle" font-size="13" fill="#5BB0D0" font-style="italic">tiến theo chiều phát triển (forward along the progression)</text>
+
+  <!-- ── BOTTOM ARROW: backward ── -->
+  <polygon points="996,283 66,283 66,267 20,293 66,319 66,303 996,303" fill="#E8924A"/>
+  <text x="512" y="330" text-anchor="middle" font-size="13" fill="#E8924A" font-style="italic">lùi theo chiều phát triển (backward along the progression)</text>
+
+  <!--
+    Shape centers: 
+      0D @ cx=100
+      1D @ cx=285
+      2D @ cx=530  (but rect centered)
+      3D @ cx=780
+    All shapes vertically centered at y=162
+  -->
+
+  <!-- ── 0D: point ── -->
+  <circle cx="100" cy="162" r="11" fill="#dddddd"/>
+  <text x="100" y="225" text-anchor="middle" font-size="16" font-weight="bold" fill="#eeeeee">0D</text>
+  <text x="100" y="243" text-anchor="middle" font-size="13" fill="#aaaaaa">hành động điểm</text>
+  <text x="100" y="258" text-anchor="middle" font-size="11" fill="#666666">(point action)</text>
+
+  <!-- ── 1D: horizontal line ── -->
+  <line x1="218" y1="162" x2="378" y2="162" stroke="#dddddd" stroke-width="4" stroke-linecap="round"/>
+  <text x="298" y="225" text-anchor="middle" font-size="16" font-weight="bold" fill="#eeeeee">1D</text>
+  <text x="298" y="243" text-anchor="middle" font-size="13" fill="#aaaaaa">hành động đường</text>
+  <text x="298" y="258" text-anchor="middle" font-size="11" fill="#666666">(line action)</text>
+
+  <!-- ── 2D: rectangle centered at cx=530, cy=162 ── -->
+  <!-- rect: x=460, y=112, w=140, h=100 -->
+  <rect x="460" y="112" width="140" height="100" fill="none" stroke="#dddddd" stroke-width="2.5" rx="2"/>
+  <text x="530" y="225" text-anchor="middle" font-size="16" font-weight="bold" fill="#eeeeee">2D</text>
+  <text x="530" y="243" text-anchor="middle" font-size="13" fill="#aaaaaa">hành động bề mặt</text>
+  <text x="530" y="258" text-anchor="middle" font-size="11" fill="#666666">(surface action)</text>
+
+  <!-- ── 3D: isometric box centered around cx=780, cy=155 ──
+    Front face: x=710..830, y=125..210  (120×85)
+    Top face offset: dx=+40, dy=-35
+    Right face: right of front, same offset
+  -->
+  <!-- front face -->
+  <polygon points="706,125 826,125 826,210 706,210" fill="none" stroke="#dddddd" stroke-width="2.5"/>
+  <!-- top face -->
+  <polygon points="706,125 746,90 866,90 826,125" fill="none" stroke="#dddddd" stroke-width="2.5"/>
+  <!-- right face -->
+  <polygon points="826,125 866,90 866,175 826,210" fill="none" stroke="#dddddd" stroke-width="2.5"/>
+
+  <text x="786" y="225" text-anchor="middle" font-size="16" font-weight="bold" fill="#eeeeee">3D</text>
+  <text x="786" y="243" text-anchor="middle" font-size="13" fill="#aaaaaa">hành động thể tích</text>
+  <text x="786" y="258" text-anchor="middle" font-size="11" fill="#666666">(volume action)</text>
+
+</svg>

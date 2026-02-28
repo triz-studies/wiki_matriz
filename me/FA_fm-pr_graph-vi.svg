@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 320" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#AAAAAA"/>
+    </marker>
+  </defs>
+
+  <!-- Dark background matching PNG -->
+  <rect width="1024" height="320" fill="#1E1E1E"/>
+
+  <!-- ===================== BOXES ===================== -->
+
+  <!-- component (operation) 1 / thành phần (thao tác) 1 — left -->
+  <rect x="14" y="88" width="248" height="130" rx="10" fill="#F0F0F0" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="138" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">thành phần (thao tác) 1</text>
+  <text x="26" y="134" font-size="12" fill="#333">vật mang A (hành động) đối tượng X <tspan fill="#2A7AB3">(U)</tspan></text>
+  <text x="26" y="154" font-size="12" fill="#333">vật mang B (hành động) đối tượng Y <tspan fill="#2A7AB3">(U)</tspan></text>
+  <text x="26" y="174" font-size="12" fill="#333">vật mang B (hành động) đối tượng W <tspan fill="#2A7AB3">(U)</tspan></text>
+  <!-- subtitle: original -->
+  <text x="138" y="208" text-anchor="middle" font-size="10" fill="#888">component (operation) 1</text>
+
+  <!-- Arrow 1 → 2 (top) -->
+  <line x1="263" y1="122" x2="356" y2="90" stroke="#AAAAAA" stroke-width="1.8" marker-end="url(#arr)"/>
+  <!-- Arrow 1 → 4 (bottom) -->
+  <line x1="263" y1="175" x2="356" y2="222" stroke="#AAAAAA" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- component (operation) 2 / thành phần (thao tác) 2 — top middle -->
+  <rect x="358" y="20" width="268" height="132" rx="10" fill="#F0F0F0" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="492" y="44" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">thành phần (thao tác) 2</text>
+  <text x="370" y="66" font-size="12" fill="#333">vật mang A (hành động) đối tượng Z <tspan fill="#2A7AB3">(U)</tspan></text>
+  <text x="370" y="86" font-size="12" fill="#333">vật mang C (hành động) đối tượng W <tspan fill="#2A7AB3">(U)</tspan></text>
+  <text x="370" y="106" font-size="12" fill="#333">vật mang C (hành động) đối tượng Y <tspan fill="#CC2222">(H)</tspan></text>
+  <text x="492" y="144" text-anchor="middle" font-size="10" fill="#888">component (operation) 2</text>
+
+  <!-- Arrow 2 → 3 -->
+  <line x1="627" y1="84" x2="718" y2="84" stroke="#AAAAAA" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- component (operation) 3 / thành phần (thao tác) 3 — right -->
+  <rect x="721" y="20" width="290" height="110" rx="10" fill="#F0F0F0" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="866" y="44" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">thành phần (thao tác) 3</text>
+  <text x="733" y="66" font-size="12" fill="#333">vật mang A (hành động) đối tượng Y <tspan fill="#2A7AB3">(U)</tspan></text>
+  <text x="733" y="86" font-size="12" fill="#333">vật mang D (hành động) đối tượng T <tspan fill="#2A7AB3">(U)</tspan></text>
+  <text x="866" y="122" text-anchor="middle" font-size="10" fill="#888">component (operation) 3</text>
+
+  <!-- component (operation) 4 / thành phần (thao tác) 4 — bottom middle -->
+  <rect x="358" y="178" width="268" height="118" rx="10" fill="#F0F0F0" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="492" y="202" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">thành phần (thao tác) 4</text>
+  <text x="370" y="224" font-size="12" fill="#333">vật mang D (hành động) đối tượng Y <tspan fill="#2A7AB3">(U)</tspan></text>
+  <text x="370" y="244" font-size="12" fill="#333">vật mang A (hành động) đối tượng Y <tspan fill="#CC2222">(H)</tspan></text>
+  <text x="370" y="264" font-size="12" fill="#333">vật mang E (hành động) đối tượng Z <tspan fill="#2A7AB3">(U)</tspan></text>
+  <text x="492" y="288" text-anchor="middle" font-size="10" fill="#888">component (operation) 4</text>
+
+</svg>

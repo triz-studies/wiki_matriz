@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 216" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arrGray" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#999"/>
+    </marker>
+    <marker id="arrDark" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#ccc"/>
+    </marker>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="1024" height="216" fill="#111111"/>
+
+  <!-- ── ENGINEERING SYSTEM DASHED BOUNDARY ── -->
+  <rect x="215" y="18" width="570" height="170" rx="8" fill="none" stroke="#666" stroke-width="1.5" stroke-dasharray="8,5"/>
+  <text x="430" y="207" font-size="12" font-style="italic" fill="#888">hệ thống kỹ thuật (engineering system)</text>
+
+  <!-- ── SUPERSYSTEM COMPONENT 1 (blue, left top) ── -->
+  <polygon points="8,52 48,38 178,38 178,93 48,93 8,78" fill="#6699CC"/>
+  <text x="93" y="62" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">thành phần</text>
+  <text x="93" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">siêu hệ 1</text>
+  <text x="93" y="89" text-anchor="middle" font-size="9" fill="#cce">(supersystem comp. 1)</text>
+  <!-- arrow → system component 1 -->
+  <line x1="178" y1="65" x2="222" y2="65" stroke="#999" stroke-width="1.5" marker-end="url(#arrGray)"/>
+
+  <!-- ── SUPERSYSTEM COMPONENT 2 (blue, left bottom) ── -->
+  <polygon points="8,128 48,114 178,114 178,168 48,168 8,153" fill="#6699CC"/>
+  <text x="93" y="138" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">thành phần</text>
+  <text x="93" y="152" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">siêu hệ 2</text>
+  <text x="93" y="165" text-anchor="middle" font-size="9" fill="#cce">(supersystem comp. 2)</text>
+  <!-- bold arrow FROM system component 3 → supersystem 2 (additional function) -->
+  <line x1="222" y1="142" x2="178" y2="142" stroke="#ccc" stroke-width="2" marker-end="url(#arrDark)"/>
+
+  <!-- ── SYSTEM COMPONENT 1 (gray, top-left inside) ── -->
+  <rect x="224" y="44" width="185" height="48" rx="6" fill="#AAAAAA"/>
+  <text x="316" y="64" text-anchor="middle" font-size="12" font-weight="bold" fill="#000">thành phần hệ 1</text>
+  <text x="316" y="79" text-anchor="middle" font-size="10" fill="#333">(system component 1)</text>
+  <!-- arrow: sc2 → sc1 (left) -->
+  <line x1="504" y1="68" x2="411" y2="68" stroke="#999" stroke-width="1.5" marker-end="url(#arrGray)"/>
+
+  <!-- ── SYSTEM COMPONENT 2 (gray, top-right inside) ── -->
+  <rect x="506" y="44" width="185" height="48" rx="6" fill="#AAAAAA"/>
+  <text x="598" y="64" text-anchor="middle" font-size="12" font-weight="bold" fill="#000">thành phần hệ 2</text>
+  <text x="598" y="79" text-anchor="middle" font-size="10" fill="#333">(system component 2)</text>
+  <!-- arrow: sc2 → target -->
+  <line x1="692" y1="68" x2="768" y2="68" stroke="#999" stroke-width="1.5" marker-end="url(#arrGray)"/>
+
+  <!-- ── SYSTEM COMPONENT 3 (gray, bottom-left inside) ── -->
+  <rect x="224" y="120" width="185" height="48" rx="6" fill="#AAAAAA"/>
+  <text x="316" y="140" text-anchor="middle" font-size="12" font-weight="bold" fill="#000">thành phần hệ 3</text>
+  <text x="316" y="155" text-anchor="middle" font-size="10" fill="#333">(system component 3)</text>
+  <!-- arrow: sc1 → sc3 (down) -->
+  <line x1="316" y1="93" x2="316" y2="119" stroke="#999" stroke-width="1.5" marker-end="url(#arrGray)"/>
+
+  <!-- ── SYSTEM COMPONENT 4 (gray, bottom-right inside) ── -->
+  <rect x="506" y="120" width="185" height="48" rx="6" fill="#AAAAAA"/>
+  <text x="598" y="140" text-anchor="middle" font-size="12" font-weight="bold" fill="#000">thành phần hệ 4</text>
+  <text x="598" y="155" text-anchor="middle" font-size="10" fill="#333">(system component 4)</text>
+  <!-- arrow: sc2 → sc4 (down) -->
+  <line x1="598" y1="93" x2="598" y2="119" stroke="#999" stroke-width="1.5" marker-end="url(#arrGray)"/>
+  <!-- arrow: sc4 → supersystem 3 (right) -->
+  <line x1="692" y1="144" x2="768" y2="144" stroke="#999" stroke-width="1.5" marker-end="url(#arrGray)"/>
+
+  <!-- ── TARGET COMPONENT (yellow pill, right top) ── -->
+  <rect x="770" y="46" width="200" height="44" rx="22" fill="#F5E060"/>
+  <text x="870" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">thành phần mục tiêu</text>
+  <text x="870" y="80" text-anchor="middle" font-size="10" fill="#666">(target component)</text>
+  <!-- arrow from sc4 up to target -->
+  <line x1="870" y1="120" x2="870" y2="91" stroke="#999" stroke-width="1.5" marker-end="url(#arrGray)"/>
+
+  <!-- ── SUPERSYSTEM COMPONENT 3 (blue pill, right bottom) ── -->
+  <rect x="770" y="122" width="200" height="44" rx="22" fill="#6699CC"/>
+  <text x="870" y="140" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">thành phần siêu hệ 3</text>
+  <text x="870" y="155" text-anchor="middle" font-size="9" fill="#cce">(supersystem component 3)</text>
+
+</svg>

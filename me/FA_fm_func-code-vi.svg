@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 110" font-family="Arial, sans-serif">
+
+  <!-- Dark background -->
+  <rect width="1024" height="110" fill="#2e2e2e"/>
+
+  <!-- ── 1. Useful function NORMAL: thin solid black arrow ── -->
+  <line x1="20" y1="30" x2="188" y2="30" stroke="#cccccc" stroke-width="2"/>
+  <polygon points="183,24 198,30 183,36" fill="#cccccc"/>
+  <text x="109" y="60" text-anchor="middle" font-size="12" font-style="italic" fill="#cccccc">chức năng hữu ích</text>
+  <text x="109" y="76" text-anchor="middle" font-size="12" font-style="italic" fill="#cccccc">bình thường</text>
+  <text x="109" y="92" text-anchor="middle" font-size="10" fill="#888">(useful function normal)</text>
+
+  <!-- ── 2. Useful function EXCESSIVE: thick solid black arrow ── -->
+  <line x1="248" y1="30" x2="448" y2="30" stroke="#cccccc" stroke-width="7"/>
+  <polygon points="441,22 460,30 441,38" fill="#cccccc"/>
+  <text x="354" y="60" text-anchor="middle" font-size="12" font-style="italic" fill="#cccccc">chức năng hữu ích</text>
+  <text x="354" y="76" text-anchor="middle" font-size="12" font-style="italic" fill="#cccccc">quá mức</text>
+  <text x="354" y="92" text-anchor="middle" font-size="10" fill="#888">(useful function excessive)</text>
+
+  <!-- ── 3. Useful function INSUFFICIENT: dashed arrow ── -->
+  <line x1="518" y1="30" x2="700" y2="30" stroke="#cccccc" stroke-width="2" stroke-dasharray="10,7"/>
+  <polygon points="693,24 710,30 693,36" fill="#cccccc"/>
+  <text x="614" y="60" text-anchor="middle" font-size="12" font-style="italic" fill="#cccccc">chức năng hữu ích</text>
+  <text x="614" y="76" text-anchor="middle" font-size="12" font-style="italic" fill="#cccccc">không đủ</text>
+  <text x="614" y="92" text-anchor="middle" font-size="10" fill="#888">(useful function insufficient)</text>
+
+  <!-- ── 4. Harmful function: solid RED arrow ── -->
+  <line x1="768" y1="30" x2="990" y2="30" stroke="#DD2222" stroke-width="2"/>
+  <polygon points="984,24 1000,30 984,36" fill="#DD2222"/>
+  <text x="879" y="60" text-anchor="middle" font-size="12" font-style="italic" fill="#DD4444">chức năng có hại</text>
+  <text x="879" y="92" text-anchor="middle" font-size="10" fill="#AA3333">(harmful function)</text>
+
+</svg>

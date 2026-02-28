@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 501" font-family="Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0,0 9,3.5 0,7" fill="#666"/>
+    </marker>
+  </defs>
+
+  <!-- ── Bright background ── -->
+  <rect width="1024" height="501" fill="#f0f0ee"/>
+
+  <!--
+    NODE POSITIONS (matching PNG layout exactly, scaled to 1024×501)
+    ─────────────────────────────────────────────────────────────────
+    A  xu hướng tiến hóa đường cong S          cx=512  cy=32   w=270 h=44
+    B  xu hướng tăng giá trị (hub)             cx=512  cy=122  w=270 h=44
+    C  xu hướng chuyển đổi lên siêu hệ thống  cx=130  cy=160  w=210 h=50
+    D  xu hướng tăng cường lưu lượng           cx=890  cy=160  w=210 h=44
+    E  xu hướng tăng mức độ hoàn chỉnh...      cx=350  cy=250  w=240 h=50
+    F  xu hướng tăng mức độ cắt tỉa            cx=668  cy=250  w=230 h=50
+    G  xu hướng giảm sự tham gia của con người cx=120  cy=318  w=210 h=50
+    H  xu hướng tăng sự phối hợp (hub)         cx=512  cy=340  w=270 h=44
+    I  xu hướng phát triển không đồng đều...   cx=870  cy=340  w=240 h=50
+    J  xu hướng tăng khả năng kiểm soát        cx=512  cy=420  w=270 h=44
+    K  xu hướng tăng tính động học             cx=512  cy=478  w=270 h=44
+  -->
+
+  <!-- ═══════════════════════════ NODES ═══════════════════════════ -->
+
+  <!-- A: xu hướng tiến hóa đường cong S -->
+  <rect x="377" y="10" width="270" height="44" rx="8" fill="#d6e6f5" stroke="#99b8d8" stroke-width="1.2"/>
+  <text x="512" y="37" text-anchor="middle" fill="#222">xu hướng tiến hóa đường cong S</text>
+
+  <!-- B: xu hướng tăng giá trị (central hub) -->
+  <rect x="377" y="100" width="270" height="44" rx="8" fill="#c8dff0" stroke="#88aed0" stroke-width="1.5"/>
+  <text x="512" y="127" text-anchor="middle" font-weight="bold" fill="#111">xu hướng tăng giá trị</text>
+
+  <!-- C: chuyển đổi lên siêu hệ thống -->
+  <rect x="25" y="135" width="210" height="50" rx="8" fill="#d6e6f5" stroke="#99b8d8" stroke-width="1.2"/>
+  <text x="130" y="157" text-anchor="middle" fill="#222">xu hướng chuyển đổi</text>
+  <text x="130" y="174" text-anchor="middle" fill="#222">lên siêu hệ thống</text>
+
+  <!-- D: tăng cường lưu lượng -->
+  <rect x="785" y="138" width="214" height="44" rx="8" fill="#d6e6f5" stroke="#99b8d8" stroke-width="1.2"/>
+  <text x="892" y="165" text-anchor="middle" fill="#222">xu hướng tăng cường lưu lượng</text>
+
+  <!-- E: tăng mức độ hoàn chỉnh các thành phần hệ thống -->
+  <rect x="228" y="225" width="244" height="50" rx="8" fill="#d6e6f5" stroke="#99b8d8" stroke-width="1.2"/>
+  <text x="350" y="246" text-anchor="middle" fill="#222">xu hướng tăng mức độ</text>
+  <text x="350" y="263" text-anchor="middle" fill="#222">hoàn chỉnh thành phần hệ thống</text>
+
+  <!-- F: tăng mức độ cắt tỉa -->
+  <rect x="554" y="225" width="228" height="50" rx="8" fill="#d6e6f5" stroke="#99b8d8" stroke-width="1.2"/>
+  <text x="668" y="246" text-anchor="middle" fill="#222">xu hướng tăng mức độ</text>
+  <text x="668" y="263" text-anchor="middle" fill="#222">cắt tỉa</text>
+
+  <!-- G: giảm sự tham gia của con người -->
+  <rect x="15" y="293" width="210" height="50" rx="8" fill="#d6e6f5" stroke="#99b8d8" stroke-width="1.2"/>
+  <text x="120" y="314" text-anchor="middle" fill="#222">xu hướng giảm sự</text>
+  <text x="120" y="331" text-anchor="middle" fill="#222">tham gia của con người</text>
+
+  <!-- H: tăng sự phối hợp (hub) -->
+  <rect x="377" y="318" width="270" height="44" rx="8" fill="#c8dff0" stroke="#88aed0" stroke-width="1.5"/>
+  <text x="512" y="345" text-anchor="middle" font-weight="bold" fill="#111">xu hướng tăng sự phối hợp</text>
+
+  <!-- I: phát triển không đồng đều các thành phần -->
+  <rect x="750" y="315" width="254" height="50" rx="8" fill="#d6e6f5" stroke="#99b8d8" stroke-width="1.2"/>
+  <text x="877" y="336" text-anchor="middle" fill="#222">xu hướng phát triển</text>
+  <text x="877" y="353" text-anchor="middle" fill="#222">không đồng đều thành phần hệ thống</text>
+
+  <!-- J: tăng khả năng kiểm soát -->
+  <rect x="377" y="398" width="270" height="44" rx="8" fill="#d6e6f5" stroke="#99b8d8" stroke-width="1.2"/>
+  <text x="512" y="425" text-anchor="middle" fill="#222">xu hướng tăng khả năng kiểm soát</text>
+
+  <!-- K: tăng tính động học -->
+  <rect x="377" y="456" width="270" height="38" rx="8" fill="#d6e6f5" stroke="#99b8d8" stroke-width="1.2"/>
+  <text x="512" y="480" text-anchor="middle" fill="#222">xu hướng tăng tính động học</text>
+
+  <!-- ═══════════════════════════ CONNECTIONS ═══════════════════════════ -->
+
+  <!-- A → B (S-curve → increasing value) vertical down -->
+  <line x1="512" y1="54"  x2="512" y2="98"  stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- C → B (transition → hub): diagonal up-right -->
+  <line x1="235" y1="148" x2="375" y2="116"  stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- D → B (flow enhancement → hub): diagonal up-left -->
+  <line x1="783" y1="152" x2="649" y2="116"  stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- E → B (completeness → hub): diagonal up -->
+  <line x1="400" y1="224" x2="475" y2="145"  stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- F → B (trimming → hub): diagonal up-left -->
+  <line x1="620" y1="224" x2="560" y2="145"  stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- G → E (human involvement → completeness) -->
+  <line x1="225" y1="308" x2="270" y2="275"  stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- H → B (coordination → increasing value) vertical up -->
+  <line x1="512" y1="318" x2="512" y2="145"  stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- I → H (uneven development → coordination) -->
+  <line x1="748" y1="340" x2="649" y2="340"  stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- J → H (controllability → coordination) -->
+  <line x1="512" y1="398" x2="512" y2="364"  stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- K → J (dynamization → controllability) -->
+  <line x1="512" y1="456" x2="512" y2="444"  stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+</svg>

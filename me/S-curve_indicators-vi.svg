@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 592" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#444"/>
+    </marker>
+  </defs>
+
+  <!-- White background -->
+  <rect width="1024" height="592" fill="#f8f8f8"/>
+
+  <!-- ── AXES ── -->
+  <line x1="70" y1="565" x2="70"  y2="18" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="70" y1="565" x2="995" y2="565" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="980" y="585" text-anchor="end" font-size="14" font-style="italic" fill="#444">thời gian</text>
+
+  <!-- ── VERTICAL STAGE SEPARATORS (dashed) ── -->
+  <line x1="290" y1="18"  x2="290" y2="565" stroke="#aaa" stroke-width="1.5" stroke-dasharray="7,5"/>
+  <line x1="540" y1="18"  x2="540" y2="565" stroke="#aaa" stroke-width="1.5" stroke-dasharray="7,5"/>
+  <line x1="780" y1="18"  x2="780" y2="565" stroke="#aaa" stroke-width="1.5" stroke-dasharray="7,5"/>
+
+  <!-- ── HORIZONTAL BAND SEPARATORS ── -->
+  <line x1="70" y1="140" x2="990" y2="140" stroke="#ccc" stroke-width="1"/>
+  <line x1="70" y1="280" x2="990" y2="280" stroke="#ccc" stroke-width="1"/>
+  <line x1="70" y1="420" x2="990" y2="420" stroke="#ccc" stroke-width="1"/>
+
+  <!-- ══ BAND 1: giá trị MPV — dark green ══ -->
+  <text x="52" y="90" text-anchor="middle" font-size="12" font-style="italic" fill="#1a7a3a"
+        transform="rotate(-90,52,90)">giá trị MPV</text>
+  <path d="M80,128
+           C150,127 230,126 290,120
+           C340,114 390,95  450,68
+           C500,44  545,32  620,28
+           C690,24  750,30  830,36
+           C880,40  930,48  970,58"
+        fill="none" stroke="#1a9a48" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- ══ BAND 2: số bằng sáng chế — blue ══ -->
+  <text x="52" y="215" text-anchor="middle" font-size="12" font-style="italic" fill="#1a66bb"
+        transform="rotate(-90,52,215)">số bằng sáng chế</text>
+  <path d="M80,268
+           C160,266 245,260 290,242
+           C310,230 330,215 360,198
+           C385,184 415,178 440,184
+           C460,190 490,200 515,198
+           C535,196 560,185 610,162
+           C655,142 710,148 760,156
+           C810,164 870,178 940,204"
+        fill="none" stroke="#2288dd" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- ══ BAND 3: mức độ phát minh — dark blue ══ -->
+  <text x="52" y="356" text-anchor="middle" font-size="12" font-style="italic" fill="#1a3399"
+        transform="rotate(-90,52,356)">mức độ phát minh</text>
+  <path d="M80,292
+           C130,295 200,330 250,366
+           C268,378 280,386 292,380
+           C308,372 335,358 368,348
+           C405,337 445,340 495,354
+           C535,364 545,366 610,372
+           C700,380 780,388 900,400
+           C935,403 960,405 970,406"
+        fill="none" stroke="#2244cc" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- ══ BAND 4: lợi nhuận — purple ══ -->
+  <text x="52" y="492" text-anchor="middle" font-size="12" font-style="italic" fill="#7722aa"
+        transform="rotate(-90,52,492)">lợi nhuận</text>
+  <path d="M80,555
+           C160,554 230,548 270,535
+           C292,528 310,518 340,500
+           C378,476 430,446 485,424
+           C530,408 558,405 620,404
+           C680,403 740,410 782,415
+           C840,422 900,433 962,452"
+        fill="none" stroke="#9933cc" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- ── STAGE LABELS ── -->
+  <text x="180" y="585" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">giai đoạn 1</text>
+  <text x="415" y="585" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">giai đoạn 2</text>
+  <text x="660" y="585" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">giai đoạn 3</text>
+  <text x="885" y="585" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">giai đoạn 4</text>
+
+</svg>

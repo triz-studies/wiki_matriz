@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 110" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arr-right" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#CCCCCC"/>
+    </marker>
+    <marker id="arr-left" markerWidth="10" markerHeight="8" refX="1" refY="4" orient="auto">
+      <path d="M10,0 L0,4 L10,8 Z" fill="#CCCCCC"/>
+    </marker>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="1024" height="110" fill="#2A2A2A"/>
+
+  <!-- target component 1 (left) -->
+  <rect x="12" y="12" width="220" height="86" rx="10" fill="#E0E0E0" stroke="#BBBBBB" stroke-width="1"/>
+  <text x="122" y="50" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">thành phần</text>
+  <text x="122" y="66" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">mục tiêu</text>
+  <text x="122" y="88" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">1</text>
+
+  <!-- engineering system (center) — light blue -->
+  <rect x="362" y="8" width="300" height="94" rx="12" fill="#C8DCF0" stroke="#A8C0E0" stroke-width="1"/>
+  <text x="512" y="48" text-anchor="middle" font-size="16" font-weight="bold" fill="#1C2B45">hệ thống</text>
+  <text x="512" y="68" text-anchor="middle" font-size="16" font-weight="bold" fill="#1C2B45">kỹ thuật</text>
+  <text x="512" y="90" text-anchor="middle" font-size="10" fill="#6080A0">engineering system</text>
+
+  <!-- target component 2 (right) -->
+  <rect x="792" y="12" width="220" height="86" rx="10" fill="#E0E0E0" stroke="#BBBBBB" stroke-width="1"/>
+  <text x="902" y="50" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">thành phần</text>
+  <text x="902" y="66" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">mục tiêu</text>
+  <text x="902" y="88" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">2</text>
+
+  <!-- Arrow: main function 1 — ES → target component 1 (pointing LEFT) -->
+  <line x1="360" y1="55" x2="236" y2="55" stroke="#CCCCCC" stroke-width="1.8" marker-end="url(#arr-left)"/>
+  <text x="298" y="49" text-anchor="middle" font-size="12" fill="#DDDDDD">chức năng chính 1</text>
+  <text x="298" y="63" text-anchor="middle" font-size="9" fill="#999999">main function 1</text>
+
+  <!-- Arrow: main function 2 — ES → target component 2, upper (pointing RIGHT) -->
+  <line x1="664" y1="43" x2="790" y2="43" stroke="#CCCCCC" stroke-width="1.8" marker-end="url(#arr-right)"/>
+  <text x="727" y="37" text-anchor="middle" font-size="12" fill="#DDDDDD">chức năng chính 2</text>
+  <text x="727" y="51" text-anchor="middle" font-size="9" fill="#999999">main function 2</text>
+
+  <!-- Arrow: main function 3 — ES → target component 2, lower (pointing RIGHT) -->
+  <line x1="664" y1="70" x2="790" y2="70" stroke="#CCCCCC" stroke-width="1.8" marker-end="url(#arr-right)"/>
+  <text x="727" y="64" text-anchor="middle" font-size="12" fill="#DDDDDD">chức năng chính 3</text>
+  <text x="727" y="80" text-anchor="middle" font-size="9" fill="#999999">main function 3</text>
+
+</svg>

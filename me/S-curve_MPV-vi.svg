@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 611" font-family="Arial, sans-serif">
+  <defs>
+    <!-- Arrowhead for axes — dark grey to suit bright background -->
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#444"/>
+    </marker>
+    <!-- Green glow filter on the curve -->
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- ── Bright background ── -->
+  <rect width="1024" height="611" fill="#f5f5f0"/>
+
+  <!-- ── Subtle grid / stage bands (alternating very light tints) ── -->
+  <rect x="71"  y="30" width="189" height="530" fill="#ebebE4" opacity="0.6"/>
+  <rect x="260" y="30" width="250" height="530" fill="#f5f5f0" opacity="0.6"/>
+  <rect x="510" y="30" width="250" height="530" fill="#ebebE4" opacity="0.6"/>
+  <rect x="760" y="30" width="230" height="530" fill="#f5f5f0" opacity="0.6"/>
+
+  <!-- ── Vertical dashed stage separators ── -->
+  <line x1="260" y1="30"  x2="260" y2="560" stroke="#999" stroke-width="1.5" stroke-dasharray="8,5"/>
+  <line x1="510" y1="30"  x2="510" y2="560" stroke="#999" stroke-width="1.5" stroke-dasharray="8,5"/>
+  <line x1="760" y1="30"  x2="760" y2="560" stroke="#999" stroke-width="1.5" stroke-dasharray="8,5"/>
+
+  <!-- ── Axes ── -->
+  <line x1="70" y1="560" x2="70"  y2="24"  stroke="#444" stroke-width="2.2" marker-end="url(#arr)"/>
+  <line x1="70" y1="560" x2="996" y2="560" stroke="#444" stroke-width="2.2" marker-end="url(#arr)"/>
+
+  <!-- ── Axis labels ── -->
+  <!-- Y-axis: "Giá trị MPV" rotated -->
+  <text x="22" y="300" text-anchor="middle" font-size="15" font-weight="bold"
+        font-style="italic" fill="#555" transform="rotate(-90,22,300)">Giá trị MPV</text>
+  <!-- X-axis: "thời gian" -->
+  <text x="978" y="585" font-size="15" font-style="italic" fill="#555">thời gian</text>
+
+  <!-- ── S-curve (improved shape matching PNG exactly) ──
+       PNG shape: starts flat bottom-left, slow rise through stage 1,
+       accelerates through stage 2, inflects mid-stage 3, peaks in stage 3,
+       then gently declines through stage 4.
+  ── -->
+  <path d="
+    M 80,535
+    C 150,533 220,525 260,515
+    C 300,505 320,488 350,465
+    C 385,438 410,400 445,355
+    C 478,312 500,268 530,210
+    C 558,155 600,100 665,68
+    C 720,42  780,38  845,44
+    C 895,49  930,62  970,90
+  "
+    fill="none"
+    stroke="#2e7d4f"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#glow)"
+  />
+
+  <!-- ── Stage labels ── -->
+  <text x="165"  y="592" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">giai đoạn 1</text>
+  <text x="385"  y="592" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">giai đoạn 2</text>
+  <text x="635"  y="592" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">giai đoạn 3</text>
+  <text x="878"  y="592" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">giai đoạn 4</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 592" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#444"/>
+    </marker>
+  </defs>
+
+  <!-- Bright background -->
+  <rect width="1024" height="592" fill="#f4f4f4"/>
+
+  <!-- ── AXES ── -->
+  <line x1="70" y1="545" x2="70"  y2="22"
+        stroke="#555" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="70" y1="545" x2="998" y2="545"
+        stroke="#555" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- Axis labels -->
+  <text x="44" y="290" text-anchor="middle" font-size="15" font-style="italic" fill="#666"
+        transform="rotate(-90,44,290)">MPV</text>
+  <text x="985" y="572" text-anchor="end" font-size="15" font-style="italic" fill="#666">thời gian</text>
+
+  <!--
+    S-curve matching PNG:
+    - Long flat-low section through stage 1 (y~490)
+    - Gentle uptick at transitional stage
+    - Steep S-rise through stage 2
+    - Flattens at top through stage 3 (y~110)
+    - Slight decline into stage 4 (y~160)
+  -->
+  <path d="M78,490
+           C180,490 290,488 370,480
+           C410,476 438,462 468,430
+           C510,382 548,300 590,220
+           C626,150 665,112 720,100
+           C780,90  840,96  900,108
+           C940,118 968,136 992,162"
+        fill="none" stroke="#2a5caa" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ── STAGE LABELS ── -->
+  <!-- stage 1 — bottom left, bold, large -->
+  <text x="100" y="468" font-size="22" font-weight="bold" fill="#555">giai đoạn 1</text>
+
+  <!-- transitional stage — smaller, lighter, two lines -->
+  <text x="290" y="388" font-size="16" fill="#888" text-anchor="middle">giai đoạn</text>
+  <text x="290" y="410" font-size="16" fill="#888" text-anchor="middle">chuyển tiếp</text>
+
+  <!-- stage 2 — mid, bold large -->
+  <text x="480" y="310" font-size="22" font-weight="bold" fill="#555">giai đoạn 2</text>
+
+  <!-- stage 3 — top, bold large -->
+  <text x="730" y="72" font-size="22" font-weight="bold" fill="#555">giai đoạn 3</text>
+
+  <!-- stage 4 — top right -->
+  <text x="900" y="130" font-size="22" font-weight="bold" fill="#555">giai đoạn 4</text>
+
+</svg>

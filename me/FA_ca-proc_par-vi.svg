@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 165" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#aaa"/>
+    </marker>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="1024" height="165" fill="#111111"/>
+
+  <!-- ── BOXES ── -->
+  <!-- op1: middle-left -->
+  <rect x="10" y="55" width="175" height="55" rx="8" fill="#DDDDDD" stroke="#BBBBBB" stroke-width="1"/>
+  <text x="97"  y="78"  text-anchor="middle" font-size="12" font-weight="bold" fill="#000">thao tác 1</text>
+  <text x="97"  y="95"  text-anchor="middle" font-size="10" fill="#555">(operation 1)</text>
+
+  <!-- op2: top-center-left -->
+  <rect x="210" y="12" width="175" height="55" rx="8" fill="#DDDDDD" stroke="#BBBBBB" stroke-width="1"/>
+  <text x="297" y="35"  text-anchor="middle" font-size="12" font-weight="bold" fill="#000">thao tác 2</text>
+  <text x="297" y="52"  text-anchor="middle" font-size="10" fill="#555">(operation 2)</text>
+
+  <!-- op3: top-center-right -->
+  <rect x="435" y="12" width="175" height="55" rx="8" fill="#DDDDDD" stroke="#BBBBBB" stroke-width="1"/>
+  <text x="522" y="35"  text-anchor="middle" font-size="12" font-weight="bold" fill="#000">thao tác 3</text>
+  <text x="522" y="52"  text-anchor="middle" font-size="10" fill="#555">(operation 3)</text>
+
+  <!-- op4: bottom-center -->
+  <rect x="270" y="100" width="175" height="55" rx="8" fill="#DDDDDD" stroke="#BBBBBB" stroke-width="1"/>
+  <text x="357" y="123" text-anchor="middle" font-size="12" font-weight="bold" fill="#000">thao tác 4</text>
+  <text x="357" y="140" text-anchor="middle" font-size="10" fill="#555">(operation 4)</text>
+
+  <!-- op5: right-middle -->
+  <rect x="680" y="55" width="155" height="55" rx="8" fill="#DDDDDD" stroke="#BBBBBB" stroke-width="1"/>
+  <text x="757" y="78"  text-anchor="middle" font-size="12" font-weight="bold" fill="#000">thao tác 5</text>
+  <text x="757" y="95"  text-anchor="middle" font-size="10" fill="#555">(operation 5)</text>
+
+  <!-- op6: far-right -->
+  <rect x="858" y="55" width="155" height="55" rx="8" fill="#DDDDDD" stroke="#BBBBBB" stroke-width="1"/>
+  <text x="935" y="78"  text-anchor="middle" font-size="12" font-weight="bold" fill="#000">thao tác 6</text>
+  <text x="935" y="95"  text-anchor="middle" font-size="10" fill="#555">(operation 6)</text>
+
+  <!-- ── ARROWS ── -->
+  <!-- op1 → op2 (diagonal up-right) -->
+  <line x1="186" y1="72"  x2="209" y2="55"  stroke="#aaa" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- op2 → op3 (horizontal right) -->
+  <line x1="386" y1="39"  x2="434" y2="39"  stroke="#aaa" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- op3 → op5 (diagonal down-right) -->
+  <line x1="611" y1="50"  x2="679" y2="72"  stroke="#aaa" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- op1 → op4 (diagonal down-right) -->
+  <line x1="186" y1="98"  x2="269" y2="118" stroke="#aaa" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- op4 → op5 (diagonal up-right) -->
+  <line x1="446" y1="120" x2="679" y2="90"  stroke="#aaa" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- op5 → op6 (horizontal right) -->
+  <line x1="836" y1="82"  x2="857" y2="82"  stroke="#aaa" stroke-width="1.5" marker-end="url(#arr)"/>
+
+</svg>

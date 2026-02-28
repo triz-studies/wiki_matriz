@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 210" font-family="Arial, sans-serif">
+
+  <!--
+    LAYOUT
+    ──────────────────────────────────────────────
+    Columns:
+      C0 label : x=0,   w=300  → cx=150
+      C1 data1 : x=300, w=362  → cx=481
+      C2 data2 : x=662, w=362  → cx=843
+
+    Rows:
+      R0 header : y=0,   h=44  → midY=22
+      R1 car    : y=44,  h=83  → midY=85.5
+      R2 bag    : y=127, h=83  → midY=168.5
+      Total height: 210
+    ──────────────────────────────────────────────
+    Within each data cell (h=83):
+      icon  centred at midY−12  (gives room for desc below)
+      desc  at midY+26
+    ──────────────────────────────────────────────
+  -->
+
+  <!-- Background -->
+  <rect width="1024" height="210" fill="#252525"/>
+
+  <!-- ═══ HEADER ROW (y=0, h=44) ═══ -->
+  <!-- Blue-tinted label area -->
+  <rect x="0"   y="0" width="300" height="44" fill="#b8ccde"/>
+  <!-- Grey header cells -->
+  <rect x="300" y="0" width="362" height="44" fill="#d2d2d2"/>
+  <rect x="662" y="0" width="362" height="44" fill="#d2d2d2"/>
+
+  <!-- Header label text — vertically centred at y=22 -->
+  <text x="14"  y="17" font-size="12" fill="#445">chức năng chính:</text>
+  <text x="14"  y="35" font-size="13" font-weight="bold" fill="#111">di chuyển đồ vật</text>
+
+  <!-- Header column titles — centred -->
+  <text x="481" y="27" text-anchor="middle" dominant-baseline="middle"
+        font-size="15" font-weight="bold" fill="#111">sức tải</text>
+  <text x="843" y="27" text-anchor="middle" dominant-baseline="middle"
+        font-size="15" font-weight="bold" fill="#111">tiêu thụ năng lượng</text>
+
+  <!-- ═══ ROW 1: ô tô (y=44, h=83, midY=85) ═══ -->
+  <rect x="0"   y="44" width="300" height="83" fill="#c8d8ea"/>
+  <!-- Row 1 label — vertically centred -->
+  <text x="286" y="86" text-anchor="end" dominant-baseline="middle"
+        font-size="15" font-weight="bold" fill="#111">một chiếc ô tô</text>
+
+  <!-- R1 C1: ✓ + description — icon at y=74, desc at y=108 -->
+  <text x="481" y="74" text-anchor="middle" dominant-baseline="middle"
+        font-size="30" fill="#2daa44">✓</text>
+  <text x="481" y="103" text-anchor="middle"
+        font-size="11" font-style="italic" fill="#888">(thường 500–1000 kg,</text>
+  <text x="481" y="117" text-anchor="middle"
+        font-size="11" font-style="italic" fill="#888">xe tải chở được nhiều hơn)</text>
+
+  <!-- R1 C2: ✗ + description -->
+  <text x="843" y="74" text-anchor="middle" dominant-baseline="middle"
+        font-size="30" fill="#dd2222">✗</text>
+  <text x="843" y="103" text-anchor="middle"
+        font-size="11" font-style="italic" fill="#888">(dùng nhiên liệu/điện</text>
+  <text x="843" y="117" text-anchor="middle"
+        font-size="11" font-style="italic" fill="#888">tuỳ theo tải và tốc độ)</text>
+
+  <!-- ═══ ROW 2: túi mua sắm (y=127, h=83, midY=168) ═══ -->
+  <rect x="0"   y="127" width="300" height="83" fill="#c8d8ea"/>
+  <!-- Row 2 label — vertically centred -->
+  <text x="286" y="169" text-anchor="end" dominant-baseline="middle"
+        font-size="15" font-weight="bold" fill="#111">một túi mua sắm</text>
+
+  <!-- R2 C1: ✗ + description -->
+  <text x="481" y="157" text-anchor="middle" dominant-baseline="middle"
+        font-size="30" fill="#dd2222">✗</text>
+  <text x="481" y="186" text-anchor="middle"
+        font-size="11" font-style="italic" fill="#888">(thường ~5–20 kg)</text>
+
+  <!-- R2 C2: ✓ + description -->
+  <text x="843" y="157" text-anchor="middle" dominant-baseline="middle"
+        font-size="30" fill="#2daa44">✓</text>
+  <text x="843" y="186" text-anchor="middle"
+        font-size="11" font-style="italic" fill="#888">(không cần năng lượng –</text>
+  <text x="843" y="200" text-anchor="middle"
+        font-size="11" font-style="italic" fill="#888">chỉ dùng sức người)</text>
+
+  <!-- ─── GRID LINES ─── -->
+  <!-- Horizontal dividers -->
+  <line x1="0"   y1="44"  x2="1024" y2="44"  stroke="#444" stroke-width="1"/>
+  <line x1="0"   y1="127" x2="1024" y2="127" stroke="#444" stroke-width="1"/>
+
+  <!-- Vertical divider between C0 and data columns -->
+  <line x1="300" y1="0" x2="300" y2="210" stroke="#aabbd0" stroke-width="1"/>
+  <!-- Vertical divider between C1 and C2 -->
+  <line x1="662" y1="0" x2="662" y2="210" stroke="#3a3a3a" stroke-width="1"/>
+
+  <!-- Outer border -->
+  <rect x="0" y="0" width="1024" height="210" fill="none" stroke="#555" stroke-width="1"/>
+
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 162" font-family="Arial, sans-serif" font-size="13">
+
+  <!--
+    Columns:
+      C0 row labels: x=0,   w=200  cx=100
+      C1 stage 1:   x=200, w=152  cx=276
+      C2 trans:     x=352, w=152  cx=428
+      C3 stage 2:   x=504, w=152  cx=580
+      C4 stage 3:   x=656, w=152  cx=732
+      C5 stage 4:   x=808, w=216  cx=916
+    Rows:
+      R0 header: y=0,  h=52
+      R1 data1:  y=52, h=56
+      R2 data2:  y=108,h=54
+  -->
+
+  <!-- ── BACKGROUND ── -->
+  <!-- Full white base -->
+  <rect width="1024" height="162" fill="#f4f4f4"/>
+
+  <!-- Header row: light blue-grey -->
+  <rect x="200" y="0" width="824" height="52" fill="#e8edf2"/>
+  <!-- Row label col: light blue across all rows -->
+  <rect x="0" y="0" width="199" height="162" fill="#dde6f0"/>
+  <!-- Data rows: white -->
+  <rect x="200" y="52"  width="824" height="56"  fill="#ffffff"/>
+  <rect x="200" y="108" width="824" height="54"  fill="#f9f9f9"/>
+
+  <!-- ── GRID LINES ── -->
+  <!-- Outer border -->
+  <rect x="0" y="0" width="1024" height="162" fill="none" stroke="#999" stroke-width="1.5"/>
+  <!-- Horizontal -->
+  <line x1="0"   y1="52"  x2="1024" y2="52"  stroke="#999" stroke-width="1.5"/>
+  <line x1="0"   y1="108" x2="1024" y2="108" stroke="#ccc" stroke-width="1"/>
+  <!-- Vertical -->
+  <line x1="200" y1="0"   x2="200"  y2="162" stroke="#999" stroke-width="1.5"/>
+  <line x1="352" y1="0"   x2="352"  y2="162" stroke="#ccc" stroke-width="1"/>
+  <line x1="504" y1="0"   x2="504"  y2="162" stroke="#ccc" stroke-width="1"/>
+  <line x1="656" y1="0"   x2="656"  y2="162" stroke="#ccc" stroke-width="1"/>
+  <line x1="808" y1="0"   x2="808"  y2="162" stroke="#ccc" stroke-width="1"/>
+
+  <!-- ── COLUMN HEADERS ── -->
+  <text x="276" y="31" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" font-weight="bold" fill="#111">GIAI ĐOẠN 1</text>
+  <text x="428" y="24" text-anchor="middle"
+        font-size="10" font-weight="bold" fill="#888">GIAI ĐOẠN</text>
+  <text x="428" y="38" text-anchor="middle"
+        font-size="10" font-weight="bold" fill="#888">CHUYỂN TIẾP</text>
+  <text x="580" y="31" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" font-weight="bold" fill="#111">GIAI ĐOẠN 2</text>
+  <text x="732" y="31" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" font-weight="bold" fill="#111">GIAI ĐOẠN 3</text>
+  <text x="916" y="31" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" font-weight="bold" fill="#111">GIAI ĐOẠN 4</text>
+
+  <!-- ── ROW LABELS ── -->
+  <text x="100" y="74" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" font-weight="bold" fill="#334">hiện diện</text>
+  <text x="100" y="90" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" font-weight="bold" fill="#334">trên thị trường</text>
+  <text x="100" y="135" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" font-weight="bold" fill="#334">hành vi MPV</text>
+
+  <!-- ── ROW 1 DATA ── -->
+  <text x="276" y="80" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" fill="#333">không</text>
+  <text x="428" y="80" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" fill="#555">ngách</text>
+  <text x="580" y="80" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" fill="#333">sản xuất đại trà</text>
+  <text x="732" y="80" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" fill="#333">sản xuất đại trà</text>
+  <text x="916" y="80" text-anchor="middle" dominant-baseline="middle"
+        font-size="13" fill="#333">ngách</text>
+
+  <!-- ── ROW 2: MPV ARROWS ── -->
+  <!-- Stage 1: ⇒ flat right -->
+  <text x="276" y="136" text-anchor="middle" dominant-baseline="middle"
+        font-size="26" fill="#444">⇒</text>
+  <!-- Transitional: ↗ up-right -->
+  <text x="428" y="136" text-anchor="middle" dominant-baseline="middle"
+        font-size="26" fill="#555">↗</text>
+  <!-- Stage 2: ↗ up-right -->
+  <text x="580" y="136" text-anchor="middle" dominant-baseline="middle"
+        font-size="26" fill="#444">↗</text>
+  <!-- Stage 3: ⇒ flat -->
+  <text x="732" y="136" text-anchor="middle" dominant-baseline="middle"
+        font-size="26" fill="#444">⇒</text>
+  <!-- Stage 4: ↘ down-right -->
+  <text x="916" y="136" text-anchor="middle" dominant-baseline="middle"
+        font-size="26" fill="#444">↘</text>
+
+</svg>

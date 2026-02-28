@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 192" font-family="Arial, sans-serif">
+
+  <!-- Bright background -->
+  <rect width="1200" height="192" fill="#f5f5f5"/>
+
+  <!--
+    Shift everything right by 150px compared to before.
+    Arrow: x=150 to x=1150 tip
+    Tick positions:
+      above: x=190 (uncontrolled), x=520 (fixed+intervention), x=870 (self-controlled)
+      below: x=350 (fixed program), x=695 (externally controlled)
+  -->
+
+  <!-- Big light-blue arrow -->
+  <polygon points="150,80 1110,80 1150,99 1110,118 150,118" fill="#B8CCE8" stroke="#8AAAC8" stroke-width="0.5"/>
+
+  <!-- ── TICK MARKS ABOVE ── -->
+  <polygon points="185,80 195,80 190,68" fill="#8AAAC8"/>
+  <polygon points="515,80 525,80 520,68" fill="#8AAAC8"/>
+  <polygon points="865,80 875,80 870,68" fill="#8AAAC8"/>
+
+  <!-- ── TICK MARKS BELOW ── -->
+  <polygon points="345,118 355,118 350,130" fill="#8AAAC8"/>
+  <polygon points="690,118 700,118 695,130" fill="#8AAAC8"/>
+
+  <!-- ── LABELS ABOVE ── -->
+
+  <!-- uncontrolled system: left-aligned from x=150 -->
+  <text x="190" y="54" text-anchor="middle" font-size="12" font-weight="bold" fill="#222">hệ không được kiểm soát</text>
+  <text x="190" y="67" text-anchor="middle" font-size="10" fill="#666">(uncontrolled system)</text>
+
+  <!-- fixed program with intervention: centered at x=520 -->
+  <text x="520" y="48" text-anchor="middle" font-size="12" font-weight="bold" fill="#222">chương trình cố định có can thiệp</text>
+  <text x="520" y="62" text-anchor="middle" font-size="10" fill="#666">(fixed program with intervention)</text>
+
+  <!-- self-controlled system: right block, anchor at x=1010 -->
+  <text x="1010" y="16" text-anchor="middle" font-size="12" font-weight="bold" fill="#222">hệ tự kiểm soát (self-controlled system)</text>
+  <text x="1010" y="31" text-anchor="middle" font-size="11" fill="#333">• kiểm soát cấp vĩ mô (macro level control)</text>
+  <text x="1010" y="46" text-anchor="middle" font-size="11" fill="#333">• kiểm soát cấp vi mô (micro level control)</text>
+
+  <!-- ── LABELS BELOW ── -->
+
+  <!-- fixed program -->
+  <text x="350" y="143" text-anchor="middle" font-size="12" font-weight="bold" fill="#222">chương trình cố định</text>
+  <text x="350" y="157" text-anchor="middle" font-size="10" fill="#666">(fixed program)</text>
+
+  <!-- externally controlled system -->
+  <text x="695" y="143" text-anchor="middle" font-size="12" font-weight="bold" fill="#222">hệ được kiểm soát từ bên ngoài</text>
+  <text x="695" y="157" text-anchor="middle" font-size="10" fill="#666">(externally controlled system)</text>
+
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 211" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="211" fill="#0d0d0d"/>
+
+  <!-- ── operation 1 (left, vertically centred) ── -->
+  <rect x="14" y="76" width="190" height="56" rx="8" fill="#e8e8e8" stroke="none"/>
+  <text x="109" y="109" text-anchor="middle" font-size="14" fill="#222">thao tác 1</text>
+
+  <!-- op1 → op2: up then right -->
+  <line x1="109" y1="76"  x2="109" y2="48"  stroke="#555" stroke-width="1.5"/>
+  <line x1="109" y1="48"  x2="268" y2="48"  stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ── operation 2 (top, left of centre) ── -->
+  <rect x="270" y="16" width="200" height="56" rx="8" fill="#e8e8e8" stroke="none"/>
+  <text x="370" y="49" text-anchor="middle" font-size="14" fill="#222">thao tác 2</text>
+
+  <!-- op2 → op3: right -->
+  <line x1="470" y1="44"  x2="548" y2="44"  stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ── operation 3 (top, right of centre) ── -->
+  <rect x="550" y="16" width="200" height="56" rx="8" fill="#e8e8e8" stroke="none"/>
+  <text x="650" y="49" text-anchor="middle" font-size="14" fill="#222">thao tác 3</text>
+
+  <!-- op3 → op4: right then down -->
+  <line x1="750" y1="44"  x2="870" y2="44"  stroke="#555" stroke-width="1.5"/>
+  <line x1="870" y1="44"  x2="870" y2="74"  stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ── operation 4 (right, vertically centred) ── -->
+  <rect x="820" y="76" width="190" height="56" rx="8" fill="#e8e8e8" stroke="none"/>
+  <text x="915" y="109" text-anchor="middle" font-size="14" fill="#222">thao tác 4</text>
+
+  <!-- op4 → op5: down then left -->
+  <line x1="870" y1="132" x2="870" y2="168" stroke="#555" stroke-width="1.5"/>
+  <line x1="870" y1="168" x2="622" y2="168" stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ── operation 5 (bottom, centre) ── -->
+  <rect x="420" y="142" width="200" height="56" rx="8" fill="#e8e8e8" stroke="none"/>
+  <text x="520" y="175" text-anchor="middle" font-size="14" fill="#222">thao tác 5</text>
+
+  <!-- op5 → op1: left then up -->
+  <line x1="420" y1="168" x2="109" y2="168" stroke="#555" stroke-width="1.5"/>
+  <line x1="109" y1="168" x2="109" y2="134" stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+
+</svg>

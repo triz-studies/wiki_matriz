@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 284" font-family="Arial, sans-serif" font-size="12">
+
+  <!-- Background -->
+  <rect width="1024" height="284" fill="#2a2a2a"/>
+
+  <!-- Header row bg -->
+  <rect x="0" y="0" width="1024" height="46" fill="#1e1e1e"/>
+
+  <!-- Diagonal grey cells -->
+  <rect x="140" y="46"  width="147" height="39" fill="#555555"/>
+  <rect x="287" y="85"  width="147" height="39" fill="#555555"/>
+  <rect x="434" y="124" width="147" height="39" fill="#555555"/>
+  <rect x="581" y="163" width="147" height="39" fill="#555555"/>
+  <rect x="728" y="202" width="147" height="39" fill="#555555"/>
+  <rect x="875" y="241" width="149" height="43" fill="#555555"/>
+
+  <!-- Grid lines vertical -->
+  <g stroke="#444" stroke-width="0.8">
+    <line x1="140" y1="0"   x2="140" y2="284"/>
+    <line x1="287" y1="0"   x2="287" y2="284"/>
+    <line x1="434" y1="0"   x2="434" y2="284"/>
+    <line x1="581" y1="0"   x2="581" y2="284"/>
+    <line x1="728" y1="0"   x2="728" y2="284"/>
+    <line x1="875" y1="0"   x2="875" y2="284"/>
+  </g>
+
+  <!-- Grid lines horizontal -->
+  <line x1="0" y1="46"  x2="1024" y2="46"  stroke="#666" stroke-width="1.2"/>
+  <line x1="0" y1="85"  x2="1024" y2="85"  stroke="#444" stroke-width="0.8"/>
+  <line x1="0" y1="124" x2="1024" y2="124" stroke="#444" stroke-width="0.8"/>
+  <line x1="0" y1="163" x2="1024" y2="163" stroke="#444" stroke-width="0.8"/>
+  <line x1="0" y1="202" x2="1024" y2="202" stroke="#444" stroke-width="0.8"/>
+  <line x1="0" y1="241" x2="1024" y2="241" stroke="#444" stroke-width="0.8"/>
+
+  <!-- Outer border -->
+  <rect x="0" y="0" width="1024" height="284" fill="none" stroke="#666" stroke-width="1.2"/>
+
+  <!-- ── COLUMN HEADERS ── -->
+  <g text-anchor="middle" font-weight="bold" fill="#ddd" font-size="11">
+    <text x="214" y="22">Thành phần 1</text>
+    <text x="214" y="36">(Component 1)</text>
+    <text x="360" y="22">Thành phần 2</text>
+    <text x="360" y="36">(Component 2)</text>
+    <text x="507" y="22">Thành phần 3</text>
+    <text x="507" y="36">(Component 3)</text>
+    <text x="654" y="22">Thành phần 4</text>
+    <text x="654" y="36">(Component 4)</text>
+    <text x="801" y="22">Thành phần 5</text>
+    <text x="801" y="36">(Component 5)</text>
+    <text x="949" y="22">Thành phần 6</text>
+    <text x="949" y="36">(Component 6)</text>
+  </g>
+
+  <!-- ── ROW LABELS ── -->
+  <g text-anchor="middle" font-weight="bold" fill="#ddd" font-size="11">
+    <text x="70" y="63">Thành phần 1</text>
+    <text x="70" y="75">(Comp. 1)</text>
+    <text x="70" y="101">Thành phần 2</text>
+    <text x="70" y="113">(Comp. 2)</text>
+    <text x="70" y="140">Thành phần 3</text>
+    <text x="70" y="152">(Comp. 3)</text>
+    <text x="70" y="179">Thành phần 4</text>
+    <text x="70" y="191">(Comp. 4)</text>
+    <text x="70" y="218">Thành phần 5</text>
+    <text x="70" y="230">(Comp. 5)</text>
+    <text x="70" y="257">Thành phần 6</text>
+    <text x="70" y="269">(Comp. 6)</text>
+  </g>
+
+  <!-- ── CELL VALUES ── cx of cols: 214, 360, 507, 654, 801, 949 -->
+  <!--                     cy of rows: 71,  110, 149, 188, 227, 266 -->
+
+  <!-- Row 1 (Comp 1): grey | + | + | - | + | + -->
+  <text x="360" y="71" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="507" y="71" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="654" y="71" text-anchor="middle" fill="#cc7777" font-size="16" font-weight="bold">-</text>
+  <text x="801" y="71" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="949" y="71" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+
+  <!-- Row 2 (Comp 2): + | grey | - | - | - | + -->
+  <text x="214" y="110" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="507" y="110" text-anchor="middle" fill="#cc7777" font-size="16" font-weight="bold">-</text>
+  <text x="654" y="110" text-anchor="middle" fill="#cc7777" font-size="16" font-weight="bold">-</text>
+  <text x="801" y="110" text-anchor="middle" fill="#cc7777" font-size="16" font-weight="bold">-</text>
+  <text x="949" y="110" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+
+  <!-- Row 3 (Comp 3): + | - | grey | - | + | + -->
+  <text x="214" y="149" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="360" y="149" text-anchor="middle" fill="#cc7777" font-size="16" font-weight="bold">-</text>
+  <text x="654" y="149" text-anchor="middle" fill="#cc7777" font-size="16" font-weight="bold">-</text>
+  <text x="801" y="149" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="949" y="149" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+
+  <!-- Row 4 (Comp 4): - | - | - | grey | + | + -->
+  <text x="214" y="188" text-anchor="middle" fill="#cc7777" font-size="16" font-weight="bold">-</text>
+  <text x="360" y="188" text-anchor="middle" fill="#cc7777" font-size="16" font-weight="bold">-</text>
+  <text x="507" y="188" text-anchor="middle" fill="#cc7777" font-size="16" font-weight="bold">-</text>
+  <text x="801" y="188" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="949" y="188" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+
+  <!-- Row 5 (Comp 5): + | - | + | + | grey | - -->
+  <text x="214" y="227" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="360" y="227" text-anchor="middle" fill="#cc7777" font-size="16" font-weight="bold">-</text>
+  <text x="507" y="227" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="654" y="227" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="949" y="227" text-anchor="middle" fill="#cc7777" font-size="16" font-weight="bold">-</text>
+
+  <!-- Row 6 (Comp 6): + | + | + | + | - | grey -->
+  <text x="214" y="266" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="360" y="266" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="507" y="266" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="654" y="266" text-anchor="middle" fill="#88cc88" font-size="16" font-weight="bold">+</text>
+  <text x="801" y="266" text-anchor="middle" fill="#cc7777" font-size="16" font-weight="bold">-</text>
+
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 489" font-family="Arial, sans-serif">
+
+  <!-- Dark background -->
+  <rect width="1024" height="489" fill="#2A2A2A"/>
+
+  <!-- Title: bold italic, white -->
+  <text x="22" y="38" font-size="18" font-weight="bold" font-style="italic" fill="#FFFFFF">thành phần 1 = thao tác 1</text>
+  <text x="22" y="56" font-size="11" fill="#999999" font-style="italic">component 1 = operation 1</text>
+
+  <!-- Outer dashed rounded box -->
+  <rect x="14" y="64" width="996" height="414" rx="10"
+        fill="none" stroke="#888888" stroke-width="2" stroke-dasharray="10,6"/>
+
+  <!-- ============================================================
+       ROW HELPER: y-center per row
+       Row 1 center: 64 + 60  = 124   box top: 98
+       Row 2 center: 64 + 185 = 249   box top: 223
+       Row 3 center: 64 + 310 = 374   box top: 348
+       ============================================================ -->
+
+  <!-- ===== ROW 1 ===== -->
+  <!-- function carrier 1 / vật mang chức năng 1 -->
+  <rect x="46" y="98" width="280" height="52" rx="8" fill="#E8E8E8"/>
+  <text x="186" y="126" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">vật mang chức năng 1</text>
+  <text x="186" y="143" text-anchor="middle" font-size="10" fill="#888">function carrier 1</text>
+
+  <!-- Chevron arrow 1: pentagon shape pointing right -->
+  <polygon points="346,101  456,101  484,124  456,147  346,147" fill="#999999"/>
+  <text x="410" y="128" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">thao tác 1</text>
+  <text x="410" y="143" text-anchor="middle" font-size="10" fill="#DDDDDD">action 1</text>
+
+  <!-- function object 1 / đối tượng chức năng 1 -->
+  <rect x="502" y="98" width="490" height="52" rx="8" fill="#E8E8E8"/>
+  <text x="747" y="126" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">đối tượng chức năng 1</text>
+  <text x="747" y="143" text-anchor="middle" font-size="10" fill="#888">function object 1</text>
+
+  <!-- ===== ROW 2 ===== -->
+  <!-- function carrier 2 / vật mang chức năng 2 -->
+  <rect x="46" y="218" width="280" height="52" rx="8" fill="#E8E8E8"/>
+  <text x="186" y="246" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">vật mang chức năng 2</text>
+  <text x="186" y="263" text-anchor="middle" font-size="10" fill="#888">function carrier 2</text>
+
+  <!-- Chevron arrow 2 -->
+  <polygon points="346,221  456,221  484,244  456,267  346,267" fill="#999999"/>
+  <text x="410" y="248" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">thao tác 2</text>
+  <text x="410" y="263" text-anchor="middle" font-size="10" fill="#DDDDDD">action 2</text>
+
+  <!-- function object 2 / đối tượng chức năng 2 -->
+  <rect x="502" y="218" width="490" height="52" rx="8" fill="#E8E8E8"/>
+  <text x="747" y="246" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">đối tượng chức năng 2</text>
+  <text x="747" y="263" text-anchor="middle" font-size="10" fill="#888">function object 2</text>
+
+  <!-- ===== ROW 3 ===== -->
+  <!-- function carrier 3 / vật mang chức năng 3 -->
+  <rect x="46" y="338" width="280" height="52" rx="8" fill="#E8E8E8"/>
+  <text x="186" y="366" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">vật mang chức năng 3</text>
+  <text x="186" y="383" text-anchor="middle" font-size="10" fill="#888">function carrier 3</text>
+
+  <!-- Chevron arrow 3 -->
+  <polygon points="346,341  456,341  484,364  456,387  346,387" fill="#999999"/>
+  <text x="410" y="368" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">thao tác 3</text>
+  <text x="410" y="383" text-anchor="middle" font-size="10" fill="#DDDDDD">action 3</text>
+
+  <!-- function object 3 / đối tượng chức năng 3 -->
+  <rect x="502" y="338" width="490" height="52" rx="8" fill="#E8E8E8"/>
+  <text x="747" y="366" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">đối tượng chức năng 3</text>
+  <text x="747" y="383" text-anchor="middle" font-size="10" fill="#888">function object 3</text>
+
+</svg>

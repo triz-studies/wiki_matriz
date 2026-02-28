@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 209" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#888"/>
+    </marker>
+  </defs>
+
+  <!-- Black background matching PNG -->
+  <rect width="1024" height="209" fill="#000"/>
+
+  <!-- operation 1 / thao tác 1 -->
+  <rect x="10" y="78" width="160" height="48" rx="6" fill="#E8E8E8" stroke="#CCC" stroke-width="1"/>
+  <text x="90" y="97" text-anchor="middle" font-size="12" fill="#333">thao tác 1</text>
+  <text x="90" y="113" text-anchor="middle" font-size="10" fill="#777">operation 1</text>
+
+  <!-- Arrow: op1 → op2 (top branch) -->
+  <line x1="170" y1="90" x2="220" y2="48" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- operation 2 / thao tác 2 -->
+  <rect x="222" y="22" width="160" height="48" rx="6" fill="#E8E8E8" stroke="#CCC" stroke-width="1"/>
+  <text x="302" y="41" text-anchor="middle" font-size="12" fill="#333">thao tác 2</text>
+  <text x="302" y="57" text-anchor="middle" font-size="10" fill="#777">operation 2</text>
+
+  <!-- Arrow: op2 → op3 -->
+  <line x1="382" y1="46" x2="432" y2="46" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- operation 3 / thao tác 3 -->
+  <rect x="434" y="22" width="160" height="48" rx="6" fill="#E8E8E8" stroke="#CCC" stroke-width="1"/>
+  <text x="514" y="41" text-anchor="middle" font-size="12" fill="#333">thao tác 3</text>
+  <text x="514" y="57" text-anchor="middle" font-size="10" fill="#777">operation 3</text>
+
+  <!-- Arrow: op3 → op5 (top branch down) -->
+  <line x1="594" y1="62" x2="650" y2="92" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Arrow: op1 → op4 (bottom branch) -->
+  <line x1="170" y1="118" x2="220" y2="154" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- operation 4 / thao tác 4 -->
+  <rect x="222" y="136" width="160" height="48" rx="6" fill="#E8E8E8" stroke="#CCC" stroke-width="1"/>
+  <text x="302" y="155" text-anchor="middle" font-size="12" fill="#333">thao tác 4</text>
+  <text x="302" y="171" text-anchor="middle" font-size="10" fill="#777">operation 4</text>
+
+  <!-- Arrow: op4 → op5 (bottom branch up) -->
+  <line x1="382" y1="152" x2="648" y2="116" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- operation 5 / thao tác 5 -->
+  <rect x="650" y="78" width="160" height="48" rx="6" fill="#E8E8E8" stroke="#CCC" stroke-width="1"/>
+  <text x="730" y="97" text-anchor="middle" font-size="12" fill="#333">thao tác 5</text>
+  <text x="730" y="113" text-anchor="middle" font-size="10" fill="#777">operation 5</text>
+
+  <!-- Arrow: op5 → op6 -->
+  <line x1="810" y1="102" x2="858" y2="102" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- operation 6 / thao tác 6 -->
+  <rect x="860" y="78" width="160" height="48" rx="6" fill="#E8E8E8" stroke="#CCC" stroke-width="1"/>
+  <text x="940" y="97" text-anchor="middle" font-size="12" fill="#333">thao tác 6</text>
+  <text x="940" y="113" text-anchor="middle" font-size="10" fill="#777">operation 6</text>
+</svg>

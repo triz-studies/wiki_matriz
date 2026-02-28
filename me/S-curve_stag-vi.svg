@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 162" font-family="Arial, sans-serif">
+
+  <!-- ── Backgrounds ── -->
+  <!-- Full white background -->
+  <rect width="1024" height="162" fill="#ffffff"/>
+
+  <!-- Header row: medium-dark band matching PNG (dark charcoal) -->
+  <rect x="140" y="0"  width="884" height="42" fill="#2a2a2a"/>
+
+  <!-- Row label column (light blue-grey) -->
+  <rect x="0" y="0" width="140" height="162" fill="#dce8f0"/>
+
+  <!-- Data rows (white alternating with very light grey) -->
+  <rect x="140" y="42"  width="884" height="57" fill="#1c1c1c"/>
+  <rect x="140" y="99"  width="884" height="63" fill="#111111"/>
+
+  <!-- Transitional stage column — slightly lighter to match PNG de-emphasis -->
+  <rect x="317" y="0"  width="177" height="162" fill="rgba(255,255,255,0.04)"/>
+
+  <!-- ── Vertical dividers ── -->
+  <line x1="317" y1="0"  x2="317"  y2="162" stroke="#444" stroke-width="1"/>
+  <line x1="494" y1="0"  x2="494"  y2="162" stroke="#444" stroke-width="1"/>
+  <line x1="671" y1="0"  x2="671"  y2="162" stroke="#444" stroke-width="1"/>
+  <line x1="848" y1="0"  x2="848"  y2="162" stroke="#444" stroke-width="1"/>
+
+  <!-- ── Horizontal dividers ── -->
+  <line x1="140" y1="42"  x2="1024" y2="42"  stroke="#555" stroke-width="1"/>
+  <line x1="0"   y1="99"  x2="1024" y2="99"  stroke="#444" stroke-width="1"/>
+  <line x1="140" y1="0"   x2="140"  y2="162" stroke="#555" stroke-width="1.5"/>
+
+  <!-- ── Outer border ── -->
+  <rect x="0.5" y="0.5" width="1023" height="161" fill="none" stroke="#555" stroke-width="1.5"/>
+
+  <!-- ════════════════════════════════
+       COLUMN HEADERS
+  ════════════════════════════════ -->
+  <!-- Stage 1 — bold white -->
+  <text x="228" y="26" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">GIAI ĐOẠN 1</text>
+
+  <!-- Transitional — smaller, muted -->
+  <text x="405" y="19" text-anchor="middle" font-size="11" font-weight="bold" fill="#aaaaaa">GIAI ĐOẠN</text>
+  <text x="405" y="33" text-anchor="middle" font-size="11" font-weight="bold" fill="#aaaaaa">CHUYỂN TIẾP</text>
+
+  <!-- Stage 2, 3, 4 — bold white -->
+  <text x="582" y="26" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">GIAI ĐOẠN 2</text>
+  <text x="759" y="26" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">GIAI ĐOẠN 3</text>
+  <text x="936" y="26" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">GIAI ĐOẠN 4</text>
+
+  <!-- ════════════════════════════════
+       ROW LABELS (left column, dark text on light blue)
+  ════════════════════════════════ -->
+  <text x="70" y="65"  text-anchor="middle" font-size="12" font-weight="bold" fill="#2a2a2a">hiện diện</text>
+  <text x="70" y="80"  text-anchor="middle" font-size="12" font-weight="bold" fill="#2a2a2a">trên thị trường</text>
+  <text x="70" y="130" text-anchor="middle" font-size="12" font-weight="bold" fill="#2a2a2a">hành vi MPV</text>
+
+  <!-- ════════════════════════════════
+       ROW 1 — hiện diện trên thị trường
+  ════════════════════════════════ -->
+  <text x="228" y="76" text-anchor="middle" font-size="13" fill="#cccccc">không</text>
+  <text x="405" y="76" text-anchor="middle" font-size="13" fill="#888888">ngách</text>
+  <text x="582" y="76" text-anchor="middle" font-size="13" fill="#cccccc">sản xuất đại trà</text>
+  <text x="759" y="76" text-anchor="middle" font-size="13" fill="#cccccc">sản xuất đại trà</text>
+  <text x="936" y="76" text-anchor="middle" font-size="13" fill="#cccccc">ngách</text>
+
+  <!-- ════════════════════════════════
+       ROW 2 — hành vi MPV (arrows)
+       Using SVG polygon arrows for crisp rendering
+  ════════════════════════════════ -->
+
+  <!-- Stage 1: → flat right (horizontal double arrow outline style) -->
+  <text x="228" y="143" text-anchor="middle" font-size="34" fill="#cccccc">⇒</text>
+
+  <!-- Transitional: ↗ up-right -->
+  <text x="405" y="143" text-anchor="middle" font-size="34" fill="#888888">↗</text>
+
+  <!-- Stage 2: ↗ up-right (steep growth) -->
+  <text x="582" y="143" text-anchor="middle" font-size="34" fill="#cccccc">↗</text>
+
+  <!-- Stage 3: → flat (plateau) -->
+  <text x="759" y="143" text-anchor="middle" font-size="34" fill="#cccccc">⇒</text>
+
+  <!-- Stage 4: ↘ down-right (decline) -->
+  <text x="936" y="143" text-anchor="middle" font-size="34" fill="#cccccc">↘</text>
+
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 215" font-family="Arial, sans-serif">
+
+  <!--
+    GEOMETRY PLAN
+    ─────────────────────────────────────────────────────
+    Canvas: 1024 × 215
+
+    Arrow: y=82..132  (50px tall)  cy=107
+    Shaft:  x=18..950
+    Head:   x=950..1010, tip at x=1010
+
+    5 ABOVE markers (tip pointing down to y=82):
+      tick base y=68, tip y=82  → triangle points="cx-8,68  cx+8,68  cx,82"
+      Labels end at y≈65 (two lines above)
+
+    4 BELOW markers (tip pointing up to y=132):
+      tick base y=148, tip y=132 → triangle points="cx-8,148  cx+8,148  cx,132"
+      Labels start at y≈155
+
+    X positions (evenly distributed across shaft x=18..950):
+      Above (5): x=50, 248, 448, 665, 880
+      Below (4): x=150, 348, 558, 772
+    ─────────────────────────────────────────────────────
+  -->
+
+  <!-- ── Bright background ── -->
+  <rect width="1024" height="215" fill="#f0f0ee"/>
+
+  <!-- ── Main arrow ── -->
+  <polygon points="
+    18,82
+    950,82
+    950,64
+    1010,107
+    950,150
+    950,132
+    18,132
+  " fill="#a8c8e8"/>
+
+  <!-- ══════════════════════════════════
+       ABOVE markers + labels
+  ══════════════════════════════════ -->
+
+  <!-- 1. hệ thống khối đặc  x=50 -->
+  <polygon points="42,68 58,68 50,82" fill="#a8c8e8"/>
+  <text x="14" y="40" font-size="14" fill="#222">hệ thống</text>
+  <text x="14" y="58" font-size="14" fill="#222">khối đặc</text>
+
+  <!-- 2. hệ thống một khớp  x=248 -->
+  <polygon points="240,68 256,68 248,82" fill="#a8c8e8"/>
+  <text x="208" y="40" font-size="14" fill="#222">hệ thống</text>
+  <text x="208" y="58" font-size="14" fill="#222">một khớp</text>
+
+  <!-- 3. hệ thống đàn hồi  x=448 -->
+  <polygon points="440,68 456,68 448,82" fill="#a8c8e8"/>
+  <text x="408" y="40" font-size="14" fill="#222">hệ thống</text>
+  <text x="408" y="58" font-size="14" fill="#222">đàn hồi</text>
+
+  <!-- 4. hệ thống lỏng  x=665 -->
+  <polygon points="657,68 673,68 665,82" fill="#a8c8e8"/>
+  <text x="625" y="40" font-size="14" fill="#222">hệ thống</text>
+  <text x="625" y="58" font-size="14" fill="#222">lỏng</text>
+
+  <!-- 5. hệ thống trường  x=868 -->
+  <polygon points="860,68 876,68 868,82" fill="#a8c8e8"/>
+  <text x="828" y="40" font-size="14" fill="#222">hệ thống</text>
+  <text x="828" y="58" font-size="14" fill="#222">trường</text>
+
+  <!-- ══════════════════════════════════
+       BELOW markers + labels
+  ══════════════════════════════════ -->
+
+  <!-- 6. hệ thống khối đặc với tham số dịch chuyển  x=150 -->
+  <polygon points="142,148 158,148 150,132" fill="#a8c8e8"/>
+  <text x="64"  y="162" font-size="14" fill="#222">hệ thống khối đặc</text>
+  <text x="64"  y="180" font-size="14" fill="#222">với tham số dịch chuyển</text>
+
+  <!-- 7. hệ thống đa khớp  x=348 -->
+  <polygon points="340,148 356,148 348,132" fill="#a8c8e8"/>
+  <text x="308" y="162" font-size="14" fill="#222">hệ thống</text>
+  <text x="308" y="180" font-size="14" fill="#222">đa khớp</text>
+
+  <!-- 8. hệ thống bột  x=558 -->
+  <polygon points="550,148 566,148 558,132" fill="#a8c8e8"/>
+  <text x="518" y="162" font-size="14" fill="#222">hệ thống</text>
+  <text x="518" y="180" font-size="14" fill="#222">bột</text>
+
+  <!-- 9. hệ thống khí  x=772 -->
+  <polygon points="764,148 780,148 772,132" fill="#a8c8e8"/>
+  <text x="732" y="162" font-size="14" fill="#222">hệ thống</text>
+  <text x="732" y="180" font-size="14" fill="#222">khí</text>
+
+</svg>

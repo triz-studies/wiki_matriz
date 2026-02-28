@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 232" font-family="Arial, sans-serif">
+
+  <!--
+    GEOMETRY PLAN
+    ─────────────────────────────────────────────────────
+    Canvas: 1024 × 232
+
+    Arrow body: y=96..150  (54px tall)   cy=123
+    Arrow shaft: x=20..930
+    Arrow head:  x=930..1004  tip at x=1004
+
+    Tick marks (small triangles pointing into arrow from above/below):
+      Above → tip at y=96  (top of arrow),  base at y=82
+      Below → tip at y=150 (bottom of arrow), base at y=164
+
+    6 markers evenly spaced between x=20 and x=930:
+      Pos 0 (constant):   x=60    above
+      Pos 1 (gradient):   x=220   below
+      Pos 2 (variable):   x=420   above
+      Pos 3 (impulse):    x=540   below
+      Pos 4 (resonance):  x=700   above
+      Pos 5 (complex):    x=840   below
+    ─────────────────────────────────────────────────────
+  -->
+
+  <!-- ── Bright background ── -->
+  <rect width="1024" height="232" fill="#f0f0ee"/>
+
+  <!-- ── Main arrow (fat chevron) ── -->
+  <polygon points="
+    20,96
+    930,96
+    930,78
+    1004,123
+    930,168
+    930,150
+    20,150
+  " fill="#a8c8e8"/>
+
+  <!-- ════════════════════════════════
+       ABOVE markers + labels
+  ════════════════════════════════ -->
+
+  <!-- 1. trường hằng số  x=60  (above) -->
+  <!-- tick: upward triangle pointing down into arrow top -->
+  <polygon points="52,82 68,82 60,96" fill="#a8c8e8"/>
+  <text x="18" y="54" font-size="15" fill="#222">trường</text>
+  <text x="18" y="73" font-size="15" fill="#222">hằng số</text>
+
+  <!-- 2. trường biến thiên  x=420  (above) -->
+  <polygon points="412,82 428,82 420,96" fill="#a8c8e8"/>
+  <text x="378" y="54" font-size="15" fill="#222">trường</text>
+  <text x="378" y="73" font-size="15" fill="#222">biến thiên</text>
+
+  <!-- 3. trường cộng hưởng  x=710  (above) -->
+  <polygon points="702,82 718,82 710,96" fill="#a8c8e8"/>
+  <text x="668" y="54" font-size="15" fill="#222">trường</text>
+  <text x="668" y="73" font-size="15" fill="#222">cộng hưởng</text>
+
+  <!-- ════════════════════════════════
+       BELOW markers + labels
+  ════════════════════════════════ -->
+
+  <!-- 4. trường gradient  x=220  (below) -->
+  <polygon points="212,150 228,150 220,166" fill="#a8c8e8"/>
+  <text x="178" y="186" font-size="15" fill="#222">trường</text>
+  <text x="178" y="205" font-size="15" fill="#222">gradient</text>
+
+  <!-- 5. trường xung  x=530  (below) -->
+  <polygon points="522,150 538,150 530,166" fill="#a8c8e8"/>
+  <text x="488" y="186" font-size="15" fill="#222">trường</text>
+  <text x="488" y="205" font-size="15" fill="#222">xung</text>
+
+  <!-- 6. complex fields  x=840  (below) -->
+  <polygon points="832,150 848,150 840,166" fill="#a8c8e8"/>
+  <text x="760" y="183" font-size="13.5" fill="#222">giao thoa, sóng đứng,</text>
+  <text x="760" y="200" font-size="13.5" fill="#222">sóng chạy</text>
+  <text x="760" y="217" font-size="13.5" fill="#222">và các trường phức tạp khác</text>
+
+</svg>

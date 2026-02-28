@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 109" font-family="Arial, sans-serif">
+  <defs>
+    <!-- Normal arrow -->
+    <marker id="arrN" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#222"/>
+    </marker>
+    <!-- Dashed arrow -->
+    <marker id="arrD" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#222"/>
+    </marker>
+    <!-- Thick arrow head for excessive -->
+    <marker id="arrB" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#222"/>
+    </marker>
+    <!-- Wavy arrow head -->
+    <marker id="arrW" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#222"/>
+    </marker>
+  </defs>
+
+  <!-- Bright background -->
+  <rect width="1024" height="109" fill="#f8f8f8"/>
+
+  <!--
+    4 arrow groups, evenly spaced across 1024px
+    Each group centre: 128, 341, 554, 767, 980 — use 4 groups
+    cx: 128, 384, 640, 896
+    Arrow spans ±90px from cx: x1=cx-90, x2=cx+80 (leaving room for head)
+  -->
+
+  <!-- ══ 1: TƯƠNG TÁC BÌNH THƯỜNG — thin solid arrow ══ -->
+  <line x1="38" y1="36" x2="208" y2="36"
+        stroke="#222" stroke-width="2" marker-end="url(#arrN)"/>
+  <text x="123" y="60" text-anchor="middle" font-size="12" font-style="italic" fill="#444">tương tác</text>
+  <text x="123" y="75" text-anchor="middle" font-size="12" font-style="italic" fill="#444">bình thường</text>
+
+  <!-- ══ 2: TƯƠNG TÁC QUÁ MỨC — thick solid arrow ══ -->
+  <line x1="294" y1="36" x2="458" y2="36"
+        stroke="#222" stroke-width="7" marker-end="url(#arrB)"/>
+  <text x="376" y="62" text-anchor="middle" font-size="12" font-style="italic" fill="#444">tương tác</text>
+  <text x="376" y="77" text-anchor="middle" font-size="12" font-style="italic" fill="#444">quá mức</text>
+
+  <!-- ══ 3: TƯƠNG TÁC KHÔNG ĐỦ — dashed arrow ══ -->
+  <line x1="550" y1="36" x2="718" y2="36"
+        stroke="#222" stroke-width="2" stroke-dasharray="9,5" marker-end="url(#arrD)"/>
+  <text x="634" y="60" text-anchor="middle" font-size="12" font-style="italic" fill="#444">tương tác</text>
+  <text x="634" y="75" text-anchor="middle" font-size="12" font-style="italic" fill="#444">không đủ</text>
+
+  <!-- ══ 4: TƯƠNG TÁC CÓ HẠI — wavy arrow ══ -->
+  <!-- Wavy line from x=800 to ~x=960, then arrowhead -->
+  <path d="M800,36 C812,36 812,22 824,22 C836,22 836,50 848,50
+           C860,50 860,22 872,22 C884,22 884,50 896,50
+           C908,50 908,22 920,22 C932,22 932,36 944,36"
+        fill="none" stroke="#222" stroke-width="2"/>
+  <line x1="944" y1="36" x2="978" y2="36"
+        stroke="#222" stroke-width="2" marker-end="url(#arrW)"/>
+  <text x="890" y="65" text-anchor="middle" font-size="12" font-style="italic" fill="#444">tương tác</text>
+  <text x="890" y="80" text-anchor="middle" font-size="12" font-style="italic" fill="#444">có hại</text>
+
+</svg>

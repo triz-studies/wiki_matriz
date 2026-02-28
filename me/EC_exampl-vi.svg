@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 175" font-family="Arial, sans-serif">
+
+  <!-- Dark background -->
+  <rect width="1024" height="175" fill="#111111"/>
+
+  <!-- IF row: light grey box -->
+  <rect x="10" y="8" width="1004" height="55" rx="6" fill="#EEEEEE"/>
+  <text x="55" y="30" font-size="13" fill="#111" font-weight="bold" text-anchor="end">NẾU:</text>
+  <text x="62" y="30" font-size="13" fill="#111">
+    <tspan font-weight="bold">số lượng</tspan> phần tử gia cường dùng trong thiết kế bàn <tspan font-weight="bold">là lớn</tspan>
+  </text>
+  <text x="62" y="50" font-size="11" fill="#666">
+    (IF: <tspan font-style="italic">the number of reinforcement elements used in the design of the table</tspan> <tspan font-weight="bold">is large</tspan>)
+  </text>
+
+  <!-- THEN row -->
+  <line x1="10" y1="70" x2="1014" y2="70" stroke="#333" stroke-width="1"/>
+  <rect x="10" y="70" width="1004" height="45" rx="0" fill="#1a1a1a"/>
+  <text x="65" y="90" font-size="13" fill="#ccc" font-weight="bold" text-anchor="end">THÌ:</text>
+  <text x="72" y="90" font-size="13" fill="#ccc">
+    <tspan font-weight="bold">độ bền</tspan> của bàn được cải thiện
+  </text>
+  <text x="72" y="107" font-size="11" fill="#666">(THEN: the <tspan font-weight="bold">strength</tspan> of the table improves)</text>
+
+  <!-- BUT row -->
+  <line x1="10" y1="118" x2="1014" y2="118" stroke="#333" stroke-width="1"/>
+  <rect x="10" y="118" width="1004" height="48" rx="0" fill="#1a1a1a"/>
+  <text x="75" y="138" font-size="13" fill="#ccc" font-weight="bold" text-anchor="end">NHƯNG:</text>
+  <text x="82" y="138" font-size="13" fill="#ccc">
+    <tspan font-weight="bold">trọng lượng</tspan> của bàn tăng lên
+  </text>
+  <text x="82" y="155" font-size="11" fill="#666">(BUT: the <tspan font-weight="bold">weight</tspan> of the table increases)</text>
+
+</svg>

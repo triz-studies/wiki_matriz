@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 153" font-family="Arial, sans-serif">
+
+  <!-- Bright background -->
+  <rect width="1024" height="153" fill="#f0f0f0"/>
+
+  <!--
+    Layout matching PNG:
+    Left box (crossed): x=18, y=16, w=340, h=118
+    Arrow (pentagon): x=380..640, cy=77
+    Right box (dashed red): x=660, y=16, w=348, h=118
+  -->
+
+  <!-- ── LEFT BOX: function carrier, grey fill, light border ── -->
+  <rect x="18" y="16" width="340" height="118" rx="8"
+        fill="#e8e8e8" stroke="#ccc" stroke-width="1.5"/>
+  <text x="188" y="83" text-anchor="middle" dominant-baseline="middle"
+        font-size="17" fill="#222">vật mang chức năng</text>
+
+  <!-- Red X cross over the box — corner to corner -->
+  <line x1="18"  y1="16"  x2="358" y2="134" stroke="#dd2222" stroke-width="4" stroke-linecap="round"/>
+  <line x1="358" y1="16"  x2="18"  y2="134" stroke="#dd2222" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- ── CENTRE ARROW: large grey pentagon with "nếu" ── -->
+  <!-- Body x=388..590, head tip x=640, cy=77, top/bottom y=50/104 -->
+  <polygon points="388,50 590,50 640,77 590,104 388,104" fill="#888"/>
+  <text x="500" y="78" text-anchor="middle" dominant-baseline="middle"
+        font-size="17" font-weight="bold" fill="white">nếu</text>
+
+  <!-- ── RIGHT BOX: dashed red border, white fill ── -->
+  <rect x="658" y="16" width="348" height="118" rx="8"
+        fill="white" stroke="#dd2222" stroke-width="2.5" stroke-dasharray="10,5"/>
+  <text x="832" y="68" text-anchor="middle" dominant-baseline="middle"
+        font-size="17" font-weight="bold" fill="#dd2222">không có</text>
+  <text x="832" y="96" text-anchor="middle" dominant-baseline="middle"
+        font-size="17" font-weight="bold" fill="#dd2222">đối tượng chức năng</text>
+
+</svg>

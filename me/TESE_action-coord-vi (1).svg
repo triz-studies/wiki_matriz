@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 360" font-family="Arial, sans-serif">
+
+  <!--
+    GEOMETRY PLAN
+    ─────────────────────────────────────────────────────
+    Canvas: 1024 × 360
+
+    Left margin (for "hiệu ứng mong muốn" label): 0..46
+    Row header column: x=46  w=182  → right edge=228
+    Col 1 (thừa):      x=228 w=388  → right edge=616   cx=422
+    Col 2 (thiếu):     x=616 w=388  → right edge=1004  cx=810
+
+    Top margin (for "tính sẵn có của tài nguyên" label): 0..48
+    Col header row:    y=48  h=72   → bottom=120
+    Row 1 (chức năng hữu ích): y=120 h=110  cy=175   bottom=230
+    Row 2 (chức năng có hại):  y=230 h=110  cy=285   bottom=340
+
+    Arrows:
+      Width ~240px, height 56px (shaft 34px, head half-height 28px)
+      cy matches row cy
+    ─────────────────────────────────────────────────────
+  -->
+
+  <!-- ── Bright background ── -->
+  <rect width="1024" height="360" fill="#f2f2f2"/>
+
+  <!-- ── "tính sẵn có của tài nguyên" top label + bracket line ── -->
+  <text x="616" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#333">tính sẵn có của tài nguyên</text>
+  <line x1="228" y1="36" x2="1004" y2="36" stroke="#777" stroke-width="1.5"/>
+  <!-- corner ticks -->
+  <line x1="228"  y1="36" x2="228"  y2="48" stroke="#777" stroke-width="1.5"/>
+  <line x1="1004" y1="36" x2="1004" y2="48" stroke="#777" stroke-width="1.5"/>
+
+  <!-- ── Column header: thừa ── -->
+  <rect x="228" y="48" width="388" height="72" rx="0" fill="#9a9a9a"/>
+  <text x="422" y="91" text-anchor="middle" font-size="17" font-weight="bold" fill="#fff">thừa</text>
+
+  <!-- ── Column header: thiếu ── -->
+  <rect x="616" y="48" width="388" height="72" rx="0" fill="#9a9a9a"/>
+  <text x="810" y="91" text-anchor="middle" font-size="17" font-weight="bold" fill="#fff">thiếu</text>
+
+  <!-- ── Row header: chức năng hữu ích ── -->
+  <rect x="46" y="120" width="182" height="110" rx="0" fill="#7a7a7a"/>
+  <text x="137" y="181" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">chức năng hữu ích</text>
+
+  <!-- ── Row header: chức năng có hại ── -->
+  <rect x="46" y="230" width="182" height="110" rx="0" fill="#7a7a7a"/>
+  <text x="137" y="291" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">chức năng có hại</text>
+
+  <!-- ── "hiệu ứng mong muốn" rotated label on the left ── -->
+  <text transform="translate(22,235) rotate(-90)" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#333">hiệu ứng mong muốn</text>
+
+  <!-- ── Outer border ── -->
+  <rect x="46" y="48" width="958" height="292" fill="none" stroke="#777" stroke-width="1.5"/>
+
+  <!-- ── Dashed dividers ── -->
+  <!-- Vertical: between col 1 and col 2 -->
+  <line x1="616" y1="48"  x2="616" y2="340" stroke="#aaa" stroke-width="1.5" stroke-dasharray="7,5"/>
+  <!-- Horizontal: between row 1 and row 2 -->
+  <line x1="46"  y1="230" x2="1004" y2="230" stroke="#aaa" stroke-width="1.5" stroke-dasharray="7,5"/>
+
+  <!--
+    ARROWS — all arrows are 240px wide shaft + 52px head = 292px total
+    Shaft height: 34px  (top/bottom of shaft relative to cy)
+    Head half-height: 28px (head extends ±28 from cy)
+
+    RIGHT arrow: shaft x1→x2, head tip at x2+52
+    LEFT arrow:  shaft x1←x2, head tip at x1-52
+  -->
+
+  <!-- ── Cell (hữu ích, thừa): BLUE arrow RIGHT, cy=175 ── -->
+  <!-- Shaft: x=258..498  Head: base x=498, tip x=550 -->
+  <polygon points="
+    262,158  498,158
+    498,147  550,175
+    498,203  498,192
+    262,192
+  " fill="#6ab4e8"/>
+
+  <!-- ── Cell (hữu ích, thiếu): ORANGE arrow LEFT, cy=175 ── -->
+  <!-- Shaft: x=974..734  Head: base x=734, tip x=682 -->
+  <polygon points="
+    974,158  734,158
+    734,147  682,175
+    734,203  734,192
+    974,192
+  " fill="#e8a96a"/>
+
+  <!-- ── Cell (có hại, thừa): ORANGE arrow LEFT, cy=285 ── -->
+  <polygon points="
+    550,268  310,268
+    310,257  258,285
+    310,313  310,302
+    550,302
+  " fill="#e8a96a"/>
+
+  <!-- ── Cell (có hại, thiếu): BLUE arrow RIGHT, cy=285 ── -->
+  <polygon points="
+    646,268  886,268
+    886,257  938,285
+    886,313  886,302
+    646,302
+  " fill="#6ab4e8"/>
+
+</svg>

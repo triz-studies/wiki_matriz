@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 517" font-family="Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <!-- Bright background -->
+  <rect width="1024" height="517" fill="#f4f4f4"/>
+
+  <!-- ── AXES ── -->
+  <line x1="60" y1="468" x2="60"  y2="28" stroke="#666" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="60" y1="468" x2="998" y2="468" stroke="#666" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Axis labels -->
+  <text x="38" y="260" text-anchor="middle" font-size="15" font-style="italic" fill="#555"
+        transform="rotate(-90,38,260)">MPV</text>
+  <text x="982" y="492" text-anchor="end" font-size="15" font-style="italic" fill="#555">thời gian</text>
+
+  <!--
+    Curve shape matching PNG:
+    - Starts flat-low at left (~y=420)
+    - Long flat section through stage 1 (x=60..340)
+    - Steep S-rise through middle (x=340..620)
+    - Flattens high (x=620..820, y~90)
+    - Slight decline to end (x=820..980, y~150)
+  -->
+  <path d="M68,422
+           C150,422 280,422 340,418
+           C380,415 400,390 430,340
+           C460,285 490,200 530,140
+           C565,88  600,72  650,68
+           C710,64  770,70  820,80
+           C870,90  920,110 980,148"
+        fill="none" stroke="#3366cc" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!--
+    BOX 1: bottom-left — "phát triển tập trung vào tác nhân vận hành (chức năng chính)"
+    Positioned: x=68, y=310, w=290, h=76
+    Curve is at ~y=418 at x=340, box sits above that
+  -->
+  <rect x="68" y="320" width="296" height="80" rx="10"
+        fill="#e8f0fa" stroke="#aac4e0" stroke-width="1.5"/>
+  <text x="216" y="344" text-anchor="middle" font-size="13" fill="#111">phát triển tập trung vào</text>
+  <text x="216" y="362" text-anchor="middle" font-size="13" fill="#111">tác nhân vận hành</text>
+  <text x="216" y="380" text-anchor="middle" font-size="13" fill="#111">(chức năng chính)</text>
+
+  <!--
+    BOX 2: mid — "phát triển tập trung vào hoàn thiện các chức năng phụ"
+    Positioned: x=390, y=220, w=320, h=62
+    Curve is at ~y=280 at x=530, box above it
+  -->
+  <rect x="388" y="228" width="338" height="62" rx="10"
+        fill="#e8f0fa" stroke="#aac4e0" stroke-width="1.5"/>
+  <text x="557" y="252" text-anchor="middle" font-size="13" fill="#111">phát triển tập trung vào</text>
+  <text x="557" y="272" text-anchor="middle" font-size="13" fill="#111">hoàn thiện các chức năng phụ</text>
+
+  <!--
+    BOX 3: top-right — 3 lines
+    Positioned: x=640, y=38, w=350, h=90
+    Curve is at ~y=70 at x=720, box sits at top
+  -->
+  <rect x="638" y="28" width="364" height="94" rx="10"
+        fill="#e8f0fa" stroke="#aac4e0" stroke-width="1.5"/>
+  <text x="820" y="54"  text-anchor="middle" font-size="13" fill="#111">phát triển tập trung vào</text>
+  <text x="820" y="73"  text-anchor="middle" font-size="13" fill="#111">các chức năng không liên quan</text>
+  <text x="820" y="92"  text-anchor="middle" font-size="13" fill="#111">đến chức năng chính</text>
+
+</svg>

@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 780" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#ccc"/>
+    </marker>
+    <marker id="arrGreen" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#3cb83c"/>
+    </marker>
+    <marker id="arrRed" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#dd2222"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1060" height="780" fill="#1a1a1a"/>
+
+  <!--
+    LAYOUT (main column centred at x=560, box width=340):
+      Main boxes: x=390..730
+      Left side boxes: x=150..390 (width=230, centred at x=265)
+      OR circle: cx=100
+      Right Altshuller box: x=740..1020 (width=270)
+
+    Y positions (boxes, gaps, arrows all 26px):
+      S1:  y=30,   h=52  → bot=82
+      arr: 82→108 (26px)
+      S2:  y=108,  h=64  → bot=172
+      arr: 172→198 (26px)
+      S3:  y=198,  h=52  → bot=250   ← branch1 connects here (mid=224)
+      arr: 250→276 (26px)
+      S4:  y=276,  h=64  → bot=340
+      arr: 340→366 (26px)
+      S5:  y=366,  h=64  → bot=430   ← branch2 connects here (mid=398)
+      arr+matrix: matrix arrow lands between S5 bot and S6 top
+      S6:  y=456,  h=52  → bot=508   ← matrix arrow lands at top (y=456)
+      arr: 508→534 (26px)
+      S7:  y=534,  h=64  → bot=598
+      arr: 598→634 (36px)
+      DEC: y=634,  h=56  → bot=690   (decision box)
+      YES/NO labels at y=662 (mid of decision box)
+
+    OR circle: cx=100, cy = midpoint of branch1 and branch2 = (224+398)/2 = 311
+    Left loop: NO goes left from decision box → x=50 → up to OR cy=311 → OR
+    Branch1: OR → right to side box mid at y=224
+    Branch2: OR → right to side box mid at y=398
+  -->
+
+  <!-- ══ STEP 1 ══ -->
+  <rect x="390" y="30" width="340" height="52" rx="8" fill="#f2f2f2" stroke="#999" stroke-width="1.5"/>
+  <text x="560" y="61" text-anchor="middle" font-size="15" fill="#111">chọn vấn đề then chốt</text>
+  <line x1="560" y1="82" x2="560" y2="105" stroke="#ccc" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- ══ STEP 2 ══ -->
+  <rect x="390" y="108" width="340" height="64" rx="8" fill="#f2f2f2" stroke="#999" stroke-width="1.5"/>
+  <text x="560" y="136" text-anchor="middle" font-size="15" fill="#111">xây dựng mâu thuẫn kỹ thuật</text>
+  <text x="560" y="158" text-anchor="middle" font-size="13" fill="#555">(NẾU – THÌ – NHƯNG)</text>
+  <line x1="560" y1="172" x2="560" y2="195" stroke="#ccc" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- ══ STEP 3 ══ -->
+  <rect x="390" y="198" width="340" height="52" rx="8" fill="#f2f2f2" stroke="#999" stroke-width="1.5"/>
+  <text x="560" y="229" text-anchor="middle" font-size="15" fill="#111">xác định các thông số cụ thể</text>
+  <line x1="560" y1="250" x2="560" y2="273" stroke="#ccc" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- ══ STEP 4 ══ -->
+  <rect x="390" y="276" width="340" height="64" rx="8" fill="#f2f2f2" stroke="#999" stroke-width="1.5"/>
+  <text x="560" y="304" text-anchor="middle" font-size="15" fill="#111">tổng quát hoá thông số cụ thể</text>
+  <text x="560" y="324" text-anchor="middle" font-size="15" fill="#111">thành các thông số điển hình</text>
+  <line x1="560" y1="340" x2="560" y2="363" stroke="#ccc" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- ══ STEP 5 ══ -->
+  <rect x="390" y="366" width="340" height="64" rx="8" fill="#f2f2f2" stroke="#999" stroke-width="1.5"/>
+  <text x="560" y="394" text-anchor="middle" font-size="15" fill="#111">xây dựng mâu thuẫn kỹ thuật điển hình</text>
+  <text x="560" y="414" text-anchor="middle" font-size="15" fill="#111">dùng các thông số tổng quát</text>
+  <!-- gap then arrow to S6 — matrix arrow arrives here too -->
+  <line x1="560" y1="430" x2="560" y2="453" stroke="#ccc" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- ══ ALTSHULLER BOX (right) ══ -->
+  <!-- Box centred vertically at y=398+26 = ~424 (between S5 and S6) -->
+  <rect x="744" y="404" width="296" height="52" rx="8" fill="#f2f2f2" stroke="#999" stroke-width="1.5"/>
+  <text x="892" y="426" text-anchor="middle" font-size="14" fill="#111">dùng ma trận mâu thuẫn</text>
+  <text x="892" y="446" text-anchor="middle" font-size="14" fill="#111">(Altshuller)</text>
+  <!-- Arrow from Altshuller box left → arrives at right side of main column between S5 and S6 -->
+  <line x1="744" y1="430" x2="732" y2="430" stroke="#ccc" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- ══ STEP 6 ══ -->
+  <rect x="390" y="456" width="340" height="52" rx="8" fill="#f2f2f2" stroke="#999" stroke-width="1.5"/>
+  <text x="560" y="487" text-anchor="middle" font-size="15" fill="#111">xác định các nguyên tắc sáng tạo</text>
+  <line x1="560" y1="508" x2="560" y2="531" stroke="#ccc" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- ══ STEP 7 ══ -->
+  <rect x="390" y="534" width="340" height="64" rx="8" fill="#f2f2f2" stroke="#999" stroke-width="1.5"/>
+  <text x="560" y="562" text-anchor="middle" font-size="15" fill="#111">động não để tạo ra giải pháp</text>
+  <text x="560" y="582" text-anchor="middle" font-size="15" fill="#111">dựa trên các nguyên tắc sáng tạo</text>
+  <line x1="560" y1="598" x2="560" y2="631" stroke="#ccc" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- ══ DECISION BOX ══ -->
+  <rect x="390" y="634" width="340" height="56" rx="8" fill="#f2f2f2" stroke="#999" stroke-width="1.5"/>
+  <text x="560" y="667" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">vấn đề đã giải quyết?</text>
+
+  <!-- YES → right -->
+  <text x="774" y="659" text-anchor="middle" font-size="14" font-weight="bold" font-style="italic" fill="#3cb83c">CÓ</text>
+  <line x1="730" y1="662" x2="800" y2="662" stroke="#3cb83c" stroke-width="2.5" marker-end="url(#arrGreen)"/>
+  <!-- Implementation box -->
+  <rect x="802" y="636" width="232" height="56" rx="8" fill="#555" stroke="none"/>
+  <text x="918" y="669" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">thực thi</text>
+
+  <!-- NO → left path -->
+  <!-- Label sits left of decision box -->
+  <text x="356" y="659" text-anchor="end" font-size="14" font-weight="bold" font-style="italic" fill="#dd2222">KHÔNG</text>
+  <!-- Horizontal line from left edge of decision box going left to x=50 -->
+  <line x1="390" y1="662" x2="52" y2="662" stroke="#dd2222" stroke-width="2.5"/>
+  <!-- Vertical line up from x=50, y=662 to OR circle bottom (cy=311+26=337) -->
+  <line x1="52" y1="662" x2="52" y2="338" stroke="#dd2222" stroke-width="2.5" marker-end="url(#arrRed)"/>
+
+  <!-- ══ OR CIRCLE ══ -->
+  <!-- cy = midpoint of branch1-row(224) and branch2-row(398) = 311 -->
+  <circle cx="100" cy="311" r="28" fill="#f0f0f0" stroke="#aaa" stroke-width="2"/>
+  <text x="100" y="316" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">HOẶC</text>
+
+  <!-- ══ BRANCH 1: xây dựng mâu thuẫn kỹ thuật khác ══ -->
+  <!-- Vertical from OR up to y=224 -->
+  <line x1="100" y1="283" x2="100" y2="224" stroke="#ccc" stroke-width="2"/>
+  <!-- Horizontal right to side box -->
+  <line x1="100" y1="224" x2="147" y2="224" stroke="#ccc" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Side box (width=230, centred at x=265) -->
+  <rect x="150" y="198" width="232" height="52" rx="8" fill="#f2f2f2" stroke="#999" stroke-width="1.5"/>
+  <text x="266" y="221" text-anchor="middle" font-size="14" fill="#111">xây dựng mâu thuẫn</text>
+  <text x="266" y="239" text-anchor="middle" font-size="14" fill="#111">kỹ thuật khác</text>
+  <!-- Arrow from side box right edge → main column left edge at y=224 -->
+  <line x1="382" y1="224" x2="387" y2="224" stroke="#ccc" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ══ BRANCH 2: dùng một cặp thông số điển hình khác ══ -->
+  <!-- Vertical from OR down to y=398 -->
+  <line x1="100" y1="339" x2="100" y2="398" stroke="#ccc" stroke-width="2"/>
+  <!-- Horizontal right to side box -->
+  <line x1="100" y1="398" x2="147" y2="398" stroke="#ccc" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Side box -->
+  <rect x="150" y="372" width="232" height="52" rx="8" fill="#f2f2f2" stroke="#999" stroke-width="1.5"/>
+  <text x="266" y="395" text-anchor="middle" font-size="14" fill="#111">dùng một cặp thông số</text>
+  <text x="266" y="413" text-anchor="middle" font-size="14" fill="#111">điển hình khác</text>
+  <!-- Arrow from side box right edge → main column left edge at y=398 -->
+  <line x1="382" y1="398" x2="387" y2="398" stroke="#ccc" stroke-width="2" marker-end="url(#arr)"/>
+
+</svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 560" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="560" fill="#f7f7f2" rx="8"/>
+
+  <!-- ============ ROW 1: điểm chuẩn → phân tích chức năng-chi phí → phân tích dòng chảy ============ -->
+
+  <!-- điểm chuẩn -->
+  <rect x="40" y="40" width="200" height="70" rx="8" fill="#fff" stroke="#aaa" stroke-width="2"/>
+  <text x="140" y="82" text-anchor="middle" fill="#111" font-size="17" font-weight="bold">điểm chuẩn</text>
+
+  <!-- phân tích chức năng-chi phí -->
+  <rect x="500" y="30" width="300" height="90" rx="8" fill="#fff" stroke="#aaa" stroke-width="2"/>
+  <text x="650" y="68" text-anchor="middle" fill="#111" font-size="17" font-weight="bold">phân tích chức năng</text>
+  <text x="650" y="94" text-anchor="middle" fill="#111" font-size="17" font-weight="bold">- chi phí</text>
+
+  <!-- phân tích dòng chảy -->
+  <rect x="1250" y="40" width="220" height="70" rx="8" fill="#fff" stroke="#aaa" stroke-width="2"/>
+  <text x="1360" y="68" text-anchor="middle" fill="#111" font-size="16" font-weight="bold">phân tích</text>
+  <text x="1360" y="90" text-anchor="middle" fill="#111" font-size="16" font-weight="bold">dòng chảy</text>
+
+  <!-- Arrow: điểm chuẩn → phân tích chức năng-chi phí -->
+  <line x1="240" y1="65" x2="500" y2="65" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="370" y="55" text-anchor="middle" fill="#555" font-size="13" font-style="italic">hệ thống kỹ thuật được lựa chọn</text>
+
+  <!-- Arrow: phân tích chức năng-chi phí → phân tích dòng chảy -->
+  <line x1="800" y1="65" x2="1250" y2="65" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1025" y="55" text-anchor="middle" fill="#555" font-size="13" font-style="italic">mô hình chức năng</text>
+
+  <!-- ============ ROW 2: phân tích đường cong chữ S ============ -->
+
+  <!-- phân tích đường cong chữ S -->
+  <rect x="20" y="160" width="240" height="60" rx="8" fill="#f0f0f0" stroke="#bbb" stroke-width="1.5"/>
+  <text x="140" y="185" text-anchor="middle" fill="#444" font-size="13">phân tích đường cong chữ S</text>
+  <text x="140" y="205" text-anchor="middle" fill="#444" font-size="13">(S-curve)</text>
+
+  <!-- Arrow: phân tích đường cong chữ S → điểm chuẩn (UP) -->
+  <line x1="140" y1="160" x2="140" y2="112" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- ============ CECA (center) ============ -->
+
+  <rect x="830" y="190" width="240" height="100" rx="12" fill="#fff" stroke="#aaa" stroke-width="2.5"/>
+  <text x="950" y="250" text-anchor="middle" fill="#222" font-size="26" font-weight="bold">CECA</text>
+
+  <!-- Arrow: phân tích chức năng-chi phí → CECA (nhược điểm chức năng / nhược điểm chi phí) -->
+  <polyline points="660,120 660,170 830,230" fill="none" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="680" y="165" text-anchor="start" fill="#555" font-size="12" font-style="italic">nhược điểm chức năng</text>
+  <text x="680" y="182" text-anchor="start" fill="#555" font-size="12" font-style="italic">nhược điểm chi phí</text>
+
+  <!-- Arrow: phân tích dòng chảy → CECA (nhược điểm dòng chảy) -->
+  <polyline points="1355,110 1355,170 1070,230" fill="none" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1200" y="165" text-anchor="middle" fill="#555" font-size="12" font-style="italic">nhược điểm dòng chảy</text>
+
+  <!-- ============ ROW 3: cắt tỉa, chuyển giao tính năng (left & right) ============ -->
+
+  <!-- cắt tỉa -->
+  <rect x="430" y="350" width="220" height="70" rx="8" fill="#fff" stroke="#aaa" stroke-width="2"/>
+  <text x="540" y="393" text-anchor="middle" fill="#111" font-size="18" font-weight="bold">cắt tỉa</text>
+
+  <!-- chuyển giao tính năng (left, blue) -->
+  <rect x="20" y="340" width="240" height="80" rx="8" fill="#d0e4f5" stroke="#8ab5d5" stroke-width="2.5"/>
+  <text x="140" y="375" text-anchor="middle" fill="#111" font-size="15" font-weight="bold">chuyển giao</text>
+  <text x="140" y="397" text-anchor="middle" fill="#111" font-size="15" font-weight="bold">tính năng</text>
+
+  <!-- chuyển giao tính năng (right, blue) -->
+  <rect x="1240" y="340" width="240" height="80" rx="8" fill="#d0e4f5" stroke="#8ab5d5" stroke-width="2.5"/>
+  <text x="1360" y="375" text-anchor="middle" fill="#111" font-size="15" font-weight="bold">chuyển giao</text>
+  <text x="1360" y="397" text-anchor="middle" fill="#111" font-size="15" font-weight="bold">tính năng</text>
+
+  <!-- Arrow: chuyển giao tính năng (left) → phân tích đường cong chữ S (UP) -->
+  <line x1="140" y1="340" x2="140" y2="222" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Arrow: CECA → cắt tỉa (nhược điểm chính) -->
+  <polyline points="870,290 700,340 650,350" fill="none" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="720" y="310" text-anchor="middle" fill="#555" font-size="12" font-style="italic">nhược điểm chính</text>
+
+  <!-- Arrow: CECA → chuyển giao tính năng right (nhược điểm chính) -->
+  <polyline points="1070,260 1200,330 1240,360" fill="none" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1195" y="310" text-anchor="middle" fill="#555" font-size="12" font-style="italic">nhược điểm chính</text>
+
+  <!-- ============ ROW 4: vấn đề chính ============ -->
+
+  <!-- vấn đề chính (grey) -->
+  <rect x="760" y="460" width="280" height="70" rx="8" fill="#c8c8c8" stroke="#999" stroke-width="2.5"/>
+  <text x="900" y="503" text-anchor="middle" fill="#111" font-size="19" font-weight="bold" font-style="italic">vấn đề chính</text>
+
+  <!-- Arrow: CECA → vấn đề chính (nhược điểm chính) -->
+  <line x1="950" y1="290" x2="900" y2="460" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="950" y="395" text-anchor="start" fill="#555" font-size="12" font-style="italic">nhược điểm chính</text>
+
+  <!-- Arrow: cắt tỉa → vấn đề chính (vấn đề cắt tỉa) -->
+  <polyline points="540,420 540,495 760,495" fill="none" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="620" y="515" text-anchor="middle" fill="#555" font-size="12" font-style="italic">vấn đề cắt tỉa</text>
+
+  <!-- Arrow: chuyển giao tính năng right → vấn đề chính (vấn đề chuyển giao tính năng) -->
+  <polyline points="1360,420 1360,495 1040,495" fill="none" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1210" y="515" text-anchor="middle" fill="#555" font-size="12" font-style="italic">vấn đề chuyển giao tính năng</text>
+
+  <!-- ============ RED RIBBON LABELS ============ -->
+
+  <!-- PHÁT TRIỂN SẢN PHẨM MỚI (bottom-left) -->
+  <polygon points="50,440 270,440 260,460 270,480 50,480" fill="#cc2222"/>
+  <text x="155" y="457" text-anchor="middle" fill="white" font-size="10" font-weight="bold">PHÁT TRIỂN SẢN PHẨM MỚI</text>
+  <text x="155" y="473" text-anchor="middle" fill="white" font-size="12" font-weight="bold">DEVELOPMENT</text>
+
+  <!-- CHÌA KHÓA XỬ LÝ NHƯỢC ĐIỂM (bottom-right) -->
+  <polygon points="1250,440 1470,440 1460,460 1470,480 1250,480" fill="#cc2222"/>
+  <text x="1355" y="457" text-anchor="middle" fill="white" font-size="10" font-weight="bold">CHÌA KHÓA XỬ LÝ</text>
+  <text x="1355" y="473" text-anchor="middle" fill="white" font-size="12" font-weight="bold">NHƯỢC ĐIỂM</text>
+
+</svg>

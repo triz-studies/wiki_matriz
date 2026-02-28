@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 90" font-family="Arial, sans-serif">
+  <!-- Dark background -->
+  <rect width="1024" height="90" fill="#111111"/>
+
+  <!-- Box 1: highlighted (blue tint) -->
+  <rect x="10" y="8" width="270" height="74" rx="6" fill="#C8DCF0"/>
+  <text x="145" y="36" text-anchor="middle" font-size="13" fill="#444" font-weight="bold">nhận diện vấn đề</text>
+  <text x="145" y="54" text-anchor="middle" font-size="12" fill="#666">(problem identification)</text>
+
+  <!-- Arrow 1 -->
+  <polygon points="282,34 356,34 356,26 390,45 356,64 356,56 282,56" fill="#888"/>
+
+  <!-- Box 2: neutral -->
+  <rect x="394" y="8" width="220" height="74" rx="6" fill="#E8E8E8"/>
+  <text x="504" y="36" text-anchor="middle" font-size="13" fill="#444" font-weight="bold">giải quyết vấn đề</text>
+  <text x="504" y="54" text-anchor="middle" font-size="12" fill="#666">(problem solving)</text>
+
+  <!-- Arrow 2 -->
+  <polygon points="616,34 690,34 690,26 724,45 690,64 690,56 616,56" fill="#888"/>
+
+  <!-- Box 3: neutral -->
+  <rect x="728" y="8" width="286" height="74" rx="6" fill="#E8E8E8"/>
+  <text x="871" y="36" text-anchor="middle" font-size="13" fill="#444" font-weight="bold">kiểm chứng giải pháp</text>
+  <text x="871" y="54" text-anchor="middle" font-size="12" fill="#666">(concept substantiation)</text>
+</svg>
